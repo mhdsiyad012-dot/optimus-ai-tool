@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-22T12:27:39Z",
-  "total_organizations": 18,
-  "total_tools": 51,
+  "last_updated": "2026-10-22T21:25:19Z",
+  "total_organizations": 20,
+  "total_tools": 58,
   "organizations": [
     {
       "id": "google",
@@ -208,6 +208,55 @@
             "deepmind"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-gemini-4-argon",
+          "name": "Gemini 4 Argon",
+          "parent_org": "Google",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-13",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+          "short_description": "Gemini 4 Argon is Google's latest frontier multimodal LLM that delivers state‑of‑the‑art reasoning, coding, and scientific capabilities for complex real‑world tasks, accessible via API and integrated into Google AI Studio and Gemini platforms.",
+          "key_features": [
+            "Top‑ranked performance on Vals Index across finance, coding, legal, and tax domains",
+            "Up to 2.85x faster inference on Gemma models via vLLM optimizations",
+            "Enhanced safety and alignment with multi‑layer jailbreak defenses and real‑time misalignment monitoring",
+            "Broad multimodal capabilities enabling deep document comprehension, scientific research, and robotics video‑to‑sim‑to‑real pipelines"
+          ],
+          "tags": [
+            "llm",
+            "multimodal",
+            "reasoning",
+            "robotics"
+          ],
+          "last_verified": "2026-10-13"
+        },
+        {
+          "id": "google-the-latest-ai-news-we-announced-in-september-2026",
+          "name": "The latest AI news we announced in September 2026",
+          "parent_org": "Google",
+          "category": "Video & Animation",
+          "release_date": "2026-10-22",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+          "short_description": "Title: The latest AI news we announced in September 2026",
+          "key_features": [
+            "Automated AI capabilities powered by Google",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "the",
+            "latest",
+            "news",
+            "announced",
+            "september",
+            "2026"
+          ],
+          "last_verified": "2026-10-22"
         }
       ]
     },
@@ -366,6 +415,80 @@
             "open-source"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "openai-codex",
+          "name": "OpenAI Codex",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2025-03",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/codex/",
+          "short_description": "OpenAI Codex is an autonomous coding agent that can generate, debug, and optimize code, helping developers ship faster. In the context of OpenAI's Forward Deployed Engineering, it helps turn AI capabilities into production-ready solutions.",
+          "key_features": [
+            "Autonomous code generation",
+            "Debugging and root cause analysis",
+            "Custom harnesses and skills",
+            "Model Context Protocol (MCP) support"
+          ],
+          "tags": [
+            "openai",
+            "codex",
+            "coding-agent",
+            "developer-tools",
+            "llm"
+          ],
+          "last_verified": "2026-05-09"
+        },
+        {
+          "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
+          "name": "Uber brings ChatGPT Work to all employees with OpenAI",
+          "parent_org": "OpenAI",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-22",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "short_description": "Title: Uber brings ChatGPT Work to all employees with OpenAI",
+          "key_features": [
+            "Automated AI capabilities powered by OpenAI",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "uber",
+            "brings",
+            "chatgpt",
+            "work",
+            "all",
+            "employees"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "openai-att-legal-intake",
+          "name": "OpenAI Legal Intake Solution",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com",
+          "short_description": "OpenAI powers AT&T’s legal intake system, using large language models to quickly classify, prioritize, and retrieve relevant legal precedents and context for in‑house counsel.",
+          "key_features": [
+            "Natural language intake processing",
+            "Automated request classification and prioritization",
+            "Contextual precedent and research retrieval",
+            "Scalable knowledge layer integration"
+          ],
+          "tags": [
+            "ai",
+            "legaltech",
+            "enterprise",
+            "nlp"
+          ],
+          "last_verified": "2024-12-10"
         }
       ]
     },
@@ -1487,6 +1610,86 @@
             "image"
           ],
           "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "website": "https://ibm.com",
+      "description": "IBM Research develops state-of-the-art foundation models for time-series forecasting, including the Granite family of models.",
+      "logo_symbol": "ibm",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "granite-tsfm-quantile-ensemble",
+          "name": "QuantileEnsembleForecaster",
+          "parent_org": "IBM",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-22",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-ensemble-r1",
+          "short_description": "An ensemble forecasting system for time-series data that combines multiple Granite models to provide robust predictions with median and quantile forecasts.",
+          "key_features": [
+            "Combines four Granite models (PatchTST-FM, FlowState, TTM)",
+            "Provides median and quantile forecasts without retraining",
+            "Supports multiple aggregation methods (Probabilistic Ensemble, IQR Ensemble)",
+            "Works with multivariate time series data"
+          ],
+          "tags": [
+            "time-series-forecasting",
+            "ensemble",
+            "granularity",
+            "probabilistic-forecasting",
+            "ibm-granite"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "website": "https://www.nvidia.com",
+      "description": "NVIDIA is a leading artificial intelligence and semiconductor company that develops cutting-edge AI technologies including foundation models, GPU hardware, and software platforms for building intelligent applications.",
+      "logo_symbol": "nvidia",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "kumo-relational",
+          "name": "Kumo Relational",
+          "parent_org": "NVIDIA",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-21",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/nvidia/Kumo-Relational",
+          "short_description": "A pre-trained relational foundation model that makes predictions directly on enterprise databases with no task-specific training or feature engineering, enabling agents and humans to query relational data in a single forward pass.",
+          "key_features": [
+            "Predicts on relational databases without any training required",
+            "Handles up to 10,000 historical examples as context per prediction",
+            "Scales to databases with 500B+ rows",
+            "Supports Predictive Query Language (PQL) for seamless agent integration"
+          ],
+          "tags": [
+            "relational",
+            "foundation-model",
+            "structured-data",
+            "database",
+            "agents",
+            "sql",
+            "nvidia"
+          ],
+          "last_verified": "2026-10-21"
         }
       ]
     }
