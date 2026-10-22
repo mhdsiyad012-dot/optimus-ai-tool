@@ -1,0 +1,8 @@
+# Optimus AI — Core System Dependencies
+# Lightweight, 100% Free-to-run Architecture
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+feedparser>=6.0.10
+pydantic>=2.5.0
+python-dotenv>=1.0.0

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Optimus AI — Autonomous Global AI Directory & 24/7 Discovery Assistant</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Optimus AI is the zero-cost global directory cataloging historical foundation models, autonomous agents, and newly released AI tools organized hierarchically by parent company.">
+  <meta name="keywords" content="AI Directory, Artificial Intelligence, Foundation Models, Autonomous Agents, Google AI, OpenAI, Anthropic, DeepSeek, Open Source AI, LLM Directory">
+  <meta name="author" content="Optimus AI Autonomous Agent Architecture">
+  
+  <!-- Social Media OpenGraph -->
+  <meta property="og:title" content="Optimus AI — Autonomous Global AI Directory">
+  <meta property="og:description" content="Explore every major AI model and autonomous agent grouped hierarchically by creator. Zero API rate limits, 100% free, updated 24/7.">
+  <meta property="og:type" content="website">
+
+  <!-- Modern Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Cyber Status Bar -->
+  <header class="cyber-header" id="main-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <a href="#" class="brand-link" id="brand-home-btn">
+          <div class="brand-logo-hex">
+            <span class="hex-inner">⚡</span>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">OPTIMUS<span class="brand-accent">AI</span></span>
+            <span class="brand-subtitle">Autonomous Discovery Engine</span>
+          </div>
+        </a>
+        <div class="pulse-status" title="Directory is refreshed autonomously 24/7 without frontend API rate limits">
+          <span class="pulse-dot"></span>
+          <span class="pulse-label">SPARK AGENT 24/7 ACTIVE</span>
+        </div>
+      </div>
+
+      <!-- Live Directory Stats -->
+      <div class="directory-stats-bar" id="stats-ticker">
+        <div class="stat-pill" title="Total AI tools cataloged">
+          <span class="stat-num" id="stat-total-tools">60</span>
+          <span class="stat-name">AI Tools</span>
+        </div>
+        <div class="stat-pill" title="Total parent companies / creators">
+          <span class="stat-num" id="stat-total-orgs">16</span>
+          <span class="stat-name">Organizations</span>
+        </div>
+        <div class="stat-pill" title="Open source models and libraries">
+          <span class="stat-num" id="stat-open-source">24</span>
+          <span class="stat-name">Open Source</span>
+        </div>
+        <div class="stat-pill rate-limit-badge" title="Eliminated frontend API rate limits forever">
+          <span class="rate-icon">🛡️</span>
+          <span class="stat-name">0 API Rate Limits</span>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="header-actions">
+        <button class="btn btn-secondary" id="open-favorites-btn" title="View Bookmarked Tools">
+          <span class="btn-icon">⭐</span>
+          <span class="btn-text">Bookmarks</span>
+          <span class="badge" id="bookmark-count">0</span>
+        </button>
+        <button class="btn btn-primary" id="open-studio-btn" title="Open Optimus Assistant Studio Drawer">
+          <span class="btn-icon">⚡</span>
+          <span class="btn-text">Assistant Studio</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Latest Launches Radar Ticker -->
+  <section class="radar-ticker-section" id="radar-section">
+    <div class="ticker-wrapper">
+      <div class="ticker-tag">
+        <span class="radar-ping"></span>
+        <span>RADAR 24/7</span>
+      </div>
+      <div class="ticker-track" id="ticker-track">
+        <!-- Injected via JavaScript -->
+        <div class="ticker-item"><span>🚀 Google Antigravity</span>: Autonomous agentic IDE launched</div>
+        <div class="ticker-item"><span>✨ DeepSeek-R1</span>: Open-source reasoning model rivaling o1</div>
+        <div class="ticker-item"><span>⚡ Claude 3.5 Sonnet</span>: Industry-leading coding and computer use</div>
+        <div class="ticker-item"><span>🌟 OpenAI o1</span>: Chain-of-thought competitive reasoning</div>
+        <div class="ticker-item"><span>🔥 Llama 3.3 70B</span>: 405B capabilities in a 70B open weights footprint</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Showcase & Search Hero -->
+  <main class="main-content">
+    <section class="hero-section">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>GLOBAL AI TAXONOMY & AUTONOMOUS DISCOVERY</span>
+        </div>
+        <h1 class="hero-title">
+          Every AI Tool in History.<br>
+          <span class="gradient-text">Grouped by Parent Ecosystem.</span>
+        </h1>
+        <p class="hero-description">
+          Search any creator (e.g., <strong>Google</strong>, <strong>OpenAI</strong>, <strong>Anthropic</strong>, <strong>Meta</strong>, <strong>DeepSeek</strong>) to explore their full tree of foundation models and tools. Serviced instantly from a verified static database with zero rate limits.
+        </p>
+
+        <!-- Master Global Search Bar -->
+        <div class="search-box-container">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input 
+              type="text" 
+              id="global-search-input" 
+              class="search-input" 
+              placeholder="Search by company (e.g. 'Google'), tool name ('Antigravity'), category, or tag..." 
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <button class="clear-search-btn" id="clear-search-btn" title="Clear Search" style="display: none;">✕</button>
+            <span class="search-shortcut" title="Press Ctrl+K or / to search">Ctrl+K</span>
+          </div>
+        </div>
+
+        <!-- Ecosystem Fast-Selector Chips -->
+        <div class="ecosystem-carousel-wrapper">
+          <span class="carousel-label">POPULAR ECOSYSTEMS:</span>
+          <div class="ecosystem-chips" id="ecosystem-chips-bar">
+            <button class="eco-chip active" data-org="all">All Ecosystems</button>
+            <button class="eco-chip" data-org="google">Google</button>
+            <button class="eco-chip" data-org="openai">OpenAI</button>
+            <button class="eco-chip" data-org="anthropic">Anthropic</button>
+            <button class="eco-chip" data-org="meta">Meta</button>
+            <button class="eco-chip" data-org="microsoft">Microsoft</button>
+            <button class="eco-chip" data-org="mistral">Mistral AI</button>
+            <button class="eco-chip" data-org="deepseek">DeepSeek</button>
+            <button class="eco-chip" data-org="xai">xAI</button>
+            <button class="eco-chip" data-org="huggingface">Hugging Face</button>
+            <button class="eco-chip" data-org="stability-ai">Stability AI</button>
+            <button class="eco-chip" data-org="midjourney">Midjourney</button>
+            <button class="eco-chip" data-org="perplexity">Perplexity</button>
+            <button class="eco-chip" data-org="elevenlabs">ElevenLabs</button>
+            <button class="eco-chip" data-org="runway">Runway</button>
+            <button class="eco-chip" data-org="cursor">Cursor</button>
+            <button class="eco-chip" data-org="opencode">OpenCode</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Multi-Faceted Filter & Controls Bar -->
+    <section class="controls-section">
+      <div class="controls-container">
+        
+        <!-- Category Filter Select / Tabs -->
+        <div class="filter-group">
+          <label for="category-select" class="filter-label">Category:</label>
+          <select id="category-select" class="cyber-select">
+            <option value="all">All Categories</option>
+            <option value="Autonomous Agents & Coding">Autonomous Agents & Coding</option>
+            <option value="LLMs & Frontier Models">LLMs & Frontier Models</option>
+            <option value="Reasoning & Math">Reasoning & Math</option>
+            <option value="Video & Animation">Video & Animation</option>
+            <option value="Voice & Audio">Voice & Audio</option>
+            <option value="Image Generation">Image Generation</option>
+            <option value="Computer Vision">Computer Vision</option>
+            <option value="Search & Research">Search & Research</option>
+            <option value="Developer Platforms & APIs">Developer Platforms & APIs</option>
+            <option value="Productivity & Office">Productivity & Office</option>
+            <option value="Design & UI Generation">Design & UI Generation</option>
+          </select>
+        </div>
+
+        <!-- Pricing Filter -->
+        <div class="filter-group">
+          <label class="filter-label">Pricing:</label>
+          <div class="pill-toggle-group" id="pricing-filter-group">
+            <button class="pill-btn active" data-pricing="all">All</button>
+            <button class="pill-btn" data-pricing="Free">Free</button>
+            <button class="pill-btn" data-pricing="Open Source">Open Source</button>
+            <button class="pill-btn" data-pricing="Freemium">Freemium</button>
+            <button class="pill-btn" data-pricing="Paid">Paid</button>
+          </div>
+        </div>
+
+        <!-- Status Filter -->
+        <div class="filter-group">
+          <label for="status-select" class="filter-label">Status:</label>
+          <select id="status-select" class="cyber-select">
+            <option value="all">All Statuses</option>
+            <option value="Active">Active</option>
+            <option value="Beta">Beta</option>
+            <option value="Deprecated">Deprecated</option>
+          </select>
+        </div>
+
+        <!-- Sort Select -->
+        <div class="filter-group">
+          <label for="sort-select" class="filter-label">Sort By:</label>
+          <select id="sort-select" class="cyber-select">
+            <option value="recent-release">Release Date (Newest)</option>
+            <option value="oldest-release">Release Date (Oldest)</option>
+            <option value="name-asc">Tool Name (A-Z)</option>
+            <option value="org-asc">Organization Name</option>
+          </select>
+        </div>
+
+        <!-- View Mode Toggle -->
+        <div class="filter-group view-modes">
+          <button class="view-btn active" id="view-grid-btn" title="Card Grid View">⊞ Grid</button>
+          <button class="view-btn" id="view-tree-btn" title="Hierarchical Ecosystem Tree View">🌲 Hierarchy</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Dedicated Organization Ecosystem View Container -->
+    <section class="org-ecosystem-section" id="org-banner-container" style="display: none;">
+      <div class="org-banner-card" id="org-banner-content">
+        <!-- Rendered dynamically via JavaScript when an org is focused -->
+      </div>
+    </section>
+
+    <!-- Results Status Bar -->
+    <div class="results-meta-bar">
+      <div class="results-count-display">
+        Showing <span id="visible-count">0</span> of <span id="total-count">0</span> AI tools
+        <span id="active-filter-indicator" class="active-filter-tag"></span>
+      </div>
+      <div class="results-actions">
+        <button class="link-btn" id="reset-filters-btn">Reset All Filters</button>
+        <button class="link-btn" id="export-json-btn">📥 Export JSON</button>
+        <button class="link-btn" id="export-csv-btn">📊 Export CSV</button>
+      </div>
+    </div>
+
+    <!-- Main Tool Directory Card Grid -->
+    <section class="directory-grid-section">
+      <div class="tool-card-grid" id="tools-container">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state-card" id="empty-state" style="display: none;">
+        <div class="empty-icon">🛸</div>
+        <h3>No matching AI tools discovered</h3>
+        <p>No tool matches your current search or filters. Try adjusting your query or launch a live backfill in Assistant Studio.</p>
+        <button class="btn btn-primary" id="empty-launch-studio-btn">Launch Backfill in Assistant Studio</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- OPTIMUS ASSISTANT STUDIO DRAWER / MODAL -->
+  <div class="studio-drawer-backdrop" id="studio-backdrop"></div>
+  <aside class="studio-drawer" id="studio-drawer" aria-labelledby="studio-title">
+    <div class="studio-header">
+      <div class="studio-title-group">
+        <span class="studio-badge">AUTONOMOUS ASSISTANT</span>
+        <h2 id="studio-title">Optimus Assistant Studio</h2>
+      </div>
+      <button class="close-drawer-btn" id="close-studio-btn" title="Close Drawer">✕</button>
+    </div>
+
+    <div class="studio-tabs">
+      <button class="tab-btn active" data-tab="tab-analyzer">⚡ Live URL / Text Analyzer</button>
+      <button class="tab-btn" data-tab="tab-config">⚙️ Multi-Provider Health</button>
+      <button class="tab-btn" data-tab="tab-export">💾 Sync & Backup</button>
+    </div>
+
+    <!-- Tab 1: Live Analyzer -->
+    <div class="studio-tab-content active" id="tab-analyzer">
+      <p class="tab-description">
+        Paste any newly launched AI tool URL, announcement blog, GitHub repository, or raw press release. The Optimus Multi-Provider Rotator will parse, structure, and generate a schema-compliant profile instantly.
+      </p>
+
+      <div class="input-form-group">
+        <label for="studio-input-url">Target URL or Source Link:</label>
+        <input type="url" id="studio-input-url" class="cyber-input" placeholder="https://github.com/... or https://company.ai/launch">
+      </div>
+
+      <div class="input-form-group">
+        <label for="studio-input-text">Raw Text / Press Release / Markdown (Optional):</label>
+        <textarea id="studio-input-text" class="cyber-textarea" rows="5" placeholder="Paste full announcement, feature list, or press release..."></textarea>
+      </div>
+
+      <div class="analyzer-actions">
+        <button class="btn btn-primary" id="run-studio-analysis-btn">
+          <span>🧠 Extract & Structure AI Tool</span>
+        </button>
+        <button class="btn btn-secondary" id="fill-example-btn">
+          <span>Load Example</span>
+        </button>
+      </div>
+
+      <!-- Analysis Results Area -->
+      <div class="studio-results-wrapper" id="studio-results-area" style="display: none;">
+        <div class="results-header">
+          <span class="results-label">VALIDATED SCHEMA OUTPUT:</span>
+          <div class="results-btn-group">
+            <button class="btn-micro" id="copy-json-btn">📋 Copy JSON</button>
+            <button class="btn-micro btn-accent" id="inject-tool-btn">➕ Inject to Local Directory</button>
+          </div>
+        </div>
+        <pre class="json-code-preview"><code id="studio-json-code"></code></pre>
+      </div>
+    </div>
+
+    <!-- Tab 2: Provider Health & System Status -->
+    <div class="studio-tab-content" id="tab-config">
+      <p class="tab-description">
+        Optimus AI uses a 5-tier fallback priority queue. If the primary provider encounters an HTTP 429 rate limit, requests automatically shift to backup providers or rotate through comma-separated API keys.
+      </p>
+
+      <div class="provider-status-list">
+        <div class="provider-item active">
+          <div class="provider-info">
+            <span class="provider-rank">1</span>
+            <div>
+              <strong>Google Gemini API</strong>
+              <div class="provider-sub">Model: <code>gemini-2.5-flash</code> | Comma-Separated Key Rotation</div>
+            </div>
+          </div>
+          <span class="status-badge live">Configured</span>
+        </div>
+
+        <div class="provider-item">
+          <div class="provider-info">
+            <span class="provider-rank">2</span>
+            <div>
+              <strong>Groq API</strong>
+              <div class="provider-sub">Model: <code>llama-3.3-70b-versatile</code> | Sub-second Latency</div>
+            </div>
+          </div>
+          <span class="status-badge standby">Standby</span>
+        </div>
+
+        <div class="provider-item">
+          <div class="provider-info">
+            <span class="provider-rank">3</span>
+            <div>
+              <strong>OpenRouter Free Router</strong>
+              <div class="provider-sub">Model: <code>openrouter/free</code> (Meta Llama 3.3 70B Free)</div>
+            </div>
+          </div>
+          <span class="status-badge standby">Standby</span>
+        </div>
+
+        <div class="provider-item">
+          <div class="provider-info">
+            <span class="provider-rank">4</span>
+            <div>
+              <strong>Local Ollama Fallback</strong>
+              <div class="provider-sub">Endpoint: <code>http://localhost:11434/api/chat</code></div>
+            </div>
+          </div>
+          <span class="status-badge offline">Offline (Local)</span>
+        </div>
+
+        <div class="provider-item">
+          <div class="provider-info">
+            <span class="provider-rank">5</span>
+            <div>
+              <strong>Deterministic Rule Engine</strong>
+              <div class="provider-sub">Zero-API Dry-Run & Offline Synthesizer Guarantee</div>
+            </div>
+          </div>
+          <span class="status-badge live">Always Available</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 3: Backup & Exports -->
+    <div class="studio-tab-content" id="tab-export">
+      <p class="tab-description">
+        Export the complete master directory in structured formats or review automated cron synchronization schedules.
+      </p>
+
+      <div class="export-card">
+        <h4>📦 Complete Master Dataset</h4>
+        <p>Export all parent organizations, models, feature matrices, and tags as a single clean JSON file.</p>
+        <button class="btn btn-secondary" id="drawer-export-json">Download data/ai_directory.json</button>
+      </div>
+
+      <div class="export-card">
+        <h4>📊 Flattened CSV Sheet</h4>
+        <p>Export all individual AI tools with metadata columns for spreadsheets and tabular analysis.</p>
+        <button class="btn btn-secondary" id="drawer-export-csv">Download Tools as CSV</button>
+      </div>
+
+      <div class="export-card">
+        <h4>📜 Live Changelog</h4>
+        <p>View the continuous historical log of all automated additions orchestrated by the GitHub Actions agent.</p>
+        <a href="../data/changelog.md" target="_blank" class="btn btn-secondary">Open data/changelog.md</a>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- Bookmarks Modal -->
+  <div class="modal-backdrop" id="bookmarks-modal-backdrop" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>⭐ Your Saved AI Tools</h3>
+        <button class="close-modal-btn" id="close-bookmarks-btn">✕</button>
+      </div>
+      <div class="modal-body" id="bookmarks-modal-body">
+        <p class="empty-bookmarks">No tools saved to your bookmarks yet. Click the ⭐ button on any tool card to save it locally.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="cyber-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">⚡ OPTIMUS AI</span>
+        <p>Autonomous Global AI Directory & 24/7 Discovery Engine. 100% Free, Zero Rate Limits.</p>
+      </div>
+      <div class="footer-meta">
+        <div>Architecture: <strong>Google Antigravity & DeepMind</strong></div>
+        <div>Inference Fallback: <strong>Gemini 2.5 Flash / Groq / OpenRouter</strong></div>
+        <div>24/7 Scheduler: <strong>GitHub Actions Cron</strong></div>
+      </div>
+      <div class="footer-copyright">
+        © 2026 Optimus AI Project. Open-access global AI directory.
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

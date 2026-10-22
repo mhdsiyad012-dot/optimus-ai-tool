@@ -1,0 +1,1494 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-10-22T12:27:39Z",
+  "total_organizations": 18,
+  "total_tools": 51,
+  "organizations": [
+    {
+      "id": "google",
+      "name": "Google",
+      "website": "https://ai.google",
+      "description": "Alphabet's frontier AI research, foundation models, and cloud developer ecosystem.",
+      "logo_symbol": "google",
+      "tags": [
+        "Frontier AI",
+        "Big Tech",
+        "Multimodal",
+        "Developer Platform"
+      ],
+      "tools": [
+        {
+          "id": "google-antigravity",
+          "name": "Google Antigravity",
+          "parent_org": "Google",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2025-11-15",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://antigravity.google",
+          "short_description": "Advanced agentic AI pair programming IDE and autonomous engineering environment by Google DeepMind.",
+          "key_features": [
+            "Autonomous full-stack development subagents",
+            "Headless browser automation and visual verification",
+            "Multi-provider LLM fallback routing",
+            "Modular skills and customization architecture"
+          ],
+          "tags": [
+            "coding-agent",
+            "developer-tools",
+            "ide",
+            "autonomous-agents"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-stitch",
+          "name": "Google Stitch",
+          "parent_org": "Google",
+          "category": "Design & UI Generation",
+          "release_date": "2025-08-10",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://stitch.google",
+          "short_description": "Generative UI and design system compiler turning text prompts and mockups into production-ready frontends.",
+          "key_features": [
+            "Multi-framework code generation (React, Vue, Vanilla)",
+            "Direct Figma-to-code synchronizer",
+            "Interactive live design canvas with visual tweaking",
+            "Design token extraction and theme consistency checking"
+          ],
+          "tags": [
+            "ui-generation",
+            "frontend",
+            "design-system",
+            "developer-tools"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-ai-studio",
+          "name": "Google AI Studio",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-12-13",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://aistudio.google.com",
+          "short_description": "Web-based prototyping environment for developers to experiment with Gemini models, system instructions, and structured outputs.",
+          "key_features": [
+            "Instant API key creation with generous free tier",
+            "Multimodal prompt playground (audio, video, PDF, text)",
+            "System prompt tuning and function calling tester",
+            "One-click code export to Python, JavaScript, and cURL"
+          ],
+          "tags": [
+            "api-platform",
+            "developer-tools",
+            "playground",
+            "gemini"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-gemini",
+          "name": "Gemini",
+          "parent_org": "Google",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2023-12-06",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://gemini.google.com",
+          "short_description": "Google's flagship multimodal foundation model family featuring 2M+ token context windows and native reasoning.",
+          "key_features": [
+            "Native multimodal ingestion across text, code, audio, and video",
+            "Massive 2 Million token context window",
+            "Integrated Google Workspace, Search, and Maps extensions",
+            "Advanced code execution and mathematical reasoning"
+          ],
+          "tags": [
+            "frontier-model",
+            "multimodal",
+            "chat-assistant",
+            "reasoning"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-veo",
+          "name": "Google Veo",
+          "parent_org": "Google",
+          "category": "Video & Animation",
+          "release_date": "2024-05-14",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://deepmind.google/technologies/veo",
+          "short_description": "High-definition generative video model producing 1080p photorealistic videos with cinematic camera control.",
+          "key_features": [
+            "1080p cinematic video generation exceeding 60 seconds",
+            "Accurate physics and visual consistency across cuts",
+            "Cinematic prompt controls (timelapse, aerial pan, dolly zoom)",
+            "Visual effects editing with prompt-guided masking"
+          ],
+          "tags": [
+            "video-generation",
+            "generative-media",
+            "cinematic",
+            "multimodal"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-notebooklm",
+          "name": "NotebookLM",
+          "parent_org": "Google",
+          "category": "Search & Research",
+          "release_date": "2023-07-12",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://notebooklm.google.com",
+          "short_description": "Personalized AI research assistant grounded strictly in your uploaded documents, featuring viral audio overview podcasts.",
+          "key_features": [
+            "Source-grounded synthesis with direct in-text citations",
+            "Autonomous Deep Dive Audio Overviews (interactive podcast hosts)",
+            "Support for PDFs, Google Docs, slides, web URLs, and YouTube transcripts",
+            "Study guide, timeline, briefing doc, and FAQ generation"
+          ],
+          "tags": [
+            "research",
+            "audio-overview",
+            "productivity",
+            "rag"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-imagen-3",
+          "name": "Imagen 3",
+          "parent_org": "Google",
+          "category": "Image Generation",
+          "release_date": "2024-08-15",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://deepmind.google/technologies/imagen-3",
+          "short_description": "Google's highest quality text-to-image generator with superior typography rendering and photorealism.",
+          "key_features": [
+            "Crisp in-image typography and sign rendering",
+            "Reduced visual artifacts and natural human textures",
+            "SynthID digital watermarking for responsible AI",
+            "Fine-grained aspect ratio and lighting control"
+          ],
+          "tags": [
+            "image-generation",
+            "diffusion",
+            "design",
+            "creative"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-gemma",
+          "name": "Gemma",
+          "parent_org": "Google",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-02-21",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://ai.google.dev/gemma",
+          "short_description": "Family of lightweight, state-of-the-art open models built from the same research and technology used for Gemini.",
+          "key_features": [
+            "Available in 2B, 9B, and 27B parameter variants",
+            "Optimized for on-device and local GPU/TPU deployment",
+            "Permissive commercial-friendly open weights",
+            "Specialized variants: CodeGemma and PaliGemma vision"
+          ],
+          "tags": [
+            "open-source",
+            "local-llm",
+            "open-weights",
+            "deepmind"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "website": "https://openai.com",
+      "description": "Pioneering AI research laboratory creating ChatGPT, GPT-4o, reasoning models, and agent architectures.",
+      "logo_symbol": "openai",
+      "tags": [
+        "Frontier AI",
+        "LLM Pioneer",
+        "Reasoning",
+        "Agents"
+      ],
+      "tools": [
+        {
+          "id": "openai-chatgpt",
+          "name": "ChatGPT",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2022-11-30",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://chatgpt.com",
+          "short_description": "The world's most widely adopted conversational AI assistant with multimodal reasoning, code execution, and web browsing.",
+          "key_features": [
+            "Conversational reasoning and multi-step task execution",
+            "Advanced Data Analysis with Python sandbox execution",
+            "Real-time Voice Mode with expressive emotional nuance",
+            "Custom GPT creator and store ecosystem"
+          ],
+          "tags": [
+            "conversational-ai",
+            "productivity",
+            "voice-mode",
+            "gpt"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "openai-gpt-4o",
+          "name": "GPT-4o",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-05-13",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/hello-gpt-4o",
+          "short_description": "Flagship omni-modal model natively processing voice, vision, and text in real-time with sub-300ms latency.",
+          "key_features": [
+            "End-to-end native multimodal audio-visual intelligence",
+            "Fast token throughput at half the cost of GPT-4 Turbo",
+            "128k token context window",
+            "Structured outputs API guarantee"
+          ],
+          "tags": [
+            "omni-modal",
+            "fast-inference",
+            "vision",
+            "voice"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "openai-o1",
+          "name": "OpenAI o1",
+          "parent_org": "OpenAI",
+          "category": "Reasoning & Math",
+          "release_date": "2024-09-12",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/o1",
+          "short_description": "Breakthrough reasoning model utilizing chain-of-thought reinforcement learning to solve complex science, coding, and math problems.",
+          "key_features": [
+            "Deliberate test-time compute chain-of-thought scaling",
+            "Gold-medal standard competitive programming performance",
+            "Ph.D.-level physics, chemistry, and mathematics proficiency",
+            "Reduced hallucinations through structured self-correction"
+          ],
+          "tags": [
+            "reasoning",
+            "chain-of-thought",
+            "competitive-programming",
+            "stem"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "openai-sora",
+          "name": "Sora",
+          "parent_org": "OpenAI",
+          "category": "Video & Animation",
+          "release_date": "2024-02-15",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/sora",
+          "short_description": "Diffusion-transformer video generation model generating photorealistic worlds and cinematic scenes up to a minute long.",
+          "key_features": [
+            "Video generation up to 60 seconds with persistent characters",
+            "Diffusion transformer architecture operating on spacetime patches",
+            "Dynamic camera movement and world 3D consistency",
+            "Video-to-video editing and loop stitching"
+          ],
+          "tags": [
+            "video-generation",
+            "diffusion-transformer",
+            "generative-media"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "openai-whisper",
+          "name": "Whisper",
+          "parent_org": "OpenAI",
+          "category": "Voice & Audio",
+          "release_date": "2022-09-21",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/openai/whisper",
+          "short_description": "General-purpose speech recognition system trained on 680,000 hours of multilingual and multitask supervised data.",
+          "key_features": [
+            "Near human-level English speech transcription",
+            "Automatic language identification across 99+ languages",
+            "Direct speech-to-English translation",
+            "Robust against accents, background noise, and technical jargon"
+          ],
+          "tags": [
+            "speech-to-text",
+            "audio-transcription",
+            "open-source",
+            "whisper"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "openai-swarm",
+          "name": "OpenAI Swarm",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-10-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/openai/swarm",
+          "short_description": "Educational multi-agent orchestration framework exploring ergonomic agent coordination, routines, and handoffs.",
+          "key_features": [
+            "Lightweight, stateless multi-agent pattern",
+            "Ergonomic handoff primitives between specialized agents",
+            "Client-side execution loop with Python-native functions",
+            "Zero black-box abstractions for clean debugging"
+          ],
+          "tags": [
+            "multi-agent",
+            "agent-orchestration",
+            "developer-tools",
+            "open-source"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "website": "https://anthropic.com",
+      "description": "AI safety and research company building reliable, steerable, and honest frontier systems like Claude.",
+      "logo_symbol": "anthropic",
+      "tags": [
+        "Constitutional AI",
+        "Frontier AI",
+        "Safety",
+        "Developer Tools"
+      ],
+      "tools": [
+        {
+          "id": "anthropic-claude-3-5-sonnet",
+          "name": "Claude 3.5 Sonnet",
+          "parent_org": "Anthropic",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-06-20",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://claude.ai",
+          "short_description": "Industry-leading frontier AI model renowned for coding prowess, nuanced reasoning, and Artifacts workspace.",
+          "key_features": [
+            "Top-tier graduate-level reasoning and software engineering benchmark score",
+            "200k token context window with flawless needle-in-a-haystack retrieval",
+            "Interactive Artifacts window for live code, SVG, and HTML preview",
+            "Constitutional AI alignment for reduced harmful outputs"
+          ],
+          "tags": [
+            "coding-llm",
+            "reasoning",
+            "artifacts",
+            "frontier-model"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "anthropic-computer-use",
+          "name": "Claude Computer Use",
+          "parent_org": "Anthropic",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-10-22",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+          "short_description": "Groundbreaking API capability enabling Claude to operate a computer like a human by looking at the screen, moving the cursor, and clicking.",
+          "key_features": [
+            "Visual desktop interpretation via screenshot analysis",
+            "Direct mouse cursor movement, clicking, and drag-and-drop",
+            "Keyboard text entry and shortcut invocation",
+            "Automated multi-step workflow execution across legacy apps"
+          ],
+          "tags": [
+            "computer-use",
+            "rpa",
+            "autonomous-agents",
+            "os-automation"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "anthropic-mcp",
+          "name": "Model Context Protocol (MCP)",
+          "parent_org": "Anthropic",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-11-25",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://modelcontextprotocol.io",
+          "short_description": "Open standard for connecting AI assistants to secure enterprise data repositories, business tools, and developer environments.",
+          "key_features": [
+            "Universal open standard protocol for AI tool integrations",
+            "Standardized schema for client-server agent communication",
+            "Pre-built servers for Postgres, GitHub, Slack, SQLite, and Git",
+            "Ecosystem support across Claude Desktop, Zed, and custom agents"
+          ],
+          "tags": [
+            "open-standard",
+            "mcp",
+            "agent-tools",
+            "developer-tools"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "anthropic-claude-3-5-haiku",
+          "name": "Claude 3.5 Haiku",
+          "parent_org": "Anthropic",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-11-04",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.anthropic.com/news/claude-3-5-haiku",
+          "short_description": "Ultra-fast, cost-efficient model matching previous-generation flagship performance with low latency.",
+          "key_features": [
+            "Blazing-fast inference speed suitable for user-facing streaming applications",
+            "Exceptional coding and instruction following for small model class",
+            "Budget-friendly token pricing for large-scale data processing",
+            "200k token context window"
+          ],
+          "tags": [
+            "fast-llm",
+            "low-latency",
+            "cost-efficient",
+            "streaming"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "website": "https://ai.meta.com",
+      "description": "Mark Zuckerberg's open-source AI division driving open foundational models, computer vision, and speech research.",
+      "logo_symbol": "meta",
+      "tags": [
+        "Open Source",
+        "Llama",
+        "Computer Vision",
+        "Multimodal"
+      ],
+      "tools": [
+        {
+          "id": "meta-llama-3-3",
+          "name": "Llama 3.3 70B",
+          "parent_org": "Meta",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-12-06",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://llama.meta.com",
+          "short_description": "State-of-the-art open weights model delivering 405B-class capability in a cost-effective 70B parameter footprint.",
+          "key_features": [
+            "Matches capabilities of the prior 405B flagship in a 70B model",
+            "128k token context window",
+            "Permissive open community license for commercial use",
+            "Supported across all major inference runtimes (Ollama, vLLM, Groq)"
+          ],
+          "tags": [
+            "open-weights",
+            "llama",
+            "frontier-open-source",
+            "70b"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "meta-sam-2",
+          "name": "Segment Anything 2 (SAM 2)",
+          "parent_org": "Meta",
+          "category": "Computer Vision",
+          "release_date": "2024-07-29",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://ai.meta.com/sam2",
+          "short_description": "Foundation model for promptable visual segmentation in both images and videos in real time.",
+          "key_features": [
+            "Zero-shot object segmentation in streaming video and photos",
+            "Memory attention mechanism for persistent object tracking across frames",
+            "Real-time inference speed (>40 FPS on standard GPU)",
+            "Trained on SA-V dataset containing over 50,000 diverse videos"
+          ],
+          "tags": [
+            "computer-vision",
+            "segmentation",
+            "video-tracking",
+            "open-source"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "meta-movie-gen",
+          "name": "Movie Gen",
+          "parent_org": "Meta",
+          "category": "Video & Animation",
+          "release_date": "2024-10-04",
+          "status": "Beta",
+          "pricing": "Free",
+          "official_url": "https://ai.meta.com/research/movie-gen",
+          "short_description": "Cast-level media generation research suite for high-definition video, personalized characters, and synchronized audio generation.",
+          "key_features": [
+            "1080p HD video generation with synchronized ambient and foley audio",
+            "Personalized character preservation from a single portrait photo",
+            "Precise video editing with text prompt instruction masking",
+            "13B parameter video transformer combined with 13B parameter audio model"
+          ],
+          "tags": [
+            "video-generation",
+            "audio-sync",
+            "generative-video",
+            "meta-research"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "meta-audiocraft",
+          "name": "AudioCraft",
+          "parent_org": "Meta",
+          "category": "Voice & Audio",
+          "release_date": "2023-08-02",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/facebookresearch/audiocraft",
+          "short_description": "PyTorch library for deep learning research on audio generation, featuring MusicGen, AudioGen, and EnCodec.",
+          "key_features": [
+            "MusicGen text-to-music generation with melodic conditioning",
+            "AudioGen text-to-environmental sound effects",
+            "EnCodec neural audio compression codec",
+            "Fully open source and trainable on custom acoustic corpora"
+          ],
+          "tags": [
+            "audio-generation",
+            "music-generation",
+            "sound-fx",
+            "open-source"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "website": "https://www.microsoft.com/ai",
+      "description": "Enterprise cloud AI leader partnering with OpenAI while creating Phi SLMs, AutoGen, and Copilot tools.",
+      "logo_symbol": "microsoft",
+      "tags": [
+        "Enterprise AI",
+        "Cloud",
+        "Agents",
+        "Small Language Models"
+      ],
+      "tools": [
+        {
+          "id": "microsoft-copilot",
+          "name": "Microsoft Copilot",
+          "parent_org": "Microsoft",
+          "category": "Productivity & Office",
+          "release_date": "2023-03-16",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://copilot.microsoft.com",
+          "short_description": "AI companion integrated into Windows, Microsoft 365, Edge, and GitHub for daily computing tasks.",
+          "key_features": [
+            "Deep integration with Word, Excel, PowerPoint, and Teams",
+            "Enterprise data protection guarantee with commercial shielding",
+            "Copilot Pages for multi-user collaborative human-AI brainstorming",
+            "Web search grounding powered by Bing Index"
+          ],
+          "tags": [
+            "office-ai",
+            "productivity",
+            "enterprise",
+            "copilot"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "microsoft-autogen",
+          "name": "AutoGen",
+          "parent_org": "Microsoft",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2023-09-29",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://microsoft.github.io/autogen",
+          "short_description": "Framework that enables development of LLM applications using multiple conversational agents that cooperate to solve tasks.",
+          "key_features": [
+            "Multi-agent conversation patterns (hierarchical, round-robin, swarm)",
+            "Automated code generation, file system execution, and debugging",
+            "Human-in-the-loop interaction mechanisms",
+            "AutoGen Studio web UI for rapid no-code prototyping"
+          ],
+          "tags": [
+            "multi-agent",
+            "agent-framework",
+            "open-source",
+            "python"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "microsoft-phi-4",
+          "name": "Phi-4",
+          "parent_org": "Microsoft",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-12-12",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/microsoft/phi-4",
+          "short_description": "14-billion parameter open model demonstrating unmatched mathematical reasoning and synthetic data distillation.",
+          "key_features": [
+            "Outperforms larger models on MATH and GSM8K benchmarks",
+            "14B parameter dense architecture for efficient self-hosting",
+            "Pioneering synthetic data curriculum training methodology",
+            "MIT license for open research and commercial use"
+          ],
+          "tags": [
+            "small-language-model",
+            "math-reasoning",
+            "open-weights",
+            "phi"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "microsoft-semantic-kernel",
+          "name": "Semantic Kernel",
+          "parent_org": "Microsoft",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-03-28",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/microsoft/semantic-kernel",
+          "short_description": "Enterprise-grade SDK that integrates conventional programming languages (C#, Python, Java) with AI LLMs.",
+          "key_features": [
+            "First-class SDK support for C#, Python, and Java",
+            "Planners and connectors for plugins and external enterprise APIs",
+            "Native vector store memory connectors",
+            "Observability and telemetry hooks via OpenTelemetry"
+          ],
+          "tags": [
+            "sdk",
+            "enterprise-framework",
+            "open-source",
+            "dotnet"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "website": "https://mistral.ai",
+      "description": "European champion in open and frontier weights AI, known for high parameter efficiency and multilingual prowess.",
+      "logo_symbol": "mistral",
+      "tags": [
+        "Open Weights",
+        "European AI",
+        "High Efficiency",
+        "Code AI"
+      ],
+      "tools": [
+        {
+          "id": "mistral-large-2",
+          "name": "Mistral Large 2",
+          "parent_org": "Mistral AI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-07-24",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://mistral.ai/news/mistral-large-2407",
+          "short_description": "123-billion parameter flagship model with world-class multilingual proficiency, advanced code reasoning, and math skills.",
+          "key_features": [
+            "128k token context window",
+            "Native fluency in dozens of languages including French, German, Spanish, and Arabic",
+            "Strong code generation across 80+ programming languages",
+            "Optimized for concise responses and low latency"
+          ],
+          "tags": [
+            "frontier-model",
+            "multilingual",
+            "code-generation",
+            "api"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "mistral-codestral",
+          "name": "Codestral",
+          "parent_org": "Mistral AI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-05-29",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://mistral.ai/news/codestral",
+          "short_description": "First open-weight generative AI model explicitly designed for code generation, fill-in-the-middle, and completion.",
+          "key_features": [
+            "Trained on 80+ programming languages including Python, Java, C++, TypeScript, and Swift",
+            "32k token context window with fill-in-the-middle (FIM) optimization",
+            "Fast token throughput tailored for IDE autocompletion",
+            "Direct integrations into VS Code, JetBrains, and Continue.dev"
+          ],
+          "tags": [
+            "coding-llm",
+            "ide-autocomplete",
+            "developer-tools",
+            "open-weights"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "mistral-le-chat",
+          "name": "Le Chat",
+          "parent_org": "Mistral AI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-02-26",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://chat.mistral.ai",
+          "short_description": "Mistral's conversational web client offering free access to Mistral Large, Pixtral vision, and web search grounding.",
+          "key_features": [
+            "Clean ad-free conversational interface",
+            "Integrated web search grounding with live sources",
+            "Multimodal visual comprehension powered by Pixtral",
+            "Built-in Canvas workspace for collaborative coding and text drafting"
+          ],
+          "tags": [
+            "chat-assistant",
+            "multimodal",
+            "web-search",
+            "free-tier"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "website": "https://www.deepseek.com",
+      "description": "Chinese AI research lab renowned for disruptive low-cost training architectures, mixture-of-experts, and open reasoning models.",
+      "logo_symbol": "deepseek",
+      "tags": [
+        "MoE",
+        "Reasoning",
+        "Low-Cost Training",
+        "Open Weights"
+      ],
+      "tools": [
+        {
+          "id": "deepseek-v3",
+          "name": "DeepSeek-V3",
+          "parent_org": "DeepSeek",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-12-26",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+          "short_description": "671B parameter Mixture-of-Experts model with 37B active parameters trained for under $6M, rivaling top closed models.",
+          "key_features": [
+            "Multi-head Latent Attention (MLA) architecture reducing KV cache size",
+            "DeepSeekMoE with fine-grained expert routing",
+            "Unprecedented inference cost at $0.14 per 1M tokens",
+            "Fully open model weights and complete technical report"
+          ],
+          "tags": [
+            "moe",
+            "open-weights",
+            "frontier-ai",
+            "low-cost"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "deepseek-r1",
+          "name": "DeepSeek-R1",
+          "parent_org": "DeepSeek",
+          "category": "Reasoning & Math",
+          "release_date": "2025-01-20",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+          "short_description": "Open-source reasoning model trained purely with large-scale reinforcement learning, matching OpenAI o1 on math and code.",
+          "key_features": [
+            "Emergent self-verification and extensive chain-of-thought exploration",
+            "Reinforcement learning without supervised fine-tuning warm-up (R1-Zero)",
+            "Distilled smaller models available in 1.5B, 7B, 8B, 14B, 32B, and 70B sizes",
+            "Complete open weights with MIT license"
+          ],
+          "tags": [
+            "reasoning",
+            "reinforcement-learning",
+            "chain-of-thought",
+            "open-source"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "deepseek-coder",
+          "name": "DeepSeek Coder V2",
+          "parent_org": "DeepSeek",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-06-17",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+          "short_description": "Open-source code model supporting 338 programming languages with 128k context length, matching GPT-4 Turbo in coding.",
+          "key_features": [
+            "338 programming languages supported natively",
+            "128k context window with repository-level code comprehension",
+            "Available in 16B and 236B Mixture-of-Experts architectures",
+            "State-of-the-art Fill-In-The-Middle code synthesis"
+          ],
+          "tags": [
+            "coding-llm",
+            "repository-level",
+            "open-weights",
+            "developer-tools"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "website": "https://x.ai",
+      "description": "Elon Musk's AI company dedicated to understanding the true nature of the universe with Grok models.",
+      "logo_symbol": "xai",
+      "tags": [
+        "Frontier AI",
+        "Grok",
+        "Supercomputing",
+        "Real-Time"
+      ],
+      "tools": [
+        {
+          "id": "xai-grok-2",
+          "name": "Grok 2",
+          "parent_org": "xAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-08-14",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://x.ai/blog/grok-2",
+          "short_description": "Frontier model integrated into the X platform with real-time news retrieval, image generation, and vision capabilities.",
+          "key_features": [
+            "Real-time knowledge ingestion from global X posts and news feeds",
+            "Integrated Flux-based photorealistic image generation",
+            "Vision analysis and complex document parsing",
+            "Available on X Premium+ and through the xAI enterprise API"
+          ],
+          "tags": [
+            "real-time-search",
+            "grok",
+            "frontier-model",
+            "social-intelligence"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "xai-grok-3",
+          "name": "Grok 3",
+          "parent_org": "xAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-02-17",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://x.ai",
+          "short_description": "Massive frontier model trained on the Colossus 100k H100 GPU cluster with advanced reasoning and math mastery.",
+          "key_features": [
+            "Trained on the Memphis Colossus 100k GPU supercluster",
+            "Deep reasoning mode with structured step-by-step verification",
+            "Superior scientific and mathematical computation",
+            "Massive context ingestion and real-time world grounding"
+          ],
+          "tags": [
+            "frontier-model",
+            "supercomputer",
+            "reasoning",
+            "colossus"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "website": "https://huggingface.co",
+      "description": "The open-source community platform and hub where the AI world builds, shares, and hosts models and datasets.",
+      "logo_symbol": "huggingface",
+      "tags": [
+        "Open Source",
+        "Community Hub",
+        "Model Hosting",
+        "Libraries"
+      ],
+      "tools": [
+        {
+          "id": "hf-hub",
+          "name": "Hugging Face Hub",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2020-03-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://huggingface.co/models",
+          "short_description": "The central repository and collaboration platform for over 1,000,000 open-source AI models, datasets, and Spaces demos.",
+          "key_features": [
+            "Hosting for 1M+ open weights models and datasets with Git LFS",
+            "Automated Model Cards, benchmark leaderboards, and evaluation",
+            "Inference Endpoints for one-click production deployment",
+            "Hardware-accelerated Spaces running Streamlit, Gradio, and Docker"
+          ],
+          "tags": [
+            "model-hub",
+            "open-source",
+            "datasets",
+            "collaboration"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "hf-transformers",
+          "name": "Transformers",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2018-11-13",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/huggingface/transformers",
+          "short_description": "The definitive open-source Python library for PyTorch, TensorFlow, and JAX providing thousands of pretrained neural architectures.",
+          "key_features": [
+            "Unified API for text, vision, audio, and multimodal architectures",
+            "Direct pipeline abstractions for inference and fine-tuning",
+            "Quantization support via BitsAndBytes, AWQ, and GPTQ",
+            "Massive open-source contributor ecosystem (>130k GitHub stars)"
+          ],
+          "tags": [
+            "python-library",
+            "machine-learning",
+            "deep-learning",
+            "open-source"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "hf-smollm",
+          "name": "SmolLM",
+          "parent_org": "Hugging Face",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-07-16",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/smollm",
+          "short_description": "Family of tiny, efficient open language models (135M, 360M, and 1.7B) designed to run natively on edge devices and phones.",
+          "key_features": [
+            "Runs entirely client-side in web browsers and smartphones",
+            "Trained on high-quality synthetic educational datasets (Cosmopedia)",
+            "Outperforms competitors in the <2B parameter category",
+            "Permissive Apache 2.0 license"
+          ],
+          "tags": [
+            "small-language-model",
+            "on-device",
+            "edge-ai",
+            "open-source"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "stability-ai",
+      "name": "Stability AI",
+      "website": "https://stability.ai",
+      "description": "Creators of the Stable Diffusion revolution, building open multimodal models for visual, audio, and 3D media.",
+      "logo_symbol": "stability",
+      "tags": [
+        "Open Source",
+        "Image Generation",
+        "Diffusion",
+        "Media"
+      ],
+      "tools": [
+        {
+          "id": "stability-sd-3-5",
+          "name": "Stable Diffusion 3.5",
+          "parent_org": "Stability AI",
+          "category": "Image Generation",
+          "release_date": "2024-10-22",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://stability.ai/news/introducing-stable-diffusion-3-5",
+          "short_description": "State-of-the-art open diffusion model family featuring Large (8B) and Medium (2.5B) variants with superior typography.",
+          "key_features": [
+            "Multimodal Diffusion Transformer (MMDiT) architecture",
+            "Accurate in-image text spelling and typography rendering",
+            "Community license allowing free commercial use up to $1M revenue",
+            "Supports running locally on consumer RTX GPUs"
+          ],
+          "tags": [
+            "image-generation",
+            "diffusion",
+            "open-weights",
+            "txt2img"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "stability-stable-audio",
+          "name": "Stable Audio 2.0",
+          "parent_org": "Stability AI",
+          "category": "Voice & Audio",
+          "release_date": "2024-04-03",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://stableaudio.com",
+          "short_description": "Full-length music and sound design generator creating complete tracks up to 3 minutes long with structure and stereo fidelity.",
+          "key_features": [
+            "High-resolution 44.1kHz stereo audio generation up to 3 minutes",
+            "Audio-to-audio prompting to reshape uploaded samples",
+            "Trained exclusively on licensed AudioSparx audio library",
+            "Intuitive timing and intro/outro structural control"
+          ],
+          "tags": [
+            "audio-generation",
+            "music-generation",
+            "sound-effects",
+            "diffusion"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "website": "https://www.midjourney.com",
+      "description": "Independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.",
+      "logo_symbol": "midjourney",
+      "tags": [
+        "Image Generation",
+        "Aesthetic Excellence",
+        "Creative AI",
+        "Design"
+      ],
+      "tools": [
+        {
+          "id": "midjourney-v6",
+          "name": "Midjourney v6.1",
+          "parent_org": "Midjourney",
+          "category": "Image Generation",
+          "release_date": "2024-07-30",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.midjourney.com",
+          "short_description": "World-renowned generative art tool acclaimed for hyper-aesthetic photorealism, artistic textures, and intricate details.",
+          "key_features": [
+            "Unrivaled photorealism, skin textures, and cinematic lighting",
+            "Web-based image generation editor with inpainting and outpainting",
+            "Style Reference (`--sref`) and Character Reference (`--cref`) consistency",
+            "Advanced prompt coherence and typography rendering"
+          ],
+          "tags": [
+            "image-generation",
+            "artistic-ai",
+            "creative",
+            "commercial-design"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "website": "https://www.perplexity.ai",
+      "description": "Conversational answer engine revolutionizing information discovery with live citations and source verification.",
+      "logo_symbol": "perplexity",
+      "tags": [
+        "Search",
+        "Answer Engine",
+        "Information Retrieval",
+        "Citations"
+      ],
+      "tools": [
+        {
+          "id": "perplexity-search",
+          "name": "Perplexity Search",
+          "parent_org": "Perplexity",
+          "category": "Search & Research",
+          "release_date": "2022-12-07",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.perplexity.ai",
+          "short_description": "AI-native conversational search engine providing direct, synthesis answers accompanied by live interactive citations.",
+          "key_features": [
+            "Real-time web crawling and source citation verification",
+            "Pro Search with interactive follow-up questions and Python code execution",
+            "Multi-source synthesis across web, academic papers, and YouTube",
+            "Perplexity Pages for turning research threads into polished web articles"
+          ],
+          "tags": [
+            "ai-search",
+            "answer-engine",
+            "citations",
+            "research-tools"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "perplexity-sonar-api",
+          "name": "Perplexity Sonar API",
+          "parent_org": "Perplexity",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-03-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://docs.perplexity.ai",
+          "short_description": "Grounding API providing developers with real-time web-augmented LLM responses with built-in search citations.",
+          "key_features": [
+            "Live web search grounding built directly into the LLM completion API",
+            "Structured citation indices returned in API payload",
+            "Custom domain filtering and recency weighting",
+            "Drop-in OpenAI SDK compatibility"
+          ],
+          "tags": [
+            "api",
+            "search-api",
+            "rag",
+            "developer-tools"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "website": "https://elevenlabs.io",
+      "description": "Voice AI research company creating the most realistic, versatile, and contextually aware speech synthesis and audio tools.",
+      "logo_symbol": "elevenlabs",
+      "tags": [
+        "Voice AI",
+        "TTS",
+        "Audio Generation",
+        "Localization"
+      ],
+      "tools": [
+        {
+          "id": "elevenlabs-voice-ai",
+          "name": "ElevenLabs Voice AI",
+          "parent_org": "ElevenLabs",
+          "category": "Voice & Audio",
+          "release_date": "2023-01-20",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://elevenlabs.io",
+          "short_description": "Industry-leading text-to-speech platform delivering emotional nuance, human intonation, and instant voice cloning in 32+ languages.",
+          "key_features": [
+            "Hyper-realistic emotional delivery with pause and intonation control",
+            "Instant voice cloning from a 1-minute audio sample",
+            "Multilingual speech synthesis in 32+ languages with accent preservation",
+            "Conversational Voice Agent API with sub-400ms roundtrip response"
+          ],
+          "tags": [
+            "voice-synthesis",
+            "text-to-speech",
+            "voice-cloning",
+            "audio"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "elevenlabs-reader",
+          "name": "ElevenReader",
+          "parent_org": "ElevenLabs",
+          "category": "Productivity & Office",
+          "release_date": "2024-06-25",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://elevenreader.io",
+          "short_description": "Free mobile app that reads any text, article, PDF, or book aloud in lifelike celebrity and expressive AI voices.",
+          "key_features": [
+            "Listen to articles, PDFs, ePubs, and newsletters with natural pacing",
+            "Iconic voice licensing including Judy Garland, James Dean, and Burt Reynolds",
+            "Offline listening mode and sync across iOS and Android",
+            "Free access with generous daily listening allotments"
+          ],
+          "tags": [
+            "audiobook",
+            "pdf-reader",
+            "mobile-app",
+            "accessibility"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "website": "https://runwayml.com",
+      "description": "Applied AI research company building generative media tools that empower artists, filmmakers, and creative studios.",
+      "logo_symbol": "runway",
+      "tags": [
+        "Video AI",
+        "Generative Video",
+        "VFX",
+        "Creative"
+      ],
+      "tools": [
+        {
+          "id": "runway-gen-3-alpha",
+          "name": "Runway Gen-3 Alpha",
+          "parent_org": "Runway",
+          "category": "Video & Animation",
+          "release_date": "2024-06-17",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://runwayml.com/gen-3-alpha",
+          "short_description": "Frontier video generation model trained jointly on video and images, providing cinematic fidelity and high temporal consistency.",
+          "key_features": [
+            "High-fidelity cinematic realism with precise temporal consistency",
+            "Fine-grained control over camera trajectory and speed",
+            "Text-to-video, image-to-video, and video-to-video transformations",
+            "Motion Brush 2.0 for isolating motion across multiple visual regions"
+          ],
+          "tags": [
+            "generative-video",
+            "vfx",
+            "motion-brush",
+            "cinematic"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "runway-act-one",
+          "name": "Runway Act-One",
+          "parent_org": "Runway",
+          "category": "Video & Animation",
+          "release_date": "2024-10-22",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://runwayml.com/act-one",
+          "short_description": "Generative facial performance capture tool transferring real human actor expressions and eye movements onto animated characters.",
+          "key_features": [
+            "Transfers actor emotional nuance and micro-expressions to animated characters",
+            "Requires only a standard consumer webcam or smartphone recording",
+            "Maintains high aesthetic consistency across different character art styles",
+            "Eliminates need for expensive facial motion capture rigs and markers"
+          ],
+          "tags": [
+            "facial-mocap",
+            "animation",
+            "character-acting",
+            "vfx"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "website": "https://cursor.com",
+      "description": "The AI-first code editor built as a fork of VS Code, engineered from the ground up for hyper-productive pair programming.",
+      "logo_symbol": "cursor",
+      "tags": [
+        "IDE",
+        "AI Editor",
+        "Developer Tools",
+        "Pair Programming"
+      ],
+      "tools": [
+        {
+          "id": "cursor-editor",
+          "name": "Cursor AI Code Editor",
+          "parent_org": "Cursor",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2023-04-10",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://cursor.com",
+          "short_description": "Popular AI-first code editor with deep codebase indexing, multi-file Composer edits, and predictive autocomplete.",
+          "key_features": [
+            "Full codebase semantic indexing with `@codebase` RAG retrieval",
+            "Composer mode generating and executing diffs across dozens of files simultaneously",
+            "Predictive tab completion (Cursor Tab) predicting next edits",
+            "Custom `.cursorrules` configuration files for team standards"
+          ],
+          "tags": [
+            "ai-ide",
+            "code-editor",
+            "composer",
+            "developer-tools"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "website": "https://opencode.ai",
+      "description": "Decentralized open-source initiative developing transparent, local-first autonomous software engineering agents.",
+      "logo_symbol": "opencode",
+      "tags": [
+        "Open Source",
+        "Autonomous Coding",
+        "Local First",
+        "Agents"
+      ],
+      "tools": [
+        {
+          "id": "opencode-agent",
+          "name": "OpenCode Agent Framework",
+          "parent_org": "OpenCode",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-09-05",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://opencode.ai",
+          "short_description": "Autonomous open-source software engineering agent framework executing GitHub issue resolution and pull request creation.",
+          "key_features": [
+            "Self-directed repository exploration, test execution, and bug fixing",
+            "Sandbox Docker container isolation for safe terminal command execution",
+            "Local LLM compatibility via Ollama, vLLM, and LMStudio",
+            "Automated unit test generation and validation loops"
+          ],
+          "tags": [
+            "autonomous-coding",
+            "swe-bench",
+            "open-source",
+            "docker-sandbox"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "independent",
+      "name": "Independent",
+      "website": "https://theaioperatorstore.gumroad.com/l/uszyx",
+      "description": "Independent AI research and product ecosystem.",
+      "logo_symbol": "independent",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Voice"
+      ],
+      "tools": [
+        {
+          "id": "independent-theaioperatorstore-gumroad-com-l-uszyx",
+          "name": "//theaioperatorstore.gumroad.com/l/uszyx",
+          "parent_org": "Independent",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-22",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://theaioperatorstore.gumroad.com/l/uszyx",
+          "short_description": "Title: The AI Operator's AI Agent Security Audit Console ($7)",
+          "key_features": [
+            "Prompt Privacy Guard — Scan & Redact PII Before You Paste Into AI ($7) — scrub the secrets before they reach your agents; this console audits everything else: [https://theaioperatorstore.gumroad.com/l/aucfa](https://theaioperatorstore.gumroad.com/l/aucfa)",
+            "The AI Operator's AI Privacy Playbook ($7) — the playbook for your whole AI privacy posture; this console is the hands-on audit: [https://theaioperatorstore.gumroad.com/l/ai-privacy-playbook](https://theaioperatorstore.gumroad.com/l/ai-privacy-playbook)",
+            "The AI Operator's AI Agent Context Card Builder ($5) — document what each agent is allowed to do, then audit that it's actually true: [https://theaioperatorstore.gumroad.com/l/jbxxo](https://theaioperatorstore.gumroad.com/l/jbxxo)"
+          ],
+          "tags": [
+            "theaioperatorstoregumroadcomluszyx",
+            "independent",
+            "voice"
+          ],
+          "last_verified": "2026-10-22"
+        },
+        {
+          "id": "independent-playgroundarcade-com",
+          "name": "//playgroundarcade.com",
+          "parent_org": "Independent",
+          "category": "Video & Animation",
+          "release_date": "2026-10-22",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://playgroundarcade.com/",
+          "short_description": "Title: Playground — Discover AI-made games",
+          "key_features": [
+            "[x] Action - [x] Adventure - [x] Arcade - [x] Racing - [x] Strategy - [x] Simulation - [x] Shooter - [x] Platformer - [x] RPG - [x] Sports - [x] Puzzle - [x] Sandbox - [x] Survival - [x] Rhythm - [x] Fighting - [x] Flying - [x] Card games - [x] Tower defence - [x] Roguelike - [x] Exploration - [x] Multiplayer",
+            "[x] Fantasy violence - [x] Strong violence - [x] Horror - [x] Strong language",
+            "[x] I made this game or have permission to submit it and share this cover image. - [x] This listing and game contain no sexually explicit content, gambling for money, scams, or malicious downloads. Send for review"
+          ],
+          "tags": [
+            "playgroundarcadecom",
+            "independent",
+            "video"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "aipdv",
+      "name": "Aipdv",
+      "website": "https://github.com/aipdv/fightbench",
+      "description": "Aipdv AI research and product ecosystem.",
+      "logo_symbol": "aipdv",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Image"
+      ],
+      "tools": [
+        {
+          "id": "aipdv-github-com-aipdv-fightbench",
+          "name": "//github.com/aipdv/fightbench",
+          "parent_org": "Aipdv",
+          "category": "Image Generation",
+          "release_date": "2026-10-22",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/aipdv/fightbench",
+          "short_description": "Title: GitHub - aipdv/fightbench: FightBench: a replay-verified benchmark for AI decision models",
+          "key_features": [
+            "**Edition:**`edition/mk2-liukang-v1.json` holds the 8 situations, 17 moves, ladder, ROM and state SHA-1s, and seed rule. It is the `clef2` prompt, word for word. A changed string is a new edition.",
+            "**Policy Table (headline):** the model answers all 8 situations once per fight, before play. The harness samples at temperature 1, seed `mk2-liukang-v1|repeat|fight`, every 15 frames.",
+            "**Live:** the model answers the current situation every 0.12 s, at most 3 in flight. Replay presses the logged actions and checks each logged situation against the game. Latency is self-reported.",
+            "**Floor rows:**`script` (rules bot) and `random` (17 moves)."
+          ],
+          "tags": [
+            "githubcomaipdvfightbench",
+            "aipdv",
+            "image"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    }
+  ]
+}
