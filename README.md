@@ -189,3 +189,5 @@ In your GitHub Repository, navigate to **Settings > Secrets and variables > Acti
 ## 🛡️ License & Credits
 - Built with Google Antigravity & DeepMind research principles.
 - Free and open for developers, researchers, and creators worldwide.
+#   o p t i m u s - a i - t o o l  
+ 
