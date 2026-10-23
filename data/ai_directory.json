@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-23T03:40:13Z",
+  "last_updated": "2026-10-23T11:16:16Z",
   "total_organizations": 24,
-  "total_tools": 65,
+  "total_tools": 66,
   "organizations": [
     {
       "id": "google",
@@ -401,24 +401,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/openai/swarm",
-          "short_description": "Open-source educational framework for exploring multi-agent orchestration patterns, enabling developers to build and coordinate multiple AI agents with handoffs and routines.",
+          "short_description": "An open-source framework for building and managing multi-agent systems, enabling developers to create autonomous workflows.",
           "key_features": [
-            "Client-side execution loop with Python-native functions",
-            "Zero black-box abstractions for clean debugging",
+            "Supports custom agents and tools",
             "Stateless design for simplicity",
+            "Educational focus for learning agent architectures",
+            "Multi-agent coordination",
             "Lightweight multi-agent coordination",
-            "Agent handoffs and routine patterns",
-            "Educational focus for learning agent architectures"
+            "Agent handoffs and routine patterns"
           ],
           "tags": [
+            "agent-orchestration",
+            "agents",
+            "developer-platform",
+            "developer-tools",
             "educational",
             "orchestration",
-            "developer-tools",
-            "agent-orchestration",
-            "open-source",
-            "multi-agent"
+            "multi-agent",
+            "open-source"
           ],
-          "last_verified": "2025-08-20"
+          "last_verified": "2024-12-01"
         },
         {
           "id": "openai-codex",
@@ -481,22 +483,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2024-01",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI powers AT&T’s legal intake system, using large language models to quickly classify, prioritize, and retrieve relevant legal precedents and context for in‑house counsel.",
+          "short_description": "OpenAI is an AI research and deployment company developing frontier large language models and advancing AI safety through international collaborations.",
           "key_features": [
-            "Natural language intake processing",
-            "Automated request classification and prioritization",
             "Contextual precedent and research retrieval",
-            "Scalable knowledge layer integration"
+            "AI safety research",
+            "Scalable knowledge layer integration",
+            "International safety partnerships",
+            "Automated request classification and prioritization",
+            "Cyber security capabilities"
           ],
           "tags": [
-            "ai",
+            "nlp",
+            "ai-safety",
             "legaltech",
+            "ai",
+            "cybersecurity",
+            "llm",
             "enterprise",
-            "nlp"
+            "frontier-ai"
           ],
-          "last_verified": "2024-12-10"
+          "last_verified": "2025-12-17"
         },
         {
           "id": "openai-presence",
@@ -885,27 +893,29 @@
           "parent_org": "Microsoft",
           "category": "Autonomous Agents & Coding",
           "release_date": "2026-10",
-          "status": "Beta",
+          "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/microsoft/thinkingbox-training",
-          "short_description": "ThinkingBox turns executable terminal-state database checks into reinforcement learning rewards for post-training autonomous agents, improving repeatable task success.",
+          "short_description": "An open-source framework that turns database grading into reinforcement learning rewards for post-training autonomous agents, improving task dependability and repeatable success.",
           "key_features": [
-            "Executable terminal-state grading",
-            "RL reward generation from database checks",
+            "Uses offline policy-relative difficulty to curate training tasks",
             "Offline policy-relative difficulty selection",
+            "Executable terminal-state grading",
+            "Provides shared interpretation code for consistent reward measurement",
             "GRPO post-training support",
-            "ThinkingBox-Bench evaluation"
+            "Converts executable database state checks into RL reward signals"
           ],
           "tags": [
-            "ai-agents",
-            "reinforcement-learning",
-            "rl",
+            "benchmark",
             "post-training",
-            "database",
-            "tool-use",
-            "benchmark"
+            "grpo",
+            "agent-training",
+            "rl",
+            "autonomous-agents",
+            "llm-fine-tuning",
+            "reinforcement-learning"
           ],
-          "last_verified": "2026-06-06"
+          "last_verified": "2026-10-22"
         }
       ]
     },
@@ -1718,24 +1728,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-ensemble-r1",
-          "short_description": "An extensible ensemble forecasting interface combining four pre-trained Granite time-series models to deliver median and quantile forecasts without retraining, enabling robust predictions across diverse series.",
+          "short_description": "A pre-trained ensemble forecasting system that combines four complementary Granite time-series architectures (PatchTST, Conformer, FlowState, TTM) to provide robust median and quantile forecasts without retraining or model selection.",
           "key_features": [
-            "Extensible interface compatible with external forecasters for custom member mixes",
+            "Evaluated on GIFT-Eval benchmark showing strong aggregate performance across diverse datasets",
+            "Extensible interface allows adding compatible external forecasters without retraining",
+            "Combines four diverse pre-trained Granite models (PatchTST-FM-r1, PatchTST-FM-r2, FlowState-r1.1, TTM-r3)",
+            "Works with multivariate time series data",
             "No retraining required; uses pre-trained models directly on new datasets",
-            "Supports multiple aggregation methods (Probabilistic Ensemble, IQR Ensemble)",
-            "Combines four Granite models (PatchTST-FM, FlowState, TTM)",
-            "Returns median and quantile forecasts via probabilistic (uniform pooling) or IQR (adaptive spread-based) ensemble methods",
-            "Works with multivariate time series data"
+            "Permissively licensed (Apache 2.0) for commercial use"
           ],
           "tags": [
+            "huggingface",
+            "time-series-forecasting",
             "granite",
-            "forecasting",
-            "granularity",
-            "ensemble",
+            "apache-2.0",
             "foundation-model",
-            "time-series",
-            "probabilistic-forecasting",
-            "time-series-forecasting"
+            "ensemble",
+            "forecasting",
+            "probabilistic-forecasting"
           ],
           "last_verified": "2026-10-22"
         }
@@ -1777,6 +1787,35 @@
             "agents",
             "sql",
             "nvidia"
+          ],
+          "last_verified": "2026-10-21"
+        },
+        {
+          "id": "nvidia-kumo-relational",
+          "name": "NVIDIA Kumo Relational",
+          "parent_org": "NVIDIA",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-21",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+          "short_description": "A pre-trained relational foundation model that makes predictions directly on enterprise databases without task-specific training, feature engineering, or table flattening, using in-context learning to predict outcomes like churn, demand, or fraud in a single forward pass.",
+          "key_features": [
+            "Pre-trained relational foundation model operating directly on database structure",
+            "Zero-shot/in-context predictions via Predictive Query Language (PQL)",
+            "Scales to 500B+ rows with GPU-native kumo-engine",
+            "Outperforms supervised ML and AutoGluon on relational benchmarks",
+            "Available as open-source libraries (structured-data-models, kumo-engine) and NVIDIA NIM"
+          ],
+          "tags": [
+            "relational-data",
+            "foundation-model",
+            "in-context-learning",
+            "predictive-queries",
+            "structured-data",
+            "nvidia",
+            "open-source",
+            "nim"
           ],
           "last_verified": "2026-10-21"
         }
