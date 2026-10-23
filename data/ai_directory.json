@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-23T11:16:16Z",
+  "last_updated": "2026-10-23T16:56:30Z",
   "total_organizations": 24,
-  "total_tools": 66,
+  "total_tools": 72,
   "organizations": [
     {
       "id": "google",
@@ -401,26 +401,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/openai/swarm",
-          "short_description": "An open-source framework for building and managing multi-agent systems, enabling developers to create autonomous workflows.",
+          "short_description": "Open-source multi-agent framework that served as the foundation for OpenAI's agent products and forward-deployed engineering engagements with enterprise customers.",
           "key_features": [
-            "Supports custom agents and tools",
             "Stateless design for simplicity",
-            "Educational focus for learning agent architectures",
-            "Multi-agent coordination",
-            "Lightweight multi-agent coordination",
-            "Agent handoffs and routine patterns"
+            "Multi-agent orchestration",
+            "Open-source framework",
+            "Agent handoffs and routine patterns",
+            "Supports custom agents and tools",
+            "Lightweight multi-agent coordination"
           ],
           "tags": [
-            "agent-orchestration",
+            "open-source",
+            "orchestration",
+            "educational",
+            "multi-agent",
             "agents",
             "developer-platform",
-            "developer-tools",
-            "educational",
-            "orchestration",
-            "multi-agent",
-            "open-source"
+            "framework",
+            "github"
           ],
-          "last_verified": "2024-12-01"
+          "last_verified": "2025-06-01"
         },
         {
           "id": "openai-codex",
@@ -483,28 +483,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2024-01",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI is an AI research and deployment company developing frontier large language models and advancing AI safety through international collaborations.",
+          "short_description": "Daybreak is OpenAI's cyber-capable AI model used to help identify and address security vulnerabilities in critical systems.",
           "key_features": [
-            "Contextual precedent and research retrieval",
-            "AI safety research",
+            "Autonomous testing",
             "Scalable knowledge layer integration",
+            "Contextual precedent and research retrieval",
+            "AI safety",
             "International safety partnerships",
-            "Automated request classification and prioritization",
-            "Cyber security capabilities"
+            "Automated request classification and prioritization"
           ],
           "tags": [
             "nlp",
             "ai-safety",
-            "legaltech",
-            "ai",
             "cybersecurity",
-            "llm",
             "enterprise",
-            "frontier-ai"
+            "llm",
+            "legaltech",
+            "frontier-ai",
+            "ai"
           ],
-          "last_verified": "2025-12-17"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-presence",
@@ -515,20 +515,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/introducing-openai-presence/",
-          "short_description": "Enterprise platform for deploying voice and chat agents that automate regulated workflows, built from real customer deployments and powered by the Agents API and Swarm framework.",
+          "short_description": "Enterprise product for voice and chat agents that evolved from real customer deployments, enabling organizations to automate regulated workflows and handle customer service calls with AI.",
           "key_features": [
             "Voice and chat agent orchestration",
             "Regulated workflow automation",
+            "Centralized management and monitoring",
+            "Automated regulated workflows",
             "Integration with telephony and messaging channels",
-            "Centralized management and monitoring"
+            "Chat agents"
           ],
           "tags": [
-            "voice-agents",
+            "workflow-automation",
             "chat-agents",
+            "customer-service",
             "enterprise-ai",
-            "workflow-automation"
+            "enterprise",
+            "voice",
+            "agents",
+            "voice-agents"
           ],
-          "last_verified": "2025-08-20"
+          "last_verified": "2025-06-01"
         },
         {
           "id": "openai-agents-api",
@@ -539,20 +545,51 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/introducing-the-agents-api/",
-          "short_description": "API for building reliable, scalable AI agents that can perform complex tasks by combining reasoning, tool use, and memory. Evolved from Swarm and used as the foundation for Presence.",
+          "short_description": "API for building and deploying autonomous agents, evolved from OpenAI's forward-deployed engineering work to help developers automate complex enterprise workflows.",
           "key_features": [
-            "Agent orchestration with built-in tool use",
+            "Enterprise workflow automation",
+            "Production-grade agent infrastructure",
             "Persistent memory and state management",
-            "Streaming responses and real-time interaction",
-            "Evaluation and debugging tooling"
+            "Agent orchestration with built-in tool use",
+            "Customer service integration",
+            "Streaming responses and real-time interaction"
           ],
           "tags": [
-            "agents",
+            "multi-step-reasoning",
+            "enterprise",
+            "automation",
             "api",
-            "tool-use",
-            "multi-step-reasoning"
+            "agents",
+            "developer-platform",
+            "tool-use"
           ],
-          "last_verified": "2025-08-20"
+          "last_verified": "2025-06-01"
+        },
+        {
+          "id": "habitat",
+          "name": "Habitat",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2025",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "short_description": "Online storage platform for OpenAI products enabling fast, reliable access to data across 1 billion+ users globally.",
+          "key_features": [
+            "Multi-tenancy support",
+            "Azure Cosmos DB integration",
+            "Global distribution",
+            "Handles 500+ petabytes of data",
+            "Co-managed containers"
+          ],
+          "tags": [
+            "storage",
+            "multi-tenancy",
+            "global-scale",
+            "habitat",
+            "openai"
+          ],
+          "last_verified": "2026-01-01"
         }
       ]
     },
@@ -896,26 +933,52 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/microsoft/thinkingbox-training",
-          "short_description": "An open-source framework that turns database grading into reinforcement learning rewards for post-training autonomous agents, improving task dependability and repeatable success.",
+          "short_description": "ThinkingBox-Training converts executable terminal database state checks into reinforcement learning rewards for post-training AI agents, using GRPO fine-tuning to significantly improve repeatable task success and dependability on backend tool-use workflows.",
           "key_features": [
-            "Uses offline policy-relative difficulty to curate training tasks",
-            "Offline policy-relative difficulty selection",
-            "Executable terminal-state grading",
             "Provides shared interpretation code for consistent reward measurement",
-            "GRPO post-training support",
-            "Converts executable database state checks into RL reward signals"
+            "Converts executable database state checks into RL reward signals",
+            "ThinkingBox-Bench 507-task benchmark integration",
+            "Deterministic rewards with optional LLM judge rubrics",
+            "Uses offline policy-relative difficulty to curate training tasks",
+            "GRPO fine-tuning pipeline for agent reliability"
           ],
           "tags": [
-            "benchmark",
-            "post-training",
-            "grpo",
+            "open-source",
             "agent-training",
-            "rl",
-            "autonomous-agents",
+            "reinforcement-learning",
+            "database-grading",
+            "grpo",
             "llm-fine-tuning",
-            "reinforcement-learning"
+            "autonomous-agents",
+            "rl"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "azure-cosmos-db",
+          "name": "Azure Cosmos DB",
+          "parent_org": "Microsoft",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2019-01-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://azure.microsoft.com/services/cosmos-db/",
+          "short_description": "Globally distributed, multi-tenant database service for storing and retrieving data at scale across 40+ geographic regions.",
+          "key_features": [
+            "Multi-tenancy",
+            "Co-managed containers",
+            "Azure Cosmos DB primitives",
+            "Serverless mode",
+            "Global scale"
+          ],
+          "tags": [
+            "database",
+            "multi-tenancy",
+            "global-scale",
+            "azure",
+            "storage"
+          ],
+          "last_verified": "2026-01-01"
         }
       ]
     },
@@ -1240,6 +1303,56 @@
             "open-source"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "aws-neuron-torch-neuronx",
+          "name": "TorchNeuron",
+          "parent_org": "Hugging Face",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/spaces/aws-neuron/torch-neuronx-model-support",
+          "short_description": "Native PyTorch backend for AWS Trainium that enables Transformers models to run natively on Trainium hardware.",
+          "key_features": [
+            "Native PyTorch backend for AWS Trainium",
+            "Supports running Transformers models on Trainium",
+            "Provides model compatibility lookup across hub models",
+            "Offers run scripts for training and inference on Trainium"
+          ],
+          "tags": [
+            "aws-trainium",
+            "transformers",
+            "neural-computing",
+            "hardware-acceleration"
+          ],
+          "last_verified": "2026-10-23"
+        },
+        {
+          "id": "hugging-face-ensemble-forecasting-with-ibm-granite-time-series-models",
+          "name": "Ensemble forecasting with IBM Granite time-series models",
+          "parent_org": "Hugging Face",
+          "category": "Image Generation",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+          "short_description": "Title: Ensemble forecasting with IBM Granite time-series models",
+          "key_features": [
+            "**Match your use case**. Use historical forecast windows that reflect the data available at each forecast origin, the horizon you need, and the series you expect to serve.",
+            "**Compare like with like**. Run the Probabilistic Ensemble, the IQR Ensemble, and a strong individual member (such as PatchTST-FM-r2) on the same windows.",
+            "**Look beyond point error**. Assess quantile loss alongside MASE, and check the empirical coverage of the 0.1 to 0.9 interval against its nominal 80%.",
+            "**Measure the cost**. Record runtime and memory use to judge whether the benefit of combining four models justifies it for your workload."
+          ],
+          "tags": [
+            "ensemble",
+            "forecasting",
+            "with",
+            "ibm",
+            "granite",
+            "timeseries"
+          ],
+          "last_verified": "2026-10-23"
         }
       ]
     },
@@ -1667,6 +1780,51 @@
             "video"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "independent-monish",
+          "name": "Monish",
+          "parent_org": "Independent",
+          "category": "Video & Animation",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.producthunt.com/products/monish",
+          "short_description": "Title: Monish: Your AI agents, live on your iPhone lock screen | Product Hunt",
+          "key_features": [
+            "[Best Products](https://www.producthunt.com/categories?ref=header_nav) Orbit Awards Awards powered by what reviewers actually say[AI Workflow Automation →](https://www.producthunt.com/categories/ai-workflow-automation)[AI Dictation Apps →](https://www.producthunt.com/categories/ai-dictation-apps)   [Trending Categories](https://www.producthunt.com/categories?ref=header_nav)[Engineering & Development](https://www.producthunt.com/categories/engineering-development)[LLMs](https://www.producthunt.com/categories/llms)[Productivity](https://www.producthunt.com/categories/productivity)[Marketing & Sales](https://www.producthunt.com/categories/marketing-sales)[Design & Creative](https://www.producthunt.com/categories/design-creative)[Social & Community](https://www.producthunt.com/categories/social-community)[Finance](https://www.producthunt.com/categories/finance)[AI Agents](https://www.producthunt.com/categories/ai-agents) [Other Categories](https://www.producthunt.com/categories?ref=header_nav) Trending Categories[Vibe Coding Tools](https://www.producthunt.com/categories/vibe-coding)[AI Dictation Apps](https://www.producthunt.com/categories/ai-dictation-apps)[AI notetakers](https://www.producthunt.com/categories/ai-meeting-notetakers)[Code Review Tools](https://www.producthunt.com/categories/code-review-tools)[No-code Platforms](https://www.producthunt.com/categories/no-code-platforms)[Figma Plugins](https://www.producthunt.com/categories/figma-plugins)[Static site generators](https://www.producthunt.com/categories/static-site-generators)  Engineering & Development[Vibe Coding Tools](https://www.producthunt.com/categories/vibe-coding)[AI Coding Agents](https://www.producthunt.com/categories/ai-coding-agents)[AI Code Editors](https://www.producthunt.com/categories/ai-code-editors)  LLMs[AI Chatbots](https://www.producthunt.com/categories/ai-chatbots)[AI Infrastructure Tools](https://www.producthunt.com/categories/ai-infrastructure)[Prompt Engineering Tools](https://www.producthunt.com/categories/prompt-engineering-tools)  Productivity[AI notetakers](https://www.producthunt.com/categories/ai-meeting-notetakers)[Note and writing apps](https://www.producthunt.com/categories/notes-documents)[Team collaboration software](https://www.producthunt.com/categories/team-collaboration)[Search](https://www.producthunt.com/categories/search)[AI Workflow Automation](https://www.producthunt.com/categories/ai-workflow-automation)  Marketing & Sales[Lead generation software](https://www.producthunt.com/categories/lead-generation)[Marketing automation platforms](https://www.producthunt.com/categories/marketing-automation)  Design & Creative[Video editing](https://www.producthunt.com/categories/video-editing)[Design resources](https://www.producthunt.com/categories/design-resources)[Graphic design tools](https://www.producthunt.com/categories/graphic-design-tools)[AI Generative Media](https://www.producthunt.com/categories/ai-generative-media)  Social & Community[Social Networking](https://www.producthunt.com/categories/social-networking)[Professional networking platforms](https://www.producthunt.com/categories/professional-networking)[Community management](https://www.producthunt.com/categories/community-management)  Finance[Accounting software](https://www.producthunt.com/categories/accounting)[Fundraising resources](https://www.producthunt.com/categories/fundraising-resources)[Investing](https://www.producthunt.com/categories/investing)  AI Agents[AI Voice Agents](https://www.producthunt.com/categories/ai-voice-agents)",
+            "[Launches](https://www.producthunt.com/leaderboard/daily/2026/10/23?ref=header_nav)[Launch archive Most-loved launches by the community](https://www.producthunt.com/leaderboard/daily/2026/10/23?ref=header_nav)[Launch Guide Checklists and pro tips for launching](https://www.producthunt.com/launch?ref=header_nav)",
+            "[News](https://www.producthunt.com/newsletters?ref=header_nav)[Newsletter The best of Product Hunt, every day](https://www.producthunt.com/newsletters?ref=header_nav)[Stories Tech news, interviews, and tips from makers](https://www.producthunt.com/stories?ref=header_nav)[Changelog New Product Hunt features and releases](https://www.producthunt.com/changes?ref=header_nav)",
+            "[Forums](https://www.producthunt.com/forums?ref=header_nav)[Forums Ask questions, find support, and connect](https://www.producthunt.com/forums?ref=header_nav)[Kitty Points Leaderboard The highest scoring community members](https://www.producthunt.com/kitty-points?ref=header_nav)[Streaks The most active community members](https://www.producthunt.com/visit-streaks?ref=header_nav)[Events Meet others online and in-person](https://lu.ma/producthunt)"
+          ],
+          "tags": [
+            "monish",
+            "independent",
+            "video"
+          ],
+          "last_verified": "2026-10-23"
+        },
+        {
+          "id": "independent-movo-ai",
+          "name": "MOVO AI",
+          "parent_org": "Independent",
+          "category": "Image Generation",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/movo-ai",
+          "short_description": "Warning: Target URL returned error 403: Forbidden",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "movo",
+            "independent",
+            "image"
+          ],
+          "last_verified": "2026-10-23"
         }
       ]
     },
