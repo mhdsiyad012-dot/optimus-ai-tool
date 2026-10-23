@@ -52,3 +52,19 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **[OpenAI Legal Intake Solution](https://openai.com)** (OpenAI) — *LLMs & Frontier Models* (Paid): OpenAI powers AT&T’s legal intake system, using large language models to quickly classify, prioritize, and retrieve relevant legal precedents and context for in‑house counsel.
     - **[QuantileEnsembleForecaster](https://huggingface.co/ibm-granite/granite-timeseries-ensemble-r1)** (IBM) — *Autonomous Agents & Coding* (Free): An ensemble forecasting system for time-series data that combines multiple Granite models to provide robust predictions with median and quantile forecasts.
     - **[Kumo Relational](https://huggingface.co/nvidia/Kumo-Relational)** (NVIDIA) — *Autonomous Agents & Coding* (Open Source): A pre-trained relational foundation model that makes predictions directly on enterprise databases with no task-specific training or feature engineering, enabling agents and humans to query relational data in a single forward pass.
+
+### [2026-10-23 03:40 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 7
+- **Existing Tools Refreshed:** 3
+  - **Added:**
+    - **[Alter Vault](https://alterauth.com)** (Alter) — *Developer Platforms & APIs* (Freemium): Alter Vault gives AI agents their own cryptographic keys and scoped access tokens, providing privileged access management, audit logging, and policy enforcement for secure agent interactions.
+    - **[Respan](https://github.com/respan/respan)** (Respan) — *Developer Platforms & APIs* (Open Source): An open-source, high-performance AI gateway written in Rust, designed to manage, route, and optimize LLM API calls with a modular plugin architecture.
+    - **[Laminar](https://laminar.ai)** (Laminar) — *Autonomous Agents & Coding* (Freemium): Laminar is an RL-trained model that detects errors in AI agent traces, helping developers debug and improve autonomous agent performance.
+    - **[Consus](https://consus.so)** (Consus (YC F24)) — *Developer Platforms & APIs* (Paid): Consus is an LLM gateway designed for enterprises handling sensitive data, enabling secure and compliant access to large language models while maintaining strict data governance and privacy controls.
+    - **[OpenAI Presence](https://openai.com/index/introducing-openai-presence/)** (OpenAI) — *Autonomous Agents & Coding* (Paid): Enterprise platform for deploying voice and chat agents that automate regulated workflows, built from real customer deployments and powered by the Agents API and Swarm framework.
+    - **[Agents API](https://openai.com/index/introducing-the-agents-api/)** (OpenAI) — *Developer Platforms & APIs* (Paid): API for building reliable, scalable AI agents that can perform complex tasks by combining reasoning, tool use, and memory. Evolved from Swarm and used as the foundation for Presence.
+    - **[ThinkingBox](https://github.com/microsoft/thinkingbox-training)** (Microsoft) — *Autonomous Agents & Coding* (Open Source): ThinkingBox turns executable terminal-state database checks into reinforcement learning rewards for post-training autonomous agents, improving repeatable task success.
+  - **Refreshed:**
+    - **Codex** (OpenAI) verified on 2025-08-20
+    - **Swarm** (OpenAI) verified on 2025-08-20
+    - **Granite Timeseries Ensemble** (IBM Research) verified on 2026-10-22
