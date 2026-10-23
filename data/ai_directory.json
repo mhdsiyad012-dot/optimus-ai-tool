@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-23T16:56:30Z",
-  "total_organizations": 24,
-  "total_tools": 72,
+  "last_updated": "2026-10-23T21:05:08Z",
+  "total_organizations": 25,
+  "total_tools": 77,
   "organizations": [
     {
       "id": "google",
@@ -485,26 +485,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "Daybreak is OpenAI's cyber-capable AI model used to help identify and address security vulnerabilities in critical systems.",
+          "short_description": "An upcoming frontier model utilized by OpenAI for red-teaming containment infrastructure and evaluating security boundaries during training runs.",
           "key_features": [
-            "Autonomous testing",
             "Scalable knowledge layer integration",
-            "Contextual precedent and research retrieval",
+            "Parallel exploration of attack vectors",
             "AI safety",
-            "International safety partnerships",
-            "Automated request classification and prioritization"
+            "Automated request classification and prioritization",
+            "Autonomous testing",
+            "Used to probe vulnerabilities in research infrastructure"
           ],
           "tags": [
-            "nlp",
-            "ai-safety",
-            "cybersecurity",
-            "enterprise",
-            "llm",
             "legaltech",
-            "frontier-ai",
-            "ai"
+            "ai",
+            "infrastructure",
+            "ai-safety",
+            "frontier-model",
+            "enterprise",
+            "nlp",
+            "security"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2025-10-01"
         },
         {
           "id": "openai-presence",
@@ -1353,6 +1353,31 @@
             "timeseries"
           ],
           "last_verified": "2026-10-23"
+        },
+        {
+          "id": "hugging-face-ai-heat-map-powered-by-over-120-data-feeds",
+          "name": "AI Heat Map powered by over 120 data feeds",
+          "parent_org": "Hugging Face",
+          "category": "Search & Research",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://ai-news.jagular.io/",
+          "short_description": "Title: what's heating up in AI",
+          "key_features": [
+            "Automated AI capabilities powered by Hugging Face",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "heat",
+            "map",
+            "powered",
+            "over",
+            "120",
+            "data"
+          ],
+          "last_verified": "2026-10-23"
         }
       ]
     },
@@ -1825,6 +1850,83 @@
             "image"
           ],
           "last_verified": "2026-10-23"
+        },
+        {
+          "id": "independent-ai-data-footprint-tracker-audit-what-your-ai-tools-hold-offline",
+          "name": "AI Data Footprint Tracker – audit what your AI tools hold, offline",
+          "parent_org": "Independent",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://theaioperatorstore.gumroad.com/l/womuyx",
+          "short_description": "Title: The AI Operator's AI Data Footprint Tracker ($5)",
+          "key_features": [
+            "Prompt Privacy Guard — Scan & Redact PII Before You Paste Into AI ($7) — redact sensitive data before it ever reaches an AI tool, then track what the tools hold in this tracker: [https://theaioperatorstore.gumroad.com/l/aucfa](https://theaioperatorstore.gumroad.com/l/aucfa)",
+            "The AI Operator's AI Privacy Playbook ($7) — the full privacy playbook for your AI workflows; this tracker is its hands-on companion: [https://theaioperatorstore.gumroad.com/l/ai-privacy-playbook](https://theaioperatorstore.gumroad.com/l/ai-privacy-playbook)",
+            "The AI Operator's Money Leak Finder ($5) — the same audit-everything discipline for your money: find $200–$500/month in leaks: [https://theaioperatorstore.gumroad.com/l/rjofb](https://theaioperatorstore.gumroad.com/l/rjofb)"
+          ],
+          "tags": [
+            "data",
+            "footprint",
+            "tracker",
+            "audit",
+            "what",
+            "your"
+          ],
+          "last_verified": "2026-10-23"
+        },
+        {
+          "id": "independent-ai-prompt-chain-builder-offline-multi-step-prompt-workflows",
+          "name": "AI Prompt Chain Builder – offline multi-step prompt workflows",
+          "parent_org": "Independent",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://theaioperatorstore.gumroad.com/l/kjxamb",
+          "short_description": "Title: The AI Operator's AI Prompt Chain Builder ($5)",
+          "key_features": [
+            "Prompt Vault — Stop Losing Your Best AI Prompts ($7) — store your best single prompts in the Vault, then wire the winners into multi-step chains here: [https://theaioperatorstore.gumroad.com/l/flfhis](https://theaioperatorstore.gumroad.com/l/flfhis)",
+            "The AI Operator's Claude Skill Builder Studio ($7) — build reusable Claude Skills from the chains you perfect in this builder: [https://theaioperatorstore.gumroad.com/l/tkaxtw](https://theaioperatorstore.gumroad.com/l/tkaxtw)",
+            "Which Prompt + Model Actually Wins? — AI Prompt Testing Lab ($7) — test which prompt version wins, then chain the winner into your workflow: [https://theaioperatorstore.gumroad.com/l/qexxhc](https://theaioperatorstore.gumroad.com/l/qexxhc)"
+          ],
+          "tags": [
+            "prompt",
+            "chain",
+            "builder",
+            "offline",
+            "multistep",
+            "prompt"
+          ],
+          "last_verified": "2026-10-23"
+        },
+        {
+          "id": "independent-respan-yc-w24-open-source-rust-ai-gateway-built-around-plugins",
+          "name": "Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+          "parent_org": "Independent",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://news.ycombinator.com/item",
+          "short_description": "Page content could not be fully loaded from https://news",
+          "key_features": [
+            "Streamlined developer workflow and production integration",
+            "Automated AI capabilities powered by Independent",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "that",
+            "for",
+            "yc",
+            "respan",
+            "rust",
+            "opensource",
+            "f24",
+            "gateway"
+          ],
+          "last_verified": "2026-10-23"
         }
       ]
     },
@@ -2130,6 +2232,47 @@
             "yc-f24"
           ],
           "last_verified": "2025-04-05"
+        }
+      ]
+    },
+    {
+      "id": "boba",
+      "name": "Boba",
+      "website": "https://boba.app/",
+      "description": "Boba is an AI assistant providing social intelligence for goals, habits, group chats, and family planning through SMS/RCS messaging.",
+      "logo_symbol": "boba",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "boba-ai-assistant",
+          "name": "Boba",
+          "parent_org": "Boba",
+          "category": "Productivity & Office",
+          "release_date": "2025-11-15",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://boba.app/",
+          "short_description": "An AI assistant that plans, books, reminds, and tracks goals and group chats via SMS/RCS messaging, understanding people and social dynamics.",
+          "key_features": [
+            "Group chat intelligence (stays quiet during normal chatter, speaks up when helpful)",
+            "Goal tracking and habit reminders",
+            "Web research (prices, hours, routes, reviews)",
+            "Email integration (Gmail/Outlook) with draft replies",
+            "Calendar booking and trip planning",
+            "Memory (remembers plans, preferences, people)"
+          ],
+          "tags": [
+            "group-chat",
+            "sms",
+            "ai-assistant",
+            "social-intelligence",
+            "goal-tracking"
+          ],
+          "last_verified": "2025-11-15"
         }
       ]
     }
