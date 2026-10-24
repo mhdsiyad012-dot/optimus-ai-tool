@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-24T03:33:17Z",
-  "total_organizations": 28,
-  "total_tools": 81,
+  "last_updated": "2026-10-24T10:26:39Z",
+  "total_organizations": 33,
+  "total_tools": 87,
   "organizations": [
     {
       "id": "google",
@@ -485,26 +485,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "Leading AI language model provider collaborating with NASK on global AI safety and security research.",
+          "short_description": "A specialized access program providing cyber-capable models to defenders to identify security vulnerabilities and strengthen digital resilience.",
           "key_features": [
+            "Security research support",
+            "Threat mitigation",
             "Scalable knowledge layer integration",
             "Advanced large language models",
             "Parallel exploration of attack vectors",
-            "Global standards development for frontier AI",
-            "Automated request classification and prioritization",
-            "AI safety"
+            "Automated request classification and prioritization"
           ],
           "tags": [
-            "nlp",
-            "frontier-model",
-            "infrastructure",
-            "ai",
+            "enterprise",
             "security",
-            "llms",
+            "vulnerability-research",
+            "infrastructure",
+            "threat-intelligence",
+            "ai",
             "ai-safety",
-            "enterprise"
+            "nlp"
           ],
-          "last_verified": "2026-01-15"
+          "last_verified": "2024-05-22"
         },
         {
           "id": "openai-presence",
@@ -590,6 +590,32 @@
             "openai"
           ],
           "last_verified": "2026-01-01"
+        },
+        {
+          "id": "openai-securing-our-frontier-model-training-environment",
+          "name": "Securing our frontier model training environment",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2026-10-24",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "short_description": "Title: Securing our frontier model training environment",
+          "key_features": [
+            "**Reach the live internet:** send a request to an external server that we operate.",
+            "**Cross an internal security boundary:** demonstrate unauthorized access to resources outside their permitted environment.",
+            "**Communicate across isolation boundaries:** exchange information with other agents from which they should be isolated.",
+            "**Improving virtual machine security.** We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several microVM projects."
+          ],
+          "tags": [
+            "securing",
+            "our",
+            "frontier",
+            "model",
+            "training",
+            "environment"
+          ],
+          "last_verified": "2026-10-24"
         }
       ]
     },
@@ -933,24 +959,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/microsoft/thinkingbox-training",
-          "short_description": "An open-source post-training framework that converts executable database-state checks into RL rewards, enabling agents to improve repeatable success on database-grading tasks via GRPO fine-tuning.",
+          "short_description": "A framework for post-training AI agents using executable database state checks as reinforcement learning rewards, enabling models to improve reliability on complex tasks without human-labeled data.",
           "key_features": [
             "ThinkingBox-Bench 507-task benchmark integration",
-            "Implements offline policy-relative difficulty to select suitable training tasks",
-            "GRPO fine-tuning pipeline for agent reliability",
             "Uses offline policy-relative difficulty to curate training tasks",
-            "Deterministic rewards with optional LLM judge rubrics",
-            "Converts executable database state checks into RL reward signals"
+            "Implements offline policy-relative difficulty to select suitable training tasks",
+            "Integration with ThinkingBox-Bench evaluation",
+            "Converts executable database state checks into RL reward signals",
+            "Executable terminal-state rewards"
           ],
           "tags": [
-            "llm-fine-tuning",
-            "grpo",
-            "open-source",
-            "rl",
-            "post-training",
-            "database-grading",
+            "microsoft",
             "reinforcement-learning",
-            "agent-training"
+            "grpo",
+            "agent-training",
+            "llm-fine-tuning",
+            "hugging-face",
+            "open-source",
+            "database-grading"
           ],
           "last_verified": "2026-10-22"
         },
@@ -2412,6 +2438,192 @@
             "efficiency"
           ],
           "last_verified": "2026-04-06"
+        }
+      ]
+    },
+    {
+      "id": "forensicdbg",
+      "name": "ForensicDbg",
+      "website": "https://www.forensicdbg.com",
+      "description": "ForensicDbg is a post-mortem debugging platform designed to enhance AI crash analysis and automation for Windows developers.",
+      "logo_symbol": "forensicdbg",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "forensicdbg-forensicdbg",
+          "name": "ForensicDbg",
+          "parent_org": "ForensicDbg",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.forensicdbg.com",
+          "short_description": "ForensicDbg is a purpose-built post-mortem debugger for Windows that integrates with AI models like Claude to accurately analyze crash dumps, identify root causes, and suggest specific fixes, enabling AI agents to automate debugging workflows efficiently.",
+          "key_features": [
+            "AI-integrated crash dump analysis",
+            "MCP server for seamless Claude Code integration",
+            "Enriched crash data foundation for improved accuracy",
+            "Support for real-world and synthetic crash scenarios"
+          ],
+          "tags": [
+            "debugging",
+            "crash-analysis",
+            "ai-agents",
+            "developer-tools"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "svnscha",
+      "name": "svnscha",
+      "website": "https://www.forensicdbg.com",
+      "description": "ForensicDbg is a post-mortem debugging platform designed to enhance AI crash analysis and automation for Windows developers.",
+      "logo_symbol": "svnscha",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "svnscha-mcp-windbg",
+          "name": "mcp-windbg",
+          "parent_org": "svnscha",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/svnscha/mcp-windbg",
+          "short_description": "mcp-windbg is an open-source MCP server that bridges AI models with the Windows Debugger (CDB), enabling accurate crash dump analysis and actionable fix suggestions for AI agents.",
+          "key_features": [
+            "Open-source MIT-licensed bridging",
+            "Integration with CDB and WinDbg CLI",
+            "AI model compatibility for crash analysis",
+            "Lightweight MCP server deployment"
+          ],
+          "tags": [
+            "open-source",
+            "debugging",
+            "mcp-server",
+            "ai-integration"
+          ],
+          "last_verified": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "kouh",
+      "name": "Kouh",
+      "website": "https://kouh.me",
+      "description": "Kouh is a developer-focused company that builds free AI tools.",
+      "logo_symbol": "kouh",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "kouh-ai-text-detector",
+          "name": "AI Text Detector",
+          "parent_org": "Kouh",
+          "category": "Search & Research",
+          "release_date": "2026-10-23",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://kouh.me/ai-text-detector",
+          "short_description": "A private, unlimited, free AI text detector that analyzes text in-browser to provide an AI score and highlight AI‑generated passages.",
+          "key_features": [
+            "Runs entirely in-browser with no data upload",
+            "Highlights AI‑generated passages",
+            "Provides overall AI percentage and confidence level",
+            "No length limit on input text"
+          ],
+          "tags": [
+            "ai",
+            "text-detection",
+            "privacy",
+            "free"
+          ],
+          "last_verified": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "1password",
+      "name": "1Password",
+      "website": "https://1password.com/",
+      "description": "1Password is a renowned digital security company specializing in password management, secrets security, and identity access management for teams and enterprises.",
+      "logo_symbol": "1password",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "1password-for-agents",
+          "name": "1Password for Agents",
+          "parent_org": "1Password",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.producthunt.com/products/1password",
+          "short_description": "A robust security solution by 1Password designed to securely manage, inject, and rotate API keys and secrets for autonomous AI agents during execution.",
+          "key_features": [
+            "Secure vault for agent-specific credentials",
+            "Programmatic secret injection into agent workflows",
+            "Role-based access control for AI agents",
+            "Comprehensive activity auditing for agent actions"
+          ],
+          "tags": [
+            "security",
+            "secrets-management",
+            "ai-agents",
+            "productivity"
+          ],
+          "last_verified": "2024-11-20"
+        }
+      ]
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "website": "https://www.producthunt.com/products/gerty",
+      "description": "The parent organization behind Gerty could not be determined from the available metadata and blocked content.",
+      "logo_symbol": "unknown",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "gerty",
+          "name": "Gerty",
+          "parent_org": "Unknown",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-03",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/gerty",
+          "short_description": "Gerty is an AI tool listed on Product Hunt. Specific details, features, and pricing could not be verified due to CAPTCHA access restrictions on the source page.",
+          "key_features": [
+            "Information unavailable due to access restrictions"
+          ],
+          "tags": [
+            "ai",
+            "product-hunt",
+            "chatbot"
+          ],
+          "last_verified": "2024-03-21"
         }
       ]
     }
