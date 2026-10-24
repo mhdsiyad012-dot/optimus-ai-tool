@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-23T21:05:08Z",
-  "total_organizations": 25,
-  "total_tools": 77,
+  "last_updated": "2026-10-24T03:33:17Z",
+  "total_organizations": 28,
+  "total_tools": 81,
   "organizations": [
     {
       "id": "google",
@@ -485,26 +485,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "An upcoming frontier model utilized by OpenAI for red-teaming containment infrastructure and evaluating security boundaries during training runs.",
+          "short_description": "Leading AI language model provider collaborating with NASK on global AI safety and security research.",
           "key_features": [
             "Scalable knowledge layer integration",
+            "Advanced large language models",
             "Parallel exploration of attack vectors",
-            "AI safety",
+            "Global standards development for frontier AI",
             "Automated request classification and prioritization",
-            "Autonomous testing",
-            "Used to probe vulnerabilities in research infrastructure"
+            "AI safety"
           ],
           "tags": [
-            "legaltech",
-            "ai",
-            "infrastructure",
-            "ai-safety",
-            "frontier-model",
-            "enterprise",
             "nlp",
-            "security"
+            "frontier-model",
+            "infrastructure",
+            "ai",
+            "security",
+            "llms",
+            "ai-safety",
+            "enterprise"
           ],
-          "last_verified": "2025-10-01"
+          "last_verified": "2026-01-15"
         },
         {
           "id": "openai-presence",
@@ -933,24 +933,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/microsoft/thinkingbox-training",
-          "short_description": "ThinkingBox-Training converts executable terminal database state checks into reinforcement learning rewards for post-training AI agents, using GRPO fine-tuning to significantly improve repeatable task success and dependability on backend tool-use workflows.",
+          "short_description": "An open-source post-training framework that converts executable database-state checks into RL rewards, enabling agents to improve repeatable success on database-grading tasks via GRPO fine-tuning.",
           "key_features": [
-            "Provides shared interpretation code for consistent reward measurement",
-            "Converts executable database state checks into RL reward signals",
             "ThinkingBox-Bench 507-task benchmark integration",
-            "Deterministic rewards with optional LLM judge rubrics",
+            "Implements offline policy-relative difficulty to select suitable training tasks",
+            "GRPO fine-tuning pipeline for agent reliability",
             "Uses offline policy-relative difficulty to curate training tasks",
-            "GRPO fine-tuning pipeline for agent reliability"
+            "Deterministic rewards with optional LLM judge rubrics",
+            "Converts executable database state checks into RL reward signals"
           ],
           "tags": [
-            "open-source",
-            "agent-training",
-            "reinforcement-learning",
-            "database-grading",
-            "grpo",
             "llm-fine-tuning",
-            "autonomous-agents",
-            "rl"
+            "grpo",
+            "open-source",
+            "rl",
+            "post-training",
+            "database-grading",
+            "reinforcement-learning",
+            "agent-training"
           ],
           "last_verified": "2026-10-22"
         },
@@ -1378,6 +1378,31 @@
             "data"
           ],
           "last_verified": "2026-10-23"
+        },
+        {
+          "id": "hugging-face-does-your-model-run-on-aws-trainium-look-it-up",
+          "name": "Does Your Model Run on AWS Trainium? Look It Up",
+          "parent_org": "Hugging Face",
+          "category": "Image Generation",
+          "release_date": "2026-10-24",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/torch-neuronx-model-support",
+          "short_description": "Title: Does Your Model Run on AWS Trainium? Look It Up",
+          "key_features": [
+            "Automated AI capabilities powered by Hugging Face",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "does",
+            "your",
+            "model",
+            "run",
+            "aws",
+            "trainium"
+          ],
+          "last_verified": "2026-10-24"
         }
       ]
     },
@@ -2273,6 +2298,120 @@
             "goal-tracking"
           ],
           "last_verified": "2025-11-15"
+        }
+      ]
+    },
+    {
+      "id": "nask",
+      "name": "NASK",
+      "website": "https://openai.com",
+      "description": "OpenAI is a leading artificial intelligence company known for developing advanced language models and promoting safe AI deployment globally.",
+      "logo_symbol": "nask",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "nask",
+          "name": "NASK (National Research Institute of Science and Technology)",
+          "parent_org": "NASK",
+          "category": "Search & Research",
+          "release_date": "2026-10-24",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://nask.pl",
+          "short_description": "Polish national research institute specializing in AI safety, cybersecurity, and digital ecosystem protection.",
+          "key_features": [
+            "AI safety research center",
+            "Cybersecurity expertise",
+            "Digital infrastructure protection",
+            "International collaboration on AI governance"
+          ],
+          "tags": [
+            "ai-safety",
+            "cybersecurity",
+            "poland",
+            "research"
+          ],
+          "last_verified": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "id": "fal-ai",
+      "name": "Fal AI",
+      "website": "https://fal.ai",
+      "description": "Fal AI is a cloud platform for deploying and serving leading generative AI models, including state-of-the-art image generation models.",
+      "logo_symbol": "fal-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Image"
+      ],
+      "tools": [
+        {
+          "id": "fal-ai-flux-3-max",
+          "name": "FLUX 3 Max",
+          "parent_org": "Fal AI",
+          "category": "Image Generation",
+          "release_date": "2025-09-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://fal.ai",
+          "short_description": "FLUX 3 Max is Fal AI's advanced image generation model, delivering high-fidelity text-to-image creation with scalable API access for creative and production workloads.",
+          "key_features": [
+            "High-quality text-to-image generation",
+            "High-resolution image output",
+            "Fast inference through Fal.ai API"
+          ],
+          "tags": [
+            "image-generation",
+            "text-to-image",
+            "generative-ai",
+            "fal-ai"
+          ],
+          "last_verified": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "id": "inyon",
+      "name": "Inyon",
+      "website": "https://www.producthunt.com",
+      "description": "Inyon is a productivity software platform focused on optimizing user workflows and task management through intelligent automation and customizable interfaces.",
+      "logo_symbol": "inyon",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "inyon",
+          "name": "Inyon",
+          "parent_org": "Inyon",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/inyon",
+          "short_description": "A productivity and workflow optimization platform designed to help users streamline their daily tasks and improve overall efficiency through automated task management and customizable workflows.",
+          "key_features": [
+            "Automated task automation",
+            "Customizable workflow templates",
+            "Cross-platform synchronization",
+            "Integrated project management"
+          ],
+          "tags": [
+            "productivity",
+            "workflow",
+            "automation",
+            "task-management",
+            "efficiency"
+          ],
+          "last_verified": "2026-04-06"
         }
       ]
     }
