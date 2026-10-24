@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-24T15:38:29Z",
+  "last_updated": "2026-10-24T20:20:04Z",
   "total_organizations": 34,
-  "total_tools": 89,
+  "total_tools": 91,
   "organizations": [
     {
       "id": "google",
@@ -616,6 +616,32 @@
             "environment"
           ],
           "last_verified": "2026-10-24"
+        },
+        {
+          "id": "openai-openai-nask-ai-safety-research-collaboration",
+          "name": "OpenAI-NASK AI Safety Research Collaboration",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2024-07",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "short_description": "OpenAI and Poland's NASK National Research Institute partner to advance AI safety and security through collaborative technical research, vulnerability identification, and safeguard strengthening for advanced AI systems.",
+          "key_features": [
+            "AI safety research collaboration",
+            "Vulnerability identification in AI systems",
+            "Safeguard evaluation and strengthening",
+            "International AI safety standards development"
+          ],
+          "tags": [
+            "ai-safety",
+            "research-partnership",
+            "nask",
+            "poland",
+            "cybersecurity",
+            "frontier-ai"
+          ],
+          "last_verified": "2024-07-01"
         }
       ]
     },
@@ -1427,6 +1453,32 @@
             "run",
             "aws",
             "trainium"
+          ],
+          "last_verified": "2026-10-24"
+        },
+        {
+          "id": "hugging-face-turning-database-grading-into-rl-rewards-post-training-agents-with-thinkingbox",
+          "name": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+          "parent_org": "Hugging Face",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-24",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+          "short_description": "Title: Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+          "key_features": [
+            "**Rarely solved [0, 0.08):** drop",
+            "**Difficult [0.08, 0.40):** keep",
+            "**Intermediate [0.40, 0.60):** keep",
+            "**Frequently solved [0.60, 0.90):** keep for full-parameter RLFT"
+          ],
+          "tags": [
+            "turning",
+            "database",
+            "grading",
+            "into",
+            "rewards",
+            "posttraining"
           ],
           "last_verified": "2026-10-24"
         }
