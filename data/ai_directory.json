@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-24T10:26:39Z",
-  "total_organizations": 33,
-  "total_tools": 87,
+  "last_updated": "2026-10-24T15:38:29Z",
+  "total_organizations": 34,
+  "total_tools": 89,
   "organizations": [
     {
       "id": "google",
@@ -956,27 +956,27 @@
           "parent_org": "Microsoft",
           "category": "Autonomous Agents & Coding",
           "release_date": "2026-10",
-          "status": "Active",
+          "status": "Beta",
           "pricing": "Open Source",
           "official_url": "https://github.com/microsoft/thinkingbox-training",
-          "short_description": "A framework for post-training AI agents using executable database state checks as reinforcement learning rewards, enabling models to improve reliability on complex tasks without human-labeled data.",
+          "short_description": "ThinkingBox Training turns executable terminal database-state checks into reinforcement learning rewards for post-training autonomous agents, improving repeatable task success.",
           "key_features": [
-            "ThinkingBox-Bench 507-task benchmark integration",
-            "Uses offline policy-relative difficulty to curate training tasks",
-            "Implements offline policy-relative difficulty to select suitable training tasks",
-            "Integration with ThinkingBox-Bench evaluation",
+            "ThinkingBox-Bench evaluation and shared output interpretation",
             "Converts executable database state checks into RL reward signals",
-            "Executable terminal-state rewards"
+            "Implements offline policy-relative difficulty to select suitable training tasks",
+            "Offline policy-relative difficulty task selection",
+            "ThinkingBox-Bench 507-task benchmark integration",
+            "GRPO fine-tuning with token-mean loss"
           ],
           "tags": [
-            "microsoft",
-            "reinforcement-learning",
-            "grpo",
-            "agent-training",
-            "llm-fine-tuning",
             "hugging-face",
+            "database-grading",
             "open-source",
-            "database-grading"
+            "llm-fine-tuning",
+            "grpo",
+            "tool-use",
+            "benchmark",
+            "microsoft"
           ],
           "last_verified": "2026-10-22"
         },
@@ -1978,6 +1978,30 @@
             "gateway"
           ],
           "last_verified": "2026-10-23"
+        },
+        {
+          "id": "independent-ai-crash-debugging-gauntlet",
+          "name": "AI Crash Debugging Gauntlet",
+          "parent_org": "Independent",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-24",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://www.forensicdbg.com/post/forensicdbg-s-ai-crash-debugging-gauntlet",
+          "short_description": "Title: ForensicDbg's AI Crash Debugging Gauntlet",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "crash",
+            "debugging",
+            "gauntlet",
+            "independent",
+            "autonomous"
+          ],
+          "last_verified": "2026-10-24"
         }
       ]
     },
@@ -2383,22 +2407,27 @@
           "parent_org": "Fal AI",
           "category": "Image Generation",
           "release_date": "2025-09-01",
-          "status": "Beta",
+          "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://fal.ai",
-          "short_description": "FLUX 3 Max is Fal AI's advanced image generation model, delivering high-fidelity text-to-image creation with scalable API access for creative and production workloads.",
+          "short_description": "FLUX 3 Max is a high-performance text-to-image generation model developed by Fal.ai, offering enhanced detail, faster inference, and improved prompt adherence for creators and developers.",
           "key_features": [
-            "High-quality text-to-image generation",
+            "Fast inference speeds",
+            "Developer-friendly API integration",
             "High-resolution image output",
+            "Advanced prompt understanding",
+            "High-quality text-to-image generation",
             "Fast inference through Fal.ai API"
           ],
           "tags": [
-            "image-generation",
+            "ai-art",
             "text-to-image",
-            "generative-ai",
-            "fal-ai"
+            "fal-ai",
+            "api",
+            "image-generation",
+            "generative-ai"
           ],
-          "last_verified": "2025-09-01"
+          "last_verified": "2025-04-05"
         }
       ]
     },
@@ -2624,6 +2653,44 @@
             "chatbot"
           ],
           "last_verified": "2024-03-21"
+        }
+      ]
+    },
+    {
+      "id": "sideos",
+      "name": "sideOS",
+      "website": "https://sideos.ai",
+      "description": "sideOS is an AI-focused company building productivity tools for modern teams.",
+      "logo_symbol": "sideos",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "sideos-ai",
+          "name": "sideOS.ai",
+          "parent_org": "sideOS",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/sideos-ai",
+          "short_description": "sideOS.ai is an AI-powered productivity platform designed to streamline workflows and enhance team collaboration through intelligent automation.",
+          "key_features": [
+            "AI-driven task automation",
+            "Smart workflow optimization",
+            "Team collaboration tools",
+            "Integration with popular productivity apps"
+          ],
+          "tags": [
+            "productivity",
+            "ai-automation",
+            "team-collaboration",
+            "workflow-management"
+          ],
+          "last_verified": "2025-01-15"
         }
       ]
     }
