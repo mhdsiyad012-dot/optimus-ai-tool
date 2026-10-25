@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-24T20:20:04Z",
-  "total_organizations": 34,
-  "total_tools": 91,
+  "last_updated": "2026-10-25T03:28:24Z",
+  "total_organizations": 39,
+  "total_tools": 96,
   "organizations": [
     {
       "id": "google",
@@ -2743,6 +2743,206 @@
             "workflow-management"
           ],
           "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "jagular",
+      "name": "Jagular",
+      "website": "https://ai.jagular.io/",
+      "description": "Jagular is an independent AI project that created an interactive heat map tool to visualize AI company and model attention across news sources.",
+      "logo_symbol": "jagular",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "jagular-ai-heat-map",
+          "name": "AI Heat Map",
+          "parent_org": "Jagular",
+          "category": "Search & Research",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://ai.jagular.io/",
+          "short_description": "An interactive map of AI companies, models, products, people, hardware and ideas that are getting the most attention in AI news and developer communities.",
+          "key_features": [
+            "Real-time tracking of AI entity attention across 140+ news feeds",
+            "Heat map visualization with 24-hour half-life decay",
+            "Source aggregation from Hacker News, GitHub, Hugging Face, arXiv, and other AI sources",
+            "Topic-based visualization with connected entity networks"
+          ],
+          "tags": [
+            "ai",
+            "heat-map",
+            "news-aggregator",
+            "entity-tracking",
+            "developer-community"
+          ],
+          "last_verified": "2024-01-15"
+        }
+      ]
+    },
+    {
+      "id": "ai-senatus",
+      "name": "AI SENATUS",
+      "website": "https://aisenatus.com",
+      "description": "AI SENATUS operates a live autonomous agent platform simulating a legislative chamber of 100 AI senators that debate, research, and vote on policy issues in public.",
+      "logo_symbol": "ai-senatus",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "ai-senatus-ai-senate",
+          "name": "AI SENATUS",
+          "parent_org": "AI SENATUS",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://aisenatus.com",
+          "short_description": "A live autonomous agent platform where 100 AI senators with distinct personas debate real policy measures, cite sources, propose solutions, and vote on the public record. Users can submit topics for the chamber to debate.",
+          "key_features": [
+            "100 autonomous AI senators with unique personas and expertise areas",
+            "Live policy debates with sourced arguments and real-time voting",
+            "Public legislative record including speeches, votes, and outcomes",
+            "User-submitted topics for chamber consideration (first submission free)",
+            "Tribunal system for adjudicating cases across companies, products, and personalities",
+            "Committees, blocs, and alliances simulating legislative structures"
+          ],
+          "tags": [
+            "autonomous-agents",
+            "policy-simulation",
+            "multi-agent-system",
+            "civic-tech",
+            "ai-governance",
+            "live-debate",
+            "public-record"
+          ],
+          "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "ai-trend-video",
+      "name": "AI Trend Video",
+      "website": "https://aitrendvideo.net/",
+      "description": "AI Trend Video is an independent online tool that generates viral AI video trends from user-uploaded photos, operating as a browser-based service without app downloads.",
+      "logo_symbol": "ai-trend-video",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Video"
+      ],
+      "tools": [
+        {
+          "id": "aitrendvideo-ai-trend-video",
+          "name": "AI Trend Video",
+          "parent_org": "AI Trend Video",
+          "category": "Video & Animation",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://aitrendvideo.net/",
+          "short_description": "An online AI video generator that lets users create viral TikTok, Reels, and Shorts trends by uploading a single photo into pre-built templates, producing watermark-free MP4 videos in minutes with no prompts or editing required.",
+          "key_features": [
+            "Viral AI video templates including dance, rap, memes, and car stunts",
+            "No prompts needed — just upload a clear front-facing photo",
+            "9:16 vertical format optimized for TikTok, Reels, and Shorts",
+            "Custom templates from your own video clips with creator plans"
+          ],
+          "tags": [
+            "ai-video",
+            "viral-video",
+            "tiktok",
+            "reels",
+            "shorts",
+            "ai-generator",
+            "video-templates",
+            "no-prompt"
+          ],
+          "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "enclave-ai",
+      "name": "Enclave AI",
+      "website": "https://enclave.ai",
+      "description": "Enclave AI develops AI‑driven security platforms that automate vulnerability testing and threat detection.",
+      "logo_symbol": "enclave-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "enclave-threat-feed",
+          "name": "Enclave Threat Feed",
+          "parent_org": "Enclave AI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2023-09",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://app.enclave.ai/threat-feed",
+          "short_description": "Enclave Threat Feed uses AI agent swarms to test whether newly disclosed CVEs are exploitable in your environment, providing real‑time security intelligence.",
+          "key_features": [
+            "AI agent swarm CVE exploitation testing",
+            "Real‑time threat feed integration",
+            "Environment‑specific vulnerability validation",
+            "Automated security scanning"
+          ],
+          "tags": [
+            "cve",
+            "security",
+            "ai-agents",
+            "vulnerability-scanning",
+            "threat-intelligence"
+          ],
+          "last_verified": "2024-10-01"
+        }
+      ]
+    },
+    {
+      "id": "monid",
+      "name": "Monid",
+      "website": "https://www.monid.ai",
+      "description": "Monid is an AI startup focused on building autonomous AI agent infrastructure.",
+      "logo_symbol": "monid",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "monid",
+          "name": "Monid",
+          "parent_org": "Monid",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2025-06-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/monid",
+          "short_description": "Monid is an autonomous AI agent platform that enables AI agents to independently plan, execute, and complete complex tasks with minimal human oversight.",
+          "key_features": [
+            "Autonomous task planning and execution",
+            "Multi-agent orchestration",
+            "Tool and API integration"
+          ],
+          "tags": [
+            "ai-agents",
+            "autonomous",
+            "automation",
+            "llm"
+          ],
+          "last_verified": "2025-06-01"
         }
       ]
     }
