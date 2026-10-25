@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-25T10:52:50Z",
-  "total_organizations": 40,
-  "total_tools": 97,
+  "last_updated": "2026-10-25T20:29:48Z",
+  "total_organizations": 42,
+  "total_tools": 100,
   "organizations": [
     {
       "id": "google",
@@ -2054,6 +2054,29 @@
             "autonomous"
           ],
           "last_verified": "2026-10-24"
+        },
+        {
+          "id": "independent-yourcast-2-0",
+          "name": "Yourcast 2.0",
+          "parent_org": "Independent",
+          "category": "Image Generation",
+          "release_date": "2026-10-25",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/yourcast",
+          "short_description": "Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "yourcast",
+            "20",
+            "independent",
+            "image"
+          ],
+          "last_verified": "2026-10-25"
         }
       ]
     },
@@ -2980,6 +3003,80 @@
             "llm"
           ],
           "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "agentgrid-io",
+      "name": "AgentGrid.io",
+      "website": "https://www.producthunt.com/products/agentgrid-io",
+      "description": "AgentGrid.io is a product or company featured on Product Hunt.",
+      "logo_symbol": "agentgrid-io",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "agentgrid-io-agentgrid-io",
+          "name": "AgentGrid.io",
+          "parent_org": "AgentGrid.io",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/agentgrid-io",
+          "short_description": "AgentGrid.io is an AI tool listed on Product Hunt, focused on agent-related workflows and orchestration.",
+          "key_features": [
+            "AI agent management",
+            "Product Hunt listing"
+          ],
+          "tags": [
+            "agents",
+            "producthunt",
+            "automation"
+          ],
+          "last_verified": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "id": "specsight",
+      "name": "Specsight",
+      "website": "https://www.producthunt.com/products/specsight",
+      "description": "Specsight is an AI-driven platform focused on streamlining the documentation process by helping teams create, share, and manage product specifications efficiently.",
+      "logo_symbol": "specsight",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "specsight",
+          "name": "Specsight",
+          "parent_org": "Specsight",
+          "category": "Productivity & Office",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/specsight",
+          "short_description": "Specsight is an AI-powered tool designed to help product managers, designers, and engineers quickly generate clear, comprehensive, and well-structured product and design specifications.",
+          "key_features": [
+            "AI-assisted specification generation",
+            "Collaborative editing and commenting",
+            "Customizable templates for different spec types",
+            "Integration with popular design and project management tools"
+          ],
+          "tags": [
+            "ai",
+            "product-management",
+            "specifications",
+            "productivity",
+            "collaboration"
+          ],
+          "last_verified": "2024-10-24"
         }
       ]
     }
