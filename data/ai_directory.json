@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-25T03:28:24Z",
-  "total_organizations": 39,
-  "total_tools": 96,
+  "last_updated": "2026-10-25T10:52:50Z",
+  "total_organizations": 40,
+  "total_tools": 97,
   "organizations": [
     {
       "id": "google",
@@ -2943,6 +2943,43 @@
             "llm"
           ],
           "last_verified": "2025-06-01"
+        }
+      ]
+    },
+    {
+      "id": "lexmount",
+      "name": "Lexmount",
+      "website": "https://www.lexmount.com",
+      "description": "Lexmount is an AI technology company focused on building AI-powered browser experiences.",
+      "logo_symbol": "lexmount",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "lexmount-moli",
+          "name": "Moli",
+          "parent_org": "Lexmount",
+          "category": "Productivity & Office",
+          "release_date": "2023-11",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/lexmount-browser",
+          "short_description": "Moli is an AI browser assistant from Lexmount designed to let users interact with web content through conversational AI.",
+          "key_features": [
+            "Conversational AI",
+            "Web browsing assistance",
+            "Page understanding"
+          ],
+          "tags": [
+            "ai",
+            "browser",
+            "assistant",
+            "llm"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     }
