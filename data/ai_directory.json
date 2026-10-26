@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-25T20:29:48Z",
-  "total_organizations": 42,
-  "total_tools": 100,
+  "last_updated": "2026-10-26T22:23:38Z",
+  "total_organizations": 44,
+  "total_tools": 105,
   "organizations": [
     {
       "id": "google",
@@ -257,6 +257,32 @@
             "2026"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "google-ai-quest-polar-peaks",
+          "name": "AI Quest: Polar Peaks",
+          "parent_org": "Google",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-26",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+          "short_description": "Google's AI Quest 'Polar Peaks' teaches students ages 11 to 14 AI literacy through interactive brain mapping, data cleaning, and model testing while emphasizing human oversight.",
+          "key_features": [
+            "Interactive AI Quest",
+            "Brain mapping with artificial intelligence",
+            "Data cleaning and model testing",
+            "Emphasis on human oversight",
+            "Teacher training modules"
+          ],
+          "tags": [
+            "ai-literacy",
+            "education",
+            "neuroscience",
+            "ai-ethics",
+            "stem"
+          ],
+          "last_verified": "2026-10-26"
         }
       ]
     },
@@ -429,27 +455,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Free",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's AI coding agent that translates natural language into code, enabling developers to generate, edit, and explain code across dozens of programming languages. Used by FDE teams to build production-grade software engineering workflows.",
+          "short_description": "A high-speed mode in Codex that lets OpenAI engineers investigate incidents, run commands, and automate browser tasks in under 30 seconds, cutting incident investigation from hours to minutes.",
           "key_features": [
-            "Multi-language support",
-            "Natural language to code generation",
-            "Debugging and root cause analysis",
+            "Daily planning and chief-of-staff style assistance",
+            "Code refactoring and technical debt reduction",
+            "Real-time AI responses under 30 seconds",
             "Autonomous code generation",
-            "Custom harnesses and skills",
-            "Integration with development environments via API"
+            "Integration with development environments via API",
+            "Slack-based incident response monitoring"
           ],
           "tags": [
-            "coding-assistant",
-            "code-generation",
             "llm",
+            "coding-assistant",
+            "codex",
+            "code-generation",
+            "ultrafast",
+            "ai-coding-agent",
             "openai",
-            "developer-tools",
-            "coding-agent",
-            "codex"
+            "incident-response"
           ],
-          "last_verified": "2025-08-20"
+          "last_verified": "2025-06-01"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -642,6 +669,56 @@
             "frontier-ai"
           ],
           "last_verified": "2024-07-01"
+        },
+        {
+          "id": "openai-gpt-6-1-sol",
+          "name": "GPT-6.1 Sol",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+          "short_description": "Frontier reasoning model used as the primary model in CodeRabbit's security agent to analyze code changes and surface security risks across complex codebases.",
+          "key_features": [
+            "Cross-file and cross-component behavior analysis",
+            "Security vulnerability detection",
+            "Pull-request change analysis",
+            "Deep repository investigation"
+          ],
+          "tags": [
+            "llm",
+            "frontier-model",
+            "code-security",
+            "reasoning",
+            "openai"
+          ],
+          "last_verified": "2024-01-01"
+        },
+        {
+          "id": "openai-signals-work-activities-data",
+          "name": "OpenAI Signals Work Activities Data",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/signals/data/",
+          "short_description": "A quarterly dataset mapping ChatGPT work-related usage to 165 Intermediate Work Activity (IWA) categories across nearly 100 countries, enabling researchers to study AI's role in the economy and track occupational task trends over time.",
+          "key_features": [
+            "Covers 165 work activity categories (Intermediate Work Activities) across nearly 100 countries",
+            "Quarterly data spanning Q1 2025 through Q3 2026",
+            "Interactive charts for exploring work activities by country and over time",
+            "Privacy-preserving aggregation with statistical noise and withheld small-group results"
+          ],
+          "tags": [
+            "ai-research",
+            "work-activities",
+            "occupational-data",
+            "economic-impact",
+            "open-data"
+          ],
+          "last_verified": "2025-01-01"
         }
       ]
     },
@@ -3077,6 +3154,87 @@
             "collaboration"
           ],
           "last_verified": "2024-10-24"
+        }
+      ]
+    },
+    {
+      "id": "coderabbit",
+      "name": "CodeRabbit",
+      "website": "https://www.coderabbit.ai",
+      "description": "CodeRabbit is an AI-powered code review and security platform that helps engineering teams detect vulnerabilities and improve code quality across complex codebases.",
+      "logo_symbol": "coderabbit",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "coderabbit-coderabbit-secure",
+          "name": "CodeRabbit Secure",
+          "parent_org": "CodeRabbit",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.coderabbit.ai/security",
+          "short_description": "AI-powered security agent that reviews pull requests, performs deep scans across repositories and dependencies, verifies exploits in isolated sandboxes, and drafts fix pull requests for human approval.",
+          "key_features": [
+            "Pull-request security review",
+            "Deep Scan across repositories and dependencies",
+            "Exploit verification in isolated sandbox",
+            "Automated fix PR drafting",
+            "Cross-repository security analysis"
+          ],
+          "tags": [
+            "code-security",
+            "ai-agent",
+            "devsecops",
+            "pull-request",
+            "gpt-6.1-sol"
+          ],
+          "last_verified": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "id": "fanatics",
+      "name": "Fanatics",
+      "website": "https://www.fanatics.com",
+      "description": "Fanatics is a global digital sports platform that operates commerce, collectibles, and betting and gaming experiences for fans.",
+      "logo_symbol": "fanatics",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "fanatics-shop-the-look",
+          "name": "Shop the Look",
+          "parent_org": "Fanatics",
+          "category": "Search & Research",
+          "release_date": "2024-06",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.fanatics.com",
+          "short_description": "An OpenAI-powered merchandise recommendation feature that helps fans complete coordinated game-day outfits by suggesting in-stock items matching their team and style.",
+          "key_features": [
+            "AI-powered coordinated outfit recommendations",
+            "Available across Fanatics.com and official NFL, NBA, MLB, and NHL stores",
+            "Uses enriched product data, team information, and real-time inventory",
+            "Looks refreshed daily as catalogs change"
+          ],
+          "tags": [
+            "e-commerce",
+            "product-recommendations",
+            "sports-merchandise",
+            "openai",
+            "codex",
+            "chatgpt",
+            "fanatics"
+          ],
+          "last_verified": "2024-06-01"
         }
       ]
     }
