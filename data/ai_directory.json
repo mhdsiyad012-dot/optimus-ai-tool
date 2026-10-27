@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-27T03:59:14Z",
+  "last_updated": "2026-10-27T11:49:13Z",
   "total_organizations": 46,
-  "total_tools": 109,
+  "total_tools": 112,
   "organizations": [
     {
       "id": "google",
@@ -455,28 +455,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Paid",
           "official_url": "https://openai.com/codex/",
-          "short_description": "A high-speed mode in Codex that lets OpenAI engineers investigate incidents, run commands, and automate browser tasks in under 30 seconds, cutting incident investigation from hours to minutes.",
+          "short_description": "Codex is OpenAI's code generation model that writes code following a company's existing patterns, reducing bugs and rework when integrated with contextual knowledge bases.",
           "key_features": [
-            "Daily planning and chief-of-staff style assistance",
             "Code refactoring and technical debt reduction",
             "Real-time AI responses under 30 seconds",
-            "Autonomous code generation",
-            "Integration with development environments via API",
-            "Slack-based incident response monitoring"
+            "Context-aware code generation",
+            "Reduced code reverts",
+            "Slack-based incident response monitoring",
+            "Integration via Model Context Protocol"
           ],
           "tags": [
-            "llm",
-            "coding-assistant",
-            "codex",
-            "code-generation",
-            "ultrafast",
-            "ai-coding-agent",
             "openai",
-            "incident-response"
+            "code-generation",
+            "productivity",
+            "mcp",
+            "ai-coding",
+            "incident-response",
+            "llm",
+            "ai-coding-agent"
           ],
-          "last_verified": "2025-06-01"
+          "last_verified": "2024-09-01"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -509,29 +509,29 @@
           "parent_org": "OpenAI",
           "category": "LLMs & Frontier Models",
           "release_date": "2024-01",
-          "status": "Active",
+          "status": "Beta",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "A specialized access program providing cyber-capable models to defenders to identify security vulnerabilities and strengthen digital resilience.",
+          "short_description": "GPT-6 Astra is OpenAI's advanced language model with computer use capabilities, enabling automated code testing and UI interaction to detect bugs at scale.",
           "key_features": [
-            "Security research support",
+            "Visual understanding for screen inspection",
+            "Scalable application testing",
             "Threat mitigation",
-            "Scalable knowledge layer integration",
-            "Advanced large language models",
+            "Security research support",
             "Parallel exploration of attack vectors",
             "Automated request classification and prioritization"
           ],
           "tags": [
-            "enterprise",
-            "security",
-            "vulnerability-research",
-            "infrastructure",
+            "computer-use",
+            "bug-detection",
             "threat-intelligence",
+            "llm",
+            "nlp",
+            "enterprise",
             "ai",
-            "ai-safety",
-            "nlp"
+            "infrastructure"
           ],
-          "last_verified": "2024-05-22"
+          "last_verified": "2025-09-01"
         },
         {
           "id": "openai-presence",
@@ -679,24 +679,24 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-          "short_description": "GPT-6.1 Sol is OpenAI's frontier model that helps CodeRabbit's security agent extend code review across complex codebases and surface security risks.",
+          "short_description": "OpenAI's frontier coding model that helps CodeRabbit Secure investigate complex codebases and surface security issues.",
           "key_features": [
+            "Supports Deep Scan across repositories",
             "Pull-request change analysis",
-            "Cross-file and cross-component behavior analysis",
-            "Connects behavior across files and components",
+            "Extends security review beyond individual changes",
+            "Enables exploit verification in isolated sandbox",
             "Analyzes pull request changes during review",
-            "Deep repository investigation",
-            "Supports Deep Scan across repositories"
+            "Deep repository investigation"
           ],
           "tags": [
-            "llm",
-            "software-development",
-            "gpt-6.1",
-            "security",
-            "frontier-model",
             "openai",
-            "coderabbit",
-            "code-security"
+            "code-security",
+            "security",
+            "ai-coding",
+            "frontier-model",
+            "llm",
+            "gpt-6.1-sol",
+            "software-development"
           ],
           "last_verified": "2026-05-09"
         },
@@ -729,6 +729,64 @@
             "work"
           ],
           "last_verified": "2025-04-05"
+        },
+        {
+          "id": "openai-local-smoothing-kakeya",
+          "name": "Local Smoothing for the Euclidean Wave Equation",
+          "parent_org": "OpenAI",
+          "category": "Reasoning & Math",
+          "release_date": "2026-10-25",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "short_description": "AI-produced rigorous existence proofs for quantum chromodynamics and a unified Standard Model completion, released with academic collaboration and Lean formalization.",
+          "key_features": [
+            "Lean formalization completed October 2026",
+            "Public natural language and Lean formalization",
+            "Partnership with leading physicists as shepherds",
+            "Shepherd model with academic experts for transparency",
+            "ETH refutation and Lean verification",
+            "AI-generated QCD and Yang-Mills existence proofs"
+          ],
+          "tags": [
+            "kakeya-conjecture",
+            "proof-assistant",
+            "standard-model",
+            "constructive-qft",
+            "algorithm-design",
+            "lean",
+            "quantum-field-theory",
+            "mathematics"
+          ],
+          "last_verified": "2026-10-16"
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "short_description": "ChatGPT usage data across 165 work activities in nearly 100 countries, revealing how consumers use AI for work tasks such as programming, marketing content development, and business data analysis.",
+          "key_features": [
+            "165 Intermediate Work Activity (IWA) categories mapped across nearly 100 countries",
+            "Quarterly data spanning Q1 2025 through Q3 2026",
+            "Interactive chart for country-specific exploration of work activities over time",
+            "Integration with O*NET standardized occupational task framework",
+            "Reveals country-level specialization patterns in AI-assisted work"
+          ],
+          "tags": [
+            "chatgpt",
+            "work",
+            "ai",
+            "productivity",
+            "data",
+            "research",
+            "llm"
+          ],
+          "last_verified": "2025-01"
         }
       ]
     },
@@ -2208,6 +2266,28 @@
             "image"
           ],
           "last_verified": "2026-10-27"
+        },
+        {
+          "id": "independent-spacesheep",
+          "name": "Spacesheep",
+          "parent_org": "Independent",
+          "category": "Image Generation",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/spacesheep",
+          "short_description": "Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "spacesheep",
+            "independent",
+            "image"
+          ],
+          "last_verified": "2026-10-27"
         }
       ]
     },
@@ -3354,29 +3434,29 @@
           "parent_org": "Greptile",
           "category": "Autonomous Agents & Coding",
           "release_date": "2024-11-14",
-          "status": "Active",
+          "status": "Beta",
           "pricing": "Freemium",
           "official_url": "https://www.greptile.com/",
-          "short_description": "A security tool that enables startups to build sophisticated defense mechanisms against AI-driven application exploits, leveraging codebase context for targeted protections.",
+          "short_description": "Ultrafast is Greptile's speed optimization platform that accelerates development by leveraging fast inference and efficient model usage to turn ideas into working software quickly.",
           "key_features": [
-            "Automated application testing at scale via browser simulation and visual AI",
-            "Integrates with codebase context for targeted protections",
-            "Safely counter adversarial offense mechanisms",
-            "AI-driven application security defense",
-            "Security hardening capabilities through Daybreak",
-            "Integration with Codex via Model Context Protocol for pattern-following code generation"
+            "Automated vulnerability scanning",
+            "Rapid prototyping",
+            "Seamless integration with existing workflows",
+            "Integration with Codex via Model Context Protocol for pattern-following code generation",
+            "Easy setup for startups",
+            "Real-time threat detection"
           ],
           "tags": [
-            "automated-testing",
-            "ai-agents",
-            "gpt-6-astra",
-            "software-testing",
-            "application-security",
-            "ai-defense",
+            "startup",
             "developer-tools",
-            "code-review"
+            "ai-defense",
+            "code-review",
+            "application-security",
+            "api",
+            "ai-agents",
+            "speed"
           ],
-          "last_verified": "2025-08-28"
+          "last_verified": "2025-09-01"
         }
       ]
     }
