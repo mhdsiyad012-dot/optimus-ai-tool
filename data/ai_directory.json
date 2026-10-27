@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-26T22:23:38Z",
-  "total_organizations": 44,
-  "total_tools": 105,
+  "last_updated": "2026-10-27T03:59:14Z",
+  "total_organizations": 46,
+  "total_tools": 109,
   "organizations": [
     {
       "id": "google",
@@ -679,21 +679,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-          "short_description": "Frontier reasoning model used as the primary model in CodeRabbit's security agent to analyze code changes and surface security risks across complex codebases.",
+          "short_description": "GPT-6.1 Sol is OpenAI's frontier model that helps CodeRabbit's security agent extend code review across complex codebases and surface security risks.",
           "key_features": [
-            "Cross-file and cross-component behavior analysis",
-            "Security vulnerability detection",
             "Pull-request change analysis",
-            "Deep repository investigation"
+            "Cross-file and cross-component behavior analysis",
+            "Connects behavior across files and components",
+            "Analyzes pull request changes during review",
+            "Deep repository investigation",
+            "Supports Deep Scan across repositories"
           ],
           "tags": [
             "llm",
+            "software-development",
+            "gpt-6.1",
+            "security",
             "frontier-model",
-            "code-security",
-            "reasoning",
-            "openai"
+            "openai",
+            "coderabbit",
+            "code-security"
           ],
-          "last_verified": "2024-01-01"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-signals-work-activities-data",
@@ -704,21 +709,26 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://openai.com/signals/data/",
-          "short_description": "A quarterly dataset mapping ChatGPT work-related usage to 165 Intermediate Work Activity (IWA) categories across nearly 100 countries, enabling researchers to study AI's role in the economy and track occupational task trends over time.",
+          "short_description": "A dataset from OpenAI that maps ChatGPT work-related usage to 165 Intermediate Work Activities (IWAs) across nearly 100 countries, enabling researchers to study AI's role in the economy and track occupational task trends over time.",
           "key_features": [
-            "Covers 165 work activity categories (Intermediate Work Activities) across nearly 100 countries",
+            "Quarterly data from Q1 2025 through Q3 2026",
+            "Privacy-preserving aggregation with statistical noise and withheld small-group results",
             "Quarterly data spanning Q1 2025 through Q3 2026",
-            "Interactive charts for exploring work activities by country and over time",
-            "Privacy-preserving aggregation with statistical noise and withheld small-group results"
+            "Covers 165 work activity categories (Intermediate Work Activities) across nearly 100 countries",
+            "Privacy-preserving aggregation with statistical noise and withheld small groups",
+            "Covers 165 work activity categories (IWAs) across nearly 100 countries"
           ],
           "tags": [
-            "ai-research",
+            "occupations",
+            "data",
             "work-activities",
-            "occupational-data",
-            "economic-impact",
-            "open-data"
+            "privacy",
+            "open-data",
+            "ai-research",
+            "research",
+            "work"
           ],
-          "last_verified": "2025-01-01"
+          "last_verified": "2025-04-05"
         }
       ]
     },
@@ -2154,6 +2164,50 @@
             "image"
           ],
           "last_verified": "2026-10-25"
+        },
+        {
+          "id": "independent-vibeide",
+          "name": "VibeiDE",
+          "parent_org": "Independent",
+          "category": "Image Generation",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/vibeide",
+          "short_description": "Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "vibeide",
+            "independent",
+            "image"
+          ],
+          "last_verified": "2026-10-27"
+        },
+        {
+          "id": "independent-kiwi",
+          "name": "Kiwi",
+          "parent_org": "Independent",
+          "category": "Image Generation",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/kiwi-7",
+          "short_description": "Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "kiwi",
+            "independent",
+            "image"
+          ],
+          "last_verified": "2026-10-27"
         }
       ]
     },
@@ -3235,6 +3289,94 @@
             "fanatics"
           ],
           "last_verified": "2024-06-01"
+        }
+      ]
+    },
+    {
+      "id": "novatechflow",
+      "name": "Novatechflow",
+      "website": "https://github.com/novatechflow",
+      "description": "Novatechflow is a developer or organization focused on creating AI safety, privacy, and watermark removal tools.",
+      "logo_symbol": "novatechflow",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "novatechflow-ai-watermark-scrambler",
+          "name": "AI Watermark Scrambler",
+          "parent_org": "Novatechflow",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-02",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/novatechflow/ai-watermark-scrambler",
+          "short_description": "A CLI tool and agent skill that scrambles statistical AI text watermarks by rewriting text with a local model, and strips metadata like C2PA, EXIF, XMP, and invisible Unicode characters.",
+          "key_features": [
+            "Rewrite text to blur statistical watermarks (green-list, SynthID-Text, Claude's embedded watermark)",
+            "Strip invisible Unicode (zero-width, bidi, tag chars, variation selectors)",
+            "Remove metadata: C2PA, EXIF, XMP, document properties on PNG, JPEG, SVG, PDF, DOCX, ODT, HTML, Markdown",
+            "Supports multiple backends: vLLM, Ollama, print-prompt",
+            "Agent skill compatible with Grok, Claude Code, Cursor",
+            "Deterministic Layer A cleaning for Unicode and metadata"
+          ],
+          "tags": [
+            "ai-watermark",
+            "watermark-removal",
+            "metadata-removal",
+            "invisible-unicode",
+            "c2pa",
+            "exif",
+            "xmp",
+            "agent-skills"
+          ],
+          "last_verified": "2026-02-02"
+        }
+      ]
+    },
+    {
+      "id": "greptile",
+      "name": "Greptile",
+      "website": "https://www.greptile.com/",
+      "description": "Greptile builds AI agents that review and test code, enhancing software reliability and security.",
+      "logo_symbol": "greptile",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "greptile-ai-agent-platform",
+          "name": "Greptile AI Agent Platform",
+          "parent_org": "Greptile",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-11-14",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.greptile.com/",
+          "short_description": "A security tool that enables startups to build sophisticated defense mechanisms against AI-driven application exploits, leveraging codebase context for targeted protections.",
+          "key_features": [
+            "Automated application testing at scale via browser simulation and visual AI",
+            "Integrates with codebase context for targeted protections",
+            "Safely counter adversarial offense mechanisms",
+            "AI-driven application security defense",
+            "Security hardening capabilities through Daybreak",
+            "Integration with Codex via Model Context Protocol for pattern-following code generation"
+          ],
+          "tags": [
+            "automated-testing",
+            "ai-agents",
+            "gpt-6-astra",
+            "software-testing",
+            "application-security",
+            "ai-defense",
+            "developer-tools",
+            "code-review"
+          ],
+          "last_verified": "2025-08-28"
         }
       ]
     }
