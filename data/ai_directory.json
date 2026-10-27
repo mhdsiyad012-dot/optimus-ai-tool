@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-27T17:42:35Z",
-  "total_organizations": 51,
-  "total_tools": 122,
+  "last_updated": "2026-10-27T21:59:02Z",
+  "total_organizations": 52,
+  "total_tools": 125,
   "organizations": [
     {
       "id": "google",
@@ -455,28 +455,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://openai.com/codex/",
-          "short_description": "Codex is OpenAI's code generation model that writes code following a company's existing patterns, reducing bugs and rework when integrated with contextual knowledge bases.",
+          "short_description": "OpenAI's coding model that writes code following existing patterns and integrates with knowledge bases via MCP to reduce code reverts and rework.",
           "key_features": [
-            "Code refactoring and technical debt reduction",
-            "Real-time AI responses under 30 seconds",
-            "Context-aware code generation",
             "Reduced code reverts",
-            "Slack-based incident response monitoring",
-            "Integration via Model Context Protocol"
+            "Real-time AI responses under 30 seconds",
+            "Integration with knowledge bases via MCP",
+            "Integration via Model Context Protocol",
+            "Code refactoring and technical debt reduction",
+            "Code generation following existing patterns"
           ],
           "tags": [
-            "openai",
-            "code-generation",
             "productivity",
             "mcp",
-            "ai-coding",
-            "incident-response",
             "llm",
-            "ai-coding-agent"
+            "developer-tools",
+            "openai",
+            "code-generation",
+            "coding-model",
+            "incident-response"
           ],
-          "last_verified": "2024-09-01"
+          "last_verified": "2025-01-15"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -509,29 +509,29 @@
           "parent_org": "OpenAI",
           "category": "LLMs & Frontier Models",
           "release_date": "2024-01",
-          "status": "Beta",
+          "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "GPT-6 Astra is OpenAI's advanced language model with computer use capabilities, enabling automated code testing and UI interaction to detect bugs at scale.",
+          "short_description": "A development acceleration tool designed to speed up the process of turning ideas into working software, reducing development bottlenecks for enterprise applications.",
           "key_features": [
-            "Visual understanding for screen inspection",
-            "Scalable application testing",
-            "Threat mitigation",
+            "Visual understanding and screen inspection",
+            "Safe security testing and validation",
             "Security research support",
-            "Parallel exploration of attack vectors",
-            "Automated request classification and prioritization"
+            "Scalable application testing",
+            "Visual understanding for screen inspection",
+            "Parallel exploration of attack vectors"
           ],
           "tags": [
-            "computer-use",
-            "bug-detection",
-            "threat-intelligence",
-            "llm",
-            "nlp",
             "enterprise",
-            "ai",
-            "infrastructure"
+            "system-protection",
+            "application-testing",
+            "cybersecurity",
+            "enterprise-software",
+            "productivity",
+            "llm",
+            "ai"
           ],
-          "last_verified": "2025-09-01"
+          "last_verified": "2025-01-15"
         },
         {
           "id": "openai-presence",
@@ -787,6 +787,30 @@
             "llm"
           ],
           "last_verified": "2025-01"
+        },
+        {
+          "id": "check-point-daybreak",
+          "name": "Daybreak",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/index/check-point-daybreak",
+          "short_description": "Daybreak is OpenAI's AI tool that rapidly analyzes vulnerabilities, reasons through attack paths, and identifies security gaps in code and configurations, turning research into protections in minutes.",
+          "key_features": [
+            "Fast vulnerability analysis reducing research time from hours to minutes",
+            "Reasoning over attack patterns and exploit pathways",
+            "Automated detection of security gaps in code and configuration files",
+            "Integration with Check Point security workflows for threat prevention"
+          ],
+          "tags": [
+            "vulnerability-research",
+            "cybersecurity",
+            "ai",
+            "code-analysis"
+          ],
+          "last_verified": "2025-09-26"
         }
       ]
     },
@@ -2939,6 +2963,30 @@
             "chatbot"
           ],
           "last_verified": "2024-03-21"
+        },
+        {
+          "id": "unknown-off-grid-ai",
+          "name": "Off Grid AI",
+          "parent_org": "Unknown",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/off-grid-ai",
+          "short_description": "An AI tool designed for off-grid or offline operation, enabling AI capabilities without requiring continuous internet connectivity.",
+          "key_features": [
+            "Offline operation",
+            "Local processing",
+            "Privacy-focused",
+            "Internet-independent AI"
+          ],
+          "tags": [
+            "offline",
+            "local-ai",
+            "privacy",
+            "off-grid"
+          ],
+          "last_verified": "2024-01-01"
         }
       ]
     },
@@ -3566,18 +3614,23 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-          "short_description": "A compact 1.7B parameter multimodal foundation model optimized for on‑device agents, tool calling, and long‑context reasoning with a 256K token window.",
+          "short_description": "A 1.7B parameter text-only foundation model optimized for on-device agents, tool calling, and structured outputs, offering superior performance per parameter.",
           "key_features": [
-            "35% fewer parameters than predecessor while matching or exceeding performance",
             "256K context window for extended reasoning and agentic tasks",
             "Optimized for single‑GPU fine‑tuning and on‑device deployment",
-            "Supports tool calling, structured outputs, and agentic harnesses"
+            "Fine-tunes on a single GPU for domain specialization",
+            "35% fewer parameters than predecessor while matching or exceeding performance",
+            "256K context window for long-context agent tasks",
+            "Tri-hybrid architecture with gated convolutions and attention"
           ],
           "tags": [
-            "multimodal",
             "foundation-model",
+            "text-generation",
+            "llm",
+            "multimodal",
             "edge-ai",
             "agentic",
+            "on-device",
             "open-source"
           ],
           "last_verified": "2026-10-27"
@@ -3591,18 +3644,23 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
-          "short_description": "A 2B parameter vision‑language model that processes text, images, and video on a single GPU, enabling on‑device visual understanding and step‑by‑step reasoning.",
+          "short_description": "A 2B vision-language model that handles text, images, and video, enabling on-device visual reasoning, object detection, and robotics applications.",
           "key_features": [
+            "Step-by-step reasoning before answering",
+            "First LFM vision model with video input",
             "First LFM vision model that accepts video input",
-            "Efficient 1.9B parameters delivering state‑of‑the‑art performance on 62 vision benchmarks",
-            "Single‑GPU fine‑tuning and support for on‑device inference",
-            "Integrated tool calling and visual question answering for robotics"
+            "3x less compute than previous vision encoders",
+            "Integrated tool calling and visual question answering for robotics",
+            "Efficient 1.9B parameters delivering state‑of‑the‑art performance on 62 vision benchmarks"
           ],
           "tags": [
-            "vision-language",
             "video",
+            "vision",
             "multimodal",
+            "vision-language",
             "computer-vision",
+            "on-device",
+            "robotics",
             "open-source"
           ],
           "last_verified": "2026-10-27"
@@ -3616,19 +3674,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
-          "short_description": "A 2B parameter audio‑text model that supports speech recognition, synthesis, translation, and tool calling across 18 languages on edge devices.",
+          "short_description": "A 2B multimodal audio model for voice chat, speech recognition, synthesis, and translation across 18 languages, with low-latency streaming speech output.",
           "key_features": [
-            "In‑house audio encoder for low‑latency pre‑fill (as fast as 50 ms)",
+            "Supports speech-to-tool calls and 18-language translation",
+            "In-house audio encoder and LiquidCodec for high-quality speech",
+            "Single‑GPU fine‑tuning and on‑device voice chat / tool calling",
             "LiquidCodec for real‑time speech synthesis (≈87× real time on Apple M4 Max)",
-            "Multilingual support for 18 languages with high‑quality TTS (UTMOSv2 3.83)",
-            "Single‑GPU fine‑tuning and on‑device voice chat / tool calling"
+            "Causal architecture for prefill while speaking (50ms first token)",
+            "Multilingual support for 18 languages with high‑quality TTS (UTMOSv2 3.83)"
           ],
           "tags": [
-            "speech-recognition",
-            "text-to-speech",
             "multilingual",
             "edge-ai",
-            "open-source"
+            "tts",
+            "text-to-speech",
+            "speech-recognition",
+            "voice",
+            "stt",
+            "speech"
           ],
           "last_verified": "2026-10-27"
         },
@@ -3641,18 +3704,22 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
-          "short_description": "The first unified on‑device model that jointly processes text, images, video, and audio while producing both text and speech, replacing separate ASR, VLM, LLM, and TTS components.",
+          "short_description": "The first omni model in the LFM family, combining text, image, video, and audio inputs with text and speech outputs for on-device multimodal agents.",
           "key_features": [
+            "Beats larger models on audio-visual video understanding benchmarks",
+            "Single‑GPU fine‑tuning and on‑device tool calling for robotics and assistants",
+            "Streaming speech output via LiquidCodec (faster than real time)",
+            "Supports tool calling from spoken and visual inputs",
             "Unified multimodal input (text, vision, audio) and output (text, speech)",
-            "LiquidCodec for sub‑real‑time speech streaming",
-            "Outperforms up to 10.7B parameter models on audio‑visual benchmarks",
-            "Single‑GPU fine‑tuning and on‑device tool calling for robotics and assistants"
+            "Single model for visual, audio, and speech understanding"
           ],
           "tags": [
-            "multimodal",
-            "omni",
             "audio-visual",
+            "multimodal",
             "edge-ai",
+            "omni",
+            "on-device",
+            "speech",
             "open-source"
           ],
           "last_verified": "2026-10-27"
@@ -3666,18 +3733,23 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/LiquidAI/d1-2B",
-          "short_description": "A compact 2B parameter decision model that answers multiple calibrated questions in a single forward pass from text, images, or video, ideal for fast, structured business logic.",
+          "short_description": "A 2B decision model that processes text, images, and video to answer structured questions with calibrated probabilities in a single forward pass.",
           "key_features": [
+            "Can point at objects, read document values, and estimate ranges",
             "Answers several named questions in one pass (yes/no, choice, score, multi‑select)",
-            "Supports multimodal inputs: text, images, video",
             "Calibrated probability outputs for reliable decision confidence",
-            "Single‑GPU fine‑tuning and on‑device deployment for enterprise workflows"
+            "Single‑GPU fine‑tuning and on‑device deployment for enterprise workflows",
+            "Calibrated yes/no, choice, and score outputs",
+            "Answers multiple questions over one input in a single pass"
           ],
           "tags": [
-            "decision-making",
-            "structured-output",
-            "multimodal",
             "productivity",
+            "decision-making",
+            "vision",
+            "multimodal",
+            "reasoning",
+            "structured-output",
+            "decision",
             "open-source"
           ],
           "last_verified": "2026-10-27"
@@ -3691,18 +3763,23 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/LiquidAI/d1-omni-2B",
-          "short_description": "The audio‑enabled version of the d1 decision model, handling voice inputs alongside text, images, and video to provide fast, calibrated answers across modalities.",
+          "short_description": "An omnimodal decision model that handles text, images, video, and audio to produce calibrated structured answers, maintaining accuracy when inputs are spoken.",
           "key_features": [
+            "Extends d1-2B with audio input for voice-based decisions",
+            "Calibrated outputs for yes/no, choice, score, and multi‑select question types",
+            "Suitable for support tickets, invoices, app screens, and voice notes",
             "Adds audio input and speech‑based question answering to the d1 core",
             "Maintains high accuracy while supporting voice queries",
-            "Single‑GPU fine‑tuning and on‑device inference for real‑time decision making",
-            "Calibrated outputs for yes/no, choice, score, and multi‑select question types"
+            "Single-pass calibrated answers for complex multimodal situations"
           ],
           "tags": [
-            "audio",
             "decision-making",
             "multimodal",
+            "audio",
+            "omni",
+            "reasoning",
             "structured-output",
+            "decision",
             "open-source"
           ],
           "last_verified": "2026-10-27"
@@ -3783,6 +3860,44 @@
             "developer-tools"
           ],
           "last_verified": "2024-12-01"
+        }
+      ]
+    },
+    {
+      "id": "pulsedev",
+      "name": "PulseDev",
+      "website": "https://www.producthunt.com/products/pulsedev",
+      "description": "PulseDev is a developer-focused AI tool platform.",
+      "logo_symbol": "pulsedev",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "pulsedev",
+          "name": "PulseDev",
+          "parent_org": "PulseDev",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/pulsedev",
+          "short_description": "PulseDev is an AI-powered development platform that lets developers build, test, and deploy applications using natural language prompts and automated code generation.",
+          "key_features": [
+            "AI code generation",
+            "Real-time collaboration",
+            "IDE integration",
+            "Cloud deployment"
+          ],
+          "tags": [
+            "ai",
+            "development",
+            "productivity",
+            "tool"
+          ],
+          "last_verified": "2025-09-25"
         }
       ]
     }
