@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-27T11:49:13Z",
-  "total_organizations": 46,
-  "total_tools": 112,
+  "last_updated": "2026-10-27T17:42:35Z",
+  "total_organizations": 51,
+  "total_tools": 122,
   "organizations": [
     {
       "id": "google",
@@ -679,26 +679,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-          "short_description": "OpenAI's frontier coding model that helps CodeRabbit Secure investigate complex codebases and surface security issues.",
+          "short_description": "GPT-6.1 Sol is a frontier reasoning model from OpenAI designed to analyze code changes across complex codebases, identify security vulnerabilities, and propose fixes via integration with CodeRabbit's security agent.",
           "key_features": [
-            "Supports Deep Scan across repositories",
-            "Pull-request change analysis",
             "Extends security review beyond individual changes",
-            "Enables exploit verification in isolated sandbox",
+            "Automated pull request drafts with proposed fixes for human review",
             "Analyzes pull request changes during review",
-            "Deep repository investigation"
+            "Supports Deep Scan across repositories",
+            "Exploit verification in isolated sandbox without testing production systems",
+            "Pull-request change analysis"
           ],
           "tags": [
-            "openai",
-            "code-security",
-            "security",
             "ai-coding",
-            "frontier-model",
-            "llm",
+            "security",
             "gpt-6.1-sol",
-            "software-development"
+            "code-review",
+            "vulnerability-detection",
+            "code-security",
+            "software-development",
+            "llm"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2026-10-26"
         },
         {
           "id": "openai-signals-work-activities-data",
@@ -3434,29 +3434,355 @@
           "parent_org": "Greptile",
           "category": "Autonomous Agents & Coding",
           "release_date": "2024-11-14",
-          "status": "Beta",
+          "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://www.greptile.com/",
-          "short_description": "Ultrafast is Greptile's speed optimization platform that accelerates development by leveraging fast inference and efficient model usage to turn ideas into working software quickly.",
+          "short_description": "AI-powered code review and automated application testing agent that leverages full codebase context to detect bugs, simulate user interactions, and reduce AI-generated code reverts.",
           "key_features": [
-            "Automated vulnerability scanning",
-            "Rapid prototyping",
-            "Seamless integration with existing workflows",
-            "Integration with Codex via Model Context Protocol for pattern-following code generation",
             "Easy setup for startups",
-            "Real-time threat detection"
+            "Automated browser-based application testing at scale",
+            "Real-time threat detection",
+            "Model Context Protocol (MCP) integration for pattern-aware code generation",
+            "Rapid prototyping",
+            "Seamless integration with existing workflows"
           ],
           "tags": [
-            "startup",
-            "developer-tools",
-            "ai-defense",
             "code-review",
             "application-security",
-            "api",
+            "gpt-6-astra",
             "ai-agents",
-            "speed"
+            "speed",
+            "startup",
+            "ai-defense",
+            "api"
           ],
-          "last_verified": "2025-09-01"
+          "last_verified": "2024-10-03"
+        }
+      ]
+    },
+    {
+      "id": "heyyeah",
+      "name": "heyyeah",
+      "website": "https://github.com/heyyeah/AI_Compute_Footprint",
+      "description": "heyyeah is an independent creator focused on AI transparency and compute footprint analytics.",
+      "logo_symbol": "heyyeah",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "heyyeah-ai-compute-footprint",
+          "name": "AI Compute Footprint",
+          "parent_org": "heyyeah",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://heyyeah.github.io/AI_Compute_Footprint",
+          "short_description": "An open-source web tool that estimates and visualizes the energy, space, water, and CO₂ footprint of AI compute tasks, benchmarked against everyday activities.",
+          "key_features": [
+            "Estimates AI compute footprint across energy, water, space, and CO₂",
+            "Benchmarks results against everyday human activities (e.g., driving, diet)",
+            "Open-source with transparent assumptions and sources",
+            "Interactive web dashboard accessible without installation"
+          ],
+          "tags": [
+            "ai",
+            "footprint",
+            "sustainability",
+            "compute",
+            "energy",
+            "open-source",
+            "transparency"
+          ],
+          "last_verified": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "website": "https://www.oracle.com",
+      "description": "Oracle is a global cloud technology company providing enterprise software, cloud infrastructure, and hardware solutions.",
+      "logo_symbol": "oracle",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "oracle-ai-workspace",
+          "name": "Oracle AI Workspace",
+          "parent_org": "Oracle",
+          "category": "Productivity & Office",
+          "release_date": "2025-01",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "short_description": "Oracle App Composer enables teams to build custom applications using Codex and AI tools, connect them to approved Oracle data and workflows, and deploy them on Oracle Cloud Infrastructure with built-in governance.",
+          "key_features": [
+            "Natural language querying across enterprise data",
+            "Recurring Oracle Cloud Infrastructure credits",
+            "Organization-wide sharing with permission controls",
+            "Includes ChatGPT Business and Codex access",
+            "Streamlined onboarding and month-end close processes",
+            "Integration with Oracle Cloud Infrastructure security tools"
+          ],
+          "tags": [
+            "codex",
+            "vulnerability-management",
+            "chatgpt-business",
+            "enterprise-ai",
+            "oracle-cloud",
+            "workflow-automation",
+            "governance",
+            "smb"
+          ],
+          "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "liquid-ai",
+      "name": "Liquid AI",
+      "website": "https://liquid.ai",
+      "description": "Liquid AI develops efficient, on‑device foundation models for multimodal intelligence across text, vision, audio, and decision tasks.",
+      "logo_symbol": "liquid-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "liquidai-lfm3-1-7b",
+          "name": "LFM3-1.7B",
+          "parent_org": "Liquid AI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+          "short_description": "A compact 1.7B parameter multimodal foundation model optimized for on‑device agents, tool calling, and long‑context reasoning with a 256K token window.",
+          "key_features": [
+            "35% fewer parameters than predecessor while matching or exceeding performance",
+            "256K context window for extended reasoning and agentic tasks",
+            "Optimized for single‑GPU fine‑tuning and on‑device deployment",
+            "Supports tool calling, structured outputs, and agentic harnesses"
+          ],
+          "tags": [
+            "multimodal",
+            "foundation-model",
+            "edge-ai",
+            "agentic",
+            "open-source"
+          ],
+          "last_verified": "2026-10-27"
+        },
+        {
+          "id": "liquidai-lfm3-vl-2b",
+          "name": "LFM3-VL-2B",
+          "parent_org": "Liquid AI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+          "short_description": "A 2B parameter vision‑language model that processes text, images, and video on a single GPU, enabling on‑device visual understanding and step‑by‑step reasoning.",
+          "key_features": [
+            "First LFM vision model that accepts video input",
+            "Efficient 1.9B parameters delivering state‑of‑the‑art performance on 62 vision benchmarks",
+            "Single‑GPU fine‑tuning and support for on‑device inference",
+            "Integrated tool calling and visual question answering for robotics"
+          ],
+          "tags": [
+            "vision-language",
+            "video",
+            "multimodal",
+            "computer-vision",
+            "open-source"
+          ],
+          "last_verified": "2026-10-27"
+        },
+        {
+          "id": "liquidai-lfm3-audio-2b",
+          "name": "LFM3-Audio-2B",
+          "parent_org": "Liquid AI",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
+          "short_description": "A 2B parameter audio‑text model that supports speech recognition, synthesis, translation, and tool calling across 18 languages on edge devices.",
+          "key_features": [
+            "In‑house audio encoder for low‑latency pre‑fill (as fast as 50 ms)",
+            "LiquidCodec for real‑time speech synthesis (≈87× real time on Apple M4 Max)",
+            "Multilingual support for 18 languages with high‑quality TTS (UTMOSv2 3.83)",
+            "Single‑GPU fine‑tuning and on‑device voice chat / tool calling"
+          ],
+          "tags": [
+            "speech-recognition",
+            "text-to-speech",
+            "multilingual",
+            "edge-ai",
+            "open-source"
+          ],
+          "last_verified": "2026-10-27"
+        },
+        {
+          "id": "liquidai-lfm3-omni-2b",
+          "name": "LFM3-Omni-2B",
+          "parent_org": "Liquid AI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+          "short_description": "The first unified on‑device model that jointly processes text, images, video, and audio while producing both text and speech, replacing separate ASR, VLM, LLM, and TTS components.",
+          "key_features": [
+            "Unified multimodal input (text, vision, audio) and output (text, speech)",
+            "LiquidCodec for sub‑real‑time speech streaming",
+            "Outperforms up to 10.7B parameter models on audio‑visual benchmarks",
+            "Single‑GPU fine‑tuning and on‑device tool calling for robotics and assistants"
+          ],
+          "tags": [
+            "multimodal",
+            "omni",
+            "audio-visual",
+            "edge-ai",
+            "open-source"
+          ],
+          "last_verified": "2026-10-27"
+        },
+        {
+          "id": "liquidai-d1-2b",
+          "name": "d1-2B",
+          "parent_org": "Liquid AI",
+          "category": "Reasoning & Math",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/LiquidAI/d1-2B",
+          "short_description": "A compact 2B parameter decision model that answers multiple calibrated questions in a single forward pass from text, images, or video, ideal for fast, structured business logic.",
+          "key_features": [
+            "Answers several named questions in one pass (yes/no, choice, score, multi‑select)",
+            "Supports multimodal inputs: text, images, video",
+            "Calibrated probability outputs for reliable decision confidence",
+            "Single‑GPU fine‑tuning and on‑device deployment for enterprise workflows"
+          ],
+          "tags": [
+            "decision-making",
+            "structured-output",
+            "multimodal",
+            "productivity",
+            "open-source"
+          ],
+          "last_verified": "2026-10-27"
+        },
+        {
+          "id": "liquidai-d1-omni-2b",
+          "name": "d1-omni-2B",
+          "parent_org": "Liquid AI",
+          "category": "Reasoning & Math",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/LiquidAI/d1-omni-2B",
+          "short_description": "The audio‑enabled version of the d1 decision model, handling voice inputs alongside text, images, and video to provide fast, calibrated answers across modalities.",
+          "key_features": [
+            "Adds audio input and speech‑based question answering to the d1 core",
+            "Maintains high accuracy while supporting voice queries",
+            "Single‑GPU fine‑tuning and on‑device inference for real‑time decision making",
+            "Calibrated outputs for yes/no, choice, score, and multi‑select question types"
+          ],
+          "tags": [
+            "audio",
+            "decision-making",
+            "multimodal",
+            "structured-output",
+            "open-source"
+          ],
+          "last_verified": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "allen-institute-for-ai-ai2",
+      "name": "Allen Institute for AI (Ai2)",
+      "website": "https://allenai.org",
+      "description": "The Allen Institute for AI (Ai2) develops open-source AI systems and benchmarks to advance scientific research and beneficial AI capabilities.",
+      "logo_symbol": "allen-institute-for-ai-ai2",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "allenai-novelty-judge-benchmark",
+          "name": "AllenAI Novelty Judge Benchmark",
+          "parent_org": "Allen Institute for AI (Ai2)",
+          "category": "Search & Research",
+          "release_date": "2026-10-27",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/allenai/novelty-bench",
+          "short_description": "A benchmark and automated pipeline for evaluating large language models' ability to judge the novelty of scientific research ideas, released alongside the 'Old Ideas, Novel Problems' arXiv paper.",
+          "key_features": [
+            "Open benchmark dataset of 154 human-authored and 154 AI-generated research ideas with validated novelty labels",
+            "Evaluates six major LLM judges (GPT-5.1/5.2/5.4, Claude Sonnet 4.5, Claude Opus 4.5/4.6) on novelty judgment tasks",
+            "Tests sensitivity to prompt wording, reasoning budget, and literature retrieval",
+            "Provides automated pipeline for researchers to build custom novelty evaluation sets from peer reviews"
+          ],
+          "tags": [
+            "novelty",
+            "llm-evaluation",
+            "scientific-discovery",
+            "benchmark"
+          ],
+          "last_verified": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "contextgem",
+      "name": "ContextGem",
+      "website": "https://www.producthunt.com/products/contextgem",
+      "description": "ContextGem is an independent project focused on providing developer tools for context engineering and structured data extraction in LLM workflows.",
+      "logo_symbol": "contextgem",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "contextgem-1-0",
+          "name": "ContextGem 1.0",
+          "parent_org": "ContextGem",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-12",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://www.producthunt.com/products/contextgem",
+          "short_description": "ContextGem is a developer tool and Python library designed to streamline context management and extract structured data from documents for large language models (LLMs).",
+          "key_features": [
+            "Structured data extraction from unstructured documents",
+            "LLM context optimization and management",
+            "Python library for seamless integration",
+            "Efficient document parsing and context engineering"
+          ],
+          "tags": [
+            "llm",
+            "context-engineering",
+            "data-extraction",
+            "python",
+            "developer-tools"
+          ],
+          "last_verified": "2024-12-01"
         }
       ]
     }
