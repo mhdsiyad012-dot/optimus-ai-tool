@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-28T04:20:19Z",
-  "total_organizations": 54,
-  "total_tools": 127,
+  "last_updated": "2026-10-28T12:16:15Z",
+  "total_organizations": 55,
+  "total_tools": 129,
   "organizations": [
     {
       "id": "google",
@@ -457,26 +457,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's coding model that writes code following existing patterns and integrates with knowledge bases via MCP to reduce code reverts and rework.",
+          "short_description": "OpenAI's Codex is used by Retell's engineers to research unfamiliar code, build features, debug issues, and assist customers in writing application instructions.",
           "key_features": [
-            "Reduced code reverts",
-            "Real-time AI responses under 30 seconds",
-            "Integration with knowledge bases via MCP",
+            "Automated code research and explanation of required changes",
             "Integration via Model Context Protocol",
+            "Reduced code reverts",
             "Code refactoring and technical debt reduction",
-            "Code generation following existing patterns"
+            "Assistance during implementation by catching overlooked details",
+            "Debugging by cross-referencing logs and database records with code"
           ],
           "tags": [
-            "productivity",
-            "mcp",
-            "llm",
-            "developer-tools",
             "openai",
-            "code-generation",
+            "mcp",
+            "developer-tools",
+            "ai-assistant",
             "coding-model",
-            "incident-response"
+            "llm",
+            "code-generation",
+            "coding"
           ],
-          "last_verified": "2025-01-15"
+          "last_verified": "2026-10-13"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -1650,6 +1650,32 @@
             "posttraining"
           ],
           "last_verified": "2026-10-24"
+        },
+        {
+          "id": "hugging-face-build-specialized-multimodal-models-with-lfm3",
+          "name": "Build specialized multimodal models with LFM3",
+          "parent_org": "Hugging Face",
+          "category": "Video & Animation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "short_description": "Title: Build specialized multimodal models with LFM3",
+          "key_features": [
+            "**More capability per parameter:** a new tri-hybrid architecture and training recipe allow LFM3-1.7B to outperform LFM2.5-2.6B while using 35% fewer parameters.",
+            "**Every modality on one backbone:** six 2B-class models (text, vision, audio, omni, and decision) trained from LFM3-1.7B-Base, including our first omni model and video input for our vision model.",
+            "**Built for the edge:** the text model fits in about 1 GB at 4-bit precision, new in-house vision and audio encoders speed up processing, and the text model’s 256K context window lets agents run on-device.",
+            "**Made to be specialized:** every model fine-tunes on a single GPU, so you can adapt it to your data, terminology, and deployment environment."
+          ],
+          "tags": [
+            "build",
+            "specialized",
+            "multimodal",
+            "models",
+            "with",
+            "lfm3"
+          ],
+          "last_verified": "2026-10-28"
         }
       ]
     },
@@ -3923,22 +3949,24 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.retellai.com/",
-          "short_description": "Retell AI is a voice AI platform for contact center operations that enables businesses to build agents capable of answering questions, taking action, and connecting callers with humans, leveraging OpenAI models to handle over 100 million monthly calls.",
+          "short_description": "Retell AI is a voice AI platform for contact center operations, helping businesses build agents that answer questions, take action, and connect a caller with a person when needed.",
           "key_features": [
             "Voice AI agents for contact center automation",
-            "Integration with OpenAI models including GPT-6 Astra and GPT-5.5",
-            "Custom vCX benchmark for instruction following and tool-call evaluation",
+            "vCX benchmark to evaluate and rank models on instruction following and tool-call correctness",
             "Real-time conversation state management and interruption handling",
             "Enterprise integrations with customer systems and CRM workflows",
-            "Scalable infrastructure with dedicated servers and regional API endpoints"
+            "Post-call transcript analysis using GPT-5.6 Terra to extract outcomes and data",
+            "Seamless human handoff with context briefing for live representatives"
           ],
           "tags": [
-            "voice-ai",
-            "contact-center",
             "conversational-ai",
+            "openai",
+            "enterprise",
+            "voice-automation",
             "openai-integration",
+            "contact-center",
             "enterprise-ai",
-            "voice-automation"
+            "voice-ai"
           ],
           "last_verified": "2026-10-13"
         }
@@ -3979,6 +4007,44 @@
             "creative-tools"
           ],
           "last_verified": "2024-12"
+        }
+      ]
+    },
+    {
+      "id": "legora",
+      "name": "Legora",
+      "website": "https://www.legora.com/",
+      "description": "Legora is a Stockholm-based AI company founded in 2023 that builds an agentic operating system for legal work, automating time-intensive legal tasks and enabling faster, higher-quality legal analysis.",
+      "logo_symbol": "legora",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "legora-agentic-operating-system",
+          "name": "Legora Agentic Operating System",
+          "parent_org": "Legora",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2023-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.legora.com/",
+          "short_description": "An AI-native platform that automates and enhances legal workflows, enabling lawyers to review contracts, conduct due diligence, and collaborate with AI agents to complete tasks faster and with higher quality.",
+          "key_features": [
+            "Agentic legal workflows for contract review and due diligence",
+            "Tabular Review for analyzing thousands of contracts simultaneously",
+            "NDA analysis with automated term highlighting and playbook integration",
+            "Real-time collaboration between lawyers and AI agents"
+          ],
+          "tags": [
+            "legal-tech",
+            "ai-agents",
+            "contract-management",
+            "due-diligence"
+          ],
+          "last_verified": "2025-01-09"
         }
       ]
     }
