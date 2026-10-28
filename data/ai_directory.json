@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-28T12:16:15Z",
-  "total_organizations": 55,
-  "total_tools": 129,
+  "last_updated": "2026-10-28T22:28:25Z",
+  "total_organizations": 58,
+  "total_tools": 166,
   "organizations": [
     {
       "id": "google",
@@ -811,6 +811,36 @@
             "code-analysis"
           ],
           "last_verified": "2025-09-26"
+        },
+        {
+          "id": "openai-servicenow-chatgpt-integration",
+          "name": "ServiceNow Integration for ChatGPT",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "short_description": "Autonomous agent powered by OpenAI models to support application development and modernization within ServiceNow's platform, integrated with AI Workflow Factory.",
+          "key_features": [
+            "Available in OpenAI marketplace",
+            "Interactive experiences for on-call engineers",
+            "Risk prioritization using business context",
+            "Follow-up question gathering",
+            "Build Agent and Autonomous Engineer support",
+            "Voice-based AI use case description"
+          ],
+          "tags": [
+            "mcp",
+            "ai-assistant",
+            "voice",
+            "workflow",
+            "vulnerability",
+            "chatgpt",
+            "enterprise",
+            "it-operations"
+          ],
+          "last_verified": "2024-12-19"
         }
       ]
     },
@@ -2338,6 +2368,30 @@
             "image"
           ],
           "last_verified": "2026-10-27"
+        },
+        {
+          "id": "independent-ai-zen-garden",
+          "name": "AI Zen Garden",
+          "parent_org": "Independent",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://zen-garden.ai/",
+          "short_description": "URL Source: https://zen-garden",
+          "key_features": [
+            "**Wander** by dragging the sand, scrolling, using the arrow keys, or resting your cursor near an edge.",
+            "**Travel** by typing coordinates into the corner, or into the address bar: `?x=3200&y=400`",
+            "**Zoom out** with the magnifier, Z, or a pinch. Click anywhere to come back in.",
+            "**Touch things.** Some of them answer."
+          ],
+          "tags": [
+            "zen",
+            "garden",
+            "independent",
+            "autonomous"
+          ],
+          "last_verified": "2026-10-28"
         }
       ]
     },
@@ -3949,24 +4003,24 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.retellai.com/",
-          "short_description": "Retell AI is a voice AI platform for contact center operations, helping businesses build agents that answer questions, take action, and connect a caller with a person when needed.",
+          "short_description": "Retell AI is a voice AI platform that enables businesses to build and deploy autonomous voice agents for contact centers, handling over 100 million monthly calls with resolution rates above 80% by leveraging OpenAI's latest models for real-time conversation, tool use, and post-call analysis.",
           "key_features": [
-            "Voice AI agents for contact center automation",
+            "Post-call analysis using GPT-5.6 Terra for outcome extraction",
             "vCX benchmark to evaluate and rank models on instruction following and tool-call correctness",
-            "Real-time conversation state management and interruption handling",
-            "Enterprise integrations with customer systems and CRM workflows",
-            "Post-call transcript analysis using GPT-5.6 Terra to extract outcomes and data",
-            "Seamless human handoff with context briefing for live representatives"
+            "Real-time conversation handling with OpenAI models (GPT-6 Astra, GPT-6.1 Sol, GPT-5.5)",
+            "vCX benchmark for model evaluation on instruction following and hallucination rates",
+            "Human-in-the-loop escalation with context briefing",
+            "Autonomous voice agents for contact center operations"
           ],
           "tags": [
-            "conversational-ai",
-            "openai",
-            "enterprise",
             "voice-automation",
-            "openai-integration",
             "contact-center",
+            "conversational-ai",
+            "enterprise",
             "enterprise-ai",
-            "voice-ai"
+            "autonomous-agents",
+            "openai-integration",
+            "real-time-voice"
           ],
           "last_verified": "2026-10-13"
         }
@@ -4031,20 +4085,911 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.legora.com/",
-          "short_description": "An AI-native platform that automates and enhances legal workflows, enabling lawyers to review contracts, conduct due diligence, and collaborate with AI agents to complete tasks faster and with higher quality.",
+          "short_description": "AI-powered legal platform that automates document review, contract analysis, and due diligence, enabling legal teams to complete work faster and focus on higher-value strategic tasks.",
           "key_features": [
+            "Agentic legal work automation",
+            "Contract and NDA review with custom playbooks",
+            "Due diligence and Tabular Review workflow",
+            "Large-scale document review and analysis",
             "Agentic legal workflows for contract review and due diligence",
-            "Tabular Review for analyzing thousands of contracts simultaneously",
-            "NDA analysis with automated term highlighting and playbook integration",
             "Real-time collaboration between lawyers and AI agents"
           ],
           "tags": [
-            "legal-tech",
+            "due-diligence",
+            "document-review",
             "ai-agents",
             "contract-management",
-            "due-diligence"
+            "agentic-ai",
+            "legal-tech",
+            "legal-ai",
+            "contract-analysis"
           ],
-          "last_verified": "2025-01-09"
+          "last_verified": "2025-01-24"
+        },
+        {
+          "id": "legora-legora-chatgpt-plugin",
+          "name": "Legora plugin for ChatGPT",
+          "parent_org": "Legora",
+          "category": "Productivity & Office",
+          "release_date": "2023",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/business/plugins/legora/",
+          "short_description": "ChatGPT plugin that integrates Legora's legal AI capabilities directly into ChatGPT conversations, allowing legal teams to leverage AI-powered legal analysis within their existing chat workflows.",
+          "key_features": [
+            "ChatGPT integration for legal workflows",
+            "In-conversation legal document analysis",
+            "Seamless access to Legora's AI capabilities",
+            "No-context-switching legal review"
+          ],
+          "tags": [
+            "chatgpt-plugin",
+            "legal-ai",
+            "integration",
+            "legal-tech",
+            "workflow-automation"
+          ],
+          "last_verified": "2025-01-24"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "website": "https://vercel.com",
+      "description": "Vercel is a cloud platform for static sites and serverless functions that enables frontend developers to deploy and scale web applications.",
+      "logo_symbol": "vercel",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "vercel-ai-resume-reviewer",
+          "name": "AI Resume Reviewer",
+          "parent_org": "Vercel",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://ai-resume-reviewer-nine-drab.vercel.app/",
+          "short_description": "An AI-powered resume analysis tool built with Next.js that optimizes resumes for Applicant Tracking Systems (ATS), maps keywords to target job descriptions, and delivers real-time line-by-line editorial feedback.",
+          "key_features": [
+            "Rigorous ATS Check",
+            "Keyword Optimization",
+            "Leadership Strategy Analytics",
+            "Real-Time Feedback",
+            "Line-by-Line Editorial Polish"
+          ],
+          "tags": [
+            "resume",
+            "ats",
+            "career",
+            "nextjs",
+            "ai-resume-reviewer"
+          ],
+          "last_verified": "2024-06-01"
+        }
+      ]
+    },
+    {
+      "id": "aiworkflows",
+      "name": "aiworkflows",
+      "website": "https://aiworkflows.tools",
+      "description": "aiworkflows provides step‑by‑step AI workflow guides for a wide range of creative and productivity goals.",
+      "logo_symbol": "aiworkflows",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Video"
+      ],
+      "tools": [
+        {
+          "id": "aiworkflows-short-film",
+          "name": "AI Short Film Production",
+          "parent_org": "aiworkflows",
+          "category": "Video & Animation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/short-film",
+          "short_description": "End‑to‑end guide for creating AI‑generated short films from concept to final cut.",
+          "key_features": [
+            "End‑to‑end AI movie pipeline",
+            "Idea generation and scriptwriting",
+            "AI video generation and editing",
+            "Final cut ready for distribution"
+          ],
+          "tags": [
+            "ai",
+            "video",
+            "production",
+            "creative"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-short-drama-production",
+          "name": "AI Short Drama Production",
+          "parent_org": "aiworkflows",
+          "category": "Video & Animation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-short-drama-production",
+          "short_description": "Pipeline for vertical AI short dramas with character consistency, 9:16 footage generation, dubbing, and batch export.",
+          "key_features": [
+            "Vertical 9:16 video generation",
+            "Character consistency across episodes",
+            "Multi‑tool integration (Topview, Hailuo, Kling)",
+            "Automated dubbing and export"
+          ],
+          "tags": [
+            "ai",
+            "video",
+            "drama",
+            "shorts"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-academic-thesis-assistant",
+          "name": "Academic Thesis Assistant",
+          "parent_org": "aiworkflows",
+          "category": "Search & Research",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/academic-thesis-assistant",
+          "short_description": "AI‑powered tool to streamline research, writing, and citation management for thesis projects.",
+          "key_features": [
+            "AI research summarization",
+            "Writing assistance and outline generation",
+            "Citation management",
+            "Accelerated thesis completion"
+          ],
+          "tags": [
+            "ai",
+            "research",
+            "academic",
+            "writing"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-job-hunting-toolkit",
+          "name": "AI Job Hunting Toolkit",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-job-hunting-toolkit",
+          "short_description": "Optimize resumes, generate cover letters, and prepare for interviews with AI assistance.",
+          "key_features": [
+            "AI resume optimization",
+            "Cover letter generation",
+            "Interview preparation",
+            "Tailored job application advice"
+          ],
+          "tags": [
+            "ai",
+            "job",
+            "career",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-daily-command-center",
+          "name": "Daily Command Center",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/daily-command-center",
+          "short_description": "5‑minute AI briefing that pulls tasks, calendar, priorities, and focus blocks each day.",
+          "key_features": [
+            "Daily AI briefing",
+            "Task and calendar integration",
+            "Priority setting",
+            "Focus block scheduling"
+          ],
+          "tags": [
+            "ai",
+            "productivity",
+            "daily",
+            "planning"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-weekly-planner-workflow",
+          "name": "Weekly Planner Workflow",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/weekly-planner-workflow",
+          "short_description": "AI‑assisted weekly plan balancing deep work, meetings, and life admin.",
+          "key_features": [
+            "AI weekly planning",
+            "Balance deep work and meetings",
+            "Life admin integration",
+            "Customizable schedule"
+          ],
+          "tags": [
+            "ai",
+            "planning",
+            "productivity",
+            "weekly"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-task-prioritization-engine",
+          "name": "Task Prioritization Engine",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/task-prioritization-engine",
+          "short_description": "Converts a messy to‑do list into a clear, ranked action plan using AI priority rules.",
+          "key_features": [
+            "AI priority rules",
+            "To‑do list ranking",
+            "Action plan generation",
+            "Clear task hierarchy"
+          ],
+          "tags": [
+            "ai",
+            "task-management",
+            "prioritization",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-2026-goals-breakdown-system",
+          "name": "2026 Goals Breakdown System",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/2026-goals-breakdown-system",
+          "short_description": "Translates vague annual goals into quarterly, monthly, and weekly execution plans.",
+          "key_features": [
+            "Goal decomposition",
+            "Quarterly/monthly/weekly planning",
+            "Execution roadmap",
+            "Progress tracking"
+          ],
+          "tags": [
+            "ai",
+            "goal-setting",
+            "planning",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-inbox-clean-up-automation",
+          "name": "Inbox Clean-Up Automation",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/inbox-clean-up-automation",
+          "short_description": "AI triages, summarizes, and batch‑handles email to achieve inbox zero.",
+          "key_features": [
+            "Email triage",
+            "Summarization",
+            "Batch handling",
+            "Inbox zero automation"
+          ],
+          "tags": [
+            "ai",
+            "email",
+            "automation",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-productivity-os",
+          "name": "Productivity OS",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/productivity-os",
+          "short_description": "Runs work like a system, connecting tasks, projects, notes, and documents with AI.",
+          "key_features": [
+            "Systemic workflow",
+            "Task/project/notes integration",
+            "AI automation",
+            "Unified dashboard"
+          ],
+          "tags": [
+            "ai",
+            "system",
+            "productivity",
+            "workflow"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-shopping-optimizer",
+          "name": "Shopping Optimizer",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/shopping-optimizer",
+          "short_description": "Turns recurring purchases into smart AI‑generated shopping lists and automations.",
+          "key_features": [
+            "Smart shopping lists",
+            "Recurring purchase automation",
+            "AI recommendations",
+            "List generation"
+          ],
+          "tags": [
+            "ai",
+            "shopping",
+            "automation",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-research-assistant-2026",
+          "name": "Research Assistant",
+          "parent_org": "aiworkflows",
+          "category": "Search & Research",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/research-assistant-2026",
+          "short_description": "AI scouts, summarizes, and compares information to enable faster, better decisions.",
+          "key_features": [
+            "Information scouting",
+            "Summarization",
+            "Comparison",
+            "Decision support"
+          ],
+          "tags": [
+            "ai",
+            "research",
+            "information",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-repetitive-task-eliminator",
+          "name": "Repetitive Task Eliminator",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/repetitive-task-eliminator",
+          "short_description": "Finds and automates busywork across tools using AI suggestions and no‑code integrations.",
+          "key_features": [
+            "Busywork detection",
+            "Automation suggestions",
+            "No‑code integrations",
+            "Task automation"
+          ],
+          "tags": [
+            "ai",
+            "automation",
+            "no-code",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-2026-organization-dashboard",
+          "name": "2026 Organization Dashboard",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/2026-organization-dashboard",
+          "short_description": "AI‑curated dashboard surfaces the most important tasks, documents, and metrics each day.",
+          "key_features": [
+            "AI‑curated dashboard",
+            "Task prioritization",
+            "Document surfacing",
+            "Metrics display"
+          ],
+          "tags": [
+            "ai",
+            "dashboard",
+            "organization",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-healthy-habits-system",
+          "name": "Healthy Habits System",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/healthy-habits-system",
+          "short_description": "AI‑driven lifestyle kit for fitness, nutrition, and sleep routine design and adaptation.",
+          "key_features": [
+            "Fitness nutrition sleep planning",
+            "AI routine design",
+            "Adaptive habit tracking",
+            "Holistic health focus"
+          ],
+          "tags": [
+            "ai",
+            "health",
+            "lifestyle",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-website-building-workflow",
+          "name": "Website Building Workflow",
+          "parent_org": "aiworkflows",
+          "category": "Design & UI Generation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/website-building-workflow",
+          "short_description": "Create professional responsive websites without code, from idea to launch.",
+          "key_features": [
+            "No‑code website creation",
+            "Responsive design",
+            "Idea to launch",
+            "AI assistance"
+          ],
+          "tags": [
+            "ai",
+            "web",
+            "design",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-app-development",
+          "name": "App Development Workflow",
+          "parent_org": "aiworkflows",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/app-development",
+          "short_description": "Build functional web or mobile apps using natural language and vibe coding.",
+          "key_features": [
+            "Natural language app building",
+            "Vibe coding",
+            "Web/mobile output",
+            "Rapid development"
+          ],
+          "tags": [
+            "ai",
+            "app",
+            "development",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-brand-identity",
+          "name": "Brand Identity Design Workflow",
+          "parent_org": "aiworkflows",
+          "category": "Design & UI Generation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/brand-identity",
+          "short_description": "Creates a complete brand kit including logos, colors, typography, and brand voice.",
+          "key_features": [
+            "Logo design",
+            "Color palette",
+            "Typography",
+            "Brand voice"
+          ],
+          "tags": [
+            "ai",
+            "brand",
+            "design",
+            "creative"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-viral-tiktok-shorts-automation",
+          "name": "Viral TikTok/Shorts Automation",
+          "parent_org": "aiworkflows",
+          "category": "Video & Animation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/viral-tiktok-shorts-automation",
+          "short_description": "End‑to‑end pipeline to research trends, script, generate, and auto‑post viral short videos.",
+          "key_features": [
+            "Trend research",
+            "Script generation",
+            "Video generation",
+            "Auto‑posting"
+          ],
+          "tags": [
+            "ai",
+            "video",
+            "social",
+            "automation"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-autonomous-ai-agent-setup",
+          "name": "Autonomous AI Agent Setup",
+          "parent_org": "aiworkflows",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/autonomous-ai-agent-setup",
+          "short_description": "Design, build, and deploy a team of AI agents to handle complex daily operations.",
+          "key_features": [
+            "AI agent team",
+            "Complex operation handling",
+            "Autonomous deployment",
+            "Daily task automation"
+          ],
+          "tags": [
+            "ai",
+            "agents",
+            "automation",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-marketing-ad-campaign-workflow",
+          "name": "Marketing & Ad Campaign Workflow",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/marketing-ad-campaign-workflow",
+          "short_description": "Launch high‑converting marketing campaigns across multiple channels with AI assistance.",
+          "key_features": [
+            "Multi‑channel campaign",
+            "AI conversion optimization",
+            "Marketing automation",
+            "Performance tracking"
+          ],
+          "tags": [
+            "ai",
+            "marketing",
+            "campaign",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-social-media-content-pipeline",
+          "name": "AI Social Media Content Pipeline",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-social-media-content-pipeline",
+          "short_description": "Create, optimize, and schedule multi‑platform social media content from strategy to distribution.",
+          "key_features": [
+            "Content creation",
+            "Optimization",
+            "Scheduling",
+            "Multi‑platform distribution"
+          ],
+          "tags": [
+            "ai",
+            "social-media",
+            "content",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-podcast-production",
+          "name": "AI Podcast Production",
+          "parent_org": "aiworkflows",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-podcast-production",
+          "short_description": "Produces professional podcasts from research to publishing using AI for scripting, voice, and editing.",
+          "key_features": [
+            "Script generation",
+            "AI voice",
+            "Audio editing",
+            "Publishing pipeline"
+          ],
+          "tags": [
+            "ai",
+            "podcast",
+            "audio",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-presentation-builder",
+          "name": "AI Presentation Builder",
+          "parent_org": "aiworkflows",
+          "category": "Design & UI Generation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-presentation-builder",
+          "short_description": "Creates stunning presentations and pitch decks in minutes with AI‑generated content, visuals, and speaker notes.",
+          "key_features": [
+            "AI content generation",
+            "Visual creation",
+            "Speaker notes",
+            "Quick deck creation"
+          ],
+          "tags": [
+            "ai",
+            "presentation",
+            "design",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-avatar-video-marketing",
+          "name": "AI Avatar Video Marketing",
+          "parent_org": "aiworkflows",
+          "category": "Video & Animation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-avatar-video-marketing",
+          "short_description": "Creates personalized marketing videos with AI digital avatars, reducing production costs by ~90%.",
+          "key_features": [
+            "Digital avatar creation",
+            "Personalized video",
+            "Cost reduction",
+            "Scalable content"
+          ],
+          "tags": [
+            "ai",
+            "video",
+            "marketing",
+            "automation"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-3d-asset-creation",
+          "name": "AI 3D Asset Creation",
+          "parent_org": "aiworkflows",
+          "category": "Computer Vision",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-3d-asset-creation",
+          "short_description": "Generates production‑ready 3D models, textures, and animations for games, AR/VR, and digital products.",
+          "key_features": [
+            "3D model generation",
+            "Texture creation",
+            "Animation",
+            "Production‑ready assets"
+          ],
+          "tags": [
+            "ai",
+            "3d",
+            "computer-vision",
+            "creative"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-data-analysis-reporting",
+          "name": "AI Data Analysis & Reporting",
+          "parent_org": "aiworkflows",
+          "category": "Search & Research",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-data-analysis-reporting",
+          "short_description": "Transforms raw data into actionable insights and professional reports via natural language queries.",
+          "key_features": [
+            "Natural language queries",
+            "Insight generation",
+            "Report generation",
+            "Visualization"
+          ],
+          "tags": [
+            "ai",
+            "data",
+            "analysis",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-e-learning-course-creation",
+          "name": "AI E-Learning Course Creation",
+          "parent_org": "aiworkflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-e-learning-course-creation",
+          "short_description": "Builds professional online courses with AI curriculum, digital instructors, and interactive assessments.",
+          "key_features": [
+            "AI curriculum",
+            "Digital instructor videos",
+            "Interactive assessments",
+            "Course publishing"
+          ],
+          "tags": [
+            "ai",
+            "education",
+            "course",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-product-visual-content",
+          "name": "AI Product Visual Content",
+          "parent_org": "aiworkflows",
+          "category": "Image Generation",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-product-visual-content",
+          "short_description": "Generates professional product photos, videos, and advertising visuals for e‑commerce and marketing.",
+          "key_features": [
+            "Product photography",
+            "Video creation",
+            "Advertising visuals",
+            "E‑commerce ready"
+          ],
+          "tags": [
+            "ai",
+            "product",
+            "image",
+            "marketing"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-music-production",
+          "name": "AI Music Production",
+          "parent_org": "aiworkflows",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-music-production",
+          "short_description": "Creates original songs, beats, and soundtracks from concept to master using AI.",
+          "key_features": [
+            "Song composition",
+            "Beat generation",
+            "Soundtrack creation",
+            "Mastering"
+          ],
+          "tags": [
+            "ai",
+            "music",
+            "audio",
+            "creative"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-vibe-coding-for-beginners",
+          "name": "Vibe Coding for Beginners",
+          "parent_org": "aiworkflows",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/vibe-coding-for-beginners",
+          "short_description": "Build and launch a web app by describing what you want in plain English — no coding required.",
+          "key_features": [
+            "Plain English app description",
+            "No‑code development",
+            "Rapid launch",
+            "Web app output"
+          ],
+          "tags": [
+            "ai",
+            "development",
+            "no-code",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "aiworkflows-ai-seo-content-pipeline",
+          "name": "AI SEO Content Pipeline",
+          "parent_org": "aiworkflows",
+          "category": "Search & Research",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aiworkflows.tools/workflows/ai-seo-content-pipeline",
+          "short_description": "Researches keywords, analyzes competitors, and produces search‑optimized articles that rank.",
+          "key_features": [
+            "Keyword research",
+            "Competitor analysis",
+            "SEO article generation",
+            "Ranking optimization"
+          ],
+          "tags": [
+            "ai",
+            "seo",
+            "content",
+            "productivity"
+          ],
+          "last_verified": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "opera",
+      "name": "Opera",
+      "website": "https://www.opera.com",
+      "description": "Opera is a Norwegian multinational technology company best known for its web browser and mobile browser.",
+      "logo_symbol": "opera",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "webai-by-opera",
+          "name": "WebAI by Opera",
+          "parent_org": "Opera",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-06-03",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/opera",
+          "short_description": "WebAI by Opera is Opera's AI-powered browser assistant that integrates conversational artificial intelligence and intelligent web search directly into the Opera browser.",
+          "key_features": [
+            "Conversational AI assistant built into the browser",
+            "AI-powered web search and browsing assistance",
+            "Context-aware responses based on user context and browsing activity"
+          ],
+          "tags": [
+            "opera",
+            "browser",
+            "ai-assistant",
+            "chatbot",
+            "web-search"
+          ],
+          "last_verified": "2025-06-03"
         }
       ]
     }
