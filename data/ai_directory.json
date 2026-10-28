@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-27T21:59:02Z",
-  "total_organizations": 52,
-  "total_tools": 125,
+  "last_updated": "2026-10-28T04:20:19Z",
+  "total_organizations": 54,
+  "total_tools": 127,
   "organizations": [
     {
       "id": "google",
@@ -3485,26 +3485,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://www.greptile.com/",
-          "short_description": "AI-powered code review and automated application testing agent that leverages full codebase context to detect bugs, simulate user interactions, and reduce AI-generated code reverts.",
+          "short_description": "Greptile provides AI agents that automatically review and test code changes with full codebase context, reducing bugs and improving software reliability.",
           "key_features": [
-            "Easy setup for startups",
-            "Automated browser-based application testing at scale",
-            "Real-time threat detection",
             "Model Context Protocol (MCP) integration for pattern-aware code generation",
-            "Rapid prototyping",
-            "Seamless integration with existing workflows"
+            "Full codebase context awareness",
+            "Seamless integration with existing workflows",
+            "Integration with Codex via MCP for context-aware code generation",
+            "AI-powered code review and testing",
+            "Rapid prototyping"
           ],
           "tags": [
-            "code-review",
-            "application-security",
-            "gpt-6-astra",
-            "ai-agents",
-            "speed",
-            "startup",
             "ai-defense",
-            "api"
+            "code-review",
+            "ai-agents",
+            "startup",
+            "software-quality",
+            "api",
+            "speed",
+            "gpt-6-astra"
           ],
-          "last_verified": "2024-10-03"
+          "last_verified": "2025-09-25"
         }
       ]
     },
@@ -3612,26 +3612,26 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2026-10-27",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-          "short_description": "A 1.7B parameter text-only foundation model optimized for on-device agents, tool calling, and structured outputs, offering superior performance per parameter.",
+          "short_description": "A 2B parameter text model for local agents, tool calling, structured outputs, and domain-specific fine-tuning on edge devices.",
           "key_features": [
             "256K context window for extended reasoning and agentic tasks",
-            "Optimized for single‑GPU fine‑tuning and on‑device deployment",
+            "Tool calling",
+            "Local agent support",
+            "Tri-hybrid architecture with gated convolutions and attention",
             "Fine-tunes on a single GPU for domain specialization",
-            "35% fewer parameters than predecessor while matching or exceeding performance",
-            "256K context window for long-context agent tasks",
-            "Tri-hybrid architecture with gated convolutions and attention"
+            "Optimized for single‑GPU fine‑tuning and on‑device deployment"
           ],
           "tags": [
-            "foundation-model",
-            "text-generation",
-            "llm",
-            "multimodal",
-            "edge-ai",
             "agentic",
+            "agent",
+            "open-source",
             "on-device",
-            "open-source"
+            "llm",
+            "tool-calling",
+            "text",
+            "edge-ai"
           ],
           "last_verified": "2026-10-27"
         },
@@ -3642,26 +3642,26 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2026-10-27",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
-          "short_description": "A 2B vision-language model that handles text, images, and video, enabling on-device visual reasoning, object detection, and robotics applications.",
+          "short_description": "A 2B parameter vision model that processes text, images, and video with step-by-step reasoning for on-device visual understanding.",
           "key_features": [
             "Step-by-step reasoning before answering",
-            "First LFM vision model with video input",
-            "First LFM vision model that accepts video input",
-            "3x less compute than previous vision encoders",
-            "Integrated tool calling and visual question answering for robotics",
-            "Efficient 1.9B parameters delivering state‑of‑the‑art performance on 62 vision benchmarks"
+            "Vision encoder",
+            "On-device inference",
+            "Video input support",
+            "High accuracy on vision benchmarks",
+            "First LFM vision model with video input"
           ],
           "tags": [
-            "video",
             "vision",
-            "multimodal",
             "vision-language",
-            "computer-vision",
+            "vl",
+            "open-source",
+            "video",
             "on-device",
-            "robotics",
-            "open-source"
+            "multimodal",
+            "computer-vision"
           ],
           "last_verified": "2026-10-27"
         },
@@ -3672,26 +3672,26 @@
           "category": "Voice & Audio",
           "release_date": "2026-10-27",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
-          "short_description": "A 2B multimodal audio model for voice chat, speech recognition, synthesis, and translation across 18 languages, with low-latency streaming speech output.",
+          "short_description": "A 2B parameter audio model for speech recognition, synthesis, and translation across 18 languages with tool calling support.",
           "key_features": [
-            "Supports speech-to-tool calls and 18-language translation",
-            "In-house audio encoder and LiquidCodec for high-quality speech",
-            "Single‑GPU fine‑tuning and on‑device voice chat / tool calling",
+            "Multilingual support for 18 languages with high‑quality TTS (UTMOSv2 3.83)",
             "LiquidCodec for real‑time speech synthesis (≈87× real time on Apple M4 Max)",
-            "Causal architecture for prefill while speaking (50ms first token)",
-            "Multilingual support for 18 languages with high‑quality TTS (UTMOSv2 3.83)"
+            "Tool calling",
+            "Single‑GPU fine‑tuning and on‑device voice chat / tool calling",
+            "Speech recognition",
+            "Supports speech-to-tool calls and 18-language translation"
           ],
           "tags": [
-            "multilingual",
-            "edge-ai",
             "tts",
-            "text-to-speech",
             "speech-recognition",
             "voice",
-            "stt",
-            "speech"
+            "text-to-speech",
+            "edge-ai",
+            "multilingual",
+            "multimodal",
+            "audio"
           ],
           "last_verified": "2026-10-27"
         },
@@ -3702,25 +3702,26 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2026-10-27",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
-          "short_description": "The first omni model in the LFM family, combining text, image, video, and audio inputs with text and speech outputs for on-device multimodal agents.",
+          "short_description": "A 2B parameter omni model handling text, vision, and audio with speech output for comprehensive on-device intelligence.",
           "key_features": [
-            "Beats larger models on audio-visual video understanding benchmarks",
-            "Single‑GPU fine‑tuning and on‑device tool calling for robotics and assistants",
-            "Streaming speech output via LiquidCodec (faster than real time)",
+            "Tool calling",
+            "Multimodal (text, vision, audio)",
             "Supports tool calling from spoken and visual inputs",
-            "Unified multimodal input (text, vision, audio) and output (text, speech)",
-            "Single model for visual, audio, and speech understanding"
+            "Beats larger models on audio-visual video understanding benchmarks",
+            "Streaming speech output via LiquidCodec (faster than real time)",
+            "Unified multimodal input (text, vision, audio) and output (text, speech)"
           ],
           "tags": [
+            "vision",
+            "open-source",
             "audio-visual",
-            "multimodal",
-            "edge-ai",
             "omni",
             "on-device",
-            "speech",
-            "open-source"
+            "edge-ai",
+            "multimodal",
+            "audio"
           ],
           "last_verified": "2026-10-27"
         },
@@ -3731,26 +3732,26 @@
           "category": "Reasoning & Math",
           "release_date": "2026-10-27",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://huggingface.co/LiquidAI/d1-2B",
-          "short_description": "A 2B decision model that processes text, images, and video to answer structured questions with calibrated probabilities in a single forward pass.",
+          "short_description": "A 2B parameter decision model for structured tasks and multi-question answering with single forward pass.",
           "key_features": [
-            "Can point at objects, read document values, and estimate ranges",
-            "Answers several named questions in one pass (yes/no, choice, score, multi‑select)",
-            "Calibrated probability outputs for reliable decision confidence",
-            "Single‑GPU fine‑tuning and on‑device deployment for enterprise workflows",
             "Calibrated yes/no, choice, and score outputs",
-            "Answers multiple questions over one input in a single pass"
+            "Structured decision making",
+            "Single forward pass for multiple questions",
+            "Calibrated probability outputs for reliable decision confidence",
+            "Calibrated probabilities",
+            "Can point at objects, read document values, and estimate ranges"
           ],
           "tags": [
-            "productivity",
-            "decision-making",
-            "vision",
-            "multimodal",
             "reasoning",
+            "vision",
             "structured-output",
-            "decision",
-            "open-source"
+            "productivity",
+            "open-source",
+            "decision-making",
+            "structured",
+            "d1"
           ],
           "last_verified": "2026-10-27"
         },
@@ -3761,26 +3762,26 @@
           "category": "Reasoning & Math",
           "release_date": "2026-10-27",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://huggingface.co/LiquidAI/d1-omni-2B",
-          "short_description": "An omnimodal decision model that handles text, images, video, and audio to produce calibrated structured answers, maintaining accuracy when inputs are spoken.",
+          "short_description": "An omni decision model that handles audio inputs with text and speech output for comprehensive on-device intelligence.",
           "key_features": [
-            "Extends d1-2B with audio input for voice-based decisions",
-            "Calibrated outputs for yes/no, choice, score, and multi‑select question types",
+            "Tool calling",
             "Suitable for support tickets, invoices, app screens, and voice notes",
             "Adds audio input and speech‑based question answering to the d1 core",
-            "Maintains high accuracy while supporting voice queries",
-            "Single-pass calibrated answers for complex multimodal situations"
+            "Audio input support",
+            "Single-pass calibrated answers for complex multimodal situations",
+            "Calibrated outputs for yes/no, choice, score, and multi‑select question types"
           ],
           "tags": [
+            "reasoning",
+            "structured-output",
+            "open-source",
+            "omni",
             "decision-making",
             "multimodal",
             "audio",
-            "omni",
-            "reasoning",
-            "structured-output",
-            "decision",
-            "open-source"
+            "lfm3"
           ],
           "last_verified": "2026-10-27"
         }
@@ -3898,6 +3899,86 @@
             "tool"
           ],
           "last_verified": "2025-09-25"
+        }
+      ]
+    },
+    {
+      "id": "retell-ai",
+      "name": "Retell AI",
+      "website": "https://www.retellai.com/",
+      "description": "Retell AI is a voice AI platform provider that empowers contact centers to build, deploy, and optimize AI agents at scale using advanced language models.",
+      "logo_symbol": "retell-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Voice"
+      ],
+      "tools": [
+        {
+          "id": "retell-ai",
+          "name": "Retell AI",
+          "parent_org": "Retell AI",
+          "category": "Voice & Audio",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.retellai.com/",
+          "short_description": "Retell AI is a voice AI platform for contact center operations that enables businesses to build agents capable of answering questions, taking action, and connecting callers with humans, leveraging OpenAI models to handle over 100 million monthly calls.",
+          "key_features": [
+            "Voice AI agents for contact center automation",
+            "Integration with OpenAI models including GPT-6 Astra and GPT-5.5",
+            "Custom vCX benchmark for instruction following and tool-call evaluation",
+            "Real-time conversation state management and interruption handling",
+            "Enterprise integrations with customer systems and CRM workflows",
+            "Scalable infrastructure with dedicated servers and regional API endpoints"
+          ],
+          "tags": [
+            "voice-ai",
+            "contact-center",
+            "conversational-ai",
+            "openai-integration",
+            "enterprise-ai",
+            "voice-automation"
+          ],
+          "last_verified": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "nuvio",
+      "name": "Nuvio",
+      "website": "https://nuvio.com",
+      "description": "Nuvio is an AI creative tool company focused on video generation and multimedia production.",
+      "logo_symbol": "nuvio",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Video"
+      ],
+      "tools": [
+        {
+          "id": "nuvio-5-0",
+          "name": "Nuvio 5.0",
+          "parent_org": "Nuvio",
+          "category": "Video & Animation",
+          "release_date": "2024-12",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/nuvio",
+          "short_description": "Nuvio 5.0 is an AI-powered video generation platform that enables creators to produce high-quality videos from text prompts, advancing the state of AI video production.",
+          "key_features": [
+            "AI video generation from text prompts",
+            "Enhanced video editing capabilities",
+            "Multi-model architecture for improved output quality",
+            "Real-time rendering and preview"
+          ],
+          "tags": [
+            "video-generation",
+            "ai-video",
+            "productivity",
+            "creative-tools"
+          ],
+          "last_verified": "2024-12"
         }
       ]
     }
