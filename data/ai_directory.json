@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-29T12:25:44Z",
-  "total_organizations": 60,
-  "total_tools": 170,
+  "last_updated": "2026-10-29T22:31:36Z",
+  "total_organizations": 64,
+  "total_tools": 181,
   "organizations": [
     {
       "id": "google",
@@ -841,6 +841,31 @@
             "it-operations"
           ],
           "last_verified": "2024-12-19"
+        },
+        {
+          "id": "openai-frontier-model-misalignment-detection",
+          "name": "Frontier Model Misalignment Detection",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "short_description": "OpenAI's research publication detailing methodologies for detecting misaligned behavior in frontier AI models to support safer development and deployment.",
+          "key_features": [
+            "Misalignment detection methodologies",
+            "Frontier model safety evaluation",
+            "Behavioral analysis techniques",
+            "Alignment research publication"
+          ],
+          "tags": [
+            "openai",
+            "ai-safety",
+            "misalignment-detection",
+            "frontier-models",
+            "research"
+          ],
+          "last_verified": "2024-06-01"
         }
       ]
     },
@@ -1732,6 +1757,30 @@
             "models"
           ],
           "last_verified": "2026-10-29"
+        },
+        {
+          "id": "project-protostar",
+          "name": "Project ProtoStar",
+          "parent_org": "Hugging Face",
+          "category": "Search & Research",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/project-protostar",
+          "short_description": "An initiative to make publicly funded scientific research AI-ready by encouraging institutions to release datasets, models, and code in machine-actionable formats through open challenges and collaborative infrastructure.",
+          "key_features": [
+            "AI-ready scientific artifact sharing platform",
+            "Open science challenges hosted by research institutions",
+            "Machine-actionable dataset and model publication",
+            "Collaborative infrastructure with universities and research organizations"
+          ],
+          "tags": [
+            "open-science",
+            "research-data",
+            "scientific-datasets",
+            "ai-research"
+          ],
+          "last_verified": "2026-10-29"
         }
       ]
     },
@@ -2523,6 +2572,131 @@
             "probabilistic-forecasting"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "ibm-granite-granite-switch-4-1-1",
+          "name": "Granite Switch 4.1.1",
+          "parent_org": "IBM",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
+          "short_description": "A 30‑billion‑parameter Granite language model that can be configured with modular adapters via the Granite Switch architecture.",
+          "key_features": [
+            "Fully backwards compatible with version 4.1, no migration required",
+            "30 B parameters for strong language capabilities",
+            "Enables rapid patch releases and iterative development",
+            "Modular adapter support for multiple use cases",
+            "Incremental improvements without recomputing the base model",
+            "Efficient inference with adapter switching"
+          ],
+          "tags": [
+            "efficiency",
+            "ibm",
+            "llm",
+            "adapters",
+            "30b",
+            "modular",
+            "efficient"
+          ],
+          "last_verified": "2026-10-15"
+        },
+        {
+          "id": "ibm-granite-granite-speech-5-0-470m-turboctc",
+          "name": "Granite Speech 5.0-470m-turboctc",
+          "parent_org": "IBM",
+          "category": "Voice & Audio",
+          "release_date": "2026-10-21",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
+          "short_description": "A 0.5 billion‑parameter multilingual speech‑to‑text model that transcribes speech in 10 languages with native punctuation and capitalization.",
+          "key_features": [
+            "Multilingual ASR for 10 languages",
+            "Native punctuation and capitalization",
+            "Small 0.5 B parameter footprint",
+            "TurboCTC decoding for fast inference"
+          ],
+          "tags": [
+            "speech",
+            "asr",
+            "multilingual",
+            "efficiency"
+          ],
+          "last_verified": "2026-10-21"
+        },
+        {
+          "id": "ibm-granite-granitelib-core-r1-0",
+          "name": "Granitelib-core-r1.0",
+          "parent_org": "IBM",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-28",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/ibm-granite/granitelib-core-r1.0",
+          "short_description": "A core library providing decision‑making adapters for Granite models, updated with improved performance on the Jev Decision Index.",
+          "key_features": [
+            "Decision adapter implementation",
+            "Improved Jev Decision Index performance",
+            "Integrates with Granite Switch architecture",
+            "Lightweight and easy to use"
+          ],
+          "tags": [
+            "decision",
+            "adapter",
+            "library",
+            "performance"
+          ],
+          "last_verified": "2026-10-28"
+        },
+        {
+          "id": "ibm-granite-speech-to-decisions-space",
+          "name": "Speech to Decisions",
+          "parent_org": "IBM",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/spaces/ibm-granite/speech-to-decisions",
+          "short_description": "An interactive demo that transcribes live speech and instantly classifies intent using a Granite Switch model.",
+          "key_features": [
+            "Real‑time speech transcription",
+            "Instant intent classification",
+            "Powered by Granite Switch model",
+            "Zero‑setup web demo"
+          ],
+          "tags": [
+            "demo",
+            "speech",
+            "intent",
+            "interactive"
+          ],
+          "last_verified": "2026-10-29"
+        },
+        {
+          "id": "ibm-granite-granite-switch-collection",
+          "name": "Granite Switch Collection",
+          "parent_org": "IBM",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-14",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/collections/ibm-granite/granite-switch",
+          "short_description": "A curated collection of IBM Granite models with built‑in adapters that can be switched on demand from a single checkpoint.",
+          "key_features": [
+            "Modular adapters for multiple tasks",
+            "Single checkpoint for all models",
+            "On‑demand switching of capabilities",
+            "Community curated and regularly updated"
+          ],
+          "tags": [
+            "collection",
+            "modular",
+            "adapters",
+            "ibm"
+          ],
+          "last_verified": "2026-10-14"
         }
       ]
     },
@@ -5118,6 +5292,163 @@
             "ai"
           ],
           "last_verified": "2024-05-20"
+        }
+      ]
+    },
+    {
+      "id": "ai-knows-us",
+      "name": "AI Knows Us",
+      "website": "https://www.aiknowsus.com/",
+      "description": "AI Knows Us helps businesses get named by AI search assistants through optimized content and directory listings.",
+      "logo_symbol": "ai-knows-us",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "ai-knows-us",
+          "name": "AI Knows Us",
+          "parent_org": "AI Knows Us",
+          "category": "Search & Research",
+          "release_date": "2026-10-11",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.aiknowsus.com/",
+          "short_description": "AI Knows Us creates answer‑first pages and secures listings on sites AI reads, then tracks weekly whether AI assistants like ChatGPT and Perplexity name your business.",
+          "key_features": [
+            "AI‑driven content creation with answer‑first pages",
+            "Placement on AI‑read directories, review sites, and best‑of lists",
+            "Weekly visibility tracking and reporting for each AI app",
+            "Control panel to preview, edit, or stop pages before they go live"
+          ],
+          "tags": [
+            "ai-seo",
+            "search-visibility",
+            "content-optimization",
+            "weekly-analytics",
+            "chatgpt",
+            "perplexity",
+            "gemini",
+            "claude"
+          ],
+          "last_verified": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "spotlytt",
+      "name": "Spotlytt",
+      "website": "https://www.spotlytt.com/",
+      "description": "Spotlytt is an AI-powered skill discovery platform that transforms how talent gets discovered by turning interview answers into verified, recruiter-trusted evidence.",
+      "logo_symbol": "spotlytt",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "spotlytt-ai-interview-platform",
+          "name": "Spotlytt",
+          "parent_org": "Spotlytt",
+          "category": "Search & Research",
+          "release_date": "2025",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.spotlytt.com/",
+          "short_description": "AI-powered platform that conducts role-specific interviews to verify skills, generate evidence-based profiles, and connect job seekers with recruiters through validated skill scores and peer rankings.",
+          "key_features": [
+            "Role-specific adaptive AI interviews assessing reasoning, clarity, and depth",
+            "Verified skill scoring with evidence clips extracted from best interview answers",
+            "Skill gap identification with personalized learning recommendations and re-interview paths",
+            "Recruiter discovery through job readiness scores and peer-ranked skill proficiency"
+          ],
+          "tags": [
+            "ai-interview",
+            "skill-verification",
+            "talent-discovery",
+            "recruitment-platform",
+            "career-development"
+          ],
+          "last_verified": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "ropes-gray",
+      "name": "Ropes & Gray",
+      "website": "https://www.ropesgray.com",
+      "description": "Ropes & Gray is a leading law firm that early adopted AI in the legal industry, partnering with OpenAI to develop proprietary AI tools for transactional diligence.",
+      "logo_symbol": "ropes-gray",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "ropes-gray-transactional-diligence-ai",
+          "name": "Ropes & Gray Transactional Diligence AI Tool",
+          "parent_org": "Ropes & Gray",
+          "category": "Productivity & Office",
+          "release_date": "2024-07-01",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/ropes-gray-ai-diligence",
+          "short_description": "A proprietary AI tool built by Ropes & Gray with OpenAI that automates document review, grouping, summarization, and report generation for transactional diligence, enabling lawyers to produce high‑quality first‑pass analyses faster.",
+          "key_features": [
+            "Inventories and categorizes data room documents by theme and issue",
+            "Generates summaries and reports in Ropes & Gray's signature format",
+            "Allows lawyers to review interim summaries and source documents before client delivery",
+            "Mimics associate workflow to deliver junior‑to‑mid‑level associate quality work"
+          ],
+          "tags": [
+            "legaltech",
+            "ai",
+            "documentreview",
+            "transactiondiligence"
+          ],
+          "last_verified": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "website": "https://huggingface.co",
+      "description": "Hugging Face is a leading AI company providing open-source tools and infrastructure for machine learning researchers and developers to share and discover datasets, models, and code.",
+      "logo_symbol": "carnegie-mellon-university",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "cmu-climate-risk-intelligence-challenge",
+          "name": "CMU Climate Risk Intelligence Challenge",
+          "parent_org": "Carnegie Mellon University",
+          "category": "Search & Research",
+          "release_date": "2026-11-02",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/spaces/CMU-OSPO/protostar-challenge-climate-risk-intelligence",
+          "short_description": "A challenge to test whether AI can improve predictions of urban climate conditions using historical weather data from 210 U.S. cities, with participants forecasting temperature, precipitation, and other climate indicators.",
+          "key_features": [
+            "Urban climate prediction using AI",
+            "Historical weather data from 210 U.S. cities",
+            "Forecasting four climate indicators (temperature, precipitation, hottest day, cooling degree days)",
+            "Public leaderboard for model evaluation"
+          ],
+          "tags": [
+            "climate-science",
+            "weather-forecasting",
+            "ai-prediction",
+            "urban-planning"
+          ],
+          "last_verified": "2026-10-29"
         }
       ]
     }

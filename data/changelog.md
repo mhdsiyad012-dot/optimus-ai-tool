@@ -353,3 +353,21 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
   - **Refreshed:**
     - **Legora** (Legora) verified on 2024-11-20
     - **Retell Voice Agent Platform** (Retell AI) verified on 2025-01-09
+
+### [2026-10-29 22:31 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 11
+- **Existing Tools Refreshed:** 1
+  - **Added:**
+    - **[AI Knows Us](https://www.aiknowsus.com/)** (AI Knows Us) — *Search & Research* (Freemium): AI Knows Us creates answer‑first pages and secures listings on sites AI reads, then tracks weekly whether AI assistants like ChatGPT and Perplexity name your business.
+    - **[Spotlytt](https://www.spotlytt.com/)** (Spotlytt) — *Search & Research* (Freemium): AI-powered platform that conducts role-specific interviews to verify skills, generate evidence-based profiles, and connect job seekers with recruiters through validated skill scores and peer rankings.
+    - **[Frontier Model Misalignment Detection](https://openai.com/index/how-we-detect-frontier-model-misalignment)** (OpenAI) — *LLMs & Frontier Models* (Free): OpenAI's research publication detailing methodologies for detecting misaligned behavior in frontier AI models to support safer development and deployment.
+    - **[Ropes & Gray Transactional Diligence AI Tool](https://openai.com/index/ropes-gray-ai-diligence)** (Ropes & Gray) — *Productivity & Office* (Paid): A proprietary AI tool built by Ropes & Gray with OpenAI that automates document review, grouping, summarization, and report generation for transactional diligence, enabling lawyers to produce high‑quality first‑pass analyses faster.
+    - **[Granite Switch 4.1.1](https://huggingface.co/ibm-granite/granite-switch-4.1-30b)** (IBM) — *Developer Platforms & APIs* (Free): Granite Switch 4.1.1 lets developers apply modular, cache‑efficient adapters to IBM Granite language models, enabling on‑the‑fly updates without retraining the base model.
+    - **[Granite Speech 5.0-470m-turboctc](https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc)** (IBM) — *Voice & Audio* (Free): A 0.5 billion‑parameter multilingual speech‑to‑text model that transcribes speech in 10 languages with native punctuation and capitalization.
+    - **[Granitelib-core-r1.0](https://huggingface.co/ibm-granite/granitelib-core-r1.0)** (IBM) — *Developer Platforms & APIs* (Free): A core library providing decision‑making adapters for Granite models, updated with improved performance on the Jev Decision Index.
+    - **[Speech to Decisions](https://huggingface.co/spaces/ibm-granite/speech-to-decisions)** (IBM) — *Developer Platforms & APIs* (Free): An interactive demo that transcribes live speech and instantly classifies intent using a Granite Switch model.
+    - **[Granite Switch Collection](https://huggingface.co/collections/ibm-granite/granite-switch)** (IBM) — *Developer Platforms & APIs* (Free): A curated collection of IBM Granite models with built‑in adapters that can be switched on demand from a single checkpoint.
+    - **[Project ProtoStar](https://huggingface.co/project-protostar)** (Hugging Face) — *Search & Research* (Free): An initiative to make publicly funded scientific research AI-ready by encouraging institutions to release datasets, models, and code in machine-actionable formats through open challenges and collaborative infrastructure.
+    - **[CMU Climate Risk Intelligence Challenge](https://huggingface.co/spaces/CMU-OSPO/protostar-challenge-climate-risk-intelligence)** (Carnegie Mellon University) — *Search & Research* (Free): A challenge to test whether AI can improve predictions of urban climate conditions using historical weather data from 210 U.S. cities, with participants forecasting temperature, precipitation, and other climate indicators.
+  - **Refreshed:**
+    - **Granite Switch 4.1-30b** (IBM) verified on 2026-10-15
