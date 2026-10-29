@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-28T22:28:25Z",
-  "total_organizations": 58,
-  "total_tools": 166,
+  "last_updated": "2026-10-29T04:40:36Z",
+  "total_organizations": 59,
+  "total_tools": 167,
   "organizations": [
     {
       "id": "google",
@@ -4003,23 +4003,23 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.retellai.com/",
-          "short_description": "Retell AI is a voice AI platform that enables businesses to build and deploy autonomous voice agents for contact centers, handling over 100 million monthly calls with resolution rates above 80% by leveraging OpenAI's latest models for real-time conversation, tool use, and post-call analysis.",
+          "short_description": "Retell AI is an enterprise voice AI platform that powers autonomous agents for contact centers, handling 100M+ monthly calls with 80%+ resolution rates by leveraging OpenAI's latest models for real-time conversation, tool use, and post-call analysis.",
           "key_features": [
-            "Post-call analysis using GPT-5.6 Terra for outcome extraction",
+            "Codex-assisted engineering for custom workflow development and GPT-6 Astra for automated front-end testing",
             "vCX benchmark to evaluate and rank models on instruction following and tool-call correctness",
-            "Real-time conversation handling with OpenAI models (GPT-6 Astra, GPT-6.1 Sol, GPT-5.5)",
-            "vCX benchmark for model evaluation on instruction following and hallucination rates",
+            "Autonomous voice agents for contact center operations",
+            "Real-time integration with OpenAI models (GPT-6 Astra, GPT-6.1 Sol, GPT-5.5, GPT-5.6 Terra) for response generation and tool calling",
             "Human-in-the-loop escalation with context briefing",
-            "Autonomous voice agents for contact center operations"
+            "Post-call analysis using GPT-5.6 Terra for outcome extraction"
           ],
           "tags": [
-            "voice-automation",
             "contact-center",
+            "enterprise-ai",
+            "voice-automation",
+            "voice-ai",
+            "enterprise-saas",
             "conversational-ai",
             "enterprise",
-            "enterprise-ai",
-            "autonomous-agents",
-            "openai-integration",
             "real-time-voice"
           ],
           "last_verified": "2026-10-13"
@@ -4085,24 +4085,24 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.legora.com/",
-          "short_description": "AI-powered legal platform that automates document review, contract analysis, and due diligence, enabling legal teams to complete work faster and focus on higher-value strategic tasks.",
+          "short_description": "Legora is an AI-powered agentic platform for legal work that automates contract review, due diligence, and document analysis, helping legal teams work faster and with higher quality by integrating autonomous AI agents into everyday legal workflows.",
           "key_features": [
-            "Agentic legal work automation",
-            "Contract and NDA review with custom playbooks",
-            "Due diligence and Tabular Review workflow",
+            "Agentic legal workflows for contract review, due diligence, and document analysis",
+            "Automated NDA first-pass review with customizable playbooks and risk highlighting",
+            "M&A due diligence support with AI-assisted contract analysis and information surfacing",
             "Large-scale document review and analysis",
-            "Agentic legal workflows for contract review and due diligence",
-            "Real-time collaboration between lawyers and AI agents"
+            "Real-time collaboration between lawyers and AI agents",
+            "Agentic legal workflows for contract review and due diligence"
           ],
           "tags": [
-            "due-diligence",
+            "contract-analysis",
             "document-review",
-            "ai-agents",
-            "contract-management",
             "agentic-ai",
-            "legal-tech",
+            "contract-management",
+            "due-diligence",
             "legal-ai",
-            "contract-analysis"
+            "ai-agents",
+            "contract-review"
           ],
           "last_verified": "2025-01-24"
         },
@@ -4990,6 +4990,45 @@
             "web-search"
           ],
           "last_verified": "2025-06-03"
+        }
+      ]
+    },
+    {
+      "id": "ai-workflows",
+      "name": "AI Workflows",
+      "website": "https://aiworkflows.tools",
+      "description": "AI Workflows is an AI knowledge platform that helps users connect AI tools into complete, actionable workflows.",
+      "logo_symbol": "ai-workflows",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "ai-workflows",
+          "name": "AI Workflows",
+          "parent_org": "AI Workflows",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://aiworkflows.tools/workflows",
+          "short_description": "AI Workflows is a step-by-step guide platform that connects 146 AI tools into 32 curated workflow kits for creative, productivity, and technical goals.",
+          "key_features": [
+            "32 step-by-step workflow kits",
+            "Built from 146 AI tools",
+            "End-to-end creative pipelines from idea to final output",
+            "AI tool sequencing for research, production, marketing, and development"
+          ],
+          "tags": [
+            "ai-workflows",
+            "ai-tools",
+            "automation",
+            "llm",
+            "productivity"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     }
