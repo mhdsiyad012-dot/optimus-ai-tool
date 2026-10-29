@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-29T04:40:36Z",
-  "total_organizations": 59,
-  "total_tools": 167,
+  "last_updated": "2026-10-29T12:25:44Z",
+  "total_organizations": 60,
+  "total_tools": 170,
   "organizations": [
     {
       "id": "google",
@@ -1706,6 +1706,32 @@
             "lfm3"
           ],
           "last_verified": "2026-10-28"
+        },
+        {
+          "id": "hugging-face-introducing-anyspeechrecognizer-and-anydecisionmodel-open-models-for-speech-and-decisions-on-apple-platforms",
+          "name": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+          "parent_org": "Hugging Face",
+          "category": "Video & Animation",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/anydecisionmodel",
+          "short_description": "Title: Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+          "key_features": [
+            "[AnySpeechRecognizer](https://github.com/mattt/AnySpeechRecognizer) implements Apple's new speech-to-text API with a choice of recognition engine, including NVIDIA's Parakeet and Alibaba's Qwen3-ASR running locally on Core ML, and adds speaker diarization to track who speaks when.",
+            "[AnyDecisionModel](https://github.com/mattt/AnyDecisionModel) answers yes-or-no, multiple-choice, and rating-scale questions with typed results and probabilities. It derives each answer from the model's probabilities instead of generating text, using a model on your device with MLX, Core AI, or llama.cpp, or a decision model from Jev or Ollama.",
+            "import Speech",
+            "**MLX** runs a small language model on Apple silicon with [mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) and downloads it from the Hub."
+          ],
+          "tags": [
+            "introducing",
+            "anyspeechrecognizer",
+            "and",
+            "anydecisionmodel",
+            "open",
+            "models"
+          ],
+          "last_verified": "2026-10-29"
         }
       ]
     },
@@ -2392,6 +2418,30 @@
             "autonomous"
           ],
           "last_verified": "2026-10-28"
+        },
+        {
+          "id": "independent-gologin-cloud-browser",
+          "name": "Gologin Cloud Browser",
+          "parent_org": "Independent",
+          "category": "Image Generation",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/gologin",
+          "short_description": "Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "gologin",
+            "cloud",
+            "browser",
+            "independent",
+            "image"
+          ],
+          "last_verified": "2026-10-29"
         }
       ]
     },
@@ -4001,28 +4051,28 @@
           "category": "Voice & Audio",
           "release_date": "2024-01",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://www.retellai.com/",
-          "short_description": "Retell AI is an enterprise voice AI platform that powers autonomous agents for contact centers, handling 100M+ monthly calls with 80%+ resolution rates by leveraging OpenAI's latest models for real-time conversation, tool use, and post-call analysis.",
+          "short_description": "A voice AI platform for contact center operations that enables businesses to build intelligent voice agents capable of answering questions, taking actions, and seamlessly connecting callers to humans when needed.",
           "key_features": [
-            "Codex-assisted engineering for custom workflow development and GPT-6 Astra for automated front-end testing",
+            "Integration with OpenAI models (GPT-5.5, GPT-6 Astra, GPT-6 Sol) for high-quality responses",
             "vCX benchmark to evaluate and rank models on instruction following and tool-call correctness",
-            "Autonomous voice agents for contact center operations",
-            "Real-time integration with OpenAI models (GPT-6 Astra, GPT-6.1 Sol, GPT-5.5, GPT-5.6 Terra) for response generation and tool calling",
+            "Human handoff with context briefing for seamless escalation",
+            "Post-call analysis using GPT-5.6 Terra for outcome extraction",
             "Human-in-the-loop escalation with context briefing",
-            "Post-call analysis using GPT-5.6 Terra for outcome extraction"
+            "Autonomous voice agents for contact center operations"
           ],
           "tags": [
-            "contact-center",
+            "enterprise-saas",
             "enterprise-ai",
             "voice-automation",
-            "voice-ai",
-            "enterprise-saas",
             "conversational-ai",
-            "enterprise",
-            "real-time-voice"
+            "ivr",
+            "contact-center",
+            "real-time-voice",
+            "customer-service"
           ],
-          "last_verified": "2026-10-13"
+          "last_verified": "2025-01-09"
         }
       ]
     },
@@ -4085,26 +4135,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.legora.com/",
-          "short_description": "Legora is an AI-powered agentic platform for legal work that automates contract review, due diligence, and document analysis, helping legal teams work faster and with higher quality by integrating autonomous AI agents into everyday legal workflows.",
+          "short_description": "Legora is an agentic operating system for legal work that automates tedious tasks like contract reviews, NDAs, and large-scale due diligence. It helps legal teams scale their capacity, reduce turnaround times by up to 90%, and reclaim hours for high-value strategic work.",
           "key_features": [
             "Agentic legal workflows for contract review, due diligence, and document analysis",
-            "Automated NDA first-pass review with customizable playbooks and risk highlighting",
-            "M&A due diligence support with AI-assisted contract analysis and information surfacing",
-            "Large-scale document review and analysis",
+            "Agentic legal workflows and large-scale document review (Tabular Review) to analyze thousands of contracts rapidly.",
             "Real-time collaboration between lawyers and AI agents",
-            "Agentic legal workflows for contract review and due diligence"
+            "Large-scale document review and analysis",
+            "Real-time lawyer-AI collaboration tools for back-and-forth contract editing, analysis, and advice.",
+            "Automated NDA first-pass review with customizable playbooks and risk highlighting"
           ],
           "tags": [
-            "contract-analysis",
-            "document-review",
-            "agentic-ai",
-            "contract-management",
+            "chatgpt-plugin",
             "due-diligence",
-            "legal-ai",
+            "legal-tech",
+            "contract-management",
             "ai-agents",
-            "contract-review"
+            "contract-review",
+            "autonomous-agents",
+            "productivity"
           ],
-          "last_verified": "2025-01-24"
+          "last_verified": "2024-11-20"
         },
         {
           "id": "legora-legora-chatgpt-plugin",
@@ -5029,6 +5079,45 @@
             "productivity"
           ],
           "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "floot",
+      "name": "Floot",
+      "website": "https://www.producthunt.com/products/floot",
+      "description": "Floot is a productivity-focused AI tool designed to integrate seamless automation and task management capabilities directly into the ChatGPT ecosystem.",
+      "logo_symbol": "floot",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "floot-chatgpt-plugin",
+          "name": "Floot",
+          "parent_org": "Floot",
+          "category": "Productivity & Office",
+          "release_date": "2023-11-15",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/floot",
+          "short_description": "Floot is an AI-powered tool integrated with ChatGPT that helps users automate tasks, manage workflows, and enhance productivity directly through natural language conversations.",
+          "key_features": [
+            "ChatGPT Integration",
+            "Natural Language Workflow Automation",
+            "Task Management",
+            "Productivity Assistant"
+          ],
+          "tags": [
+            "chatgpt",
+            "plugin",
+            "productivity",
+            "automation",
+            "ai"
+          ],
+          "last_verified": "2024-05-20"
         }
       ]
     }
