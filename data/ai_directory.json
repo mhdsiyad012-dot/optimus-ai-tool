@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-30T04:40:45Z",
+  "last_updated": "2026-10-30T12:16:23Z",
   "total_organizations": 64,
-  "total_tools": 182,
+  "total_tools": 183,
   "organizations": [
     {
       "id": "google",
@@ -1793,22 +1793,22 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "An open science initiative that brings together universities, research organizations, and industry to make publicly funded scientific research datasets, models, and code more accessible and reusable in AI-ready, machine-actionable formats through open infrastructure and collaborative challenges.",
+          "short_description": "Project ProtoStar is an open initiative to make publicly funded scientific research AI-ready by standardizing datasets, models, and code in machine-actionable formats. It demonstrates this value through a series of open challenges starting with Climate Risk Intelligence.",
           "key_features": [
-            "Machine-actionable dataset and model publication",
+            "Institutional policies standardizing AI-ready format sharing",
             "Open science challenges hosted by research institutions",
-            "Guidance for preparing scientific datasets for AI reuse",
-            "Collaborative infrastructure with universities and research organizations",
-            "Multi-institutional open science challenges",
-            "AI-ready scientific artifact sharing platform"
+            "AI-ready scientific artifact sharing platform",
+            "Open challenges driving scientific reuse of publicly funded artifacts",
+            "Infrastructure hosted on Hugging Face Hub for accessibility",
+            "Community acceleration via Open Research Community Accelerator network"
           ],
           "tags": [
-            "open-science",
-            "public-datasets",
-            "scientific-datasets",
             "scientific-research",
-            "ai-ready",
-            "collaboration",
+            "public-datasets",
+            "open-science",
+            "challenges",
+            "scientific-datasets",
+            "huggingface",
             "research-data",
             "ai-research"
           ],
@@ -2739,6 +2739,36 @@
             "ibm"
           ],
           "last_verified": "2026-10-14"
+        },
+        {
+          "id": "ibm-granite-switch-4-1-1",
+          "name": "Granite Switch 4.1.1",
+          "parent_org": "IBM",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-29",
+          "status": "Beta",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "short_description": "An upcoming toolkit and core library (granitelib-core) that empowers developers to build, version, and deploy custom adapters for the Granite Switch modular model.",
+          "key_features": [
+            "Native punctuation and capitalization",
+            "Cache-efficient adapters",
+            "Single endpoint configuration",
+            "granitelib-core integration",
+            "Developer tutorials and documentation",
+            "Adapter versioning and testing"
+          ],
+          "tags": [
+            "modular-ai",
+            "adapters",
+            "voice-ai",
+            "speech-to-text",
+            "developer-tools",
+            "granite",
+            "multilingual",
+            "llm"
+          ],
+          "last_verified": "2026-10-29"
         }
       ]
     },
