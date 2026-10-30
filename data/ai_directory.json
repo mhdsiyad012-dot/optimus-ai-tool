@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-30T12:16:23Z",
-  "total_organizations": 64,
-  "total_tools": 183,
+  "last_updated": "2026-10-30T22:02:22Z",
+  "total_organizations": 67,
+  "total_tools": 188,
   "organizations": [
     {
       "id": "google",
@@ -308,20 +308,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "The world's most widely adopted conversational AI assistant with multimodal reasoning, code execution, and web browsing.",
+          "short_description": "ChatGPT is OpenAI's conversational AI model providing general-purpose language understanding and generation, with ongoing safety enhancements and teen-specific protections.",
           "key_features": [
+            "Community safety reporting and violence prevention safeguards",
             "Conversational reasoning and multi-step task execution",
             "Advanced Data Analysis with Python sandbox execution",
-            "Real-time Voice Mode with expressive emotional nuance",
-            "Custom GPT creator and store ecosystem"
+            "Parental controls and safety alerts",
+            "Age-appropriate content filters for teens",
+            "Advanced language understanding and generation"
           ],
           "tags": [
             "conversational-ai",
-            "productivity",
+            "llm",
             "voice-mode",
-            "gpt"
+            "safety",
+            "age-verification",
+            "teen",
+            "gpt",
+            "productivity"
           ],
-          "last_verified": "2026-10-22"
+          "last_verified": "2026-10-01"
         },
         {
           "id": "openai-gpt-4o",
@@ -892,6 +898,59 @@
             "gpt"
           ],
           "last_verified": "2026-10-29"
+        },
+        {
+          "id": "openai-robots-txt-ai-training-preferences",
+          "name": "Robots.txt AI Training Preferences Signal",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2024-06",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "short_description": "OpenAI announced support for a standardized robots.txt signal that allows websites to express preferences about whether their content may be used for AI training, reducing the need for per-provider crawler rules.",
+          "key_features": [
+            "Honors a common robots.txt signal for AI training preferences",
+            "Voluntary, shared signal across multiple AI providers",
+            "Complements existing OpenAI crawler controls",
+            "Based on IETF AI Preferences working group standards"
+          ],
+          "tags": [
+            "ai-training",
+            "robots-txt",
+            "web-crawling",
+            "publisher-controls",
+            "ietf",
+            "open-web"
+          ],
+          "last_verified": "2024-06-13"
+        },
+        {
+          "id": "openai-chatgpt-for-teens",
+          "name": "ChatGPT for Teens",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-07",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/index/chatgpt-for-teens/",
+          "short_description": "ChatGPT tailored for users under 18 with enhanced safety safeguards, age verification, and parental controls to reduce exposure to sensitive content.",
+          "key_features": [
+            "Age-appropriate content filters",
+            "Restricted weapons and security system information",
+            "Safety alerts to parents for self-harm and violent behavior",
+            "Integration with Persona for age verification",
+            "Parental controls linking teen and parent accounts",
+            "Automatic chat termination for concerning behavior"
+          ],
+          "tags": [
+            "teen",
+            "safety",
+            "parental-controls",
+            "age-verification",
+            "content-moderation"
+          ],
+          "last_verified": "2026-10-01"
         }
       ]
     },
@@ -1793,24 +1852,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "Project ProtoStar is an open initiative to make publicly funded scientific research AI-ready by standardizing datasets, models, and code in machine-actionable formats. It demonstrates this value through a series of open challenges starting with Climate Risk Intelligence.",
+          "short_description": "Project ProtoStar is an initiative to make publicly funded scientific research AI-ready by encouraging systematic sharing of datasets, models, and code in machine-actionable formats, supported by open infrastructure and open challenges.",
           "key_features": [
-            "Institutional policies standardizing AI-ready format sharing",
-            "Open science challenges hosted by research institutions",
             "AI-ready scientific artifact sharing platform",
-            "Open challenges driving scientific reuse of publicly funded artifacts",
+            "Multi-institutional partnership (CMU, Purdue, Georgia Tech, ASU, GWU)",
+            "Open infrastructure via Hugging Face Hub",
+            "Open science challenges hosted by research institutions",
             "Infrastructure hosted on Hugging Face Hub for accessibility",
-            "Community acceleration via Open Research Community Accelerator network"
+            "Open challenges driving scientific reuse of publicly funded artifacts"
           ],
           "tags": [
-            "scientific-research",
-            "public-datasets",
-            "open-science",
-            "challenges",
             "scientific-datasets",
-            "huggingface",
-            "research-data",
-            "ai-research"
+            "ai-ready-data",
+            "scientific-research",
+            "ai-research",
+            "challenges",
+            "research-data-sharing",
+            "public-datasets",
+            "huggingface"
           ],
           "last_verified": "2026-10-29"
         }
@@ -5526,6 +5585,124 @@
             "forecasting"
           ],
           "last_verified": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "gerard-rafie",
+      "name": "Gerard Rafie",
+      "website": "https://nomorehappypath.com/",
+      "description": "Gerard Rafie, a 35-year veteran of commercial software product management and fintech, built NoMoreHappyPath to enforce rigorous AI-aided quality gates for shipping production-grade software.",
+      "logo_symbol": "gerard-rafie",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "nomorehappypath-delivery-system",
+          "name": "NoMoreHappyPath",
+          "parent_org": "Gerard Rafie",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-30",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://nomorehappypath.com/",
+          "short_description": "NoMoreHappyPath is an open-source delivery system that governs AI agents through 21 defined quality steps, ensuring commercial-ready software by mandating test-first review, independent verification, and plain-English acceptance before any code ships.",
+          "key_features": [
+            "21-step quality governance process from idea to accepted work",
+            "Test-first review by independent AI from a different company",
+            "SHA-256 tamper-proof board with red-proof validation",
+            "Mission Control plain-English interface with cross-OS virtual machine testing"
+          ],
+          "tags": [
+            "ai-agents",
+            "software-delivery",
+            "open-source",
+            "test-first"
+          ],
+          "last_verified": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "zkstamp",
+      "name": "ZKStamp",
+      "website": "https://github.com/ZKStamp",
+      "description": "ZKStamp develops privacy-focused blockchain infrastructure for AI agents and digital transactions.",
+      "logo_symbol": "zkstamp",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "zkstamp-agentwallet",
+          "name": "AgentWallet",
+          "parent_org": "ZKStamp",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://github.com/ZKStamp/AgentWallet",
+          "short_description": "Shielded BitcoinZ wallets for AI agents that can autonomously send payments, receive private messages, and trade with proof of delivery through coded safety limits.",
+          "key_features": [
+            "Create shielded wallets for AI agents via MCP protocol",
+            "Send/receive BitcoinZ with zk-SNARK privacy shielding",
+            "Private signed messaging between autonomous agents",
+            "Deal trading with step-by-step proof of delivery verification"
+          ],
+          "tags": [
+            "ai-agents",
+            "bitcoinz",
+            "mpc",
+            "privacy",
+            "trading",
+            "deals",
+            "messaging",
+            "zk-snark"
+          ],
+          "last_verified": "2024-01-15"
+        }
+      ]
+    },
+    {
+      "id": "jev",
+      "name": "Jev",
+      "website": "https://www.producthunt.com",
+      "description": "Jev is the company behind SparkBots AI, developing AI-powered tools for document and webpage analysis.",
+      "logo_symbol": "jev",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "sparkbots-ai",
+          "name": "SparkBots AI",
+          "parent_org": "Jev",
+          "category": "Search & Research",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs",
+          "short_description": "AI tool that analyzes web pages and PDF documents to extract insights, summarize content, and retrieve key information.",
+          "key_features": [
+            "PDF and webpage analysis",
+            "Summarization",
+            "Key information extraction",
+            "AI-powered insights"
+          ],
+          "tags": [
+            "ai",
+            "document-analysis",
+            "productivity",
+            "research"
+          ],
+          "last_verified": "2025-11-03"
         }
       ]
     }
