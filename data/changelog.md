@@ -371,3 +371,15 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **[CMU Climate Risk Intelligence Challenge](https://huggingface.co/spaces/CMU-OSPO/protostar-challenge-climate-risk-intelligence)** (Carnegie Mellon University) — *Search & Research* (Free): A challenge to test whether AI can improve predictions of urban climate conditions using historical weather data from 210 U.S. cities, with participants forecasting temperature, precipitation, and other climate indicators.
   - **Refreshed:**
     - **Granite Switch 4.1-30b** (IBM) verified on 2026-10-15
+
+### [2026-10-30 04:40 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 1
+- **Existing Tools Refreshed:** 5
+  - **Added:**
+    - **[OpenAI GPT Models](https://openai.com/index/updated-model-spec)** (OpenAI) — *LLMs & Frontier Models* (Freemium): OpenAI updated its Model Spec for GPT models, organizing behavior around five core values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care, to build more capable and beneficial AI.
+  - **Refreshed:**
+    - **Granite Switch 4.1.1** (IBM) verified on 2026-10-29
+    - **Granite Speech 5.0 TurboCTC** (IBM) verified on 2026-10-29
+    - **Granite Decision Adapter** (IBM) verified on 2026-10-29
+    - **Project ProtoStar** (Hugging Face) verified on 2026-10-29
+    - **CMU Climate Risk Intelligence Challenge** (Carnegie Mellon University) verified on 2026-10-29

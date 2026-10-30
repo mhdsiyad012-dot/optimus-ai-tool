@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-29T22:31:36Z",
+  "last_updated": "2026-10-30T04:40:45Z",
   "total_organizations": 64,
-  "total_tools": 181,
+  "total_tools": 182,
   "organizations": [
     {
       "id": "google",
@@ -866,6 +866,32 @@
             "research"
           ],
           "last_verified": "2024-06-01"
+        },
+        {
+          "id": "openai-gpt-models",
+          "name": "OpenAI GPT Models",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/index/updated-model-spec",
+          "short_description": "OpenAI updated its Model Spec for GPT models, organizing behavior around five core values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care, to build more capable and beneficial AI.",
+          "key_features": [
+            "Faithfulness to human intent",
+            "Minimizing harm",
+            "Honesty and transparency",
+            "Facilitating human agency",
+            "Care and social norms"
+          ],
+          "tags": [
+            "llm",
+            "model-spec",
+            "alignment",
+            "safety",
+            "gpt"
+          ],
+          "last_verified": "2026-10-29"
         }
       ]
     },
@@ -1767,17 +1793,23 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "An initiative to make publicly funded scientific research AI-ready by encouraging institutions to release datasets, models, and code in machine-actionable formats through open challenges and collaborative infrastructure.",
+          "short_description": "An open science initiative that brings together universities, research organizations, and industry to make publicly funded scientific research datasets, models, and code more accessible and reusable in AI-ready, machine-actionable formats through open infrastructure and collaborative challenges.",
           "key_features": [
-            "AI-ready scientific artifact sharing platform",
-            "Open science challenges hosted by research institutions",
             "Machine-actionable dataset and model publication",
-            "Collaborative infrastructure with universities and research organizations"
+            "Open science challenges hosted by research institutions",
+            "Guidance for preparing scientific datasets for AI reuse",
+            "Collaborative infrastructure with universities and research organizations",
+            "Multi-institutional open science challenges",
+            "AI-ready scientific artifact sharing platform"
           ],
           "tags": [
             "open-science",
-            "research-data",
+            "public-datasets",
             "scientific-datasets",
+            "scientific-research",
+            "ai-ready",
+            "collaboration",
+            "research-data",
             "ai-research"
           ],
           "last_verified": "2026-10-29"
@@ -2580,27 +2612,28 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-10-29",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Open Source",
           "official_url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
-          "short_description": "A 30‑billion‑parameter Granite language model that can be configured with modular adapters via the Granite Switch architecture.",
+          "short_description": "Granite Switch 4.1.1 is a backwards-compatible patch release that updates specialized Granite adapters and speech models without recomputing the base model, enabling modular LLM updates like software patches.",
           "key_features": [
-            "Fully backwards compatible with version 4.1, no migration required",
-            "30 B parameters for strong language capabilities",
+            "Multilingual speech-to-text across 10 languages with native punctuation and capitalization",
             "Enables rapid patch releases and iterative development",
-            "Modular adapter support for multiple use cases",
             "Incremental improvements without recomputing the base model",
-            "Efficient inference with adapter switching"
+            "Modular adapter support for multiple use cases",
+            "Fully backwards compatible with version 4.1, no migration required",
+            "Updated Granite Speech ASR model"
           ],
           "tags": [
-            "efficiency",
-            "ibm",
-            "llm",
-            "adapters",
-            "30b",
             "modular",
+            "llm",
+            "modular-ai",
+            "adapters",
+            "ibm",
+            "efficiency",
+            "ibm-granite",
             "efficient"
           ],
-          "last_verified": "2026-10-15"
+          "last_verified": "2026-10-29"
         },
         {
           "id": "ibm-granite-granite-speech-5-0-470m-turboctc",
@@ -2609,22 +2642,26 @@
           "category": "Voice & Audio",
           "release_date": "2026-10-21",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Open Source",
           "official_url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
-          "short_description": "A 0.5 billion‑parameter multilingual speech‑to‑text model that transcribes speech in 10 languages with native punctuation and capitalization.",
+          "short_description": "Granite Speech 5.0 TurboCTC is a multilingual speech-to-text model that transcribes across 10 languages with native punctuation and capitalization, ready for downstream models without a formatting pass.",
           "key_features": [
-            "Multilingual ASR for 10 languages",
-            "Native punctuation and capitalization",
             "Small 0.5 B parameter footprint",
-            "TurboCTC decoding for fast inference"
+            "Multilingual speech-to-text across 10 languages",
+            "0.5B parameter model",
+            "Native punctuation and capitalization",
+            "Multilingual ASR for 10 languages",
+            "Updated for Granite Switch 4.1.1"
           ],
           "tags": [
-            "speech",
-            "asr",
             "multilingual",
-            "efficiency"
+            "speech-recognition",
+            "asr",
+            "speech",
+            "efficiency",
+            "ibm-granite"
           ],
-          "last_verified": "2026-10-21"
+          "last_verified": "2026-10-29"
         },
         {
           "id": "ibm-granite-granitelib-core-r1-0",
@@ -2633,22 +2670,27 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-10-28",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Open Source",
           "official_url": "https://huggingface.co/ibm-granite/granitelib-core-r1.0",
-          "short_description": "A core library providing decision‑making adapters for Granite models, updated with improved performance on the Jev Decision Index.",
+          "short_description": "Granite Decision Adapter is a specialized adapter for decision-making that improves overall performance on the Jev Decision Index test set, designed to be composed with Granite models.",
           "key_features": [
-            "Decision adapter implementation",
             "Improved Jev Decision Index performance",
+            "Lightweight and easy to use",
             "Integrates with Granite Switch architecture",
-            "Lightweight and easy to use"
+            "Cache-efficient adapter",
+            "Specialized decision adapter",
+            "Decision adapter implementation"
           ],
           "tags": [
-            "decision",
-            "adapter",
+            "decision-making",
+            "performance",
             "library",
-            "performance"
+            "decision",
+            "reasoning",
+            "adapter",
+            "ibm-granite"
           ],
-          "last_verified": "2026-10-28"
+          "last_verified": "2026-10-29"
         },
         {
           "id": "ibm-granite-speech-to-decisions-space",
@@ -5435,18 +5477,23 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/spaces/CMU-OSPO/protostar-challenge-climate-risk-intelligence",
-          "short_description": "A challenge to test whether AI can improve predictions of urban climate conditions using historical weather data from 210 U.S. cities, with participants forecasting temperature, precipitation, and other climate indicators.",
+          "short_description": "The inaugural ProtoStar open challenge hosted by Carnegie Mellon University that tasks participants with using AI to predict urban climate conditions across 210 U.S. cities using historical weather data, with results evaluated against observed weather and simple statistical baselines.",
           "key_features": [
+            "AI prediction of temperature, precipitation, and cooling degree days",
             "Urban climate prediction using AI",
-            "Historical weather data from 210 U.S. cities",
-            "Forecasting four climate indicators (temperature, precipitation, hottest day, cooling degree days)",
+            "Climate adaptation policy proposal component",
+            "Public leaderboard with baseline comparisons",
+            "Urban climate forecasting across 210 U.S. cities",
             "Public leaderboard for model evaluation"
           ],
           "tags": [
-            "climate-science",
             "weather-forecasting",
             "ai-prediction",
-            "urban-planning"
+            "climate-science",
+            "challenge",
+            "urban-planning",
+            "open-competition",
+            "forecasting"
           ],
           "last_verified": "2026-10-29"
         }
