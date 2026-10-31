@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-31T11:48:21Z",
+  "last_updated": "2026-10-31T16:54:57Z",
   "total_organizations": 70,
   "total_tools": 192,
   "organizations": [
@@ -516,28 +516,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2024-01",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://openai.com",
-          "short_description": "A development acceleration tool designed to speed up the process of turning ideas into working software, reducing development bottlenecks for enterprise applications.",
+          "short_description": "System that analyzes user behavior patterns to estimate whether a user is under or over 18 for appropriate content filtering and experience routing.",
           "key_features": [
-            "Visual understanding and screen inspection",
-            "Safe security testing and validation",
-            "Security research support",
+            "Continuous safety system improvements",
+            "Content review and moderation",
+            "Privacy-protective verification methods",
             "Scalable application testing",
-            "Visual understanding for screen inspection",
-            "Parallel exploration of attack vectors"
+            "Automatic teen experience routing",
+            "Safe security testing and validation"
           ],
           "tags": [
-            "enterprise",
-            "system-protection",
-            "application-testing",
             "cybersecurity",
-            "enterprise-software",
             "productivity",
+            "violence-prevention",
             "llm",
-            "ai"
+            "llms",
+            "system-protection",
+            "safety",
+            "age-estimation"
           ],
-          "last_verified": "2025-01-15"
+          "last_verified": "2026-12-31"
         },
         {
           "id": "openai-presence",
@@ -934,26 +934,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com/index/chatgpt-for-teens/",
-          "short_description": "ChatGPT for Teens introduces age-appropriate safeguards for users under 18, with stricter limits on weapons-related information, enhanced content filtering, and integrated parental controls to reduce exposure to sensitive content.",
+          "short_description": "Age-appropriate safeguards for users under 18 with stronger protections and reduced exposure to sensitive content.",
           "key_features": [
-            "Safety alerts to parents for self-harm and violent behavior",
-            "Parental controls linking teen and parent accounts",
-            "Integration with Persona for age verification",
+            "Integration with parental controls",
+            "Age-appropriate content filtering",
             "Automatic chat termination for concerning behavior",
-            "Parental controls with safety alerts for deactivations and policy violations",
-            "Restricted access to weapons and security system details"
+            "Reduced exposure to weapons and violence-related information",
+            "Safety alerts to parents for self-harm and violent behavior",
+            "Parental controls linking teen and parent accounts"
           ],
           "tags": [
-            "content-moderation",
-            "teen-protection",
+            "community-safety",
+            "teens",
             "teen",
-            "ai-safety",
             "content-filtering",
-            "age-verification",
+            "age-appropriate",
+            "safety",
             "parental-controls",
-            "safety"
+            "content-moderation"
           ],
-          "last_verified": "2026-10-01"
+          "last_verified": "2026-12-31"
         }
       ]
     },
@@ -1855,24 +1855,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "An initiative to make publicly funded scientific research AI-ready by standardizing datasets, models, and code into machine-actionable formats.",
+          "short_description": "An initiative uniting universities, research organizations, and industry to make publicly funded scientific datasets, models, and code AI-ready, discoverable, and reusable through open infrastructure and open science challenges.",
           "key_features": [
-            "AI-ready scientific artifact sharing platform",
             "Cross-disciplinary scientific resource discovery",
-            "Open science challenges demonstrating reuse of public research",
-            "AI-ready scientific artifact standardization",
+            "Climate Risk Intelligence forecasting challenge",
             "Memorandum of understanding for systematic release of scientific artifacts",
-            "Open science challenges for research reuse"
+            "AI-ready scientific artifact sharing platform",
+            "AI-ready scientific artifact publishing",
+            "Open science challenges demonstrating reuse of public research"
           ],
           "tags": [
-            "ai-ready-data",
-            "ai-research",
+            "ai-ready-datasets",
+            "publicly-funded-science",
             "open-science",
-            "public-datasets",
-            "ai-readiness",
-            "datasets",
+            "ai-research",
             "scientific-research",
-            "machine-learning"
+            "ai-readiness",
+            "public-datasets",
+            "ai-ready-data"
           ],
           "last_verified": "2026-10-29"
         }
