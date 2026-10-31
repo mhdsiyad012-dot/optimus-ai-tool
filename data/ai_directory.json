@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-30T22:02:22Z",
-  "total_organizations": 67,
-  "total_tools": 188,
+  "last_updated": "2026-10-31T04:32:18Z",
+  "total_organizations": 68,
+  "total_tools": 189,
   "organizations": [
     {
       "id": "google",
@@ -1852,24 +1852,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "Project ProtoStar is an initiative to make publicly funded scientific research AI-ready by encouraging systematic sharing of datasets, models, and code in machine-actionable formats, supported by open infrastructure and open challenges.",
+          "short_description": "An initiative to unlock the potential of publicly funded scientific research by making datasets, models, and code more accessible and reusable for AI-driven research through open challenges and institutional partnerships.",
           "key_features": [
-            "AI-ready scientific artifact sharing platform",
-            "Multi-institutional partnership (CMU, Purdue, Georgia Tech, ASU, GWU)",
+            "Open science challenges demonstrating reuse of public research",
             "Open infrastructure via Hugging Face Hub",
-            "Open science challenges hosted by research institutions",
-            "Infrastructure hosted on Hugging Face Hub for accessibility",
-            "Open challenges driving scientific reuse of publicly funded artifacts"
+            "Institutional partnerships with universities and research organizations",
+            "AI-ready scientific artifact sharing platform",
+            "Memorandum of understanding for systematic release of scientific artifacts",
+            "Open science challenges hosted by research institutions"
           ],
           "tags": [
-            "scientific-datasets",
             "ai-ready-data",
+            "open-science",
+            "scientific-datasets",
             "scientific-research",
-            "ai-research",
-            "challenges",
-            "research-data-sharing",
             "public-datasets",
-            "huggingface"
+            "huggingface",
+            "ai-research",
+            "research-collaboration"
           ],
           "last_verified": "2026-10-29"
         }
@@ -5703,6 +5703,44 @@
             "research"
           ],
           "last_verified": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": "vaani",
+      "name": "Vaani",
+      "website": "https://www.producthunt.com",
+      "description": "Vaani provides AI-driven voice and audio processing tools for developers, simplifying integration of speech technologies.",
+      "logo_symbol": "vaani",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "vaani-developer-platform",
+          "name": "Vaani Developer Platform",
+          "parent_org": "Vaani",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/vaani-developer-platfrom",
+          "short_description": "Vaani Developer Platform offers AI-powered voice and audio processing APIs that let developers easily integrate speech recognition and synthesis into their applications.",
+          "key_features": [
+            "Speech-to-text conversion",
+            "Text-to-speech generation",
+            "Customizable audio models",
+            "API-first architecture"
+          ],
+          "tags": [
+            "ai",
+            "voice",
+            "audio",
+            "developer-tools"
+          ],
+          "last_verified": "2025-09-25"
         }
       ]
     }
