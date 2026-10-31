@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-31T16:54:57Z",
-  "total_organizations": 70,
-  "total_tools": 192,
+  "last_updated": "2026-10-31T21:05:43Z",
+  "total_organizations": 71,
+  "total_tools": 194,
   "organizations": [
     {
       "id": "google",
@@ -308,26 +308,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "ChatGPT is OpenAI's conversational AI model providing general-purpose language understanding and generation, with ongoing safety enhancements and teen-specific protections.",
+          "short_description": "OpenAI's flagship conversational AI assistant with enhanced community safety protections, including new violence prevention safeguards, age-appropriate restrictions for teens, and a commitment to biannual Community Safety Reports detailing harm detection and mitigation effectiveness.",
           "key_features": [
+            "Advanced language understanding and generation",
+            "Age-predicted teen protections with parental controls, safety alerts, and restricted weapons content",
             "Community safety reporting and violence prevention safeguards",
-            "Conversational reasoning and multi-step task execution",
-            "Advanced Data Analysis with Python sandbox execution",
-            "Parental controls and safety alerts",
-            "Age-appropriate content filters for teens",
-            "Advanced language understanding and generation"
+            "Context-aware warning sign recognition that triggers conservative responses and automatic chat termination",
+            "Advanced violence detection and law enforcement referral systems (200+ referrals in Q3 2026)",
+            "Biannual Community Safety Reports starting early 2027 covering violence prevention efficacy"
           ],
           "tags": [
-            "conversational-ai",
-            "llm",
-            "voice-mode",
-            "safety",
-            "age-verification",
             "teen",
             "gpt",
-            "productivity"
+            "transparency-reporting",
+            "productivity",
+            "parental-controls",
+            "teen-protection",
+            "voice-mode",
+            "safety"
           ],
-          "last_verified": "2026-10-01"
+          "last_verified": "2026-10-15"
         },
         {
           "id": "openai-gpt-4o",
@@ -1873,6 +1873,30 @@
             "ai-readiness",
             "public-datasets",
             "ai-ready-data"
+          ],
+          "last_verified": "2026-10-29"
+        },
+        {
+          "id": "huggingface",
+          "name": "Hugging Face",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://huggingface.co",
+          "short_description": "A platform that enables researchers to share, discover, and reuse machine learning models, datasets, and code in AI-ready formats.",
+          "key_features": [
+            "Model and dataset hosting",
+            "Versioned datasets",
+            "Community collaboration",
+            "API access"
+          ],
+          "tags": [
+            "machine-learning",
+            "datasets",
+            "models",
+            "open-science"
           ],
           "last_verified": "2026-10-29"
         }
@@ -5844,6 +5868,46 @@
             "cloud"
           ],
           "last_verified": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "telemetry-dev",
+      "name": "telemetry.dev",
+      "website": "https://telemetry.dev",
+      "description": "telemetry.dev is an open-source observability platform purpose-built for AI and LLM applications, helping developers track, debug, and optimize their AI pipelines.",
+      "logo_symbol": "telemetry-dev",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "telemetry-dev",
+          "name": "telemetry.dev",
+          "parent_org": "telemetry.dev",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-03-18",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://telemetry.dev",
+          "short_description": "An open-source observability and debugging platform for AI/LLM applications, providing tracing, metrics, and logging to monitor, debug, and optimize AI pipelines in production.",
+          "key_features": [
+            "Open-source LLM observability and monitoring",
+            "Real-time tracing of AI application workflows",
+            "Metrics and logging for AI pipeline debugging",
+            "Integration with popular LLM frameworks and providers"
+          ],
+          "tags": [
+            "observability",
+            "llm",
+            "monitoring",
+            "debugging",
+            "open-source",
+            "ai-engineering"
+          ],
+          "last_verified": "2025-04-08"
         }
       ]
     }
