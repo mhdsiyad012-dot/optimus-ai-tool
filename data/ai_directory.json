@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-31T04:32:18Z",
-  "total_organizations": 68,
-  "total_tools": 189,
+  "last_updated": "2026-10-31T11:48:21Z",
+  "total_organizations": 70,
+  "total_tools": 192,
   "organizations": [
     {
       "id": "google",
@@ -934,21 +934,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com/index/chatgpt-for-teens/",
-          "short_description": "ChatGPT tailored for users under 18 with enhanced safety safeguards, age verification, and parental controls to reduce exposure to sensitive content.",
+          "short_description": "ChatGPT for Teens introduces age-appropriate safeguards for users under 18, with stricter limits on weapons-related information, enhanced content filtering, and integrated parental controls to reduce exposure to sensitive content.",
           "key_features": [
-            "Age-appropriate content filters",
-            "Restricted weapons and security system information",
             "Safety alerts to parents for self-harm and violent behavior",
-            "Integration with Persona for age verification",
             "Parental controls linking teen and parent accounts",
-            "Automatic chat termination for concerning behavior"
+            "Integration with Persona for age verification",
+            "Automatic chat termination for concerning behavior",
+            "Parental controls with safety alerts for deactivations and policy violations",
+            "Restricted access to weapons and security system details"
           ],
           "tags": [
+            "content-moderation",
+            "teen-protection",
             "teen",
-            "safety",
-            "parental-controls",
+            "ai-safety",
+            "content-filtering",
             "age-verification",
-            "content-moderation"
+            "parental-controls",
+            "safety"
           ],
           "last_verified": "2026-10-01"
         }
@@ -1852,24 +1855,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "An initiative to unlock the potential of publicly funded scientific research by making datasets, models, and code more accessible and reusable for AI-driven research through open challenges and institutional partnerships.",
+          "short_description": "An initiative to make publicly funded scientific research AI-ready by standardizing datasets, models, and code into machine-actionable formats.",
           "key_features": [
-            "Open science challenges demonstrating reuse of public research",
-            "Open infrastructure via Hugging Face Hub",
-            "Institutional partnerships with universities and research organizations",
             "AI-ready scientific artifact sharing platform",
+            "Cross-disciplinary scientific resource discovery",
+            "Open science challenges demonstrating reuse of public research",
+            "AI-ready scientific artifact standardization",
             "Memorandum of understanding for systematic release of scientific artifacts",
-            "Open science challenges hosted by research institutions"
+            "Open science challenges for research reuse"
           ],
           "tags": [
             "ai-ready-data",
-            "open-science",
-            "scientific-datasets",
-            "scientific-research",
-            "public-datasets",
-            "huggingface",
             "ai-research",
-            "research-collaboration"
+            "open-science",
+            "public-datasets",
+            "ai-readiness",
+            "datasets",
+            "scientific-research",
+            "machine-learning"
           ],
           "last_verified": "2026-10-29"
         }
@@ -3420,6 +3423,30 @@
             "local-ai",
             "privacy",
             "off-grid"
+          ],
+          "last_verified": "2024-01-01"
+        },
+        {
+          "id": "producthunt-coding-wrapped",
+          "name": "Coding Wrapped",
+          "parent_org": "Unknown",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01-01",
+          "status": "Beta",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/coding-wrapped",
+          "short_description": "A coding activity summary tool that helps developers visualize and share their programming year in a Wrapped-style format.",
+          "key_features": [
+            "Annual coding activity summary",
+            "Visual programming insights",
+            "Shareable wrapped reports",
+            "Developer productivity tracking"
+          ],
+          "tags": [
+            "coding",
+            "developer-tools",
+            "productivity",
+            "wrapped"
           ],
           "last_verified": "2024-01-01"
         }
@@ -5741,6 +5768,82 @@
             "developer-tools"
           ],
           "last_verified": "2025-09-25"
+        }
+      ]
+    },
+    {
+      "id": "yongsang-kim",
+      "name": "Yongsang Kim",
+      "website": "https://apps.apple.com/us/app/neonetworking/id6818046802",
+      "description": "Yongsang Kim is the developer behind Neonetworking, a free networking platform for AI-focused developers.",
+      "logo_symbol": "yongsang-kim",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "neonetworking-app",
+          "name": "Neonetworking",
+          "parent_org": "Yongsang Kim",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://apps.apple.com/us/app/neonetworking/id6818046802",
+          "short_description": "Neonetworking is a free iOS app that matches solo developers using AI to build 1:1 chats or small groups, enabling them to share challenges, get feedback, and find collaborators worldwide.",
+          "key_features": [
+            "Matches developers by interests, level, goals, and chat style",
+            "Provides private 1:1 chats or groups of four for ongoing collaboration",
+            "Weekly suggested connections with common project and skill profiles",
+            "No feed or followers; focuses on direct, persistent conversations"
+          ],
+          "tags": [
+            "ai",
+            "networking",
+            "developer",
+            "social"
+          ],
+          "last_verified": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": "pluto-door",
+      "name": "Pluto Door",
+      "website": "https://plutodoor.com",
+      "description": "Pluto Door is developed by Krishna Kant Singh as a macOS-native SSH client with integrated AI server management.",
+      "logo_symbol": "pluto-door",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "pluto-door",
+          "name": "Pluto Door",
+          "parent_org": "Pluto Door",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-31",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://plutodoor.com",
+          "short_description": "Pluto Door is a macOS SSH client integrating an AI agent (Ori) that server-investigates, explains issues in plain English, and blocks command execution until approved. It also provides Pluto XOS, a desktop interface for servers with 15 apps, and Hangar for one-click software installs.",
+          "key_features": [
+            "AI agent Ori investigates servers and explains issues in plain English with approval-required command execution",
+            "Pluto XOS transforms servers into desktops with 15 apps for files, processes, logs, and services",
+            "Hangar enables one-click software installs and updates tailored to your Linux distribution",
+            "Scheduled checks proactively notify you of potential issues before they become critical"
+          ],
+          "tags": [
+            "ssh",
+            "ai-agent",
+            "developer-tools",
+            "cloud"
+          ],
+          "last_verified": "2026-10-31"
         }
       ]
     }
