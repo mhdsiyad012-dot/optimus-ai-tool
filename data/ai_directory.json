@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-01T12:47:29Z",
-  "total_organizations": 72,
-  "total_tools": 195,
+  "last_updated": "2026-11-01T21:46:58Z",
+  "total_organizations": 73,
+  "total_tools": 196,
   "organizations": [
     {
       "id": "google",
@@ -1855,24 +1855,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "Project ProtoStar makes publicly funded scientific research AI-ready by standardizing datasets, models, and code for discoverability and reuse, demonstrated through open challenges and institutional partnerships.",
+          "short_description": "An initiative that brings together research institutions, industry, and the open science community to make publicly funded scientific datasets, models, and code AI‑ready, improving discovery, reuse, and reproducibility for AI-driven research.",
           "key_features": [
-            "AI-ready scientific artifact sharing platform",
-            "Memorandum of understanding for systematic release of scientific artifacts",
             "Open science challenges demonstrating AI reuse of publicly funded research",
+            "AI-ready scientific artifact sharing platform",
             "Cross-institutional collaboration via Open Forum for AI and community partners",
-            "Open science challenges demonstrating reuse of public research",
-            "Climate Risk Intelligence forecasting challenge"
+            "Climate Risk Intelligence forecasting challenge",
+            "Collaborative coalition of universities and research institutions",
+            "Memorandum of understanding for systematic release of scientific artifacts"
           ],
           "tags": [
-            "ai-research",
-            "scientific-data",
-            "ai-ready-datasets",
-            "public-datasets",
-            "ai-ready-data",
-            "huggingface",
+            "open-science",
+            "datasets",
             "challenges",
-            "ai-ready"
+            "ai-ready",
+            "ai",
+            "collaboration",
+            "huggingface",
+            "ai-research"
           ],
           "last_verified": "2026-10-29"
         },
@@ -5946,6 +5946,44 @@
             "productivity"
           ],
           "last_verified": "2025-09-25"
+        }
+      ]
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "website": "https://www.producthunt.com",
+      "description": "Product Hunt is a popular product discovery platform that helps users find, evaluate, and share new products and services.",
+      "logo_symbol": "product-hunt",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "usage-for-claude",
+          "name": "Usage for Claude + ChatGPT 4.0",
+          "parent_org": "Product Hunt",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/usage-for-claude",
+          "short_description": "A product showcasing combined usage of Claude and ChatGPT 4.0 on the Product Hunt platform.",
+          "key_features": [
+            "Integrated usage of Claude and ChatGPT 4.0",
+            "Product Hunt discovery and evaluation platform",
+            "Comparative analysis of frontier language models"
+          ],
+          "tags": [
+            "claude",
+            "chatgpt",
+            "llms",
+            "product-hunt",
+            "ai-usage"
+          ],
+          "last_verified": "2024-01-01"
         }
       ]
     }
