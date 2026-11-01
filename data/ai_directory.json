@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-31T21:05:43Z",
-  "total_organizations": 71,
-  "total_tools": 194,
+  "last_updated": "2026-11-01T12:47:29Z",
+  "total_organizations": 72,
+  "total_tools": 195,
   "organizations": [
     {
       "id": "google",
@@ -1855,24 +1855,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "An initiative uniting universities, research organizations, and industry to make publicly funded scientific datasets, models, and code AI-ready, discoverable, and reusable through open infrastructure and open science challenges.",
+          "short_description": "Project ProtoStar makes publicly funded scientific research AI-ready by standardizing datasets, models, and code for discoverability and reuse, demonstrated through open challenges and institutional partnerships.",
           "key_features": [
-            "Cross-disciplinary scientific resource discovery",
-            "Climate Risk Intelligence forecasting challenge",
-            "Memorandum of understanding for systematic release of scientific artifacts",
             "AI-ready scientific artifact sharing platform",
-            "AI-ready scientific artifact publishing",
-            "Open science challenges demonstrating reuse of public research"
+            "Memorandum of understanding for systematic release of scientific artifacts",
+            "Open science challenges demonstrating AI reuse of publicly funded research",
+            "Cross-institutional collaboration via Open Forum for AI and community partners",
+            "Open science challenges demonstrating reuse of public research",
+            "Climate Risk Intelligence forecasting challenge"
           ],
           "tags": [
-            "ai-ready-datasets",
-            "publicly-funded-science",
-            "open-science",
             "ai-research",
-            "scientific-research",
-            "ai-readiness",
+            "scientific-data",
+            "ai-ready-datasets",
             "public-datasets",
-            "ai-ready-data"
+            "ai-ready-data",
+            "huggingface",
+            "challenges",
+            "ai-ready"
           ],
           "last_verified": "2026-10-29"
         },
@@ -5908,6 +5908,44 @@
             "ai-engineering"
           ],
           "last_verified": "2025-04-08"
+        }
+      ]
+    },
+    {
+      "id": "agentmash",
+      "name": "AgentMash",
+      "website": "https://www.producthunt.com",
+      "description": "AgentMash is a developer-focused platform for creating autonomous AI agents.",
+      "logo_symbol": "agentmash",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "agentmash",
+          "name": "AgentMash",
+          "parent_org": "AgentMash",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/agentmash",
+          "short_description": "AgentMash provides a visual platform for building and deploying autonomous AI agents, enabling rapid prototyping and production-ready deployment.",
+          "key_features": [
+            "Visual agent builder",
+            "Multi-LLM support",
+            "Real-time monitoring",
+            "Scalable deployment"
+          ],
+          "tags": [
+            "ai-agents",
+            "automation",
+            "llm",
+            "productivity"
+          ],
+          "last_verified": "2025-09-25"
         }
       ]
     }
