@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-02T04:44:44Z",
-  "total_organizations": 73,
-  "total_tools": 196,
+  "last_updated": "2026-11-02T14:57:40Z",
+  "total_organizations": 75,
+  "total_tools": 199,
   "organizations": [
     {
       "id": "google",
@@ -518,26 +518,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com",
-          "short_description": "System that analyzes user behavior patterns to estimate whether a user is under or over 18 for appropriate content filtering and experience routing.",
+          "short_description": "OpenAI's frontier large language models, which the company argues are trained on copyrighted material under the fair use doctrine to drive innovation and provide public benefit without substituting original works.",
           "key_features": [
-            "Continuous safety system improvements",
-            "Content review and moderation",
-            "Privacy-protective verification methods",
-            "Scalable application testing",
             "Automatic teen experience routing",
-            "Safe security testing and validation"
+            "Safe security testing and validation",
+            "Content review and moderation",
+            "Continuous safety system improvements",
+            "Generative text and code capabilities",
+            "Application across creative, scientific, and commercial domains"
           ],
           "tags": [
-            "cybersecurity",
-            "productivity",
-            "violence-prevention",
             "llm",
-            "llms",
-            "system-protection",
+            "copyright",
+            "age-estimation",
             "safety",
-            "age-estimation"
+            "violence-prevention",
+            "productivity",
+            "system-protection",
+            "fair-use"
           ],
-          "last_verified": "2026-12-31"
+          "last_verified": "2024-05-20"
         },
         {
           "id": "openai-presence",
@@ -1897,6 +1897,31 @@
             "datasets",
             "models",
             "open-science"
+          ],
+          "last_verified": "2026-10-29"
+        },
+        {
+          "id": "project-proto-star",
+          "name": "Project ProtoStar",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-29",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/blog/announcing-project-protostar",
+          "short_description": "An initiative to unlock the potential of publicly funded scientific research by making datasets, models, and code more accessible and reusable, particularly for AI-driven research.",
+          "key_features": [
+            "Facilitates the release of scientific artifacts in AI-ready, machine-actionable formats on open infrastructure",
+            "Organizes open challenges (such as the CMU Climate Risk Intelligence Challenge) to demonstrate scientific reuse and identify barriers",
+            "Brings together a coalition of universities, research organizations, industry, and the open science community",
+            "Supports research organizations in meeting public-access expectations with practical publishing guidance"
+          ],
+          "tags": [
+            "open-science",
+            "ai-ready",
+            "scientific-research",
+            "public-data",
+            "collaboration"
           ],
           "last_verified": "2026-10-29"
         }
@@ -5985,6 +6010,87 @@
             "ai-usage"
           ],
           "last_verified": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "id": "codebugx",
+      "name": "CodeBugX",
+      "website": "https://venkatpabolu.onrender.com",
+      "description": "CodeBugX is an AI-powered development platform founded by Venkat Pabolu to streamline software development workflows.",
+      "logo_symbol": "codebugx",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "codebugx-ai",
+          "name": "CodeBugX AI",
+          "parent_org": "CodeBugX",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-04",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://codebugx.onrender.com/",
+          "short_description": "An AI-powered SaaS platform designed to simplify coding, debugging, and development workflows through a unified workspace.",
+          "key_features": [
+            "AI-Powered Code Generator",
+            "AI-Powered Code Converter",
+            "AI-Powered Code Debugger",
+            "Secure OAuth Authentication"
+          ],
+          "tags": [
+            "code-generation",
+            "debugging",
+            "code-conversion",
+            "developer-tools",
+            "saas"
+          ],
+          "last_verified": "2024-05-22"
+        }
+      ]
+    },
+    {
+      "id": "daneb",
+      "name": "daneb",
+      "website": "https://github.com/daneb",
+      "description": "An independent open-source project by author 'daneb' creating a structured, sourced educational resource for AI system design, modelled after Donne Martin's System Design Primer.",
+      "logo_symbol": "daneb",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "ai-system-design-primer",
+          "name": "AI System Design Primer",
+          "parent_org": "daneb",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/daneb/ai-system-design-primer",
+          "short_description": "An open-source, comprehensive educational primer teaching how to design production-ready AI systems built on LLMs. Features structured topics with trade-off analysis, runnable labs, Anki flashcards, and solved design patterns for interview preparation.",
+          "key_features": [
+            "Structured curriculum spanning orientation, method, trade-offs, components, and solved designs",
+            "Runnable labs with pre-recorded predictions and hands-on exercises using numpy or standard library",
+            "Automated Anki flashcard deck generation for spaced repetition with maturity tagging",
+            "Solved design patterns for common AI system design interview questions",
+            "Provider-neutral deep dives with sourced numbers, risk controls, and cloud mappings"
+          ],
+          "tags": [
+            "ai-system-design",
+            "llm",
+            "education",
+            "open-source",
+            "flashcards",
+            "interview-prep",
+            "system-design"
+          ],
+          "last_verified": "2026-11-01"
         }
       ]
     }
