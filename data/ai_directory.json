@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-01T21:46:58Z",
+  "last_updated": "2026-11-02T04:44:44Z",
   "total_organizations": 73,
   "total_tools": 196,
   "organizations": [
@@ -1855,24 +1855,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/project-protostar",
-          "short_description": "An initiative that brings together research institutions, industry, and the open science community to make publicly funded scientific datasets, models, and code AI‑ready, improving discovery, reuse, and reproducibility for AI-driven research.",
+          "short_description": "An initiative bringing together universities, research organizations, industry, and the open science community to make publicly funded scientific research easier to discover, reuse, and build upon by standardizing AI-ready formats.",
           "key_features": [
-            "Open science challenges demonstrating AI reuse of publicly funded research",
-            "AI-ready scientific artifact sharing platform",
-            "Cross-institutional collaboration via Open Forum for AI and community partners",
-            "Climate Risk Intelligence forecasting challenge",
+            "Organizes a series of open challenges hosted by participating research institutions to demonstrate scientific reuse",
+            "Encourages systematic sharing of publicly funded scientific artifacts in AI-ready, machine-actionable formats",
             "Collaborative coalition of universities and research institutions",
-            "Memorandum of understanding for systematic release of scientific artifacts"
+            "Cross-institutional collaboration via Open Forum for AI and community partners",
+            "AI-ready scientific artifact sharing platform",
+            "Fosters institutional policies through partner memorandums of understanding to support open science"
           ],
           "tags": [
-            "open-science",
-            "datasets",
-            "challenges",
-            "ai-ready",
-            "ai",
             "collaboration",
+            "ai-research",
             "huggingface",
-            "ai-research"
+            "open-science",
+            "challenges",
+            "ai",
+            "datasets",
+            "research-infrastructure"
           ],
           "last_verified": "2026-10-29"
         },
@@ -5617,23 +5617,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/spaces/CMU-OSPO/protostar-challenge-climate-risk-intelligence",
-          "short_description": "The inaugural ProtoStar open challenge hosted by Carnegie Mellon University that tasks participants with using AI to predict urban climate conditions across 210 U.S. cities using historical weather data, with results evaluated against observed weather and simple statistical baselines.",
+          "short_description": "The inaugural ProtoStar challenge inviting participants to test whether AI can improve predictions of urban climate conditions using historical weather data from 210 U.S. cities.",
           "key_features": [
-            "AI prediction of temperature, precipitation, and cooling degree days",
+            "Public leaderboard for model evaluation",
             "Urban climate prediction using AI",
-            "Climate adaptation policy proposal component",
-            "Public leaderboard with baseline comparisons",
-            "Urban climate forecasting across 210 U.S. cities",
-            "Public leaderboard for model evaluation"
+            "Forecast four key urban planning indicators: average annual temperature, total annual precipitation, the hottest day of the year, and cooling degree days",
+            "Evaluate model predictions against observed weather data from 2019 to 2026 rather than hypothetical future scenarios",
+            "Utilize a public leaderboard to assess forecasting performance against simple statistical baselines",
+            "AI prediction of temperature, precipitation, and cooling degree days"
           ],
           "tags": [
-            "weather-forecasting",
-            "ai-prediction",
-            "climate-science",
             "challenge",
-            "urban-planning",
+            "climate-risk",
+            "cmu",
             "open-competition",
-            "forecasting"
+            "open-science",
+            "urban-planning",
+            "forecasting",
+            "climate-science"
           ],
           "last_verified": "2026-10-29"
         }
