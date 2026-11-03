@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-03T00:41:23Z",
-  "total_organizations": 77,
-  "total_tools": 218,
+  "last_updated": "2026-11-03T13:49:56Z",
+  "total_organizations": 78,
+  "total_tools": 222,
   "organizations": [
     {
       "id": "google",
@@ -218,23 +218,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-          "short_description": "A frontier reasoning model delivering complex coding, financial analysis, and legal workflow capabilities across Google AI Studio, the Gemini API, and robotics applications.",
+          "short_description": "A frontier reasoning model rolled out globally for complex coding, financial analysis, and legal workflows across Google AI Studio, the Gemini API, Google Cloud, Search, and the Gemini app.",
           "key_features": [
-            "Enhanced safety and alignment with multi‑layer jailbreak defenses and real‑time misalignment monitoring",
+            "Complex coding and financial analysis",
+            "Physical-world reasoning via Robotics integration",
             "Top‑ranked performance on Vals Index across finance, coding, legal, and tax domains",
-            "Broad multimodal capabilities enabling deep document comprehension, scientific research, and robotics video‑to‑sim‑to‑real pipelines",
             "Up to 2.85x faster inference on Gemma models via vLLM optimizations",
-            "Financial analysis",
-            "Complex coding assistance"
+            "Global rollout across Google AI Studio and Gemini API",
+            "Broad multimodal capabilities enabling deep document comprehension, scientific research, and robotics video‑to‑sim‑to‑real pipelines"
           ],
           "tags": [
-            "robotics",
-            "reasoning",
-            "multimodal",
-            "coding",
-            "legal",
+            "frontier-model",
             "finance",
-            "llm"
+            "reasoning",
+            "legal",
+            "multimodal",
+            "gemini",
+            "robotics",
+            "coding"
           ],
           "last_verified": "2026-11-02"
         },
@@ -298,18 +299,22 @@
           "status": "Beta",
           "pricing": "Freemium",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "short_description": "Google's strongest model yet for long‑horizon engineering and cybersecurity defense, currently in pre‑release testing with government and trusted cyber defenders.",
+          "short_description": "Google's strongest model yet for long-horizon engineering and cybersecurity defense, currently in pre-release testing with the U.S. government and trusted cyber defenders.",
           "key_features": [
+            "Advanced safety guardrails",
+            "State-of-the-art cybersecurity defense",
+            "Partner testing via Fairwind Program",
             "Advanced cybersecurity",
-            "Long‑horizon engineering",
-            "Safety guardrails",
-            "Partner testing via Fairwind Program"
+            "Long-horizon engineering capabilities",
+            "Pre-release testing via Fairwind Program"
           ],
           "tags": [
+            "beta",
             "cybersecurity",
-            "engineering",
             "safety",
-            "beta"
+            "engineering",
+            "gemini",
+            "long-horizon"
           ],
           "last_verified": "2026-11-02"
         },
@@ -320,20 +325,25 @@
           "category": "Video & Animation",
           "release_date": "2026-10-01",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
-          "short_description": "Real‑time interactive world simulation with native audio, physics, and lifelike human movement, enabling natural‑language scene control for safe robot training.",
+          "short_description": "A real-time interactive world simulation model with native audio, advanced physics, and lifelike human movement for steering scenes with natural language.",
           "key_features": [
-            "Real‑time world simulation",
-            "Native audio",
+            "Natural‑language scene steering",
             "Advanced physics",
-            "Natural‑language scene steering"
+            "Real‑time world simulation",
+            "Real-time interactive world simulation",
+            "Natural language scene steering",
+            "Advanced physics and lifelike movement"
           ],
           "tags": [
+            "deepmind",
+            "world-model",
+            "video-generation",
             "simulation",
             "audio",
-            "physics",
-            "interactive"
+            "interactive",
+            "physics"
           ],
           "last_verified": "2026-11-02"
         },
@@ -368,20 +378,26 @@
           "category": "Search & Research",
           "release_date": "2026-10-01",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
-          "short_description": "A globally expanding AI content verification tool that checks images, videos, and audio for synthetic origins, complementing built‑in detectors in Search, Chrome, and Gemini.",
+          "short_description": "A global verification tool that lets anyone check whether an image, video, or audio clip was generated with AI, expanding SynthID watermark detection worldwide.",
           "key_features": [
-            "Cross‑media detection",
             "Global language support",
+            "Integration with Search, Chrome, and Gemini app",
+            "Partner API access",
+            "Cross‑media detection",
             "Integration with Search/Chrome/Gemini",
-            "Partner API access"
+            "Global AI content detection"
           ],
           "tags": [
+            "content-verification",
+            "deepfake-detection",
             "verification",
+            "watermarking",
+            "synthid",
+            "safety",
             "synthetic",
-            "multimedia",
-            "safety"
+            "multimedia"
           ],
           "last_verified": "2026-11-02"
         },
@@ -418,18 +434,22 @@
           "status": "Beta",
           "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
-          "short_description": "A conversational medical AI system that gathers patient histories and generates clinical summaries, helping clinicians prepare for appointments and match differential diagnoses.",
+          "short_description": "A conversational medical AI system evaluated in real-world primary care clinic visits that gathers patient histories and generates clinical summaries to assist clinicians.",
           "key_features": [
+            "Patient history gathering",
+            "Real-world clinical deployment",
             "Patient history collection",
-            "Clinical summary generation",
+            "Differential diagnosis matching",
             "Decision support",
-            "Real‑world primary care testing"
+            "Clinical summary generation"
           ],
           "tags": [
-            "healthcare",
-            "conversation",
             "clinical",
-            "ai-agent"
+            "healthcare",
+            "ai-agent",
+            "conversation",
+            "conversational-agent",
+            "medical-ai"
           ],
           "last_verified": "2026-11-02"
         },
@@ -442,18 +462,22 @@
           "status": "Beta",
           "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "short_description": "An experimental no‑code gaming platform that lets anyone build, remix, and share custom single‑ and multiplayer games from text prompts.",
+          "short_description": "An experimental gaming platform that lets anyone build, remix, and share custom single- and multiplayer games from simple text prompts with zero coding required.",
           "key_features": [
-            "No‑code game creation",
-            "Text‑to‑game prompts",
             "Remixing and sharing",
+            "Text-to-game creation",
+            "Build, remix, and share functionality",
+            "Single- and multiplayer game support",
+            "No‑code game creation",
             "Single‑ and multiplayer support"
           ],
           "tags": [
             "gaming",
-            "no-code",
+            "game-development",
+            "platform",
+            "experimental",
             "creation",
-            "platform"
+            "no-code"
           ],
           "last_verified": "2026-11-02"
         },
@@ -466,18 +490,23 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-          "short_description": "An open embedding model built on Gemma 4 that maps code, images, video, and audio into a unified space on‑device, enabling private offline search and retrieval.",
+          "short_description": "An open embedding model engineered on the Gemma 4 architecture with 740 million parameters that maps code, images, video, and audio into a unified space for on-device multimodal search.",
           "key_features": [
             "Multimodal embeddings",
             "On‑device processing",
-            "Modular design",
-            "Up to 6× reduction in vector storage"
+            "Offline and private app support",
+            "6x reduction in local vector storage",
+            "740 million parameter embedding model",
+            "Multimodal unified space for code, image, video, and audio"
           ],
           "tags": [
-            "embeddings",
+            "embedding-model",
+            "developer",
+            "multimodal-search",
             "multimodal",
             "open-source",
-            "developer"
+            "gemma",
+            "embeddings"
           ],
           "last_verified": "2026-11-02"
         },
@@ -538,18 +567,23 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://gemini.google/notebook/",
-          "short_description": "An interactive learning tool that provides study overviews, custom quizzes, and co‑creation controls for shaping Slide Decks and Video Overviews before generation.",
+          "short_description": "An AI-powered study tool that generates interactive learning overviews and custom quizzes, with co-creation controls for Slide Decks and Video Overviews.",
           "key_features": [
             "Interactive learning overviews",
-            "Custom quizzes",
+            "Custom quiz generation",
             "Co‑creation controls",
-            "Slide and video generation"
+            "Personalized study assistance",
+            "Slide and video generation",
+            "Slide Deck and Video Overview co-creation"
           ],
           "tags": [
-            "education",
             "productivity",
+            "learning",
+            "notebook",
+            "gemini",
+            "education",
             "ai",
-            "learning"
+            "study-tool"
           ],
           "last_verified": "2026-11-02"
         },
@@ -562,18 +596,24 @@
           "status": "Beta",
           "pricing": "Freemium",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/",
-          "short_description": "A music production platform that lets creators vibe‑code custom instruments and audio plugins, expanding no‑code creativity across Google’s music ecosystem.",
+          "short_description": "A music production platform enabling producers to vibe code custom instruments and audio plugins using AI.",
           "key_features": [
             "Vibe‑code instrument creation",
-            "Custom audio plugins",
             "No‑code music production",
-            "Integration with Google music services"
+            "AI-powered music production",
+            "Vibe coding interface",
+            "Custom instrument creation",
+            "Custom audio plugins"
           ],
           "tags": [
-            "music",
+            "creative-ai",
+            "music-production",
             "creative",
+            "audio",
+            "music",
             "no-code",
-            "audio"
+            "google-labs",
+            "audio-plugins"
           ],
           "last_verified": "2026-11-02"
         },
@@ -826,28 +866,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's Codex is used by Retell's engineers to research unfamiliar code, build features, debug issues, and assist customers in writing application instructions.",
+          "short_description": "AI code generation and data pipeline assistant that enabled non-technical analysts to build repeatable processing pipelines for environmental risk assessment, assessed 20,112 property assets and generated millions of data rows.",
           "key_features": [
-            "Automated code research and explanation of required changes",
-            "Integration via Model Context Protocol",
-            "Reduced code reverts",
+            "Repeatable pipeline development",
             "Code refactoring and technical debt reduction",
-            "Assistance during implementation by catching overlooked details",
-            "Debugging by cross-referencing logs and database records with code"
+            "Debugging by cross-referencing logs and database records with code",
+            "Quality checking and validation",
+            "Data cleaning and standardization",
+            "Assistance during implementation by catching overlooked details"
           ],
           "tags": [
-            "openai",
-            "mcp",
-            "developer-tools",
-            "ai-assistant",
             "coding-model",
-            "llm",
             "code-generation",
-            "coding"
+            "openai",
+            "developer-tools",
+            "data-analysis",
+            "coding",
+            "mcp",
+            "ai-assistant"
           ],
-          "last_verified": "2026-10-13"
+          "last_verified": "2025-09-01"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -1368,6 +1408,57 @@
             "agentic-ai"
           ],
           "last_verified": "2026-11-03"
+        },
+        {
+          "id": "openai-chatgpt-enterprise",
+          "name": "ChatGPT Enterprise",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-09",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/enterprise",
+          "short_description": "Enterprise-grade ChatGPT enabling businesses to integrate AI into workflows with data security, custom GPTs, and admin controls, used by Heimstaden for property management tasks like pricing, advertising, and market feedback.",
+          "key_features": [
+            "Enterprise-grade privacy and data security",
+            "Access to advanced GPT-4/4o models",
+            "Admin console for team management and deployment",
+            "Custom GPTs and workflow automation"
+          ],
+          "tags": [
+            "llm",
+            "enterprise-ai",
+            "productivity",
+            "automation"
+          ],
+          "last_verified": "2025-09-01"
+        },
+        {
+          "id": "openai-security-bug-bounty-program",
+          "name": "OpenAI Security Bug Bounty Program",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-11-20",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://bugcrowd.com/engagements/openai",
+          "short_description": "OpenAI's Security Bug Bounty program incentivizes independent researchers to find and report vulnerabilities in OpenAI's software, offering increased rewards and bonuses for high-quality reports and loyalty.",
+          "key_features": [
+            "Increased reward ranges with critical vulnerabilities earning up to $30,000",
+            "High-quality report bonus multipliers for detailed proofs of concept",
+            "Tiered loyalty bonus program rewarding consistent contributions",
+            "Priority campaign multipliers for newly launched features",
+            "Retroactive payments for recent submissions to apply new reward ranges"
+          ],
+          "tags": [
+            "bug-bounty",
+            "security",
+            "vulnerability",
+            "rewards",
+            "openai",
+            "developer-platform"
+          ],
+          "last_verified": "2024-11-20"
         }
       ]
     },
@@ -2043,20 +2134,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/huggingface/transformers",
-          "short_description": "The definitive open-source Python library for PyTorch, TensorFlow, and JAX providing thousands of pretrained neural architectures.",
+          "short_description": "The state-of-the-art library for natural language processing, computer vision, audio, and multimodal tasks, providing pre-trained models and a unified API.",
           "key_features": [
-            "Unified API for text, vision, audio, and multimodal architectures",
-            "Direct pipeline abstractions for inference and fine-tuning",
+            "Extensive testing suite with over 88,000 CPU tests and 200,000 daily GPU tests.",
+            "Integrated PyTorch scaled dot-product attention (SDPA) for optimized inference and training.",
             "Quantization support via BitsAndBytes, AWQ, and GPTQ",
-            "Massive open-source contributor ecosystem (>130k GitHub stars)"
+            "Unified API for text, image, audio, and multimodal tasks.",
+            "Massive open-source contributor ecosystem (>130k GitHub stars)",
+            "Unified API for text, vision, audio, and multimodal architectures"
           ],
           "tags": [
+            "nlp",
+            "transformers",
             "python-library",
-            "machine-learning",
             "deep-learning",
-            "open-source"
+            "open-source",
+            "machine-learning",
+            "jax",
+            "pytorch"
           ],
-          "last_verified": "2026-10-22"
+          "last_verified": "2026-11-03"
         },
         {
           "id": "hf-smollm",
@@ -2338,6 +2435,34 @@
             "collaboration"
           ],
           "last_verified": "2026-10-29"
+        },
+        {
+          "id": "huggingface-transformers-mic",
+          "name": "Transformers Model Integration Contracts (MIC)",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-03",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/huggingface/transformers-mic",
+          "short_description": "A proposed standard and CLI tool for packaging integration tests for Hugging Face models using shrunk fixtures, usage paths, and human-reviewed baselines to catch regressions early on CPU.",
+          "key_features": [
+            "Shrunk model fixtures that reduce model size by over 90% while preserving architecture layers for fast CPU testing.",
+            "Usage paths containing runnable Markdown examples of common model tasks like text generation and training steps.",
+            "Human-reviewed baseline outputs to validate model behavior against historical CI runs.",
+            "CLI tool `tmic` to automate contract drafting, fixture building, and baseline recording.",
+            "Agent-assisted generation where LLMs draft usage code and manifests under human review."
+          ],
+          "tags": [
+            "testing",
+            "ci",
+            "regression-testing",
+            "huggingface",
+            "transformers",
+            "llm-agents",
+            "developer-tools"
+          ],
+          "last_verified": "2026-11-03"
         }
       ]
     },
@@ -6582,6 +6707,46 @@
             "software-quality"
           ],
           "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "venkat-pabolu",
+      "name": "Venkat Pabolu",
+      "website": "https://venkatpabolu.onrender.com",
+      "description": "A personal developer portfolio and project showcase by Venkat Pabolu, focusing on generative AI, RAG implementations, and browser-based TTS technologies.",
+      "logo_symbol": "venkat-pabolu",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "venkat-pabolu-ai-portfolio",
+          "name": "AI Portfolio with RAG & Browser TTS-Highlight Engine",
+          "parent_org": "Venkat Pabolu",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-11-15",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://venkatpabolu.onrender.com",
+          "short_description": "An AI-powered portfolio project showcasing Retrieval-Augmented Generation (RAG), a browser-based Text-to-Speech (TTS) highlighting engine, and a developer-focused area.",
+          "key_features": [
+            "Retrieval-Augmented Generation (RAG) integration",
+            "Browser-based TTS-Highlight Engine",
+            "Developer Area / API showcase",
+            "Interactive AI portfolio interface"
+          ],
+          "tags": [
+            "rag",
+            "tts",
+            "text-to-speech",
+            "portfolio",
+            "developer-tools",
+            "ai"
+          ],
+          "last_verified": "2024-11-15"
         }
       ]
     }
