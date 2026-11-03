@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-02T14:57:40Z",
-  "total_organizations": 75,
-  "total_tools": 199,
+  "last_updated": "2026-11-03T00:41:23Z",
+  "total_organizations": 77,
+  "total_tools": 218,
   "organizations": [
     {
       "id": "google",
@@ -216,22 +216,27 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2026-10-13",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-          "short_description": "Gemini 4 Argon is Google's latest frontier multimodal LLM that delivers state‑of‑the‑art reasoning, coding, and scientific capabilities for complex real‑world tasks, accessible via API and integrated into Google AI Studio and Gemini platforms.",
+          "short_description": "A frontier reasoning model delivering complex coding, financial analysis, and legal workflow capabilities across Google AI Studio, the Gemini API, and robotics applications.",
           "key_features": [
-            "Top‑ranked performance on Vals Index across finance, coding, legal, and tax domains",
-            "Up to 2.85x faster inference on Gemma models via vLLM optimizations",
             "Enhanced safety and alignment with multi‑layer jailbreak defenses and real‑time misalignment monitoring",
-            "Broad multimodal capabilities enabling deep document comprehension, scientific research, and robotics video‑to‑sim‑to‑real pipelines"
+            "Top‑ranked performance on Vals Index across finance, coding, legal, and tax domains",
+            "Broad multimodal capabilities enabling deep document comprehension, scientific research, and robotics video‑to‑sim‑to‑real pipelines",
+            "Up to 2.85x faster inference on Gemma models via vLLM optimizations",
+            "Financial analysis",
+            "Complex coding assistance"
           ],
           "tags": [
-            "llm",
-            "multimodal",
+            "robotics",
             "reasoning",
-            "robotics"
+            "multimodal",
+            "coding",
+            "legal",
+            "finance",
+            "llm"
           ],
-          "last_verified": "2026-10-13"
+          "last_verified": "2026-11-02"
         },
         {
           "id": "google-the-latest-ai-news-we-announced-in-september-2026",
@@ -283,6 +288,366 @@
             "stem"
           ],
           "last_verified": "2026-10-26"
+        },
+        {
+          "id": "google-gemini-4-carbon",
+          "name": "Gemini 4 Carbon",
+          "parent_org": "Google",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "short_description": "Google's strongest model yet for long‑horizon engineering and cybersecurity defense, currently in pre‑release testing with government and trusted cyber defenders.",
+          "key_features": [
+            "Advanced cybersecurity",
+            "Long‑horizon engineering",
+            "Safety guardrails",
+            "Partner testing via Fairwind Program"
+          ],
+          "tags": [
+            "cybersecurity",
+            "engineering",
+            "safety",
+            "beta"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-genie-4",
+          "name": "Genie 4",
+          "parent_org": "Google",
+          "category": "Video & Animation",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+          "short_description": "Real‑time interactive world simulation with native audio, physics, and lifelike human movement, enabling natural‑language scene control for safe robot training.",
+          "key_features": [
+            "Real‑time world simulation",
+            "Native audio",
+            "Advanced physics",
+            "Natural‑language scene steering"
+          ],
+          "tags": [
+            "simulation",
+            "audio",
+            "physics",
+            "interactive"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-fitbit-edge",
+          "name": "Google Fitbit Edge",
+          "parent_org": "Google",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/",
+          "short_description": "A sleek, seven‑day battery fitness tracker that pairs precision GPS and automatic workout recognition with Gemini‑powered Google Health Coach for personalized guidance.",
+          "key_features": [
+            "Precision GPS",
+            "Automatic workout recognition",
+            "Gemini Health Coach",
+            "Up to seven days battery life"
+          ],
+          "tags": [
+            "fitness",
+            "health",
+            "gps",
+            "ai-coach"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-synthid-detector",
+          "name": "SynthID Detector",
+          "parent_org": "Google",
+          "category": "Search & Research",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+          "short_description": "A globally expanding AI content verification tool that checks images, videos, and audio for synthetic origins, complementing built‑in detectors in Search, Chrome, and Gemini.",
+          "key_features": [
+            "Cross‑media detection",
+            "Global language support",
+            "Integration with Search/Chrome/Gemini",
+            "Partner API access"
+          ],
+          "tags": [
+            "verification",
+            "synthetic",
+            "multimedia",
+            "safety"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-android-scam-detection",
+          "name": "Android Scam Detection",
+          "parent_org": "Google",
+          "category": "Search & Research",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://blog.google/security/new-android-scam-protections/",
+          "short_description": "AI‑powered scam detection in Phone and Messages that now adds an opt‑in Enhanced protection mode using Private AI Compute and cloud Gemini models to catch sophisticated conversational scams.",
+          "key_features": [
+            "Enhanced protection mode",
+            "Private AI Compute",
+            "Expanded chat alerts",
+            "Stronger call‑forwarding defenses"
+          ],
+          "tags": [
+            "security",
+            "scam",
+            "ai",
+            "android"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-amie",
+          "name": "AMIE",
+          "parent_org": "Google",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-01",
+          "status": "Beta",
+          "pricing": "Free",
+          "official_url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+          "short_description": "A conversational medical AI system that gathers patient histories and generates clinical summaries, helping clinicians prepare for appointments and match differential diagnoses.",
+          "key_features": [
+            "Patient history collection",
+            "Clinical summary generation",
+            "Decision support",
+            "Real‑world primary care testing"
+          ],
+          "tags": [
+            "healthcare",
+            "conversation",
+            "clinical",
+            "ai-agent"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-playground",
+          "name": "Playground",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-01",
+          "status": "Beta",
+          "pricing": "Free",
+          "official_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "short_description": "An experimental no‑code gaming platform that lets anyone build, remix, and share custom single‑ and multiplayer games from text prompts.",
+          "key_features": [
+            "No‑code game creation",
+            "Text‑to‑game prompts",
+            "Remixing and sharing",
+            "Single‑ and multiplayer support"
+          ],
+          "tags": [
+            "gaming",
+            "no-code",
+            "creation",
+            "platform"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-embeddinggemma-2",
+          "name": "EmbeddingGemma 2",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "short_description": "An open embedding model built on Gemma 4 that maps code, images, video, and audio into a unified space on‑device, enabling private offline search and retrieval.",
+          "key_features": [
+            "Multimodal embeddings",
+            "On‑device processing",
+            "Modular design",
+            "Up to 6× reduction in vector storage"
+          ],
+          "tags": [
+            "embeddings",
+            "multimodal",
+            "open-source",
+            "developer"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-project-suncatcher",
+          "name": "Project Suncatcher",
+          "parent_org": "Google",
+          "category": "Search & Research",
+          "release_date": "2026-10-01",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+          "short_description": "A prototype satellite that runs a data‑center‑class Google TPU in orbit, generating the first AI response (a haiku) from space and validating hardware for scalable orbital AI.",
+          "key_features": [
+            "Orbital TPU",
+            "Space‑qualified hardware",
+            "Solar power utilization",
+            "AI workload execution in orbit"
+          ],
+          "tags": [
+            "space",
+            "hardware",
+            "ai",
+            "research"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-willow-quantum-processor",
+          "name": "Willow quantum processor",
+          "parent_org": "Google",
+          "category": "Search & Research",
+          "release_date": "2026-10-01",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+          "short_description": "Google's Willow quantum processor demonstrates practical magic state cultivation, cutting errors 40‑fold and clearing a major hurdle toward fault‑tolerant large‑scale quantum computing.",
+          "key_features": [
+            "Magic state cultivation",
+            "Error reduction",
+            "Willow processor",
+            "Fault‑tolerant pathway"
+          ],
+          "tags": [
+            "quantum",
+            "hardware",
+            "error-correction",
+            "research"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-gemini-notebook",
+          "name": "Google Gemini Notebook",
+          "parent_org": "Google",
+          "category": "Productivity & Office",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://gemini.google/notebook/",
+          "short_description": "An interactive learning tool that provides study overviews, custom quizzes, and co‑creation controls for shaping Slide Decks and Video Overviews before generation.",
+          "key_features": [
+            "Interactive learning overviews",
+            "Custom quizzes",
+            "Co‑creation controls",
+            "Slide and video generation"
+          ],
+          "tags": [
+            "education",
+            "productivity",
+            "ai",
+            "learning"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-flow-music",
+          "name": "Google Flow Music",
+          "parent_org": "Google",
+          "category": "Design & UI Generation",
+          "release_date": "2026-10-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/",
+          "short_description": "A music production platform that lets creators vibe‑code custom instruments and audio plugins, expanding no‑code creativity across Google’s music ecosystem.",
+          "key_features": [
+            "Vibe‑code instrument creation",
+            "Custom audio plugins",
+            "No‑code music production",
+            "Integration with Google music services"
+          ],
+          "tags": [
+            "music",
+            "creative",
+            "no-code",
+            "audio"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-play-ai-apps",
+          "name": "Google Play AI apps",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+          "short_description": "Enables Android users to build personal AI apps with Google AI Studio and install them directly on their phones via Google Play, expanding no‑code app creation.",
+          "key_features": [
+            "AI app builder",
+            "Direct installation",
+            "Google AI Studio integration",
+            "No‑code development"
+          ],
+          "tags": [
+            "android",
+            "apps",
+            "developer",
+            "platform"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-deep-review",
+          "name": "Deep Review",
+          "parent_org": "Google",
+          "category": "Search & Research",
+          "release_date": "2026-10-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://deepreview.ai/",
+          "short_description": "A public tool for reviewing and analyzing technical papers, now opened to the community to accelerate scientific discourse and validation.",
+          "key_features": [
+            "Technical paper review",
+            "Public access",
+            "AI‑assisted analysis",
+            "Community collaboration"
+          ],
+          "tags": [
+            "research",
+            "papers",
+            "review",
+            "ai"
+          ],
+          "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-geospatial-reasoning-agent",
+          "name": "Geospatial Reasoning Agent",
+          "parent_org": "Google",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-10-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
+          "short_description": "An experimental AI agent that demonstrates geospatial reasoning capabilities, showcased at the Research@2026 event to assist scientists and experts.",
+          "key_features": [
+            "Geospatial reasoning",
+            "Experimental agent",
+            "Research demonstration",
+            "Scientific assistance"
+          ],
+          "tags": [
+            "geospatial",
+            "agent",
+            "research",
+            "experimental"
+          ],
+          "last_verified": "2026-11-02"
         }
       ]
     },
@@ -954,6 +1319,55 @@
             "content-moderation"
           ],
           "last_verified": "2026-12-31"
+        },
+        {
+          "id": "openai-pando",
+          "name": "Pando",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-07",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://openai.com/index/scaling-git-at-openai/",
+          "short_description": "Pando is OpenAI's horizontally scalable Git backend that enables concurrent pushes and high-throughput reads for monorepos, maintaining Git protocol compatibility to support agent-scale development via Codex.",
+          "key_features": [
+            "Horizontally scalable writes optimized for concurrent branch pushes",
+            "Packfile reuse across fetches to maximize read throughput",
+            "Causal consistency model for scalable ref updates without repository-wide coordination",
+            "Git protocol compatibility enabling seamless adoption by engineers and agents"
+          ],
+          "tags": [
+            "git",
+            "monorepo",
+            "openai",
+            "codex"
+          ],
+          "last_verified": "2026-11-03"
+        },
+        {
+          "id": "lifeval",
+          "name": "LifeVal",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2024-10",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/lifeval/",
+          "short_description": "OpenAI's benchmark for evaluating AI model performance on practical everyday life tasks such as kindergarten enrollment, meal planning, and government service access.",
+          "key_features": [
+            "Evaluates model performance on real-world everyday responsibilities",
+            "Covers diverse domains including caregiving, health, education, and personal finances",
+            "Drives model alignment and agentic capability improvement",
+            "Built from large-scale time-use studies and demographically representative surveys"
+          ],
+          "tags": [
+            "benchmark",
+            "evaluation",
+            "everyday-tasks",
+            "ai-alignment",
+            "agentic-ai"
+          ],
+          "last_verified": "2026-11-03"
         }
       ]
     },
@@ -6091,6 +6505,83 @@
             "system-design"
           ],
           "last_verified": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "momentic",
+      "name": "Momentic",
+      "website": "https://momentic.ai",
+      "description": "Momentic builds an AI‑powered QA platform that automates end‑to‑end testing and bug detection for modern applications.",
+      "logo_symbol": "momentic",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "momentic-mo",
+          "name": "Mo",
+          "parent_org": "Momentic",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-02",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://momentic.ai",
+          "short_description": "Mo is an AI QA engineer that tests your app end‑to‑end, catching bugs before they ship with auto‑healing and CI integration.",
+          "key_features": [
+            "End‑to‑end AI testing with auto‑healing",
+            "Knowledge base for product context",
+            "CI integration with CLI exit codes",
+            "Step‑level failure analysis with screenshots and AI triage"
+          ],
+          "tags": [
+            "ai-testing",
+            "qa-automation",
+            "bug-detection",
+            "ci/cd"
+          ],
+          "last_verified": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "qodo",
+      "name": "Qodo",
+      "website": "https://www.qodo.ai/",
+      "description": "Qodo builds AI tools for code review and software quality, giving coding agents the organizational knowledge they need to understand the code they change.",
+      "logo_symbol": "qodo",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "qodo-codex-plugin",
+          "name": "Qodo Codex Plugin",
+          "parent_org": "Qodo",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.qodo.ai/",
+          "short_description": "Qodo's Codex plugin equips coding agents with organizational context, cross-repository dependency awareness, and automated code review to catch critical bugs before pull requests.",
+          "key_features": [
+            "Cross-repository context awareness across 10,000+ repos",
+            "Automated code review via Agentic Toolbox before PR creation",
+            "Retrieval of organizational rules and PR history patterns",
+            "Integration with OpenAI Decisions API for intelligent rule selection"
+          ],
+          "tags": [
+            "code-review",
+            "codex-plugin",
+            "ai-coding-agent",
+            "context-aware",
+            "software-quality"
+          ],
+          "last_verified": "2025-01-15"
         }
       ]
     }
