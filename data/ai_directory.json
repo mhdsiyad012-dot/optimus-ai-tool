@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-03T13:49:56Z",
-  "total_organizations": 78,
-  "total_tools": 222,
+  "last_updated": "2026-11-03T23:02:32Z",
+  "total_organizations": 82,
+  "total_tools": 228,
   "organizations": [
     {
       "id": "google",
@@ -218,24 +218,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-          "short_description": "A frontier reasoning model rolled out globally for complex coding, financial analysis, and legal workflows across Google AI Studio, the Gemini API, Google Cloud, Search, and the Gemini app.",
+          "short_description": "A frontier reasoning model for complex coding, financial analysis, and legal workflows, now powering physical-world reasoning through Gemini 4 Argon for Robotics.",
           "key_features": [
+            "Top‑ranked performance on Vals Index across finance, coding, legal, and tax domains",
+            "Powers physical-world reasoning for robotics",
+            "Global rollout across Google AI Studio and Gemini API",
             "Complex coding and financial analysis",
             "Physical-world reasoning via Robotics integration",
-            "Top‑ranked performance on Vals Index across finance, coding, legal, and tax domains",
-            "Up to 2.85x faster inference on Gemma models via vLLM optimizations",
-            "Global rollout across Google AI Studio and Gemini API",
-            "Broad multimodal capabilities enabling deep document comprehension, scientific research, and robotics video‑to‑sim‑to‑real pipelines"
+            "Available across Google AI Studio, Gemini API, Google Cloud, Search, and Gemini app"
           ],
           "tags": [
-            "frontier-model",
-            "finance",
             "reasoning",
-            "legal",
+            "frontier-model",
             "multimodal",
-            "gemini",
             "robotics",
-            "coding"
+            "llm",
+            "finance",
+            "gemini",
+            "legal"
           ],
           "last_verified": "2026-11-02"
         },
@@ -299,22 +299,24 @@
           "status": "Beta",
           "pricing": "Freemium",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "short_description": "Google's strongest model yet for long-horizon engineering and cybersecurity defense, currently in pre-release testing with the U.S. government and trusted cyber defenders.",
+          "short_description": "Google's strongest model for long-horizon engineering and cybersecurity defense, currently in pre-release testing with the U.S. government and trusted partners.",
           "key_features": [
+            "Long-horizon engineering tasks",
             "Advanced safety guardrails",
-            "State-of-the-art cybersecurity defense",
+            "Pre-release testing via Fairwind Program",
+            "State-of-the-art cybersecurity capabilities",
             "Partner testing via Fairwind Program",
-            "Advanced cybersecurity",
-            "Long-horizon engineering capabilities",
-            "Pre-release testing via Fairwind Program"
+            "Advanced cybersecurity"
           ],
           "tags": [
-            "beta",
-            "cybersecurity",
+            "frontier",
             "safety",
-            "engineering",
+            "llm",
+            "long-horizon",
+            "beta",
             "gemini",
-            "long-horizon"
+            "cybersecurity",
+            "engineering"
           ],
           "last_verified": "2026-11-02"
         },
@@ -327,22 +329,22 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
-          "short_description": "A real-time interactive world simulation model with native audio, advanced physics, and lifelike human movement for steering scenes with natural language.",
+          "short_description": "A real-time interactive world simulation model with advanced physics, lifelike human movement, and native audio, steerable via natural language.",
           "key_features": [
-            "Natural‑language scene steering",
+            "Real-time interactive simulation",
+            "Native audio support",
+            "Natural language control",
+            "Advanced physics and lifelike movement",
             "Advanced physics",
-            "Real‑time world simulation",
-            "Real-time interactive world simulation",
-            "Natural language scene steering",
-            "Advanced physics and lifelike movement"
+            "Natural‑language scene steering"
           ],
           "tags": [
             "deepmind",
-            "world-model",
-            "video-generation",
-            "simulation",
-            "audio",
             "interactive",
+            "simulation",
+            "video-generation",
+            "audio",
+            "world-model",
             "physics"
           ],
           "last_verified": "2026-11-02"
@@ -356,18 +358,21 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/",
-          "short_description": "A sleek, seven‑day battery fitness tracker that pairs precision GPS and automatic workout recognition with Gemini‑powered Google Health Coach for personalized guidance.",
+          "short_description": "A slim fitness tracker with precision GPS, automatic workout recognition, and personalized guidance from a Gemini-powered Google Health Coach.",
           "key_features": [
-            "Precision GPS",
-            "Automatic workout recognition",
             "Gemini Health Coach",
-            "Up to seven days battery life"
+            "Personalized guidance",
+            "Up to seven days battery life",
+            "Automatic workout recognition",
+            "Up to 7 days battery life",
+            "Precision GPS"
           ],
           "tags": [
-            "fitness",
-            "health",
+            "ai-coach",
+            "wearable",
             "gps",
-            "ai-coach"
+            "fitness",
+            "health"
           ],
           "last_verified": "2026-11-02"
         },
@@ -380,24 +385,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
-          "short_description": "A global verification tool that lets anyone check whether an image, video, or audio clip was generated with AI, expanding SynthID watermark detection worldwide.",
+          "short_description": "A tool to verify whether images, videos, or audio were generated by AI, expanding globally in English with support for multiple industry partners.",
           "key_features": [
-            "Global language support",
-            "Integration with Search, Chrome, and Gemini app",
-            "Partner API access",
-            "Cross‑media detection",
+            "Integrated into Search, Chrome, and Gemini app",
             "Integration with Search/Chrome/Gemini",
-            "Global AI content detection"
+            "Supports content from OpenAI, NVIDIA, Kakao, Apple",
+            "Global AI content detection",
+            "Integration with Search, Chrome, and Gemini app",
+            "Cross‑media detection"
           ],
           "tags": [
             "content-verification",
-            "deepfake-detection",
-            "verification",
-            "watermarking",
-            "synthid",
+            "deepfake",
             "safety",
             "synthetic",
-            "multimedia"
+            "ai-detection",
+            "deepfake-detection",
+            "multimedia",
+            "watermarking"
           ],
           "last_verified": "2026-11-02"
         },
@@ -407,21 +412,24 @@
           "parent_org": "Google",
           "category": "Search & Research",
           "release_date": "2026-10-01",
-          "status": "Active",
+          "status": "Beta",
           "pricing": "Free",
           "official_url": "https://blog.google/security/new-android-scam-protections/",
-          "short_description": "AI‑powered scam detection in Phone and Messages that now adds an opt‑in Enhanced protection mode using Private AI Compute and cloud Gemini models to catch sophisticated conversational scams.",
+          "short_description": "AI-powered scam detection in Google Phone and Messages, with new Enhanced Protection mode using Private AI Compute and cloud Gemini models to catch sophisticated scams.",
           "key_features": [
-            "Enhanced protection mode",
             "Private AI Compute",
             "Expanded chat alerts",
+            "Expanded chat alerts and call-forwarding defenses",
+            "Uses latest cloud Gemini models",
+            "Enhanced protection mode",
             "Stronger call‑forwarding defenses"
           ],
           "tags": [
-            "security",
+            "scam-detection",
             "scam",
-            "ai",
-            "android"
+            "security",
+            "android",
+            "ai"
           ],
           "last_verified": "2026-11-02"
         },
@@ -434,22 +442,22 @@
           "status": "Beta",
           "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
-          "short_description": "A conversational medical AI system evaluated in real-world primary care clinic visits that gathers patient histories and generates clinical summaries to assist clinicians.",
+          "short_description": "A conversational medical AI system that gathers patient histories and generates clinical summaries, helping clinicians prepare for urgent care appointments.",
           "key_features": [
-            "Patient history gathering",
-            "Real-world clinical deployment",
+            "Decision support",
+            "Matched doctors' differential diagnoses 90% of the time",
             "Patient history collection",
             "Differential diagnosis matching",
-            "Decision support",
-            "Clinical summary generation"
+            "Gathers patient histories and generates summaries",
+            "Helped clinicians prepare in 75% of cases"
           ],
           "tags": [
-            "clinical",
+            "medical-ai",
             "healthcare",
-            "ai-agent",
             "conversation",
+            "clinical",
             "conversational-agent",
-            "medical-ai"
+            "ai-agent"
           ],
           "last_verified": "2026-11-02"
         },
@@ -462,22 +470,24 @@
           "status": "Beta",
           "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "short_description": "An experimental gaming platform that lets anyone build, remix, and share custom single- and multiplayer games from simple text prompts with zero coding required.",
+          "short_description": "An experimental gaming platform that lets anyone build, remix, and share custom single- and multiplayer games from simple text prompts with zero coding.",
           "key_features": [
-            "Remixing and sharing",
-            "Text-to-game creation",
+            "No-code game creation from text prompts",
+            "Single‑ and multiplayer support",
             "Build, remix, and share functionality",
-            "Single- and multiplayer game support",
             "No‑code game creation",
-            "Single‑ and multiplayer support"
+            "Experimental platform",
+            "Build, remix, and share custom games"
           ],
           "tags": [
-            "gaming",
+            "creative",
             "game-development",
-            "platform",
-            "experimental",
             "creation",
-            "no-code"
+            "experimental",
+            "no-code",
+            "gaming",
+            "platform",
+            "ai"
           ],
           "last_verified": "2026-11-02"
         },
@@ -490,23 +500,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-          "short_description": "An open embedding model engineered on the Gemma 4 architecture with 740 million parameters that maps code, images, video, and audio into a unified space for on-device multimodal search.",
+          "short_description": "An open embedding model with 740 million parameters that maps code, images, video, and audio into a unified space for private, offline multimodal search.",
           "key_features": [
-            "Multimodal embeddings",
-            "On‑device processing",
             "Offline and private app support",
-            "6x reduction in local vector storage",
+            "Multimodal embedding for code, images, video, audio",
+            "Multimodal unified space for code, image, video, and audio",
             "740 million parameter embedding model",
-            "Multimodal unified space for code, image, video, and audio"
+            "Multimodal embeddings",
+            "740 million parameters"
           ],
           "tags": [
-            "embedding-model",
-            "developer",
+            "search",
             "multimodal-search",
             "multimodal",
             "open-source",
-            "gemma",
-            "embeddings"
+            "embeddings",
+            "embedding-model",
+            "developer",
+            "gemma"
           ],
           "last_verified": "2026-11-02"
         },
@@ -517,20 +528,24 @@
           "category": "Search & Research",
           "release_date": "2026-10-01",
           "status": "Beta",
-          "pricing": "Paid",
+          "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
-          "short_description": "A prototype satellite that runs a data‑center‑class Google TPU in orbit, generating the first AI response (a haiku) from space and validating hardware for scalable orbital AI.",
+          "short_description": "A prototype satellite that returned the first AI response generated by a data center-class Google TPU in space, composing a haiku with Gemma 4.",
           "key_features": [
-            "Orbital TPU",
-            "Space‑qualified hardware",
+            "Part of long-term orbital AI infrastructure vision",
             "Solar power utilization",
-            "AI workload execution in orbit"
+            "Orbital TPU",
+            "First AI response from TPU in space",
+            "Tests hardware survival in orbit",
+            "Composed haiku onboard using Gemma 4"
           ],
           "tags": [
             "space",
             "hardware",
-            "ai",
-            "research"
+            "tpu",
+            "research",
+            "satellite",
+            "ai"
           ],
           "last_verified": "2026-11-02"
         },
@@ -565,25 +580,26 @@
           "category": "Productivity & Office",
           "release_date": "2026-10-01",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://gemini.google/notebook/",
-          "short_description": "An AI-powered study tool that generates interactive learning overviews and custom quizzes, with co-creation controls for Slide Decks and Video Overviews.",
+          "short_description": "A study tool within Gemini that offers interactive learning overviews, custom quizzes, and co-creation controls for Slide Decks and Video Overviews.",
           "key_features": [
             "Interactive learning overviews",
-            "Custom quiz generation",
-            "Co‑creation controls",
-            "Personalized study assistance",
             "Slide and video generation",
-            "Slide Deck and Video Overview co-creation"
+            "Personalized learning experience",
+            "Slide Deck and Video Overview co-creation",
+            "Co‑creation controls",
+            "Custom quizzes for study"
           ],
           "tags": [
             "productivity",
+            "education",
             "learning",
+            "study",
             "notebook",
             "gemini",
-            "education",
-            "ai",
-            "study-tool"
+            "study-tool",
+            "ai"
           ],
           "last_verified": "2026-11-02"
         },
@@ -594,26 +610,26 @@
           "category": "Design & UI Generation",
           "release_date": "2026-10-01",
           "status": "Beta",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/",
-          "short_description": "A music production platform enabling producers to vibe code custom instruments and audio plugins using AI.",
+          "short_description": "A tool for music producers to vibe code custom instruments and audio plugins, expanding no-code creativity into music production.",
           "key_features": [
-            "Vibe‑code instrument creation",
+            "Create custom instruments and audio plugins",
             "No‑code music production",
+            "Part of Google Flow platform",
             "AI-powered music production",
-            "Vibe coding interface",
             "Custom instrument creation",
-            "Custom audio plugins"
+            "Vibe‑code instrument creation"
           ],
           "tags": [
-            "creative-ai",
-            "music-production",
-            "creative",
-            "audio",
             "music",
-            "no-code",
+            "ai",
+            "creation",
+            "music-production",
+            "creative-ai",
             "google-labs",
-            "audio-plugins"
+            "no-code",
+            "audio"
           ],
           "last_verified": "2026-11-02"
         },
@@ -713,26 +729,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "OpenAI's flagship conversational AI assistant with enhanced community safety protections, including new violence prevention safeguards, age-appropriate restrictions for teens, and a commitment to biannual Community Safety Reports detailing harm detection and mitigation effectiveness.",
+          "short_description": "OpenAI's flagship conversational AI assistant, used alongside Codex by hardware teams for design review, simulation coordination, and engineering workflow support.",
           "key_features": [
-            "Advanced language understanding and generation",
-            "Age-predicted teen protections with parental controls, safety alerts, and restricted weapons content",
-            "Community safety reporting and violence prevention safeguards",
-            "Context-aware warning sign recognition that triggers conservative responses and automatic chat termination",
+            "Design review capabilities",
+            "Conversational AI assistance",
             "Advanced violence detection and law enforcement referral systems (200+ referrals in Q3 2026)",
-            "Biannual Community Safety Reports starting early 2027 covering violence prevention efficacy"
+            "Age-predicted teen protections with parental controls, safety alerts, and restricted weapons content",
+            "Context-aware warning sign recognition that triggers conservative responses and automatic chat termination",
+            "Simulation coordination"
           ],
           "tags": [
-            "teen",
-            "gpt",
-            "transparency-reporting",
             "productivity",
             "parental-controls",
-            "teen-protection",
+            "gpt",
+            "transparency-reporting",
+            "safety",
+            "conversational-ai",
             "voice-mode",
-            "safety"
+            "teen-protection"
           ],
-          "last_verified": "2026-10-15"
+          "last_verified": "2025-02-28"
         },
         {
           "id": "openai-gpt-4o",
@@ -866,26 +882,26 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Paid",
           "official_url": "https://openai.com/codex/",
-          "short_description": "AI code generation and data pipeline assistant that enabled non-technical analysts to build repeatable processing pipelines for environmental risk assessment, assessed 20,112 property assets and generated millions of data rows.",
+          "short_description": "AI coding agent that enabled a non-technical environmental analyst at Heimstaden to build data pipelines for assessing 20,112 property assets, reducing effort from 5 person-years to 2 person-months.",
           "key_features": [
-            "Repeatable pipeline development",
-            "Code refactoring and technical debt reduction",
-            "Debugging by cross-referencing logs and database records with code",
-            "Quality checking and validation",
-            "Data cleaning and standardization",
-            "Assistance during implementation by catching overlooked details"
+            "CAD model creation and revision",
+            "Manufacturing drawing preparation",
+            "Automates data discovery, cleaning, and standardization",
+            "Cross-disciplinary design coordination",
+            "Assistance during implementation by catching overlooked details",
+            "Data cleaning and standardization"
           ],
           "tags": [
-            "coding-model",
             "code-generation",
-            "openai",
-            "developer-tools",
+            "cad",
+            "coding-model",
+            "ai-assistant",
+            "manufacturing",
             "data-analysis",
-            "coding",
-            "mcp",
-            "ai-assistant"
+            "coding-agent",
+            "mcp"
           ],
           "last_verified": "2025-09-01"
         },
@@ -1418,18 +1434,23 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/enterprise",
-          "short_description": "Enterprise-grade ChatGPT enabling businesses to integrate AI into workflows with data security, custom GPTs, and admin controls, used by Heimstaden for property management tasks like pricing, advertising, and market feedback.",
+          "short_description": "Enterprise-grade version of ChatGPT deployed at Heimstaden to empower employees across property management, letting, and procurement workflows with secure, scalable AI assistance.",
           "key_features": [
-            "Enterprise-grade privacy and data security",
             "Access to advanced GPT-4/4o models",
-            "Admin console for team management and deployment",
-            "Custom GPTs and workflow automation"
+            "Used for virtual staging of property images (cost reduction >99%)",
+            "Enables domain experts to build custom tools via ChatGPT Sites",
+            "Supports pricing intelligence and advertising copy generation",
+            "Secure enterprise data handling and admin controls",
+            "Admin console for team management and deployment"
           ],
           "tags": [
+            "productivity",
+            "virtual-staging",
             "llm",
             "enterprise-ai",
-            "productivity",
-            "automation"
+            "workflow-automation",
+            "automation",
+            "property-management"
           ],
           "last_verified": "2025-09-01"
         },
@@ -1459,6 +1480,54 @@
             "developer-platform"
           ],
           "last_verified": "2024-11-20"
+        },
+        {
+          "id": "openai-gpt-6-astra",
+          "name": "GPT-6 Astra",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/gpt-6-astra/",
+          "short_description": "A multimodal frontier model enabling engineers to design complete physical devices—including enclosures, PCBs, and software—without direct human edits, accelerating end-to-end hardware development.",
+          "key_features": [
+            "Multimodal device design",
+            "Mechanical and electrical engineering support",
+            "Computer use workflows",
+            "End-to-end system design"
+          ],
+          "tags": [
+            "multimodal",
+            "engineering",
+            "hardware-design",
+            "computer-use"
+          ],
+          "last_verified": "2025-02-28"
+        },
+        {
+          "id": "openai-api",
+          "name": "OpenAI API",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2020-06",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/api",
+          "short_description": "API access to OpenAI models powering Heimstaden's Procurement Intelligence Platform, enabling contract analysis, negotiation prep, and lifecycle management across Outlook, SharePoint, and Teams.",
+          "key_features": [
+            "Integrates with Microsoft 365 ecosystem (Outlook, SharePoint, Teams)",
+            "Supports multi-step workflow automation with human oversight",
+            "Enables contract analysis and negotiation preparation",
+            "Foundation for future MCP-enabled property management system (Amplio Estate)"
+          ],
+          "tags": [
+            "api-integration",
+            "procurement-automation",
+            "contract-analysis",
+            "mcp-ready"
+          ],
+          "last_verified": "2025-09-01"
         }
       ]
     },
@@ -6747,6 +6816,168 @@
             "ai"
           ],
           "last_verified": "2024-11-15"
+        }
+      ]
+    },
+    {
+      "id": "tokencost-ai",
+      "name": "TokenCost.ai",
+      "website": "https://ai-token-estimator.pages.dev/",
+      "description": "TokenCost.ai is an independent, privacy-first developer utility for AI model token cost estimation and context window analysis.",
+      "logo_symbol": "tokencost-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "tokencost-ai-token-estimator",
+          "name": "TokenCost.ai",
+          "parent_org": "TokenCost.ai",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://ai-token-estimator.pages.dev/",
+          "short_description": "Client-side browser tool for estimating AI model token costs, context window usage, and batch expenses across major providers including OpenAI, Anthropic, Google, and DeepSeek.",
+          "key_features": [
+            "Real-time token counting for prompts and uploaded documents (TXT, JSON, MD, CSV, PDF)",
+            "Per-model cost calculation with input/output pricing for 12+ flagship LLMs",
+            "Context window gauge with safe usage visualization",
+            "Production batch cost projection for 1K to 100K+ API calls",
+            "Side-by-side model comparison matrix with context limits and pricing",
+            "100% client-side computation — no data leaves the browser"
+          ],
+          "tags": [
+            "token-estimation",
+            "cost-calculator",
+            "llm-pricing",
+            "context-window",
+            "developer-tools",
+            "ai-cost-optimization"
+          ],
+          "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "website": "https://www.cisco.com",
+      "description": "Cisco builds the networking and security infrastructure that organizations rely on to connect and protect their systems.",
+      "logo_symbol": "cisco",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "cisco-daybreak-defense-network",
+          "name": "Daybreak Defense Network",
+          "parent_org": "Cisco",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/cisco-cyber/",
+          "short_description": "Cisco's AI-powered security defense network built with OpenAI to correlate network telemetry at machine speed, triage threats faster, and enforce adaptive controls across cloud and container infrastructure.",
+          "key_features": [
+            "Machine-speed correlation of network security signals using OpenAI frontier models",
+            "Protection for autonomous agents and detection of unintended agent behavior",
+            "Real-time enforcement of security controls in Cisco Cloud Control",
+            "Integration with existing vulnerability scanning and remediation workflows"
+          ],
+          "tags": [
+            "cybersecurity",
+            "openai",
+            "cisco",
+            "agentic-ai",
+            "threat-intelligence"
+          ],
+          "last_verified": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "id": "allenai",
+      "name": "AllenAI",
+      "website": "https://allenai.org",
+      "description": "AllenAI is a research nonprofit dedicated to advancing artificial intelligence for science and technology.",
+      "logo_symbol": "allenai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "statebench-benchmark",
+          "name": "StateBench",
+          "parent_org": "AllenAI",
+          "category": "Search & Research",
+          "release_date": "2026-11-03",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/allenai/state-bench",
+          "short_description": "A benchmark for evaluating how language models track state changes over long documents across four difficulty levels, revealing architectural differences in state-tracking capabilities.",
+          "key_features": [
+            "Four difficulty levels of state tracking (r-trivial, aperiodic, soluble, general finite)",
+            "Evaluates pretrained models and frontier models including transformers, hybrids, and Gated DeltaNet",
+            "Tests models on inputs exceeding 64,000 tokens",
+            "Demonstrates that recurrent and hybrid architectures generalize farther than transformers on harder state-tracking tasks"
+          ],
+          "tags": [
+            "benchmark",
+            "long-context",
+            "state-tracking",
+            "evaluation",
+            "language-models",
+            "information-retrieval"
+          ],
+          "last_verified": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "ibm-research",
+      "name": "IBM Research",
+      "website": "https://research.ibm.com",
+      "description": "IBM Research is the research division of IBM, pioneering advanced AI, hybrid cloud, and quantum computing technologies.",
+      "logo_symbol": "ibm-research",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Design"
+      ],
+      "tools": [
+        {
+          "id": "ibm-research-palette",
+          "name": "Palette",
+          "parent_org": "IBM Research",
+          "category": "Design & UI Generation",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "short_description": "Palette is an open-weight, self-hosted system that fine-tunes a 20B model to generate slide decks in a specific design language using a designer-coder architecture with a check-and-repair harness, enabling confidential content to stay on-premise.",
+          "key_features": [
+            "Designer-coder split architecture with LoRA adapter for editorial and geometric decisions",
+            "Synthetic training data with counterfactual reasoning generated by a teacher model",
+            "Directive-based steering for plain-English design control (e.g., [[make this a timeline]])",
+            "Automated check-and-repair harness that detects and fixes layout overlaps/overflows"
+          ],
+          "tags": [
+            "presentation-generation",
+            "design-language",
+            "open-weight-model",
+            "self-hosted",
+            "synthetic-data",
+            "lora",
+            "pptxgenjs"
+          ],
+          "last_verified": "2026-11-03"
         }
       ]
     }
