@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-03T23:02:32Z",
-  "total_organizations": 82,
-  "total_tools": 228,
+  "last_updated": "2026-11-04T05:19:41Z",
+  "total_organizations": 83,
+  "total_tools": 230,
   "organizations": [
     {
       "id": "google",
@@ -704,6 +704,31 @@
             "experimental"
           ],
           "last_verified": "2026-11-02"
+        },
+        {
+          "id": "google-the-latest-ai-news-we-announced-in-october-2026",
+          "name": "The latest AI news we announced in October 2026",
+          "parent_org": "Google",
+          "category": "Video & Animation",
+          "release_date": "2026-11-04",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+          "short_description": "Title: The latest AI news we announced in October 2026",
+          "key_features": [
+            "Automated AI capabilities powered by Google",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "the",
+            "latest",
+            "news",
+            "announced",
+            "october",
+            "2026"
+          ],
+          "last_verified": "2026-11-04"
         }
       ]
     },
@@ -729,26 +754,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "OpenAI's flagship conversational AI assistant, used alongside Codex by hardware teams for design review, simulation coordination, and engineering workflow support.",
+          "short_description": "OpenAI's flagship conversational AI assistant utilized by hardware and infrastructure teams to streamline drawing preparation, simulations, and design reviews.",
           "key_features": [
-            "Design review capabilities",
-            "Conversational AI assistance",
-            "Advanced violence detection and law enforcement referral systems (200+ referrals in Q3 2026)",
             "Age-predicted teen protections with parental controls, safety alerts, and restricted weapons content",
+            "Conversational AI assistance",
+            "Design review capabilities",
+            "Conversational design review and iteration",
             "Context-aware warning sign recognition that triggers conservative responses and automatic chat termination",
-            "Simulation coordination"
+            "Advanced violence detection and law enforcement referral systems (200+ referrals in Q3 2026)"
           ],
           "tags": [
-            "productivity",
+            "voice-mode",
+            "teen-protection",
             "parental-controls",
             "gpt",
-            "transparency-reporting",
             "safety",
             "conversational-ai",
-            "voice-mode",
-            "teen-protection"
+            "transparency-reporting",
+            "cad"
           ],
-          "last_verified": "2025-02-28"
+          "last_verified": "2025-04-08"
         },
         {
           "id": "openai-gpt-4o",
@@ -884,26 +909,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/codex/",
-          "short_description": "AI coding agent that enabled a non-technical environmental analyst at Heimstaden to build data pipelines for assessing 20,112 property assets, reducing effort from 5 person-years to 2 person-months.",
+          "short_description": "AI coding assistant that empowered a non-technical sustainability analyst to build environmental risk assessment pipelines, processing 20,112 assets and six million data rows while reducing delivery time from one year to two months.",
           "key_features": [
-            "CAD model creation and revision",
+            "Data discovery and cleaning",
+            "Repeatable processing pipelines",
             "Manufacturing drawing preparation",
-            "Automates data discovery, cleaning, and standardization",
-            "Cross-disciplinary design coordination",
-            "Assistance during implementation by catching overlooked details",
-            "Data cleaning and standardization"
+            "CAD model creation and revision",
+            "Data cleaning and standardization",
+            "Dataset standardization"
           ],
           "tags": [
-            "code-generation",
-            "cad",
-            "coding-model",
-            "ai-assistant",
+            "autonomous-agents",
+            "mcp",
             "manufacturing",
-            "data-analysis",
+            "real-estate",
+            "hardware-engineering",
             "coding-agent",
-            "mcp"
+            "code-generation",
+            "coding-model"
           ],
-          "last_verified": "2025-09-01"
+          "last_verified": "2025-06-01"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -1434,25 +1459,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/enterprise",
-          "short_description": "Enterprise-grade version of ChatGPT deployed at Heimstaden to empower employees across property management, letting, and procurement workflows with secure, scalable AI assistance.",
+          "short_description": "Enterprise AI assistant deployed across Heimstaden's workforce, enabling employees to generate property listings, assess neglected apartments, and draft refurbishment plans, achieving 50% adoption within two to three months.",
           "key_features": [
-            "Access to advanced GPT-4/4o models",
             "Used for virtual staging of property images (cost reduction >99%)",
+            "Refurbishment plan drafting",
+            "Employee adoption tracking",
+            "Enterprise data security",
             "Enables domain experts to build custom tools via ChatGPT Sites",
-            "Supports pricing intelligence and advertising copy generation",
-            "Secure enterprise data handling and admin controls",
-            "Admin console for team management and deployment"
+            "AI-generated property listings"
           ],
           "tags": [
-            "productivity",
             "virtual-staging",
-            "llm",
-            "enterprise-ai",
             "workflow-automation",
+            "chatbot",
             "automation",
-            "property-management"
+            "real-estate",
+            "llm",
+            "property-management",
+            "productivity"
           ],
-          "last_verified": "2025-09-01"
+          "last_verified": "2025-06-01"
         },
         {
           "id": "openai-security-bug-bounty-program",
@@ -1490,20 +1516,25 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/gpt-6-astra/",
-          "short_description": "A multimodal frontier model enabling engineers to design complete physical devices—including enclosures, PCBs, and software—without direct human edits, accelerating end-to-end hardware development.",
+          "short_description": "A state-of-the-art multimodal model by OpenAI designed for advanced computer use and end-to-end physical product design, spanning mechanical, electrical, and software systems.",
           "key_features": [
-            "Multimodal device design",
             "Mechanical and electrical engineering support",
-            "Computer use workflows",
-            "End-to-end system design"
+            "Autonomous end-to-end physical device design (enclosure, PCB, firmware)",
+            "Generates functional requirements and internal structural layouts",
+            "Iterates complex designs without direct human intervention",
+            "End-to-end system design",
+            "Multimodal and computer use workflows"
           ],
           "tags": [
-            "multimodal",
-            "engineering",
+            "physical-ai",
             "hardware-design",
-            "computer-use"
+            "pcb",
+            "cad",
+            "computer-use",
+            "engineering",
+            "multimodal"
           ],
-          "last_verified": "2025-02-28"
+          "last_verified": "2025-04-08"
         },
         {
           "id": "openai-api",
@@ -1514,20 +1545,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/api",
-          "short_description": "API access to OpenAI models powering Heimstaden's Procurement Intelligence Platform, enabling contract analysis, negotiation prep, and lifecycle management across Outlook, SharePoint, and Teams.",
+          "short_description": "API access to OpenAI models powering Heimstaden's Procurement Intelligence Platform, enabling automated contract analysis, negotiation preparation, and lifecycle management across Outlook, SharePoint, and Teams.",
           "key_features": [
-            "Integrates with Microsoft 365 ecosystem (Outlook, SharePoint, Teams)",
+            "API model access",
+            "Negotiation preparation",
+            "Foundation for future MCP-enabled property management system (Amplio Estate)",
+            "Multi-system workflow automation",
             "Supports multi-step workflow automation with human oversight",
-            "Enables contract analysis and negotiation preparation",
-            "Foundation for future MCP-enabled property management system (Amplio Estate)"
+            "Contract analysis"
           ],
           "tags": [
+            "api",
             "api-integration",
+            "workflow-automation",
+            "procurement",
             "procurement-automation",
             "contract-analysis",
+            "integration",
             "mcp-ready"
           ],
-          "last_verified": "2025-09-01"
+          "last_verified": "2025-06-01"
         }
       ]
     },
@@ -2511,25 +2548,27 @@
           "parent_org": "Hugging Face",
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-03",
-          "status": "Active",
+          "status": "Beta",
           "pricing": "Open Source",
           "official_url": "https://github.com/huggingface/transformers-mic",
-          "short_description": "A proposed standard and CLI tool for packaging integration tests for Hugging Face models using shrunk fixtures, usage paths, and human-reviewed baselines to catch regressions early on CPU.",
+          "short_description": "A proposed standard for packaging model integration tests using shrunk model fixtures, runnable usage paths, and human-reviewed baselines to catch regressions in the Transformers library before they reach main.",
           "key_features": [
-            "Shrunk model fixtures that reduce model size by over 90% while preserving architecture layers for fast CPU testing.",
-            "Usage paths containing runnable Markdown examples of common model tasks like text generation and training steps.",
-            "Human-reviewed baseline outputs to validate model behavior against historical CI runs.",
+            "Agent-assisted generation where LLMs draft usage code and manifests under human review.",
+            "Fleet dataset pinning each MIC to frozen revisions and package versions",
+            "CLI tool `tmic` for building MICs with LLM-drafted usage code and manifests",
             "CLI tool `tmic` to automate contract drafting, fixture building, and baseline recording.",
-            "Agent-assisted generation where LLMs draft usage code and manifests under human review."
+            "Shrunk model fixtures that reduce model size by over 90% while preserving architecture layers for fast CPU testing.",
+            "Usage paths: runnable Markdown examples for generation, training, and inference"
           ],
           "tags": [
-            "testing",
-            "ci",
-            "regression-testing",
             "huggingface",
+            "regression-detection",
+            "ci",
+            "hugging-face",
             "transformers",
             "llm-agents",
-            "developer-tools"
+            "integration-testing",
+            "regression-testing"
           ],
           "last_verified": "2026-11-03"
         }
@@ -6921,20 +6960,22 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/allenai/state-bench",
-          "short_description": "A benchmark for evaluating how language models track state changes over long documents across four difficulty levels, revealing architectural differences in state-tracking capabilities.",
+          "short_description": "StateBench is a benchmark for long-context state tracking, evaluating how well language models keep track of information about entities in long documents as they evolve across four levels of complexity.",
           "key_features": [
-            "Four difficulty levels of state tracking (r-trivial, aperiodic, soluble, general finite)",
-            "Evaluates pretrained models and frontier models including transformers, hybrids, and Gated DeltaNet",
+            "Four difficulty levels of state tracking (R-trivial, Aperiodic, Soluble, and General finite) based on Krohn–Rhodes theory",
+            "Open-source codebase on GitHub and dataset hosted on Hugging Face",
             "Tests models on inputs exceeding 64,000 tokens",
-            "Demonstrates that recurrent and hybrid architectures generalize farther than transformers on harder state-tracking tasks"
+            "Includes diverse problem formats, such as RULER-style tasks and spreadsheet edits",
+            "Provides comparable problems at varying complexity levels with identical variable counts and assignment points",
+            "Four difficulty levels of state tracking (r-trivial, aperiodic, soluble, general finite)"
           ],
           "tags": [
             "benchmark",
-            "long-context",
+            "information-retrieval",
             "state-tracking",
             "evaluation",
             "language-models",
-            "information-retrieval"
+            "long-context"
           ],
           "last_verified": "2026-11-03"
         }
@@ -6978,6 +7019,50 @@
             "pptxgenjs"
           ],
           "last_verified": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "heimstaden",
+      "name": "Heimstaden",
+      "website": "https://openai.com",
+      "description": "OpenAI is an AI research and deployment company whose models and platforms power enterprise transformation across industries such as residential real estate.",
+      "logo_symbol": "heimstaden",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "heimstaden-amplio-estate",
+          "name": "Amplio Estate",
+          "parent_org": "Heimstaden",
+          "category": "Productivity & Office",
+          "release_date": "2025-06",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://heimstaden.com/",
+          "short_description": "Internal workflow automation platform combining OpenAI models via APIs to support contract analysis, negotiation preparation, and contract lifecycle management across Microsoft 365 environments.",
+          "key_features": [
+            "Core business system actions",
+            "Contract lifecycle management",
+            "Property information retrieval",
+            "Negotiation preparation",
+            "AI-powered workflows",
+            "MCP integration"
+          ],
+          "tags": [
+            "mcp",
+            "workflow-automation",
+            "ai-agents",
+            "contract-management",
+            "real-estate",
+            "ai-workflows",
+            "property-management",
+            "procurement"
+          ],
+          "last_verified": "2025-06-01"
         }
       ]
     }
