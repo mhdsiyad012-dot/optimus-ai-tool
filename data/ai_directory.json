@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-04T13:55:15Z",
-  "total_organizations": 83,
-  "total_tools": 232,
+  "last_updated": "2026-11-04T23:19:16Z",
+  "total_organizations": 86,
+  "total_tools": 239,
   "organizations": [
     {
       "id": "google",
@@ -907,28 +907,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Paid",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI Codex is an AI coding agent that helps developers generate, review, and refactor code through a CLI and API.",
+          "short_description": "OpenAI Codex is an AI coding assistant designed to translate natural language to code, helping engineering teams build software and generate sales demos efficiently.",
           "key_features": [
             "Data cleaning and standardization",
-            "Manufacturing drawing preparation",
             "Dataset standardization",
-            "Data discovery and cleaning",
             "Simulation setup and execution",
-            "Open Source"
+            "Manufacturing drawing preparation",
+            "Integration with GPT models",
+            "Data discovery and cleaning"
           ],
           "tags": [
-            "developer-tools",
-            "cad",
+            "mcp",
+            "openai",
+            "llm",
             "real-estate",
             "autonomous-agents",
-            "hardware-engineering",
-            "mcp",
             "hardware",
-            "simulation"
+            "developer-tools",
+            "coding-assistant"
           ],
-          "last_verified": "2026-04-27"
+          "last_verified": "2024-11-15"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -1588,6 +1588,81 @@
             "llm"
           ],
           "last_verified": "2026-04-27"
+        },
+        {
+          "id": "openai-daybreak-red",
+          "name": "Daybreak Red",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-10",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/daybreak-red-aws-govcloud/",
+          "short_description": "Daybreak Red is OpenAI's purpose‑trained cybersecurity model, now available in AWS GovCloud (US‑East) for authorized defenders to perform vulnerability research, exploit validation, and security testing with stronger identity verification and no data sharing.",
+          "key_features": [
+            "Purpose‑trained cybersecurity models for vulnerability research and exploit validation",
+            "Reduced refusals with enhanced identity verification, monitoring, and access controls",
+            "Inference data is not used for model training and customer data is not shared with OpenAI",
+            "Access via Amazon Bedrock in AWS GovCloud (US‑East) for government security teams"
+          ],
+          "tags": [
+            "cybersecurity",
+            "aws-govcloud",
+            "openai",
+            "daybreak-red"
+          ],
+          "last_verified": "2025-11-03"
+        },
+        {
+          "id": "openai-gpt-55-cyber",
+          "name": "GPT-5.5 Cyber",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-06",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "short_description": "OpenAI's GPT-5.5 Cyber model autonomously discovers, validates, and exploits Linux kernel vulnerabilities to help defenders prioritize and patch security flaws.",
+          "key_features": [
+            "Vulnerability discovery",
+            "Dynamic validation",
+            "Exploitability assessment",
+            "Patch generation",
+            "Human review"
+          ],
+          "tags": [
+            "cybersecurity",
+            "llm",
+            "autonomous-agents",
+            "vulnerability-research",
+            "linux-kernel"
+          ],
+          "last_verified": "2026-05-09"
+        },
+        {
+          "id": "gpt-6-1-sol",
+          "name": "GPT-6.1 Sol",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/devrev-enterprise-self-service",
+          "short_description": "GPT-6.1 Sol is a frontier AI model optimized for low-latency, high-reliability reasoning, powering enterprise autonomous agents like DevRev's Operator and Computer.",
+          "key_features": [
+            "High reasoning capabilities",
+            "Low latency",
+            "Cost-effective for customer interaction",
+            "Strikes balance between performance and speed"
+          ],
+          "tags": [
+            "llm",
+            "frontier-model",
+            "gpt-6.1",
+            "enterprise",
+            "reasoning"
+          ],
+          "last_verified": "2024-11-15"
         }
       ]
     },
@@ -7113,6 +7188,153 @@
             "procurement"
           ],
           "last_verified": "2025-06-01"
+        }
+      ]
+    },
+    {
+      "id": "pierre-computer-company-inc",
+      "name": "Pierre Computer Company, Inc.",
+      "website": "https://openai.com",
+      "description": "OpenAI is an artificial intelligence research and deployment company acquiring Pierre Computer Company to advance source control and coding agent workflows.",
+      "logo_symbol": "pierre-computer-company-inc",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "pierre-computer-code-storage",
+          "name": "Code Storage",
+          "parent_org": "Pierre Computer Company, Inc.",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-04",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://code.storage/",
+          "short_description": "A Git-based service that lets applications store code and track its history, built for modern software development and coding agent workflows.",
+          "key_features": [
+            "Git-based code history tracking",
+            "API for application code storage",
+            "Scalable source control backend",
+            "Codex platform integration"
+          ],
+          "tags": [
+            "git",
+            "source-control",
+            "code-storage",
+            "developer-tools",
+            "coding-agents"
+          ],
+          "last_verified": "2026-11-04"
+        },
+        {
+          "id": "pierre-computer-trees",
+          "name": "Trees",
+          "parent_org": "Pierre Computer Company, Inc.",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-04",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://pierre.computer/",
+          "short_description": "An extremely fast syntax highlighter that updates in real time as developers type or coding agents stream code.",
+          "key_features": [
+            "Streaming code support",
+            "Fast project file navigation",
+            "Code review workflows",
+            "Codex app integration",
+            "Real-time syntax highlighting",
+            "Large codebase performance"
+          ],
+          "tags": [
+            "file-navigation",
+            "real-time",
+            "syntax-highlighting",
+            "code-editor",
+            "open-source",
+            "git",
+            "developer-tools",
+            "code-review"
+          ],
+          "last_verified": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "devrev",
+      "name": "DevRev",
+      "website": "https://devrev.ai/",
+      "description": "DevRev is an enterprise technology company that builds AI-powered service and operations solutions, combining OpenAI models with its proprietary harness for autonomous self-service.",
+      "logo_symbol": "devrev",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "devrev-computer-operator",
+          "name": "DevRev Computer and Operator",
+          "parent_org": "DevRev",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://devrev.ai/",
+          "short_description": "DevRev's Computer and Operator are autonomous AI agents designed to help service and operations teams reason across live data and complete complex customer and employee requests with traceable, reversible actions.",
+          "key_features": [
+            "Reasoning across live company data",
+            "Reversible and traceable actions with source attribution",
+            "Integration with OpenAI frontier models like GPT-6.1 Sol",
+            "Agent Studio for defining custom tool behaviors and rules"
+          ],
+          "tags": [
+            "autonomous-agents",
+            "enterprise",
+            "customer-support",
+            "live-data-reasoning",
+            "devrev"
+          ],
+          "last_verified": "2024-11-15"
+        }
+      ]
+    },
+    {
+      "id": "allen-institute-for-ai",
+      "name": "Allen Institute for AI",
+      "website": "https://www.allai.org",
+      "description": "Allen Institute for AI is a nonprofit AI research institute focused on language and science.",
+      "logo_symbol": "allen-institute-for-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "allenai-statebench",
+          "name": "StateBench",
+          "parent_org": "Allen Institute for AI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-03",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/allenai/statebench",
+          "short_description": "StateBench is an AI2 benchmark that evaluates how well language models track state changes over long documents, covering four levels of state-tracking difficulty from immutable assignments to general finite problems.",
+          "key_features": [
+            "Long-context state tracking evaluation",
+            "Four difficulty levels: R-trivial, Aperiodic, Soluble, and General Finite",
+            "Compares transformer and recurrent/hybrid architectures",
+            "Includes datasets and code"
+          ],
+          "tags": [
+            "long-context",
+            "llm",
+            "benchmark",
+            "state-tracking",
+            "ai2"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     }
