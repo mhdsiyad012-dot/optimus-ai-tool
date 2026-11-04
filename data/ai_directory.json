@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-04T05:19:41Z",
+  "last_updated": "2026-11-04T13:55:15Z",
   "total_organizations": 83,
-  "total_tools": 230,
+  "total_tools": 232,
   "organizations": [
     {
       "id": "google",
@@ -754,26 +754,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "OpenAI's flagship conversational AI assistant utilized by hardware and infrastructure teams to streamline drawing preparation, simulations, and design reviews.",
+          "short_description": "Conversational AI platform by OpenAI used in engineering workflows to assist with design, simulation, and problem-solving in hardware development.",
           "key_features": [
-            "Age-predicted teen protections with parental controls, safety alerts, and restricted weapons content",
+            "Conversational AI interface",
+            "Code generation and execution",
             "Conversational AI assistance",
-            "Design review capabilities",
-            "Conversational design review and iteration",
             "Context-aware warning sign recognition that triggers conservative responses and automatic chat termination",
-            "Advanced violence detection and law enforcement referral systems (200+ referrals in Q3 2026)"
+            "Advanced violence detection and law enforcement referral systems (200+ referrals in Q3 2026)",
+            "Age-predicted teen protections with parental controls, safety alerts, and restricted weapons content"
           ],
           "tags": [
-            "voice-mode",
-            "teen-protection",
             "parental-controls",
+            "productivity",
+            "teen-protection",
             "gpt",
-            "safety",
             "conversational-ai",
+            "safety",
             "transparency-reporting",
-            "cad"
+            "llm"
           ],
-          "last_verified": "2025-04-08"
+          "last_verified": "2025-01-15"
         },
         {
           "id": "openai-gpt-4o",
@@ -907,28 +907,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Open Source",
           "official_url": "https://openai.com/codex/",
-          "short_description": "AI coding assistant that empowered a non-technical sustainability analyst to build environmental risk assessment pipelines, processing 20,112 assets and six million data rows while reducing delivery time from one year to two months.",
+          "short_description": "OpenAI Codex is an AI coding agent that helps developers generate, review, and refactor code through a CLI and API.",
           "key_features": [
-            "Data discovery and cleaning",
-            "Repeatable processing pipelines",
-            "Manufacturing drawing preparation",
-            "CAD model creation and revision",
             "Data cleaning and standardization",
-            "Dataset standardization"
+            "Manufacturing drawing preparation",
+            "Dataset standardization",
+            "Data discovery and cleaning",
+            "Simulation setup and execution",
+            "Open Source"
           ],
           "tags": [
-            "autonomous-agents",
-            "mcp",
-            "manufacturing",
+            "developer-tools",
+            "cad",
             "real-estate",
+            "autonomous-agents",
             "hardware-engineering",
-            "coding-agent",
-            "code-generation",
-            "coding-model"
+            "mcp",
+            "hardware",
+            "simulation"
           ],
-          "last_verified": "2025-06-01"
+          "last_verified": "2026-04-27"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -964,26 +964,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI's frontier large language models, which the company argues are trained on copyrighted material under the fair use doctrine to drive innovation and provide public benefit without substituting original works.",
+          "short_description": "OpenAI is an AI research and deployment company creating frontier models and products that power AI assistants, coding agents, and API-based solutions.",
           "key_features": [
+            "Multimodal Models",
             "Automatic teen experience routing",
-            "Safe security testing and validation",
-            "Content review and moderation",
-            "Continuous safety system improvements",
             "Generative text and code capabilities",
-            "Application across creative, scientific, and commercial domains"
+            "Safe security testing and validation",
+            "Continuous safety system improvements",
+            "Content review and moderation"
           ],
           "tags": [
-            "llm",
+            "productivity",
             "copyright",
             "age-estimation",
+            "generative-ai",
+            "ai-assistant",
             "safety",
-            "violence-prevention",
-            "productivity",
-            "system-protection",
+            "llm",
             "fair-use"
           ],
-          "last_verified": "2024-05-20"
+          "last_verified": "2026-04-27"
         },
         {
           "id": "openai-presence",
@@ -1516,25 +1516,25 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/gpt-6-astra/",
-          "short_description": "A state-of-the-art multimodal model by OpenAI designed for advanced computer use and end-to-end physical product design, spanning mechanical, electrical, and software systems.",
+          "short_description": "OpenAI's advanced multimodal frontier model designed for computer use and physical world engineering, capable of autonomously designing enclosures, PCBs, and software integrations.",
           "key_features": [
-            "Mechanical and electrical engineering support",
             "Autonomous end-to-end physical device design (enclosure, PCB, firmware)",
-            "Generates functional requirements and internal structural layouts",
-            "Iterates complex designs without direct human intervention",
+            "UI/UX and firmware/software integration generation",
             "End-to-end system design",
-            "Multimodal and computer use workflows"
+            "Mechanical enclosure and structural design",
+            "Electrical component selection and PCB design",
+            "Mechanical and electrical engineering support"
           ],
           "tags": [
             "physical-ai",
-            "hardware-design",
-            "pcb",
-            "cad",
             "computer-use",
             "engineering",
+            "pcb",
+            "hardware-design",
+            "cad",
             "multimodal"
           ],
-          "last_verified": "2025-04-08"
+          "last_verified": "2025-01-15"
         },
         {
           "id": "openai-api",
@@ -1565,6 +1565,29 @@
             "mcp-ready"
           ],
           "last_verified": "2025-06-01"
+        },
+        {
+          "id": "chatgpt-enterprise",
+          "name": "ChatGPT Enterprise",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2023-08",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/chatgpt/enterprise",
+          "short_description": "ChatGPT Enterprise is a secure, admin-controlled version of ChatGPT designed for business and enterprise use cases.",
+          "key_features": [
+            "Enterprise Security",
+            "Admin Controls",
+            "Custom Models",
+            "API Integration"
+          ],
+          "tags": [
+            "enterprise-ai",
+            "security",
+            "llm"
+          ],
+          "last_verified": "2026-04-27"
         }
       ]
     },
@@ -2548,27 +2571,52 @@
           "parent_org": "Hugging Face",
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-03",
-          "status": "Beta",
+          "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/huggingface/transformers-mic",
-          "short_description": "A proposed standard for packaging model integration tests using shrunk model fixtures, runnable usage paths, and human-reviewed baselines to catch regressions in the Transformers library before they reach main.",
+          "short_description": "Command‑line interface for creating Model Integration Contracts, building shrunken fixtures, and recording baselines for any Hugging Face model.",
           "key_features": [
-            "Agent-assisted generation where LLMs draft usage code and manifests under human review.",
-            "Fleet dataset pinning each MIC to frozen revisions and package versions",
-            "CLI tool `tmic` for building MICs with LLM-drafted usage code and manifests",
+            "Baseline recording and comparison to detect regressions",
             "CLI tool `tmic` to automate contract drafting, fixture building, and baseline recording.",
+            "Fleet dataset pinning each MIC to frozen revisions and package versions",
             "Shrunk model fixtures that reduce model size by over 90% while preserving architecture layers for fast CPU testing.",
-            "Usage paths: runnable Markdown examples for generation, training, and inference"
+            "Automatic fixture generation from real checkpoints with reduced size",
+            "Support for diverse model architectures and usage paths"
           ],
           "tags": [
-            "huggingface",
-            "regression-detection",
+            "cli",
             "ci",
-            "hugging-face",
+            "baseline",
+            "regression-testing",
+            "fixture",
+            "contract",
             "transformers",
-            "llm-agents",
-            "integration-testing",
-            "regression-testing"
+            "llm-agents"
+          ],
+          "last_verified": "2026-11-03"
+        },
+        {
+          "id": "huggingface-huggingface-mic",
+          "name": "Hugging Face Model Integration Contracts Hub",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-03",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/huggingface-mic",
+          "short_description": "Hub space hosting published Model Integration Contracts (MICs) for various model families, enabling developers to test model behavior against recorded baselines.",
+          "key_features": [
+            "Collection of MIC contracts for multiple model families",
+            "Pinned snapshots with baseline outputs for reproducibility",
+            "Coverage dashboard showing which models have contracts",
+            "Integration with CI for automated regression detection"
+          ],
+          "tags": [
+            "hub",
+            "contracts",
+            "baselines",
+            "coverage",
+            "testing"
           ],
           "last_verified": "2026-11-03"
         }
@@ -6960,22 +7008,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/allenai/state-bench",
-          "short_description": "StateBench is a benchmark for long-context state tracking, evaluating how well language models keep track of information about entities in long documents as they evolve across four levels of complexity.",
+          "short_description": "StateBench is a benchmark for evaluating long-context state tracking capabilities of language models across four difficulty levels, revealing architectural differences in handling state changes over long documents.",
           "key_features": [
+            "Open-source dataset, code, and evaluation framework",
+            "Four difficulty levels of state tracking (r-trivial, aperiodic, soluble, general finite)",
+            "Four-level state tracking hierarchy (R-trivial, Aperiodic, Soluble, General finite)",
             "Four difficulty levels of state tracking (R-trivial, Aperiodic, Soluble, and General finite) based on Krohn–Rhodes theory",
-            "Open-source codebase on GitHub and dataset hosted on Hugging Face",
             "Tests models on inputs exceeding 64,000 tokens",
-            "Includes diverse problem formats, such as RULER-style tasks and spreadsheet edits",
-            "Provides comparable problems at varying complexity levels with identical variable counts and assignment points",
-            "Four difficulty levels of state tracking (r-trivial, aperiodic, soluble, general finite)"
+            "Tests pretrained and frontier models (Gemini, Claude, GPT)"
           ],
           "tags": [
+            "language-model-evaluation",
             "benchmark",
             "information-retrieval",
             "state-tracking",
+            "long-context",
             "evaluation",
             "language-models",
-            "long-context"
+            "allenai"
           ],
           "last_verified": "2026-11-03"
         }
