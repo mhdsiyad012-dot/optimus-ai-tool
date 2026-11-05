@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-05T05:26:47Z",
-  "total_organizations": 87,
-  "total_tools": 244,
+  "last_updated": "2026-11-05T14:09:44Z",
+  "total_organizations": 90,
+  "total_tools": 247,
   "organizations": [
     {
       "id": "google",
@@ -907,28 +907,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI Codex is an AI coding assistant designed to translate natural language to code, helping engineering teams build software and generate sales demos efficiently.",
+          "short_description": "OpenAI's AI-powered coding assistant that helps developers write, review, and deploy code using natural language, now integrated with advanced Git workflows.",
           "key_features": [
-            "Data cleaning and standardization",
-            "Dataset standardization",
+            "Natural language code generation",
             "Simulation setup and execution",
+            "Dataset standardization",
+            "Data cleaning and standardization",
             "Manufacturing drawing preparation",
-            "Integration with GPT models",
             "Data discovery and cleaning"
           ],
           "tags": [
-            "mcp",
-            "openai",
-            "llm",
-            "real-estate",
-            "autonomous-agents",
-            "hardware",
             "developer-tools",
-            "coding-assistant"
+            "openai",
+            "mcp",
+            "coding-assistant",
+            "real-estate",
+            "hardware",
+            "autonomous-agents",
+            "llm"
           ],
-          "last_verified": "2024-11-15"
+          "last_verified": "2025-04-15"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -1408,22 +1408,27 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2024-07",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Paid",
           "official_url": "https://openai.com/index/scaling-git-at-openai/",
-          "short_description": "Pando is OpenAI's horizontally scalable Git backend that enables concurrent pushes and high-throughput reads for monorepos, maintaining Git protocol compatibility to support agent-scale development via Codex.",
+          "short_description": "OpenAI's in-house source control backend built to scale Git for both engineers and AI agents, enabling parallel development at scale.",
           "key_features": [
-            "Horizontally scalable writes optimized for concurrent branch pushes",
-            "Packfile reuse across fetches to maximize read throughput",
+            "Scalable Git backend",
             "Causal consistency model for scalable ref updates without repository-wide coordination",
+            "Packfile reuse across fetches to maximize read throughput",
+            "High-performance source control",
+            "Support for parallel workstreams",
             "Git protocol compatibility enabling seamless adoption by engineers and agents"
           ],
           "tags": [
-            "git",
-            "monorepo",
+            "codex",
+            "ai-infrastructure",
+            "developer-platform",
             "openai",
-            "codex"
+            "source-control",
+            "monorepo",
+            "git"
           ],
-          "last_verified": "2026-11-03"
+          "last_verified": "2025-04-15"
         },
         {
           "id": "lifeval",
@@ -7234,28 +7239,28 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-04",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Paid",
           "official_url": "https://code.storage/",
-          "short_description": "Code Storage is a Git‑based service that lets applications store code and track its history, enabling reliable version control for developers and AI agents.",
+          "short_description": "A Git-based service that lets apps store code and track its history, designed for integration with developer tools and platforms.",
           "key_features": [
-            "Integration with existing Git workflows",
             "Codex platform integration",
             "API for application code storage",
+            "Git-based code storage",
+            "Git-based code history tracking",
             "Scalable source control backend",
-            "API for storing and retrieving code",
-            "Git-based code history tracking"
+            "API for storing and retrieving code"
           ],
           "tags": [
-            "version-control",
-            "source-control",
-            "coding-agents",
-            "git",
             "developer-tools",
+            "developer-platform",
+            "coding-agents",
+            "api",
             "code-storage",
-            "open-source",
-            "api"
+            "source-control",
+            "version-control",
+            "git"
           ],
-          "last_verified": "2025-12-17"
+          "last_verified": "2025-04-15"
         },
         {
           "id": "pierre-computer-trees",
@@ -7296,22 +7301,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/pierre-computer/trees",
-          "short_description": "Trees is a high‑performance library that lets developers quickly navigate a project’s file structure, making it easy to explore large codebases.",
+          "short_description": "A high-performance open-source library for navigating project file structures, used in Codex for efficient code browsing.",
           "key_features": [
             "Fast file tree navigation",
-            "Support for large repositories",
+            "Fast file navigation",
+            "Low memory footprint",
             "Interactive UI for exploring directories",
-            "Low memory footprint"
+            "Open-source license",
+            "Integration with Codex"
           ],
           "tags": [
-            "file-navigation",
-            "performance",
-            "open-source",
             "developer-tools",
+            "performance",
+            "file-navigation",
             "git",
+            "open-source",
             "trees"
           ],
-          "last_verified": "2025-12-17"
+          "last_verified": "2025-04-15"
         },
         {
           "id": "pierre-computer-company-diffs",
@@ -7322,22 +7329,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/pierre-computer/diffs",
-          "short_description": "Diffs provides an intuitive interface for reviewing code changes, featuring an Edit mode that lets reviewers fix lines directly within the diff view.",
+          "short_description": "An open-source library for viewing and editing code diffs, featuring an inline editor for quick fixes directly in the diff view.",
           "key_features": [
-            "Side‑by‑side change view",
-            "Edit mode for inline fixes",
+            "Open-source",
             "Real‑time diff updates",
-            "Support for multiple file formats"
+            "Diff visualization",
+            "Support for multiple file formats",
+            "Side‑by‑side change view",
+            "Inline code editing"
           ],
           "tags": [
+            "developer-tools",
+            "edit-mode",
             "code-review",
             "diff",
-            "edit-mode",
-            "open-source",
-            "developer-tools",
-            "git"
+            "git",
+            "open-source"
           ],
-          "last_verified": "2025-12-17"
+          "last_verified": "2025-04-15"
         },
         {
           "id": "pierre-computer-company-highlights",
@@ -7348,22 +7357,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/pierre-computer/highlights",
-          "short_description": "Highlights is an ultra‑fast syntax highlighter that updates in real time as developers type or agents stream code, improving code readability.",
+          "short_description": "An extremely fast syntax highlighter that updates in real-time as code is typed or streamed from an AI agent.",
           "key_features": [
-            "Real‑time syntax highlighting",
-            "Fast performance for large files",
+            "Open-source",
             "Customizable themes",
-            "Streaming updates for live coding"
+            "Real-time syntax highlighting",
+            "High performance",
+            "Fast performance for large files",
+            "Real‑time syntax highlighting"
           ],
           "tags": [
-            "syntax-highlighting",
-            "performance",
-            "open-source",
             "developer-tools",
+            "highlights",
+            "performance",
+            "syntax-highlighting",
             "real-time",
-            "highlights"
+            "open-source"
           ],
-          "last_verified": "2025-12-17"
+          "last_verified": "2025-04-15"
         }
       ]
     },
@@ -7480,6 +7491,127 @@
             "communication"
           ],
           "last_verified": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "id": "alex-krause",
+      "name": "Alex Krause",
+      "website": "https://github.com/alex0ptr",
+      "description": "AI Gude is an open‑source project created by Alex Krause.",
+      "logo_symbol": "alex-krause",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Voice"
+      ],
+      "tools": [
+        {
+          "id": "aigude",
+          "name": "AI Gude",
+          "parent_org": "Alex Krause",
+          "category": "Voice & Audio",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://github.com/alex0ptr/aigude",
+          "short_description": "AI Gude creates a personalized daily podcast from your chosen RSS news feeds, automatically writing scripts and narrating them with AI voice.",
+          "key_features": [
+            "Pulls content from RSS feeds with configurable lookback",
+            "Generates scripts in user‑specified style using Gemini",
+            "Converts script sections to AI‑generated speech via TTS",
+            "Produces chapter‑structured audio episodes for mobile listening"
+          ],
+          "tags": [
+            "podcast",
+            "ai",
+            "rss",
+            "self‑hosted"
+          ],
+          "last_verified": "2025-10-15"
+        }
+      ]
+    },
+    {
+      "id": "gadium-ai",
+      "name": "Gadium AI",
+      "website": "https://gradium.ai",
+      "description": "Gadium AI is an AI company focused on expressive speech synthesis and voice AI.",
+      "logo_symbol": "gadium-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Voice"
+      ],
+      "tools": [
+        {
+          "id": "gadium-phonon-tts",
+          "name": "Phonon TTS",
+          "parent_org": "Gadium AI",
+          "category": "Voice & Audio",
+          "release_date": "2026-11-05",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/spaces/gradium/phonon",
+          "short_description": "Phonon is a small, open text-to-speech model that runs fully on-device for high-quality offline speech synthesis, with multiple model sizes and languages.",
+          "key_features": [
+            "Runs fully on-device with no server or network",
+            "Open weights: Phonon 31m under Apache 2.0, other models under CC BY-NC",
+            "Small model sizes around 65 MB and 75 MB",
+            "Supports English, French, German, Spanish, and Portuguese",
+            "Includes 100+ built-in voices and custom voice creation via Gradium Studio",
+            "Handles numbers, dates, and codes"
+          ],
+          "tags": [
+            "text-to-speech",
+            "tts",
+            "on-device",
+            "speech-synthesis",
+            "voice-cloning",
+            "open-source",
+            "flow-matching",
+            "autoregressive"
+          ],
+          "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "tencent",
+      "name": "Tencent",
+      "website": "https://www.tencent.com",
+      "description": "Tencent is a Chinese multinational technology company offering internet services and products, including cloud computing, software, and various consumer and enterprise services.",
+      "logo_symbol": "tencent",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "tencent-hy4",
+          "name": "Tencent Hy4",
+          "parent_org": "Tencent",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-06",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/tencent/HunyuanA13B",
+          "short_description": "Tencent's open-source multimodal LLM capable of processing both text and image inputs, enabling vision-language understanding tasks within the Hunyuan family.",
+          "key_features": [
+            "Multimodal input support (text + image)",
+            "Open-weight model for research and deployment",
+            "Part of Tencent Hunyuan model family",
+            "13B parameter architecture optimized for efficiency"
+          ],
+          "tags": [
+            "multimodal",
+            "open-source",
+            "vision-language",
+            "llm",
+            "tencent"
+          ],
+          "last_verified": "2025-01-15"
         }
       ]
     }
