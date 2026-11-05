@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-04T23:19:16Z",
-  "total_organizations": 86,
-  "total_tools": 239,
+  "last_updated": "2026-11-05T05:26:47Z",
+  "total_organizations": 87,
+  "total_tools": 244,
   "organizations": [
     {
       "id": "google",
@@ -1663,6 +1663,30 @@
             "reasoning"
           ],
           "last_verified": "2024-11-15"
+        },
+        {
+          "id": "openai-images-2-6",
+          "name": "Images 2.6",
+          "parent_org": "OpenAI",
+          "category": "Image Generation",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/introducing-images-2-6/",
+          "short_description": "Images 2.6 is OpenAI's latest image generation model that enables faster, higher‑quality image creation and GIF animation via ChatGPT, Codex, and the API.",
+          "key_features": [
+            "50% faster image generation",
+            "GIF animation support",
+            "GPT‑Image‑2.6 Flare and Sunburst variants for speed vs quality",
+            "Image markup, SVG export and complexity controls for precise editing"
+          ],
+          "tags": [
+            "image-generation",
+            "gif",
+            "api",
+            "productivity"
+          ],
+          "last_verified": "2025-11-03"
         }
       ]
     },
@@ -7210,23 +7234,28 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-04",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Open Source",
           "official_url": "https://code.storage/",
-          "short_description": "A Git-based service that lets applications store code and track its history, built for modern software development and coding agent workflows.",
+          "short_description": "Code Storage is a Git‑based service that lets applications store code and track its history, enabling reliable version control for developers and AI agents.",
           "key_features": [
-            "Git-based code history tracking",
+            "Integration with existing Git workflows",
+            "Codex platform integration",
             "API for application code storage",
             "Scalable source control backend",
-            "Codex platform integration"
+            "API for storing and retrieving code",
+            "Git-based code history tracking"
           ],
           "tags": [
-            "git",
+            "version-control",
             "source-control",
-            "code-storage",
+            "coding-agents",
+            "git",
             "developer-tools",
-            "coding-agents"
+            "code-storage",
+            "open-source",
+            "api"
           ],
-          "last_verified": "2026-11-04"
+          "last_verified": "2025-12-17"
         },
         {
           "id": "pierre-computer-trees",
@@ -7257,6 +7286,84 @@
             "code-review"
           ],
           "last_verified": "2026-11-04"
+        },
+        {
+          "id": "pierre-computer-company-trees",
+          "name": "Trees",
+          "parent_org": "Pierre Computer Company, Inc.",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/pierre-computer/trees",
+          "short_description": "Trees is a high‑performance library that lets developers quickly navigate a project’s file structure, making it easy to explore large codebases.",
+          "key_features": [
+            "Fast file tree navigation",
+            "Support for large repositories",
+            "Interactive UI for exploring directories",
+            "Low memory footprint"
+          ],
+          "tags": [
+            "file-navigation",
+            "performance",
+            "open-source",
+            "developer-tools",
+            "git",
+            "trees"
+          ],
+          "last_verified": "2025-12-17"
+        },
+        {
+          "id": "pierre-computer-company-diffs",
+          "name": "Diffs",
+          "parent_org": "Pierre Computer Company, Inc.",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/pierre-computer/diffs",
+          "short_description": "Diffs provides an intuitive interface for reviewing code changes, featuring an Edit mode that lets reviewers fix lines directly within the diff view.",
+          "key_features": [
+            "Side‑by‑side change view",
+            "Edit mode for inline fixes",
+            "Real‑time diff updates",
+            "Support for multiple file formats"
+          ],
+          "tags": [
+            "code-review",
+            "diff",
+            "edit-mode",
+            "open-source",
+            "developer-tools",
+            "git"
+          ],
+          "last_verified": "2025-12-17"
+        },
+        {
+          "id": "pierre-computer-company-highlights",
+          "name": "Highlights",
+          "parent_org": "Pierre Computer Company, Inc.",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/pierre-computer/highlights",
+          "short_description": "Highlights is an ultra‑fast syntax highlighter that updates in real time as developers type or agents stream code, improving code readability.",
+          "key_features": [
+            "Real‑time syntax highlighting",
+            "Fast performance for large files",
+            "Customizable themes",
+            "Streaming updates for live coding"
+          ],
+          "tags": [
+            "syntax-highlighting",
+            "performance",
+            "open-source",
+            "developer-tools",
+            "real-time",
+            "highlights"
+          ],
+          "last_verified": "2025-12-17"
         }
       ]
     },
@@ -7335,6 +7442,44 @@
             "ai2"
           ],
           "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "openmail",
+      "name": "OpenMail",
+      "website": "https://www.producthunt.com",
+      "description": "OpenMail is a standalone email product.",
+      "logo_symbol": "openmail",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "openmail",
+          "name": "OpenMail",
+          "parent_org": "OpenMail",
+          "category": "Productivity & Office",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/openmail",
+          "short_description": "OpenMail is an AI-powered email client that streamlines communication and boosts productivity.",
+          "key_features": [
+            "AI email drafting",
+            "Smart inbox management",
+            "Calendar integration",
+            "Secure messaging"
+          ],
+          "tags": [
+            "email",
+            "ai",
+            "productivity",
+            "communication"
+          ],
+          "last_verified": "2024-01-01"
         }
       ]
     }
