@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-06T13:54:04Z",
+  "last_updated": "2026-11-06T22:48:54Z",
   "total_organizations": 95,
-  "total_tools": 262,
+  "total_tools": 265,
   "organizations": [
     {
       "id": "google",
@@ -1546,25 +1546,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/gpt-6-astra/",
-          "short_description": "OpenAI's advanced multimodal frontier model designed for computer use and physical world engineering, capable of autonomously designing enclosures, PCBs, and software integrations.",
+          "short_description": "A frontier multimodal AI model from OpenAI designed to excel at complex reasoning and multimodal tasks, including everyday wet-lab scientific analysis.",
           "key_features": [
-            "Autonomous end-to-end physical device design (enclosure, PCB, firmware)",
+            "Maintains experimental context and tacit biological knowledge throughout analysis",
+            "Achieves 66.7% mean reward on BioBasicsBench at high reasoning effort",
+            "Strong native multimodal capabilities for interpreting images, videos, and raw instrument data",
             "UI/UX and firmware/software integration generation",
-            "End-to-end system design",
-            "Mechanical enclosure and structural design",
             "Electrical component selection and PCB design",
-            "Mechanical and electrical engineering support"
+            "Mechanical enclosure and structural design"
           ],
           "tags": [
-            "physical-ai",
-            "computer-use",
-            "engineering",
-            "pcb",
             "hardware-design",
+            "computer-use",
             "cad",
-            "multimodal"
+            "multimodal",
+            "biotech",
+            "gpt-6",
+            "engineering",
+            "physical-ai"
           ],
-          "last_verified": "2025-01-15"
+          "last_verified": "2025-02-24"
         },
         {
           "id": "openai-api",
@@ -1790,6 +1791,57 @@
             "security"
           ],
           "last_verified": "2025-10-01"
+        },
+        {
+          "id": "openai-biobasicsbench",
+          "name": "BioBasicsBench",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "short_description": "A benchmark developed in collaboration with Ligo to evaluate how well AI agents handle routine wet-lab analysis, testing their ability to interpret raw experimental data, identify errors, and recognize ambiguous evidence.",
+          "key_features": [
+            "100 tasks across five areas of routine wet-lab work, including protein methods, imaging, quantification, nucleic acid methods, and molecular cloning",
+            "Utilizes raw experimental evidence such as gel images, colony plates, microscopy, and instrument readouts",
+            "Features expert-written grading criteria reviewed by PhD-level wet-lab scientists",
+            "Evaluates multiple skills together, including biological knowledge, image interpretation, error detection, and protocol understanding"
+          ],
+          "tags": [
+            "benchmark",
+            "wet-lab",
+            "biotechnology",
+            "evaluation",
+            "science",
+            "multimodal"
+          ],
+          "last_verified": "2025-02-24"
+        },
+        {
+          "id": "openai-australian-universities-are-creating-ai-native-graduates",
+          "name": "Australian universities are creating AI-native graduates",
+          "parent_org": "OpenAI",
+          "category": "Voice & Audio",
+          "release_date": "2026-11-06",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "short_description": "Title: Australian universities are creating AI-native graduates",
+          "key_features": [
+            "Automated AI capabilities powered by OpenAI",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "australian",
+            "universities",
+            "are",
+            "creating",
+            "ainative",
+            "graduates"
+          ],
+          "last_verified": "2026-11-06"
         }
       ]
     },
@@ -2844,6 +2896,32 @@
             "tts",
             "launching",
             "highquality"
+          ],
+          "last_verified": "2026-11-06"
+        },
+        {
+          "id": "hugging-face-new-nvidia-cosmos-3-open-models-for-interactive-world-simulation",
+          "name": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+          "parent_org": "Hugging Face",
+          "category": "Video & Animation",
+          "release_date": "2026-11-06",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+          "short_description": "Title: New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+          "key_features": [
+            "🌦️ **[Cosmos3-Nano-Transfer-Auto](https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto)** : Generate multi-view driving data with varied weather, lighting, and time of day.",
+            "🚗 **[Cosmos3-Nano-Sim-Auto](https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Auto)** : Stream synchronized camera and LiDAR observations for driving simulation.",
+            "🎨 **[Cosmos3-Nano-Sim-Transfer](https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Transfer)** : Turn simulator controls and a text prompt into photorealistic video.",
+            "🤖 **[Cosmos3-Nano-Sim-Bimanual](https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual)** : Predict video from robot or camera actions."
+          ],
+          "tags": [
+            "new",
+            "nvidia",
+            "cosmos",
+            "open",
+            "models",
+            "for"
           ],
           "last_verified": "2026-11-06"
         }
@@ -7893,26 +7971,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://www.rivet.dev/",
-          "short_description": "Rivet is an open-source orchestrator for agentic workloads that provides scalable, long-lived Actors with in-memory state, SQLite persistence on S3, and sub-5ms cold starts, enabling efficient AI agent development and deployment.",
+          "short_description": "Rivet is a high‑density, scalable actor platform that lets developers run long‑lived agents with in‑memory state, durable SQLite storage on S3, and sub‑5 ms cold starts, enabling massive multi‑tenant AI workloads.",
           "key_features": [
-            "End-to-end type safety with typed clients and React hooks",
-            "4.99 ms p99 cold starts",
+            "Durable SQLite storage on S3 with SSD‑level I/O",
             "SQLite-backed durable storage on S3",
+            "Built-in WebSocket support, cron scheduling, and Actor-to-Actor calls",
+            "72 KB per Actor",
             "SQLite backed by S3 at SSD speeds (1.07 ms writes, 1.36 ms reads p99)",
-            "72 KB Actor footprint",
-            "Built-in WebSocket support, cron scheduling, and Actor-to-Actor calls"
+            "End-to-end type safety with typed clients and React hooks"
           ],
           "tags": [
-            "s3-persistence",
-            "durable-agents",
-            "agent-orchestration",
-            "multiplayer-agents",
             "s3-storage",
-            "actor-orchestration",
+            "agent-orchestration",
+            "durable-agents",
+            "s3-persistence",
+            "orchestration",
             "websocket",
-            "serverless"
+            "multiplayer-agents",
+            "ai-agents"
           ],
-          "last_verified": "2023-03-01"
+          "last_verified": "2023-12-01"
         }
       ]
     },
