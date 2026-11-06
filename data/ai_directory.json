@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-05T14:09:44Z",
-  "total_organizations": 90,
-  "total_tools": 247,
+  "last_updated": "2026-11-06T05:27:57Z",
+  "total_organizations": 92,
+  "total_tools": 259,
   "organizations": [
     {
       "id": "google",
@@ -729,6 +729,31 @@
             "2026"
           ],
           "last_verified": "2026-11-04"
+        },
+        {
+          "id": "google-gemini-omni-1-2-flash-fast-and-cost-effective-with-longer-clips",
+          "name": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "parent_org": "Google",
+          "category": "Video & Animation",
+          "release_date": "2026-11-06",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+          "short_description": "2 Flash: Fast and cost-effective with longer clips",
+          "key_features": [
+            "**For developers using the Gemini API:** Prototype in [Google AI Studio](https://aistudio.google.com/prompts/new_chat?model=gemini-omni-1.2-flash&utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=), explore interactive starter apps, and check out the [developer documentation](https://aistudio.google.com/docs/omni) and [pricing](https://aistudio.google.com/docs/pricing#gemini-omni-1.2-flash).",
+            "**For businesses:** Try it in the [Google Cloud console](https://console.cloud.google.com/vertex-ai/studio/media), and build enterprise solutions with the [API](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash).",
+            "**For everyone using Google apps:** Direct scenes and multi-turn edits in [Flow](https://labs.google/fx/tools/flow), generate 15-second clips at no additional cost in [Google Vids](https://docs.google.com/videos/create?usp=blog) with a Google account or Google Workspace subscription, create 15-second videos in the [Gemini app](https://gemini.google.com/) (rolling out to Google AI Ultra subscribers), and scale video campaigns in [Google Ads](https://ads.google.com/aw/assetstudio)."
+          ],
+          "tags": [
+            "gemini",
+            "omni",
+            "12",
+            "flash",
+            "fast",
+            "and"
+          ],
+          "last_verified": "2026-11-06"
         }
       ]
     },
@@ -907,28 +932,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's AI-powered coding assistant that helps developers write, review, and deploy code using natural language, now integrated with advanced Git workflows.",
+          "short_description": "AI coding agent used by Merge to review product code and provide implementation feedback for internal tools.",
           "key_features": [
-            "Natural language code generation",
-            "Simulation setup and execution",
-            "Dataset standardization",
             "Data cleaning and standardization",
-            "Manufacturing drawing preparation",
-            "Data discovery and cleaning"
+            "Simulation setup and execution",
+            "Agentic coding",
+            "Data discovery and cleaning",
+            "Natural language code generation",
+            "Manufacturing drawing preparation"
           ],
           "tags": [
-            "developer-tools",
-            "openai",
-            "mcp",
-            "coding-assistant",
-            "real-estate",
             "hardware",
-            "autonomous-agents",
-            "llm"
+            "ai-agent",
+            "developer-tools",
+            "mcp",
+            "llm",
+            "real-estate",
+            "coding",
+            "ai-coding"
           ],
-          "last_verified": "2025-04-15"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -962,28 +987,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2024-01",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI is an AI research and deployment company creating frontier models and products that power AI assistants, coding agents, and API-based solutions.",
+          "short_description": "Frontier large language model used by Merge for fast product testing, marketing, and multi-step task execution with common-sense reasoning.",
           "key_features": [
-            "Multimodal Models",
-            "Automatic teen experience routing",
-            "Generative text and code capabilities",
-            "Safe security testing and validation",
             "Continuous safety system improvements",
-            "Content review and moderation"
+            "Automatic teen experience routing",
+            "Uses common sense to fill gaps",
+            "Fast inference",
+            "Content review and moderation",
+            "Safe security testing and validation"
           ],
           "tags": [
-            "productivity",
+            "gpt",
             "copyright",
-            "age-estimation",
+            "defensive-ai",
             "generative-ai",
-            "ai-assistant",
-            "safety",
+            "model",
+            "age-estimation",
             "llm",
-            "fair-use"
+            "ai-assistant"
           ],
-          "last_verified": "2026-04-27"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-presence",
@@ -1692,6 +1717,79 @@
             "productivity"
           ],
           "last_verified": "2025-11-03"
+        },
+        {
+          "id": "openai-chatgpt-edu",
+          "name": "ChatGPT Edu",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-06",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/chatgpt/edu",
+          "short_description": "ChatGPT Edu is a tailored version of OpenAI's ChatGPT designed specifically for educational institutions, allowing universities to deploy AI tools securely across their campus for learning, research, and creative projects.",
+          "key_features": [
+            "Secure institutional data protection",
+            "Advanced LLM capabilities for research and writing",
+            "Customizable usage policies for academic integrity",
+            "Integration with university learning systems"
+          ],
+          "tags": [
+            "llm",
+            "education",
+            "generative-ai",
+            "chatbot"
+          ],
+          "last_verified": "2026-08-08"
+        },
+        {
+          "id": "openai-chatgpt-work",
+          "name": "ChatGPT Work",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/chatgpt/work",
+          "short_description": "ChatGPT Work is an AI assistant tailored for business and professional environments, helping teams automate workflows, analyze data, and enhance productivity.",
+          "key_features": [
+            "Enterprise-grade security",
+            "Workflow automation",
+            "Data analysis and summarization",
+            "Custom GPTs for business tasks"
+          ],
+          "tags": [
+            "productivity",
+            "business-ai",
+            "automation",
+            "enterprise"
+          ],
+          "last_verified": "2026-08-08"
+        },
+        {
+          "id": "openai-gpt-6-cyber",
+          "name": "GPT-6 Cyber",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2025-10-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "short_description": "GPT-6 Cyber is OpenAI's advanced cybersecurity model that reliably discovers and patches vulnerabilities while staying within authorized scope, delivering major improvements over prior models.",
+          "key_features": [
+            "48.5% exploit success on ExploitGym, a 16‑point gain over GPT‑5.6 Cyber",
+            "99.93% alignment compliance without deployment prompts and 100% with prompts",
+            "Discovered 81 novel high‑severity Firefox vulnerabilities and 948 Linux exploits",
+            "Integrated with Daybreak Red/Blue for secure red‑team and validation workflows"
+          ],
+          "tags": [
+            "cybersecurity",
+            "vulnerability",
+            "exploit",
+            "alignment",
+            "security"
+          ],
+          "last_verified": "2025-10-01"
         }
       ]
     },
@@ -2723,6 +2821,31 @@
             "testing"
           ],
           "last_verified": "2026-11-03"
+        },
+        {
+          "id": "hugging-face-a-closer-look-at-phonon-tts-launching-high-quality-on-device-speech-that-tops-the-benchmarks",
+          "name": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "parent_org": "Hugging Face",
+          "category": "Video & Animation",
+          "release_date": "2026-11-06",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/phonon-tts",
+          "short_description": "Title: A Closer Look at Phonon TTS",
+          "key_features": [
+            "Automated AI capabilities powered by Hugging Face",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "closer",
+            "look",
+            "phonon",
+            "tts",
+            "launching",
+            "highquality"
+          ],
+          "last_verified": "2026-11-06"
         }
       ]
     },
@@ -3749,6 +3872,102 @@
             "nim"
           ],
           "last_verified": "2026-10-21"
+        },
+        {
+          "id": "nvidia-cosmos3-nano-transfer-auto",
+          "name": "Cosmos3-Nano-Transfer-Auto",
+          "parent_org": "NVIDIA",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-05",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto",
+          "short_description": "Generates synchronized multi-view driving data including video and LiDAR across varied weather, lighting, and time-of-day conditions, enabling offline synthetic dataset creation for autonomous driving research.",
+          "key_features": [
+            "Multi-view camera generation up to 11 fisheye and standard views",
+            "Joint RGB-LiDAR generation with HD-map range controls",
+            "World Scenario Map (WSM) controls for scene structure and traffic motion",
+            "Text-prompt-guided appearance and environmental variation"
+          ],
+          "tags": [
+            "autonomous-driving",
+            "multi-sensor",
+            "world-simulation",
+            "offline-data-generation"
+          ],
+          "last_verified": "2026-11-05"
+        },
+        {
+          "id": "nvidia-cosmos3-nano-sim-auto",
+          "name": "Cosmos3-Nano-Sim-Auto",
+          "parent_org": "NVIDIA",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-05",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Auto",
+          "short_description": "Provides causally distilled streaming video and LiDAR generation from driving controls, enabling fast, long-rollout interactive simulation with synchronized multi-sensor observations.",
+          "key_features": [
+            "Causal distillation for few-step streaming generation",
+            "Synchronized camera and LiDAR chunk generation",
+            "Rolling history-based temporal-causal attention",
+            "Fast interactive rollouts with updated driving controls"
+          ],
+          "tags": [
+            "streaming-simulation",
+            "autonomous-driving",
+            "lidar",
+            "video-prediction"
+          ],
+          "last_verified": "2026-11-05"
+        },
+        {
+          "id": "nvidia-cosmos3-nano-sim-transfer",
+          "name": "Cosmos3-Nano-Sim-Transfer",
+          "parent_org": "NVIDIA",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-05",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Transfer",
+          "short_description": "Transforms simulator controls and text prompts into photorealistic video observations, supporting depth, segmentation, edges, and blur for policy consumption in simulation pipelines.",
+          "key_features": [
+            "Simulator controls-to-RGB generation pipeline",
+            "Supports depth, segmentation, edges, and blur controls",
+            "Text-guided appearance while preserving physics state",
+            "Policy-consumable visual observations"
+          ],
+          "tags": [
+            "simulator-rgb",
+            "depth-segmentation",
+            "world-model",
+            "policy-observations"
+          ],
+          "last_verified": "2026-11-05"
+        },
+        {
+          "id": "nvidia-cosmos3-nano-sim-bimanual",
+          "name": "Cosmos3-Nano-Sim-Bimanual",
+          "parent_org": "NVIDIA",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-05",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual",
+          "short_description": "Simulates environment evolution in response to bimanual robot actions, enabling interactive two-arm manipulation simulation for embodied AI embodiments like YAM and AgiBot.",
+          "key_features": [
+            "Bimanual robot action-to-video generation",
+            "Supports YAM and AgiBot embodiments",
+            "Normalized action schema with coordinate frames and gripper calibration",
+            "Interactive two-arm simulation with viewpoint and manipulation control"
+          ],
+          "tags": [
+            "bimanual-robotics",
+            "embodied-ai",
+            "action-prediction",
+            "two-arm-simulation"
+          ],
+          "last_verified": "2026-11-05"
         }
       ]
     },
@@ -4295,6 +4514,22 @@
             "developer-tools",
             "productivity",
             "wrapped"
+          ],
+          "last_verified": "2024-01-01"
+        },
+        {
+          "id": "living-brain-chatandbuild",
+          "name": "Living Brain",
+          "parent_org": "Unknown",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/chatandbuild",
+          "short_description": "AI tool listed on Product Hunt under chatandbuild; detailed capabilities unavailable due to security verification page.",
+          "key_features": [],
+          "tags": [
+            "producthunt"
           ],
           "last_verified": "2024-01-01"
         }
@@ -7612,6 +7847,88 @@
             "tencent"
           ],
           "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "rivet",
+      "name": "Rivet",
+      "website": "https://www.rivet.dev/",
+      "description": "Rivet (YC W23) builds open-source infrastructure for running scalable, durable AI agents using the Actor model on S3.",
+      "logo_symbol": "rivet",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "rivet-rivet-actors",
+          "name": "Rivet Actors",
+          "parent_org": "Rivet",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://www.rivet.dev/",
+          "short_description": "Rivet Actors is a fast, high-density orchestrator for agentic workloads that runs long-lived processes with in-memory state, SQLite persistence on S3, WebSockets, and scheduling — enabling scalable AI agents with 4.99ms cold starts and 72KB memory per actor.",
+          "key_features": [
+            "72 KB RAM per Actor with 4.99 ms p99 cold starts",
+            "SQLite backed by S3 at SSD speeds (1.07 ms writes, 1.36 ms reads p99)",
+            "Actors hibernate when idle and wake on demand with zero cost",
+            "Built-in WebSocket support, cron scheduling, and Actor-to-Actor calls",
+            "Fault-tolerant with automatic Actor migration on node failure",
+            "End-to-end type safety with typed clients and React hooks"
+          ],
+          "tags": [
+            "agent-orchestration",
+            "actor-model",
+            "durable-agents",
+            "serverless",
+            "s3-storage",
+            "websocket",
+            "sqlite",
+            "multiplayer-agents"
+          ],
+          "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "la-trobe-university-powered-by-openai",
+      "name": "La Trobe University (powered by OpenAI)",
+      "website": "https://openai.com",
+      "description": "OpenAI is a leading AI research and deployment company dedicated to ensuring that artificial general intelligence benefits all of humanity.",
+      "logo_symbol": "la-trobe-university-powered-by-openai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "la-trobe-fletch-social-robot",
+          "name": "Fletch Social Robot",
+          "parent_org": "La Trobe University (powered by OpenAI)",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.latrobe.edu.au",
+          "short_description": "Fletch is an OpenAI-powered social robot used in teacher training to help future teachers practice giving feedback to parents through realistic conversational simulations.",
+          "key_features": [
+            "Speech synthesis and recognition",
+            "Facial expressions and head movements",
+            "Realistic scenario simulations",
+            "Training for difficult conversations"
+          ],
+          "tags": [
+            "robot",
+            "education",
+            "conversational-ai",
+            "simulations"
+          ],
+          "last_verified": "2026-08-08"
         }
       ]
     }
