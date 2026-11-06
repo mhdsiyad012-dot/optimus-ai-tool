@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-06T05:27:57Z",
-  "total_organizations": 92,
-  "total_tools": 259,
+  "last_updated": "2026-11-06T13:54:04Z",
+  "total_organizations": 95,
+  "total_tools": 262,
   "organizations": [
     {
       "id": "google",
@@ -932,28 +932,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Paid",
           "official_url": "https://openai.com/codex/",
-          "short_description": "AI coding agent used by Merge to review product code and provide implementation feedback for internal tools.",
+          "short_description": "OpenAI's AI coding agent integrated into university computer science programs and industry projects, enabling students to accelerate software development from months to weeks through agentic AI software engineering.",
           "key_features": [
-            "Data cleaning and standardization",
-            "Simulation setup and execution",
-            "Agentic coding",
-            "Data discovery and cleaning",
+            "Agentic AI software engineering coursework",
             "Natural language code generation",
-            "Manufacturing drawing preparation"
+            "Agentic coding",
+            "AI-assisted software engineering",
+            "Data cleaning and standardization",
+            "Simulation setup and execution"
           ],
           "tags": [
-            "hardware",
-            "ai-agent",
-            "developer-tools",
-            "mcp",
             "llm",
-            "real-estate",
-            "coding",
-            "ai-coding"
+            "ai-coding",
+            "developer-tools",
+            "openai",
+            "mcp",
+            "software-engineering",
+            "ai-development",
+            "ai-agent"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2026-08"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -989,26 +989,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "Frontier large language model used by Merge for fast product testing, marketing, and multi-step task execution with common-sense reasoning.",
+          "short_description": "OpenAI's defensive security capability adopted by Adelaide University for authorized cyber defense operations, including vulnerability discovery, secure code review, malware analysis, and incident response.",
           "key_features": [
-            "Continuous safety system improvements",
-            "Automatic teen experience routing",
+            "Integration into educational programs and courses",
+            "Institutional access for students and staff",
+            "Integration with ChatGPT Edu and Codex",
             "Uses common sense to fill gaps",
-            "Fast inference",
-            "Content review and moderation",
-            "Safe security testing and validation"
+            "AI Business Studio consulting projects",
+            "Support for small and medium enterprise AI adoption"
           ],
           "tags": [
-            "gpt",
+            "higher-education",
             "copyright",
-            "defensive-ai",
-            "generative-ai",
-            "model",
-            "age-estimation",
             "llm",
-            "ai-assistant"
+            "ai-literacy",
+            "workplace",
+            "consulting",
+            "research",
+            "education"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2026-08"
         },
         {
           "id": "openai-presence",
@@ -3882,15 +3882,20 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto",
-          "short_description": "Generates synchronized multi-view driving data including video and LiDAR across varied weather, lighting, and time-of-day conditions, enabling offline synthetic dataset creation for autonomous driving research.",
+          "short_description": "A bidirectional world model for offline synthetic driving data generation, producing synchronized multi-camera video and joint RGB–LiDAR with controllable weather, lighting, and time of day.",
           "key_features": [
-            "Multi-view camera generation up to 11 fisheye and standard views",
-            "Joint RGB-LiDAR generation with HD-map range controls",
             "World Scenario Map (WSM) controls for scene structure and traffic motion",
-            "Text-prompt-guided appearance and environmental variation"
+            "Joint RGB-LiDAR generation with HD-map range controls",
+            "Text-prompt guided appearance with optional initial RGB anchoring",
+            "Text-prompt-guided appearance and environmental variation",
+            "Joint RGB–LiDAR generation with HD-map range-map controls",
+            "Per-camera World Scenario Map controls for scene structure and traffic motion"
           ],
           "tags": [
+            "synthetic-data",
             "autonomous-driving",
+            "lidar",
+            "multi-view",
             "multi-sensor",
             "world-simulation",
             "offline-data-generation"
@@ -3906,17 +3911,22 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Auto",
-          "short_description": "Provides causally distilled streaming video and LiDAR generation from driving controls, enabling fast, long-rollout interactive simulation with synchronized multi-sensor observations.",
+          "short_description": "A causally distilled streaming world model that generates synchronized camera video and LiDAR chunks in a few denoising steps for fast, interactive driving simulation rollouts.",
           "key_features": [
-            "Causal distillation for few-step streaming generation",
-            "Synchronized camera and LiDAR chunk generation",
             "Rolling history-based temporal-causal attention",
-            "Fast interactive rollouts with updated driving controls"
+            "Streaming synchronized camera and LiDAR observations",
+            "Rolling history for long interactive rollouts",
+            "Updated driving controls for closed-loop simulation",
+            "Synchronized camera and LiDAR chunk generation",
+            "Causal distillation for few-step streaming generation"
           ],
           "tags": [
-            "streaming-simulation",
             "autonomous-driving",
             "lidar",
+            "causal-distillation",
+            "world-simulation",
+            "streaming-simulation",
+            "streaming",
             "video-prediction"
           ],
           "last_verified": "2026-11-05"
@@ -3930,18 +3940,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Transfer",
-          "short_description": "Transforms simulator controls and text prompts into photorealistic video observations, supporting depth, segmentation, edges, and blur for policy consumption in simulation pipelines.",
+          "short_description": "Turns physics simulator spatial controls and a text prompt into photorealistic RGB observations, with depth, segmentation, edge, and blur conditioning for policy consumption.",
           "key_features": [
-            "Simulator controls-to-RGB generation pipeline",
+            "Depth, segmentation, edge, and blur control inputs",
             "Supports depth, segmentation, edges, and blur controls",
+            "Simulator controls-to-RGB generation pipeline",
             "Text-guided appearance while preserving physics state",
-            "Policy-consumable visual observations"
+            "Simulator spatial controls to photorealistic RGB video",
+            "Text-prompt appearance guidance"
           ],
           "tags": [
             "simulator-rgb",
-            "depth-segmentation",
+            "physics-controls",
+            "world-simulation",
+            "robotics",
+            "rgb-generation",
             "world-model",
-            "policy-observations"
+            "simulator-to-real",
+            "depth-segmentation"
           ],
           "last_verified": "2026-11-05"
         },
@@ -3954,18 +3970,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual",
-          "short_description": "Simulates environment evolution in response to bimanual robot actions, enabling interactive two-arm manipulation simulation for embodied AI embodiments like YAM and AgiBot.",
+          "short_description": "Predicts next video observations from bimanual robot actions for interactive two-arm simulation on YAM and AgiBot embodiments, supporting viewpoint changes and manipulation.",
           "key_features": [
-            "Bimanual robot action-to-video generation",
+            "Action-to-video prediction for bimanual robot manipulation",
+            "Support for YAM and AgiBot robot embodiments",
             "Supports YAM and AgiBot embodiments",
+            "Viewpoint changes and manipulation in one control sequence",
             "Normalized action schema with coordinate frames and gripper calibration",
             "Interactive two-arm simulation with viewpoint and manipulation control"
           ],
           "tags": [
-            "bimanual-robotics",
-            "embodied-ai",
             "action-prediction",
-            "two-arm-simulation"
+            "bimanual-robotics",
+            "two-arm-simulation",
+            "world-simulation",
+            "robotics",
+            "bimanual",
+            "embodiment",
+            "action-to-video"
           ],
           "last_verified": "2026-11-05"
         }
@@ -7871,26 +7893,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://www.rivet.dev/",
-          "short_description": "Rivet Actors is a fast, high-density orchestrator for agentic workloads that runs long-lived processes with in-memory state, SQLite persistence on S3, WebSockets, and scheduling — enabling scalable AI agents with 4.99ms cold starts and 72KB memory per actor.",
+          "short_description": "Rivet is an open-source orchestrator for agentic workloads that provides scalable, long-lived Actors with in-memory state, SQLite persistence on S3, and sub-5ms cold starts, enabling efficient AI agent development and deployment.",
           "key_features": [
-            "72 KB RAM per Actor with 4.99 ms p99 cold starts",
+            "End-to-end type safety with typed clients and React hooks",
+            "4.99 ms p99 cold starts",
+            "SQLite-backed durable storage on S3",
             "SQLite backed by S3 at SSD speeds (1.07 ms writes, 1.36 ms reads p99)",
-            "Actors hibernate when idle and wake on demand with zero cost",
-            "Built-in WebSocket support, cron scheduling, and Actor-to-Actor calls",
-            "Fault-tolerant with automatic Actor migration on node failure",
-            "End-to-end type safety with typed clients and React hooks"
+            "72 KB Actor footprint",
+            "Built-in WebSocket support, cron scheduling, and Actor-to-Actor calls"
           ],
           "tags": [
-            "agent-orchestration",
-            "actor-model",
+            "s3-persistence",
             "durable-agents",
-            "serverless",
+            "agent-orchestration",
+            "multiplayer-agents",
             "s3-storage",
+            "actor-orchestration",
             "websocket",
-            "sqlite",
-            "multiplayer-agents"
+            "serverless"
           ],
-          "last_verified": "2025-01-15"
+          "last_verified": "2023-03-01"
         }
       ]
     },
@@ -7929,6 +7951,119 @@
             "simulations"
           ],
           "last_verified": "2026-08-08"
+        }
+      ]
+    },
+    {
+      "id": "merge",
+      "name": "Merge",
+      "website": "https://merge.dev",
+      "description": "Merge helps companies build connected software and AI products through unified customer data integrations, secure AI agent tool access, and model routing controls.",
+      "logo_symbol": "merge",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "merge-merge-unified",
+          "name": "Merge Unified",
+          "parent_org": "Merge",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://merge.dev",
+          "short_description": "Brings AI capabilities inside organizations, letting teams manage employee access to models, tools, and business systems.",
+          "key_features": [
+            "99.9% tool call reliability",
+            "Customer data sync",
+            "Cost controls",
+            "Model governance",
+            "Secure agent tool access",
+            "Business system integration"
+          ],
+          "tags": [
+            "unified-api",
+            "model-routing",
+            "workforce-ai",
+            "ai-governance",
+            "customer-data",
+            "saas",
+            "reliability",
+            "employee-tools"
+          ],
+          "last_verified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "turnstone",
+      "name": "Turnstone",
+      "website": "https://www.producthunt.com/products/turnstone",
+      "description": "Turnstone is a productivity platform launched on Product Hunt.",
+      "logo_symbol": "turnstone",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "turnstone",
+          "name": "Turnstone",
+          "parent_org": "Turnstone",
+          "category": "Productivity & Office",
+          "release_date": "2025-07",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/turnstone",
+          "short_description": "A productivity assistant designed to streamline daily workflows and boost team efficiency.",
+          "key_features": [],
+          "tags": [
+            "productivity",
+            "assistant"
+          ],
+          "last_verified": "2025-07-14"
+        }
+      ]
+    },
+    {
+      "id": "tobira-ai",
+      "name": "Tobira AI",
+      "website": "https://www.tobira.ai",
+      "description": "Tobira AI is a developer-focused AI company building autonomous agents for web task automation.",
+      "logo_symbol": "tobira-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "tobira-site-agent",
+          "name": "Tobira Site Agent",
+          "parent_org": "Tobira AI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2025-01-20",
+          "status": "Beta",
+          "pricing": "Open Source",
+          "official_url": "https://www.producthunt.com/products/tobira-ai",
+          "short_description": "Tobira is an open-source AI agent framework that enables autonomous agents to browse, interact with, and complete tasks on websites.",
+          "key_features": [
+            "Open-source AI agent framework",
+            "Autonomous web browsing and interaction",
+            "Browser automation for task execution",
+            "Custom LLM-driven agent workflows"
+          ],
+          "tags": [
+            "ai-agent",
+            "web-automation",
+            "open-source",
+            "browser"
+          ],
+          "last_verified": "2025-06-12"
         }
       ]
     }

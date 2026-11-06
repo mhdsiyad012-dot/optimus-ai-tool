@@ -649,3 +649,24 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **OpenAI Daybreak Blue** (OpenAI) verified on 2026-08-08
     - **GPT-6 Astra** (OpenAI) verified on 2026-05-09
     - **OpenAI Codex** (OpenAI) verified on 2026-05-09
+
+### [2026-11-06 13:54 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 3
+- **Existing Tools Refreshed:** 12
+  - **Added:**
+    - **[Merge Unified](https://merge.dev)** (Merge) — *Developer Platforms & APIs* (Paid): Syncs customer data across business systems to power connected software and AI products through a unified integration layer.
+    - **[Turnstone](https://www.producthunt.com/products/turnstone)** (Turnstone) — *Productivity & Office* (Freemium): A productivity assistant designed to streamline daily workflows and boost team efficiency.
+    - **[Tobira Site Agent](https://www.producthunt.com/products/tobira-ai)** (Tobira AI) — *Developer Platforms & APIs* (Open Source): Tobira is an open-source AI agent framework that enables autonomous agents to browse, interact with, and complete tasks on websites.
+  - **Refreshed:**
+    - **Rivet** (rivet-dev) verified on 2023-03-01
+    - **ChatGPT Edu** (OpenAI) verified on 2026-08
+    - **Codex** (OpenAI) verified on 2026-08
+    - **ChatGPT Work** (OpenAI) verified on 2026-08
+    - **OpenAI Daybreak Blue** (OpenAI) verified on 2026-08
+    - **Merge Agent Handler** (Merge) verified on 2026-10-01
+    - **Merge Gateway** (Merge) verified on 2026-10-01
+    - **Merge for Workforce** (Merge) verified on 2026-10-01
+    - **Cosmos3-Nano-Transfer-Auto** (NVIDIA) verified on 2026-11-05
+    - **Cosmos3-Nano-Sim-Auto** (NVIDIA) verified on 2026-11-05
+    - **Cosmos3-Nano-Sim-Transfer** (NVIDIA) verified on 2026-11-05
+    - **Cosmos3-Nano-Sim-Bimanual** (NVIDIA) verified on 2026-11-05
