@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-06T22:48:54Z",
-  "total_organizations": 95,
-  "total_tools": 265,
+  "last_updated": "2026-11-07T04:54:15Z",
+  "total_organizations": 96,
+  "total_tools": 267,
   "organizations": [
     {
       "id": "google",
@@ -1842,6 +1842,30 @@
             "graduates"
           ],
           "last_verified": "2026-11-06"
+        },
+        {
+          "id": "daybreak-red",
+          "name": "Daybreak Red",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "short_description": "Daybreak Red is an expanded security access window by OpenAI that enables researchers to test frontier models for cyber defense vulnerabilities.",
+          "key_features": [
+            "Expanded access to frontier models for security testing",
+            "Focus on cyber defense alignment",
+            "Facilitates partnerships with external security researchers"
+          ],
+          "tags": [
+            "cyber-defense",
+            "security",
+            "red-teaming",
+            "openai",
+            "frontier-models"
+          ],
+          "last_verified": "2024-11-15"
         }
       ]
     },
@@ -7971,26 +7995,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://www.rivet.dev/",
-          "short_description": "Rivet is a high‑density, scalable actor platform that lets developers run long‑lived agents with in‑memory state, durable SQLite storage on S3, and sub‑5 ms cold starts, enabling massive multi‑tenant AI workloads.",
+          "short_description": "Rivet is a fast, high-density, scalable orchestrator for agentic workloads, enabling durable AI agents with in-memory state, WebSocket networking, and SQLite-backed persistence on S3, all under 72 KB per actor with 4.99 ms cold starts.",
           "key_features": [
-            "Durable SQLite storage on S3 with SSD‑level I/O",
-            "SQLite-backed durable storage on S3",
-            "Built-in WebSocket support, cron scheduling, and Actor-to-Actor calls",
-            "72 KB per Actor",
+            "HTTP & WebSocket networking with scoped JWTs",
             "SQLite backed by S3 at SSD speeds (1.07 ms writes, 1.36 ms reads p99)",
-            "End-to-end type safety with typed clients and React hooks"
+            "Fault tolerance with stateful actor migration",
+            "Durable SQLite storage on S3 with SSD‑level I/O",
+            "Actor-to-Actor calls across clusters",
+            "Built-in WebSocket support, cron scheduling, and Actor-to-Actor calls"
           ],
           "tags": [
-            "s3-storage",
-            "agent-orchestration",
             "durable-agents",
-            "s3-persistence",
-            "orchestration",
+            "agent-orchestration",
+            "s3-storage",
+            "open-source",
             "websocket",
-            "multiplayer-agents",
-            "ai-agents"
+            "actor-orchestration",
+            "ai-agents",
+            "low-latency"
           ],
-          "last_verified": "2023-12-01"
+          "last_verified": "2026-11-04"
         }
       ]
     },
@@ -8142,6 +8166,46 @@
             "browser"
           ],
           "last_verified": "2025-06-12"
+        }
+      ]
+    },
+    {
+      "id": "hacktron",
+      "name": "Hacktron",
+      "website": "https://openai.com",
+      "description": "OpenAI is partnering with Hacktron, a provider of AI agents for security testing, to enhance vulnerability discovery in OpenAI's systems and third-party integrations through expanded access via Daybreak Red.",
+      "logo_symbol": "hacktron",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "hacktron-ai-agents",
+          "name": "Hacktron AI Agents",
+          "parent_org": "Hacktron",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.hacktron.ai",
+          "short_description": "Hacktron builds advanced AI agents specialized in code review, penetration testing, and red teaming to uncover vulnerabilities in complex cloud, application, and identity systems.",
+          "key_features": [
+            "AI-powered code review agents",
+            "Automated penetration testing",
+            "Red teaming AI agents",
+            "Vulnerability discovery in cloud infrastructure and identity systems",
+            "Collaborative security testing with frontier models"
+          ],
+          "tags": [
+            "cybersecurity",
+            "ai-agents",
+            "penetration-testing",
+            "code-review",
+            "red-teaming"
+          ],
+          "last_verified": "2024-11-15"
         }
       ]
     }
