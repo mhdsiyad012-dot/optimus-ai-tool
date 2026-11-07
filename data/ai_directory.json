@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-07T12:34:06Z",
+  "last_updated": "2026-11-07T21:30:40Z",
   "total_organizations": 98,
   "total_tools": 269,
   "organizations": [
@@ -1629,24 +1629,26 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://openai.com/index/daybreak-red-aws-govcloud/",
-          "short_description": "OpenAI's program expanding frontier model access to security researchers to accelerate cyber defense and test vulnerabilities in AI systems and third-party service integrations.",
+          "short_description": "OpenAI's Daybreak Red program expands access to frontier models for security researchers to accelerate cyber defense and vulnerability discovery in AI systems.",
           "key_features": [
-            "Reduced refusals with enhanced identity verification, monitoring, and access controls",
-            "Inference data is not used for model training and customer data is not shared with OpenAI",
             "Security sprint collaboration",
-            "Access via Amazon Bedrock in AWS GovCloud (US‑East) for government security teams",
-            "Third-party service interaction testing",
-            "Purpose‑trained cybersecurity models for vulnerability research and exploit validation"
+            "Inference data is not used for model training and customer data is not shared with OpenAI",
+            "Purpose‑trained cybersecurity models for vulnerability research and exploit validation",
+            "Frontier model access for security research",
+            "Focus on AI system interactions with third-party services",
+            "Third-party service interaction testing"
           ],
           "tags": [
-            "security-research",
-            "cybersecurity",
+            "ai-safety",
+            "vulnerability-disclosure",
             "aws-govcloud",
-            "frontier-models",
             "daybreak-red",
+            "frontier-models",
+            "security-research",
+            "cyber-defense",
             "openai"
           ],
-          "last_verified": "2024-06-01"
+          "last_verified": "2024-12-19"
         },
         {
           "id": "openai-gpt-55-cyber",
@@ -8194,23 +8196,24 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.hacktron.ai",
-          "short_description": "Hacktron builds AI agents for code review, penetration testing, and red teaming, enabling security researchers to uncover vulnerabilities in applications, cloud infrastructure, and identity systems.",
+          "short_description": "Hacktron builds AI agents for automated code review, penetration testing, and red teaming to uncover vulnerabilities in applications, cloud infrastructure, and identity systems.",
           "key_features": [
-            "AI agents for penetration testing",
-            "AI agents for red teaming",
-            "Automated penetration testing",
-            "Red teaming AI agents",
             "Collaborative security testing with frontier models",
-            "Vulnerability discovery in cloud infrastructure and identity systems"
+            "Vulnerability discovery in cloud and identity systems",
+            "Automated penetration testing agents",
+            "AI agents for red teaming",
+            "Vulnerability discovery in cloud infrastructure and identity systems",
+            "AI agents for penetration testing"
           ],
           "tags": [
             "red-teaming",
-            "ai-agents",
-            "cybersecurity",
             "code-review",
-            "penetration-testing"
+            "security",
+            "ai-agents",
+            "penetration-testing",
+            "cybersecurity"
           ],
-          "last_verified": "2024-06-01"
+          "last_verified": "2024-12-19"
         }
       ]
     },
