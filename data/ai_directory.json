@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-07T04:54:15Z",
-  "total_organizations": 96,
-  "total_tools": 267,
+  "last_updated": "2026-11-07T12:34:06Z",
+  "total_organizations": 98,
+  "total_tools": 269,
   "organizations": [
     {
       "id": "google",
@@ -1627,22 +1627,26 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2026-10",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Free",
           "official_url": "https://openai.com/index/daybreak-red-aws-govcloud/",
-          "short_description": "Daybreak Red is OpenAI's purpose‑trained cybersecurity model, now available in AWS GovCloud (US‑East) for authorized defenders to perform vulnerability research, exploit validation, and security testing with stronger identity verification and no data sharing.",
+          "short_description": "OpenAI's program expanding frontier model access to security researchers to accelerate cyber defense and test vulnerabilities in AI systems and third-party service integrations.",
           "key_features": [
-            "Purpose‑trained cybersecurity models for vulnerability research and exploit validation",
             "Reduced refusals with enhanced identity verification, monitoring, and access controls",
             "Inference data is not used for model training and customer data is not shared with OpenAI",
-            "Access via Amazon Bedrock in AWS GovCloud (US‑East) for government security teams"
+            "Security sprint collaboration",
+            "Access via Amazon Bedrock in AWS GovCloud (US‑East) for government security teams",
+            "Third-party service interaction testing",
+            "Purpose‑trained cybersecurity models for vulnerability research and exploit validation"
           ],
           "tags": [
+            "security-research",
             "cybersecurity",
             "aws-govcloud",
-            "openai",
-            "daybreak-red"
+            "frontier-models",
+            "daybreak-red",
+            "openai"
           ],
-          "last_verified": "2025-11-03"
+          "last_verified": "2024-06-01"
         },
         {
           "id": "openai-gpt-55-cyber",
@@ -8190,22 +8194,106 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.hacktron.ai",
-          "short_description": "Hacktron builds advanced AI agents specialized in code review, penetration testing, and red teaming to uncover vulnerabilities in complex cloud, application, and identity systems.",
+          "short_description": "Hacktron builds AI agents for code review, penetration testing, and red teaming, enabling security researchers to uncover vulnerabilities in applications, cloud infrastructure, and identity systems.",
           "key_features": [
-            "AI-powered code review agents",
+            "AI agents for penetration testing",
+            "AI agents for red teaming",
             "Automated penetration testing",
             "Red teaming AI agents",
-            "Vulnerability discovery in cloud infrastructure and identity systems",
-            "Collaborative security testing with frontier models"
+            "Collaborative security testing with frontier models",
+            "Vulnerability discovery in cloud infrastructure and identity systems"
           ],
           "tags": [
-            "cybersecurity",
+            "red-teaming",
             "ai-agents",
-            "penetration-testing",
+            "cybersecurity",
             "code-review",
-            "red-teaming"
+            "penetration-testing"
           ],
-          "last_verified": "2024-11-15"
+          "last_verified": "2024-06-01"
+        }
+      ]
+    },
+    {
+      "id": "rivet-dev",
+      "name": "Rivet Dev",
+      "website": "https://www.rivet.dev/",
+      "description": "Rivet Dev builds an open‑source orchestrator for agentic workloads, enabling scalable, low‑latency Actors on S3.",
+      "logo_symbol": "rivet-dev",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "rivet-dev-rivet",
+          "name": "Rivet",
+          "parent_org": "Rivet Dev",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-06",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/rivet-dev/rivet",
+          "short_description": "Rivet is a fast, high‑density orchestrator for agentic workloads, providing scalable Actors with sub‑5ms cold starts and SSD‑speed S3 storage.",
+          "key_features": [
+            "4.99 ms p99 cold starts",
+            "72 KB RAM per Actor",
+            "S3‑backed SQLite at SSD speeds (1.07 ms writes, 1.36 ms reads)",
+            "Hibernation when idle, zero cost for idle Actors",
+            "Fault tolerance with automatic Actor migration",
+            "HTTP & WebSocket networking"
+          ],
+          "tags": [
+            "orchestrator",
+            "agentic-workload",
+            "actor-model",
+            "scalable",
+            "low-latency",
+            "s3",
+            "websocket",
+            "open-source"
+          ],
+          "last_verified": "2024-12-01"
+        }
+      ]
+    },
+    {
+      "id": "exa-labs",
+      "name": "Exa Labs",
+      "website": "https://exa.ai",
+      "description": "Exa Labs is a technology company building AI-powered search infrastructure that replaces traditional keyword matching with neural understanding of natural language queries.",
+      "logo_symbol": "exa-labs",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "exa-ai",
+          "name": "Exa AI",
+          "parent_org": "Exa Labs",
+          "category": "Search & Research",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/exa-ai",
+          "short_description": "Exa AI is a neural search engine powered by large language models that understands natural language queries to deliver precise, context-aware results. Exa Monitors v2 is a recent feature update providing enhanced search performance tracking and analytics.",
+          "key_features": [
+            "Neural search with LLM-powered query understanding",
+            "Natural language semantic search across the web",
+            "Real-time search monitoring and analytics (Exa Monitors v2)",
+            "Developer-friendly search API"
+          ],
+          "tags": [
+            "ai-search",
+            "neural-search",
+            "semantic-search",
+            "search-api",
+            "monitoring"
+          ],
+          "last_verified": "2025-01-15"
         }
       ]
     }
