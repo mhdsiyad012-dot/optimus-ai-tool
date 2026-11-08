@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-07T21:30:40Z",
+  "last_updated": "2026-11-08T04:44:38Z",
   "total_organizations": 98,
   "total_tools": 269,
   "organizations": [
@@ -8196,24 +8196,24 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://www.hacktron.ai",
-          "short_description": "Hacktron builds AI agents for automated code review, penetration testing, and red teaming to uncover vulnerabilities in applications, cloud infrastructure, and identity systems.",
+          "short_description": "Hacktron builds autonomous AI agents specialized in code review, penetration testing, and red teaming, partnering with OpenAI to identify vulnerabilities in frontier models and third-party integrations.",
           "key_features": [
-            "Collaborative security testing with frontier models",
-            "Vulnerability discovery in cloud and identity systems",
             "Automated penetration testing agents",
+            "Autonomous AI agents for security code review",
             "AI agents for red teaming",
-            "Vulnerability discovery in cloud infrastructure and identity systems",
-            "AI agents for penetration testing"
+            "Vulnerability discovery in cloud and identity systems",
+            "Collaborative security testing with frontier models",
+            "AI-driven red teaming simulations"
           ],
           "tags": [
-            "red-teaming",
             "code-review",
-            "security",
-            "ai-agents",
+            "cybersecurity",
+            "red-teaming",
             "penetration-testing",
-            "cybersecurity"
+            "security",
+            "ai-agents"
           ],
-          "last_verified": "2024-12-19"
+          "last_verified": "2024-11-15"
         }
       ]
     },
