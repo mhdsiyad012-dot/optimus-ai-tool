@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-08T04:44:38Z",
-  "total_organizations": 98,
-  "total_tools": 269,
+  "last_updated": "2026-11-08T12:51:34Z",
+  "total_organizations": 100,
+  "total_tools": 272,
   "organizations": [
     {
       "id": "google",
@@ -8194,26 +8194,27 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2024",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://www.hacktron.ai",
-          "short_description": "Hacktron builds autonomous AI agents specialized in code review, penetration testing, and red teaming, partnering with OpenAI to identify vulnerabilities in frontier models and third-party integrations.",
+          "short_description": "Security research company building AI agents for code review, penetration testing, and red teaming to find vulnerabilities in AI systems.",
           "key_features": [
+            "Red teaming",
+            "Penetration testing",
             "Automated penetration testing agents",
-            "Autonomous AI agents for security code review",
-            "AI agents for red teaming",
-            "Vulnerability discovery in cloud and identity systems",
-            "Collaborative security testing with frontier models",
-            "AI-driven red teaming simulations"
+            "AI agents for code review",
+            "AI-driven red teaming simulations",
+            "Vulnerability discovery in cloud and identity systems"
           ],
           "tags": [
             "code-review",
-            "cybersecurity",
-            "red-teaming",
-            "penetration-testing",
             "security",
+            "penetration-testing",
+            "red-teaming",
+            "vulnerability-testing",
+            "cybersecurity",
             "ai-agents"
           ],
-          "last_verified": "2024-11-15"
+          "last_verified": "2024-01-15"
         }
       ]
     },
@@ -8297,6 +8298,113 @@
             "monitoring"
           ],
           "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "thinking-machines-lab",
+      "name": "Thinking Machines Lab",
+      "website": "https://thinkingmachines.ai",
+      "description": "Thinking Machines Lab is an AI research company led by Mira Murati focused on developing frontier AI models and infrastructure.",
+      "logo_symbol": "thinking-machines-lab",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "thinking-machines-lab-tinker",
+          "name": "Tinker",
+          "parent_org": "Thinking Machines Lab",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2025-10-02",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://thinkingmachines.ai/tinker",
+          "short_description": "An open-weights 975B multimodal model built for fine-tuning, released as a previous generation by Thinking Machines Lab.",
+          "key_features": [
+            "Multimodal capabilities",
+            "Open weights",
+            "Built for fine-tuning",
+            "Full control over training data and algorithms",
+            "Open source model support",
+            "975B parameters"
+          ],
+          "tags": [
+            "fine-tuning",
+            "llm",
+            "large-model",
+            "multimodal",
+            "ai-infrastructure",
+            "lora",
+            "api",
+            "open-weights"
+          ],
+          "last_verified": "2026-11-08"
+        },
+        {
+          "id": "thinking-machines-lab-inkling-2-small",
+          "name": "Inkling 2 Small",
+          "parent_org": "Thinking Machines Lab",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-08",
+          "status": "Beta",
+          "pricing": "Free",
+          "official_url": "https://tinker.thinkingmachines.ai/playground",
+          "short_description": "Thinking Machines Lab's 594B-parameter MoE model with 17B active parameters, built for long-horizon coding, visual tasks, and autonomous agents.",
+          "key_features": [
+            "594B total parameters",
+            "17B active parameters",
+            "Mixture of Experts (MoE) architecture",
+            "Long-horizon coding and visual reasoning",
+            "Agentic self-training capabilities"
+          ],
+          "tags": [
+            "moe",
+            "large-language-model",
+            "coding",
+            "visual-reasoning",
+            "ai-agents"
+          ],
+          "last_verified": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "memorias",
+      "name": "Memorias",
+      "website": "https://memorias.io",
+      "description": "Memorias is an AI-powered biographer that helps users transform their spoken life stories into finished memoir books through voice interviews and AI-assisted writing.",
+      "logo_symbol": "memorias",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "memorias",
+          "name": "Memorias",
+          "parent_org": "Memorias",
+          "category": "Productivity",
+          "release_date": "2026",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://memorias.io/",
+          "short_description": "An AI biographer that turns your stories into a book by conducting voice interviews and creating a structured memoir.",
+          "key_features": [
+            "Voice interviews with an AI biographer",
+            "Automatic mapping of people, places, and years into a life timeline",
+            "Chapter creation based on your own words with photo integration",
+            "Export options for EPUB, PDF, and DOCX formats"
+          ],
+          "tags": [
+            "productivity",
+            "writing",
+            "artificial-intelligence"
+          ],
+          "last_verified": "2026-11-08"
         }
       ]
     }
