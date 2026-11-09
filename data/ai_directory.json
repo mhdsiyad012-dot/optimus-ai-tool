@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-08T21:45:06Z",
+  "last_updated": "2026-11-09T15:24:22Z",
   "total_organizations": 100,
-  "total_tools": 272,
+  "total_tools": 276,
   "organizations": [
     {
       "id": "google",
@@ -4098,6 +4098,103 @@
             "action-to-video"
           ],
           "last_verified": "2026-11-05"
+        },
+        {
+          "id": "nvidia-neom-data-designer",
+          "name": "NeMo Data Designer",
+          "parent_org": "NVIDIA",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://github.com/NVIDIA-NeMo/DataDesigner",
+          "short_description": "A synthetic data generation system by NVIDIA for creating large-scale synthetic datasets with Pydantic validation and structured outputs.",
+          "key_features": [
+            "Jinja templating",
+            "Pydantic validation",
+            "Structured outputs",
+            "Automated retries",
+            "Multiple generation backends"
+          ],
+          "tags": [
+            "synthetic-data",
+            "data-generation",
+            "nvidia-nemo",
+            "enterprise-ai"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "nvidia-neom-sdg-pgms",
+          "name": "NeMo SDG-PGMs",
+          "parent_org": "NVIDIA",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://github.com/NVIDIA-NeMo/SDG-PGMs",
+          "short_description": "A probabilistic graphical model framework for statistically grounded synthetic data generation used in the Nemotron-Personas-Finance-Japan dataset.",
+          "key_features": [
+            "Probabilistic graphical models",
+            "Statistically grounded data generation",
+            "SDG framework",
+            "Apache-2.0 license"
+          ],
+          "tags": [
+            "synthetic-data",
+            "probabilistic-modeling",
+            "nvidia-nemo",
+            "data-generation"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "nvidia-gemma-4-31b-it",
+          "name": "gemma-4-31B-it",
+          "parent_org": "NVIDIA",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/gemma-4-31b-it",
+          "short_description": "A Japanese language large language model (31B parameters) used for text generation in the Nemotron-Personas-Finance-Japan dataset.",
+          "key_features": [
+            "Japanese language support",
+            "31B parameters",
+            "Apache-2.0 license",
+            "Open source"
+          ],
+          "tags": [
+            "japanese-language",
+            "llm",
+            "nvidia-nemo",
+            "text-generation"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "nvidia-neom-user-sim",
+          "name": "NeMo User Sim",
+          "parent_org": "NVIDIA",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://github.com/NVIDIA-NeMo/UserSim",
+          "short_description": "A user simulation framework that enables instant execution of simulations drawn from diverse distributions consistent with real-world data for financial AI applications.",
+          "key_features": [
+            "User simulation",
+            "NeMo integration",
+            "Financial AI use cases",
+            "Agent simulation"
+          ],
+          "tags": [
+            "simulation",
+            "user-modeling",
+            "nvidia-nemo",
+            "financial-ai"
+          ],
+          "last_verified": "2026-11-09"
         }
       ]
     },
@@ -8194,28 +8291,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2024",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Paid",
           "official_url": "https://www.hacktron.ai",
-          "short_description": "Hacktron builds AI agents for automated code review, penetration testing, and red teaming to uncover vulnerabilities in applications, cloud infrastructure, and identity systems.",
+          "short_description": "Hacktron develops AI agents for automated code review, penetration testing, and red teaming, uncovering vulnerabilities in applications, cloud infrastructure, and identity systems.",
           "key_features": [
+            "Penetration testing",
+            "Red teaming orchestration",
             "Red teaming",
             "AI agents for code review",
-            "Automated penetration testing agents",
-            "Vulnerability discovery in cloud and identity systems",
-            "Automated penetration testing",
-            "Penetration testing"
+            "Cross-system vulnerability discovery",
+            "Automated penetration testing agents"
           ],
           "tags": [
-            "code-review",
-            "vulnerability-testing",
             "security",
+            "vulnerability-research",
             "red-teaming",
             "ai-agents",
-            "vulnerability-research",
+            "penetration-testing",
+            "vulnerability-testing",
             "cybersecurity",
-            "penetration-testing"
+            "code-review"
           ],
-          "last_verified": "2025-01-15"
+          "last_verified": "2024-11-05"
         }
       ]
     },
