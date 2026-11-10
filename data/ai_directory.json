@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-10T01:17:57Z",
-  "total_organizations": 101,
-  "total_tools": 279,
+  "last_updated": "2026-11-10T14:31:45Z",
+  "total_organizations": 104,
+  "total_tools": 291,
   "organizations": [
     {
       "id": "google",
@@ -754,6 +754,30 @@
             "and"
           ],
           "last_verified": "2026-11-06"
+        },
+        {
+          "id": "google-cloud-gemini-for-healthcare",
+          "name": "Gemini for healthcare",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-10",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+          "short_description": "Gemini for healthcare is a Google Cloud AI solution that unifies fragmented clinical, operational, and administrative systems, enabling healthcare teams to turn siloed data into coordinated action and streamline workflows such as medical records synthesis and prior authorization review.",
+          "key_features": [
+            "Unified data integration from electronic health records, billing platforms, clinical guidelines, and Medicare datasets",
+            "Automated multi-step workflow orchestration with guardrails and human oversight",
+            "Pre-built connectors for third‑party systems and specialized AI skills",
+            "Launch partner program with HCA Healthcare, Highmark Health, and Northwell Health"
+          ],
+          "tags": [
+            "healthcare-ai",
+            "google-cloud",
+            "workflow-automation",
+            "ehr-integration"
+          ],
+          "last_verified": "2026-11-10"
         }
       ]
     },
@@ -779,26 +803,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "Conversational AI platform by OpenAI used in engineering workflows to assist with design, simulation, and problem-solving in hardware development.",
+          "short_description": "The flagship conversational AI model by OpenAI, available in various tiers including enterprise solutions.",
           "key_features": [
-            "Conversational AI interface",
+            "Conversational interface",
             "Code generation and execution",
             "Conversational AI assistance",
-            "Context-aware warning sign recognition that triggers conservative responses and automatic chat termination",
-            "Advanced violence detection and law enforcement referral systems (200+ referrals in Q3 2026)",
-            "Age-predicted teen protections with parental controls, safety alerts, and restricted weapons content"
+            "Community and support resource navigation",
+            "Integration with AWS Marketplace",
+            "Large language model"
           ],
           "tags": [
-            "parental-controls",
+            "enterprise",
             "productivity",
-            "teen-protection",
-            "gpt",
-            "conversational-ai",
+            "ai",
+            "parental-controls",
             "safety",
-            "transparency-reporting",
-            "llm"
+            "healthcare",
+            "llm",
+            "conversational-ai"
           ],
-          "last_verified": "2025-01-15"
+          "last_verified": "2026-11-09"
         },
         {
           "id": "openai-gpt-4o",
@@ -1606,26 +1630,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/chatgpt/enterprise",
-          "short_description": "ChatGPT Enterprise is OpenAI's business-focused AI assistant offering, now available through AWS Marketplace, allowing organizations to buy and manage it via their existing AWS procurement and billing relationship.",
+          "short_description": "Enterprise-grade access to ChatGPT Enterprise through AWS Marketplace for organizations to deploy and govern AI models at scale.",
           "key_features": [
-            "Admin Controls",
-            "Provides same models, features, and functionality as OpenAI with simultaneous releases",
-            "API Integration",
             "Enterprise Security",
-            "Supports applying eligible spend toward AWS commitments",
-            "Custom Models"
+            "Admin Controls",
+            "Access to ChatGPT, ChatGPT Work, Codex, and Dots",
+            "API Integration",
+            "Custom Models",
+            "AWS Marketplace availability"
           ],
           "tags": [
-            "aws-marketplace",
             "openai",
-            "business",
-            "ai",
-            "chatgpt",
             "enterprise",
-            "enterprise-ai",
-            "llm"
+            "ai",
+            "aws-marketplace",
+            "llm",
+            "business",
+            "chatgpt",
+            "enterprise-ai"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2026-11-09"
         },
         {
           "id": "openai-daybreak-red",
@@ -1902,6 +1926,126 @@
             "frontier-model-security"
           ],
           "last_verified": "2025-08-24"
+        },
+        {
+          "id": "chatgpt-business",
+          "name": "ChatGPT Business",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://chatgpt.com/business/",
+          "short_description": "Business-oriented version of ChatGPT with enterprise features for professional workflows and team collaboration.",
+          "key_features": [
+            "Enterprise features",
+            "Team collaboration",
+            "Workspace integration",
+            "Governance controls"
+          ],
+          "tags": [
+            "business",
+            "productivity",
+            "enterprise",
+            "work"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "chatgpt-education",
+          "name": "ChatGPT for Education",
+          "parent_org": "OpenAI",
+          "category": "Education",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://chatgpt.com/business/education/",
+          "short_description": "Specialized version of ChatGPT designed for educational institutions and learners with safety-focused features.",
+          "key_features": [
+            "Educational focus",
+            "Student-friendly interface",
+            "Teacher tools",
+            "Safety features for learning"
+          ],
+          "tags": [
+            "education",
+            "learning",
+            "education",
+            "student"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://chatgpt.com/codex/",
+          "short_description": "OpenAI's code generation model designed to assist with software development and programming tasks.",
+          "key_features": [
+            "Code generation",
+            "Programming assistance",
+            "Natural language to code",
+            "Integration with GitHub"
+          ],
+          "tags": [
+            "coding",
+            "programming",
+            "software-development",
+            "ai"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "dots",
+          "name": "Dots",
+          "parent_org": "OpenAI",
+          "category": "Computer Vision",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://chatgpt.com/features/dots",
+          "short_description": "Multimodal feature enabling image understanding and text generation in a single model.",
+          "key_features": [
+            "Image understanding",
+            "Text generation from images",
+            "Multimodal capabilities",
+            "Integration with ChatGPT"
+          ],
+          "tags": [
+            "vision",
+            "image",
+            "multimodal",
+            "computer-vision"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "daybreak-models",
+          "name": "Daybreak models",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-08-11",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/index/daybreak-models-are-now-available-on-aws/",
+          "short_description": "New generation of OpenAI models optimized for enterprise workloads and AWS integration.",
+          "key_features": [
+            "Enterprise-optimized models",
+            "Improved performance",
+            "AWS compatibility",
+            "Spend controls"
+          ],
+          "tags": [
+            "models",
+            "enterprise",
+            "aws",
+            "optimization"
+          ],
+          "last_verified": "2026-08-11"
         }
       ]
     },
@@ -4235,20 +4379,51 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Finance-Japan",
-          "short_description": "A million-record synthetic dataset of 9M Japanese personas with household finances and financial literacy data, enabling culturally grounded AI development for financial applications without using real customer data.",
+          "short_description": "A synthetic dataset of 9M Japanese financial personas grounded in official statistics, enabling privacy-safe AI development for finance with culturally authentic demographics, household finances, and financial literacy attributes.",
           "key_features": [
-            "9M personas with 50 fields per record in natural Japanese",
-            "~1.5B tokens total including ~750M persona tokens",
             "1600+ occupation categories reflecting Japan's workforce",
+            "CC BY 4.0 license allowing commercial use",
             "Household-level financial and real assets for diverse economic backgrounds",
-            "Comprehensive coverage across demographic, regional, asset distribution, and personality trait axes"
+            "50 fields per record covering demographics, household finances, financial behavior, and personality traits",
+            "1,600+ occupation categories reflecting Japan's workforce",
+            "Built using NeMo SDG-PGMs and NeMo Data Designer with gemma-4-31B-it for Japanese text generation"
           ],
           "tags": [
             "synthetic-data",
-            "financial-ai",
-            "japanese-language",
             "privacy-preserving",
-            "huggingface"
+            "nvidia",
+            "elith",
+            "financial-ai",
+            "cc-by-4.0",
+            "japanese-language",
+            "personas"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "nvidia-nemotron-pii-japan",
+          "name": "Nemotron-PII-Japan",
+          "parent_org": "NVIDIA",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/datasets/nvidia/Nemotron-PII-Japan",
+          "short_description": "A synthetic dataset of 100,000 Japanese business documents with labeled personal information for training and testing PII detection and redaction models.",
+          "key_features": [
+            "100,000 synthetic Japanese business documents",
+            "Labeled personal information for PII detection/redaction model training",
+            "Built on Nemotron-Personas-Japan personas for realistic context",
+            "Released same day as Nemotron-Personas-Finance-Japan",
+            "Enables testing data protection pipelines with synthetic customer data"
+          ],
+          "tags": [
+            "pii-detection",
+            "synthetic-data",
+            "japanese",
+            "data-privacy",
+            "nvidia",
+            "redaction"
           ],
           "last_verified": "2026-11-09"
         }
@@ -8603,6 +8778,168 @@
             "search"
           ],
           "last_verified": "2025-03-22"
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "website": "https://www.google.com",
+      "description": "Google and Adobe have partnered to integrate Adobe's creative and productivity tools with Google's AI models and apps, enhancing user workflows across both ecosystems.",
+      "logo_symbol": "adobe",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "adobe-acrobat",
+          "name": "Adobe Acrobat",
+          "parent_org": "Adobe",
+          "category": "Productivity & Office",
+          "release_date": "2026-11-10",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://www.adobe.com/products/acrobat.html",
+          "short_description": "Adobe Acrobat is being integrated into Google Drive and Gmail, allowing users to edit PDFs directly from their Google apps with suggested app entry points.",
+          "key_features": [
+            "Direct pathway from Google Drive and Gmail into Adobe Acrobat",
+            "Suggested app across both services",
+            "Edit with entry point in file previews"
+          ],
+          "tags": [
+            "pdf",
+            "productivity",
+            "google-drive",
+            "gmail",
+            "integration"
+          ],
+          "last_verified": "2026-11-10"
+        },
+        {
+          "id": "adobe-creative-cloud",
+          "name": "Adobe Creative Cloud",
+          "parent_org": "Adobe",
+          "category": "Design & UI Generation",
+          "release_date": "2026-11-10",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://creativecloud.adobe.com",
+          "short_description": "Adobe Creative Cloud tools are being integrated into Google Gemini and AI Mode in Google Search, bringing creative capabilities directly into search and chat experiences.",
+          "key_features": [
+            "Connectors in Gemini and Gemini Enterprise",
+            "Creative tools available in AI Mode in Google Search",
+            "Seamless workflow within Google apps for design and PDFs"
+          ],
+          "tags": [
+            "creative",
+            "design",
+            "photoshop",
+            "gemini",
+            "ai-mode"
+          ],
+          "last_verified": "2026-11-10"
+        },
+        {
+          "id": "adobe-cx-enterprise-coworker-agent",
+          "name": "Adobe CX Enterprise Coworker Agent",
+          "parent_org": "Adobe",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-10",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://www.adobe.com/products/experience-cloud.html",
+          "short_description": "An AI assistant that helps teams design graphics, work with PDFs, and launch marketing campaigns without switching apps, available within Gemini Enterprise.",
+          "key_features": [
+            "Design graphics",
+            "Work with PDFs",
+            "Launch marketing campaigns",
+            "Integrated into Gemini Enterprise"
+          ],
+          "tags": [
+            "ai-assistant",
+            "enterprise",
+            "gemini",
+            "marketing",
+            "design"
+          ],
+          "last_verified": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "website": "https://www.google.com",
+      "description": "Google and Adobe have partnered to integrate Adobe's creative and productivity tools with Google's AI models and apps, enhancing user workflows across both ecosystems.",
+      "logo_symbol": "google-deepmind",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Image"
+      ],
+      "tools": [
+        {
+          "id": "google-deepmind-image-model-photoshop",
+          "name": "Google DeepMind Image Model for Photoshop",
+          "parent_org": "Google DeepMind",
+          "category": "Image Generation",
+          "release_date": "2026-11-10",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://www.adobe.com/products/photoshop.html",
+          "short_description": "A collaborative image model between Google DeepMind and Adobe to enable near-real-time editing capabilities in Photoshop for creative professionals.",
+          "key_features": [
+            "Near-real-time image edits",
+            "Integrated into Photoshop",
+            "Developed with Google DeepMind"
+          ],
+          "tags": [
+            "image-generation",
+            "photoshop",
+            "deepmind",
+            "editing"
+          ],
+          "last_verified": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "website": "https://medium.com",
+      "description": "Medium is a prominent online publishing platform that empowers writers, journalists, and experts to share stories, insights, and ideas with a global audience.",
+      "logo_symbol": "medium",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "tk-by-medium",
+          "name": "TK by Medium",
+          "parent_org": "Medium",
+          "category": "Productivity & Office",
+          "release_date": "2024-05",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/medium",
+          "short_description": "TK by Medium is an advanced tool designed to enhance the writing, editing, and publishing workflow for creators on the Medium platform. It integrates smart features to help writers optimize their content and reach broader audiences efficiently.",
+          "key_features": [
+            "AI-powered writing assistance and content optimization",
+            "Streamlined publishing and formatting tools",
+            "Audience engagement and growth analytics",
+            "Seamless integration with the Medium ecosystem"
+          ],
+          "tags": [
+            "writing",
+            "publishing",
+            "medium",
+            "productivity"
+          ],
+          "last_verified": "2024-05-20"
         }
       ]
     }
