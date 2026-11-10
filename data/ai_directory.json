@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-10T14:31:45Z",
-  "total_organizations": 104,
-  "total_tools": 291,
+  "last_updated": "2026-11-10T22:57:21Z",
+  "total_organizations": 106,
+  "total_tools": 298,
   "organizations": [
     {
       "id": "google",
@@ -778,6 +778,31 @@
             "ehr-integration"
           ],
           "last_verified": "2026-11-10"
+        },
+        {
+          "id": "google-gemini-intelligence",
+          "name": "Gemini Intelligence",
+          "parent_org": "Google",
+          "category": "Productivity & Office",
+          "release_date": "2026-11-10",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+          "short_description": "Gemini Intelligence brings Google's advanced AI assistant to an expanded range of Android devices, introducing capabilities like real-time task automation, speech-to-text organization, custom widget creation, and device assistance to streamline daily workflows.",
+          "key_features": [
+            "Task automation",
+            "Create My Widget",
+            "Device Assistance",
+            "Rambler (spoken to text)"
+          ],
+          "tags": [
+            "ai-assistant",
+            "android",
+            "productivity",
+            "mobile-ai",
+            "task-automation"
+          ],
+          "last_verified": "2026-11-10"
         }
       ]
     },
@@ -803,26 +828,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "The flagship conversational AI model by OpenAI, available in various tiers including enterprise solutions.",
+          "short_description": "OpenAI's conversational AI model analyzed alongside Upwork freelance data to reveal how AI usage is shifting demand across 63 work categories and reshaping project scope and budgets.",
           "key_features": [
-            "Conversational interface",
-            "Code generation and execution",
-            "Conversational AI assistance",
+            "Large language model",
             "Community and support resource navigation",
-            "Integration with AWS Marketplace",
-            "Large language model"
+            "Support group discussion guide preparation",
+            "Application integration",
+            "Helping caregivers use AI confidently and safely",
+            "Plain-language material creation from educational resources"
           ],
           "tags": [
-            "enterprise",
-            "productivity",
-            "ai",
-            "parental-controls",
-            "safety",
-            "healthcare",
             "llm",
-            "conversational-ai"
+            "safety",
+            "conversational-ai",
+            "enterprise",
+            "research",
+            "productivity",
+            "nonprofit-partnership",
+            "ai-impact"
           ],
-          "last_verified": "2026-11-09"
+          "last_verified": "2026-06-30"
         },
         {
           "id": "openai-gpt-4o",
@@ -2046,6 +2071,56 @@
             "optimization"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "openai-business-hub",
+          "name": "Business Hub",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-10",
+          "status": "Beta",
+          "pricing": "Free",
+          "official_url": "https://chatgpt.com/business-hub",
+          "short_description": "A portal for businesses to claim their ChatGPT profile, manage key details, and add product feeds with pricing and availability.",
+          "key_features": [
+            "Claim and verify business profile",
+            "Manage self-service product feeds with pricing and availability",
+            "Integrate with Shopify for streamlined verification and catalog sync",
+            "View aggregated insights on how people engage with the business on ChatGPT"
+          ],
+          "tags": [
+            "business",
+            "claim",
+            "insights",
+            "shopify",
+            "verification"
+          ],
+          "last_verified": "2024-10-23"
+        },
+        {
+          "id": "openai-business-agent",
+          "name": "Business Agent",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-10",
+          "status": "Beta",
+          "pricing": "Free",
+          "official_url": "https://openai.com/policies/business-agents-policy/",
+          "short_description": "An agentic capability enabling eligible businesses to build conversational agents that help users explore offerings and ask follow-up questions within ChatGPT.",
+          "key_features": [
+            "Build, test, and launch a Business Agent after claiming business",
+            "Personalized conversations to help users explore offerings",
+            "Sponsored placements available for ChatGPT Ads integration",
+            "Conversation clearly labeled and separate from ChatGPT independent answers"
+          ],
+          "tags": [
+            "agent",
+            "ecommerce",
+            "conversational",
+            "us-market",
+            "privacy"
+          ],
+          "last_verified": "2024-10-23"
         }
       ]
     },
@@ -3128,6 +3203,31 @@
             "for"
           ],
           "last_verified": "2026-11-06"
+        },
+        {
+          "id": "huggingface-decision-models",
+          "name": "Hugging Face Decision Models",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-10",
+          "status": "Beta",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/decision",
+          "short_description": "A unified interface for structured decision-making that returns probability distributions over predefined answers without generating text, supporting choice, score, and noul primitives.",
+          "key_features": [
+            "Choice primitive for categorical probability distributions",
+            "Score primitive for ordered scale expectations",
+            "Noul primitive for binary yes/no probabilities",
+            "Confidence scoring for model certainty"
+          ],
+          "tags": [
+            "decision-models",
+            "transformers",
+            "structured-output",
+            "probabilistic",
+            "huggingface"
+          ],
+          "last_verified": "2026-11-10"
         }
       ]
     },
@@ -4379,24 +4479,24 @@
           "status": "Active",
           "pricing": "Free",
           "official_url": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Finance-Japan",
-          "short_description": "A synthetic dataset of 9M Japanese financial personas grounded in official statistics, enabling privacy-safe AI development for finance with culturally authentic demographics, household finances, and financial literacy attributes.",
+          "short_description": "A synthetic dataset of 9 million Japanese financial personas that enables privacy‑preserving AI development for finance applications.",
           "key_features": [
+            "1,600+ occupation categories reflecting Japan's workforce",
             "1600+ occupation categories reflecting Japan's workforce",
             "CC BY 4.0 license allowing commercial use",
+            "9 million personas (1 M × 9)",
             "Household-level financial and real assets for diverse economic backgrounds",
-            "50 fields per record covering demographics, household finances, financial behavior, and personality traits",
-            "1,600+ occupation categories reflecting Japan's workforce",
-            "Built using NeMo SDG-PGMs and NeMo Data Designer with gemma-4-31B-it for Japanese text generation"
+            "50 fields per record covering demographics, assets, and finance"
           ],
           "tags": [
-            "synthetic-data",
+            "japan",
             "privacy-preserving",
-            "nvidia",
-            "elith",
-            "financial-ai",
-            "cc-by-4.0",
+            "synthetic-data",
+            "ai",
             "japanese-language",
-            "personas"
+            "cc-by-4.0",
+            "personas",
+            "financial-ai"
           ],
           "last_verified": "2026-11-09"
         },
@@ -8799,21 +8899,25 @@
           "parent_org": "Adobe",
           "category": "Productivity & Office",
           "release_date": "2026-11-10",
-          "status": "Beta",
-          "pricing": "Paid",
+          "status": "Active",
+          "pricing": "Freemium",
           "official_url": "https://www.adobe.com/products/acrobat.html",
-          "short_description": "Adobe Acrobat is being integrated into Google Drive and Gmail, allowing users to edit PDFs directly from their Google apps with suggested app entry points.",
+          "short_description": "Adobe Acrobat brings PDF editing and management directly into Google Drive and Gmail, letting users edit PDFs without leaving their Google apps.",
           "key_features": [
-            "Direct pathway from Google Drive and Gmail into Adobe Acrobat",
-            "Suggested app across both services",
-            "Edit with entry point in file previews"
+            "Seamless workflow between Google and Adobe ecosystems",
+            "Edit with entry point in file previews",
+            "Direct integration with Google Drive and Gmail",
+            "Edit PDFs from file previews with an “Edit with” entry point",
+            "AI‑enhanced editing capabilities",
+            "Suggested app across both services"
           ],
           "tags": [
-            "pdf",
+            "integration",
             "productivity",
             "google-drive",
             "gmail",
-            "integration"
+            "pdf",
+            "ai"
           ],
           "last_verified": "2026-11-10"
         },
@@ -8863,6 +8967,30 @@
             "gemini",
             "marketing",
             "design"
+          ],
+          "last_verified": "2026-11-10"
+        },
+        {
+          "id": "adobe-cx-enterprise-coworker",
+          "name": "Adobe CX Enterprise Coworker",
+          "parent_org": "Adobe",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-10",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://www.adobe.com/enterprise/cx-coworker.html",
+          "short_description": "An AI assistant embedded in Gemini Enterprise that helps teams design graphics, edit PDFs, and launch marketing campaigns without switching applications.",
+          "key_features": [
+            "Runs inside Gemini Enterprise as an AI coworker",
+            "Automates design, PDF editing, and marketing tasks",
+            "Integrates with Adobe Creative Cloud tools",
+            "Supports real‑time collaboration"
+          ],
+          "tags": [
+            "ai",
+            "enterprise",
+            "automation",
+            "collaboration"
           ],
           "last_verified": "2026-11-10"
         }
@@ -8940,6 +9068,81 @@
             "productivity"
           ],
           "last_verified": "2024-05-20"
+        }
+      ]
+    },
+    {
+      "id": "autotrust",
+      "name": "autotrust",
+      "website": "https://huggingface.co",
+      "description": "Hugging Face is a leading AI community and platform providing open-source tools, models, and datasets for machine learning practitioners.",
+      "logo_symbol": "autotrust",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "autotrust-gev-26b-decide",
+          "name": "GEV-26B-Decide",
+          "parent_org": "autotrust",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/autotrust/GEV-26B-Decide",
+          "short_description": "A 26B parameter decision model optimized for structured decision tasks, used with the Hugging Face decision pipeline for classification, scoring, and binary decisions.",
+          "key_features": [
+            "26B parameter decision model",
+            "Choice probability distribution output",
+            "Score expectation output",
+            "Noul Bernoulli probability output"
+          ],
+          "tags": [
+            "decision-model",
+            "llm",
+            "huggingface-hub",
+            "autotrust"
+          ],
+          "last_verified": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "typesafe-ai",
+      "name": "TypeSafe AI",
+      "website": "https://huggingface.co",
+      "description": "Hugging Face is a leading AI community and platform providing open-source tools, models, and datasets for machine learning practitioners.",
+      "logo_symbol": "typesafe-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "typesafe-ai-jev",
+          "name": "Jev",
+          "parent_org": "TypeSafe AI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "short_description": "A System One model introduced by TypeSafe AI for fast, intuitive decision-making, now referred to as a decision model in the Hugging Face ecosystem.",
+          "key_features": [
+            "System One fast intuitive inference",
+            "Decision model interface compatibility",
+            "Structured probabilistic decisions"
+          ],
+          "tags": [
+            "system-one",
+            "decision-model",
+            "typesafe-ai",
+            "jev"
+          ],
+          "last_verified": "2026-11-10"
         }
       ]
     }
