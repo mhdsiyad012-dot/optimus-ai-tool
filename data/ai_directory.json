@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-09T15:24:22Z",
-  "total_organizations": 100,
-  "total_tools": 276,
+  "last_updated": "2026-11-10T01:17:57Z",
+  "total_organizations": 101,
+  "total_tools": 279,
   "organizations": [
     {
       "id": "google",
@@ -1606,19 +1606,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/chatgpt/enterprise",
-          "short_description": "ChatGPT Enterprise is a secure, admin-controlled version of ChatGPT designed for business and enterprise use cases.",
+          "short_description": "ChatGPT Enterprise is OpenAI's business-focused AI assistant offering, now available through AWS Marketplace, allowing organizations to buy and manage it via their existing AWS procurement and billing relationship.",
           "key_features": [
-            "Enterprise Security",
             "Admin Controls",
-            "Custom Models",
-            "API Integration"
+            "Provides same models, features, and functionality as OpenAI with simultaneous releases",
+            "API Integration",
+            "Enterprise Security",
+            "Supports applying eligible spend toward AWS commitments",
+            "Custom Models"
           ],
           "tags": [
+            "aws-marketplace",
+            "openai",
+            "business",
+            "ai",
+            "chatgpt",
+            "enterprise",
             "enterprise-ai",
-            "security",
             "llm"
           ],
-          "last_verified": "2026-04-27"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-daybreak-red",
@@ -1872,6 +1879,29 @@
             "frontier-models"
           ],
           "last_verified": "2024-11-15"
+        },
+        {
+          "id": "control-room",
+          "name": "Control Room",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-01-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/control-room/",
+          "short_description": "A central system that tracks all research model workloads and can instantly halt them to prevent safety or security issues.",
+          "key_features": [
+            "Tracks every research inference workload (agentic sampling, evaluation, data processing)",
+            "Halts model output within 35 seconds after a stop decision",
+            "Integrated with misalignment monitoring systems to detect front-edge risks",
+            "Fails closed - denies requests if Control Room service is unavailable"
+          ],
+          "tags": [
+            "safety",
+            "model-workload-tracking",
+            "frontier-model-security"
+          ],
+          "last_verified": "2025-08-24"
         }
       ]
     },
@@ -4193,6 +4223,32 @@
             "user-modeling",
             "nvidia-nemo",
             "financial-ai"
+          ],
+          "last_verified": "2026-11-09"
+        },
+        {
+          "id": "nvidia-nemotron-personas-finance-japan",
+          "name": "Nemotron-Personas-Finance-Japan",
+          "parent_org": "NVIDIA",
+          "category": "Search & Research",
+          "release_date": "2026-11-09",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Finance-Japan",
+          "short_description": "A million-record synthetic dataset of 9M Japanese personas with household finances and financial literacy data, enabling culturally grounded AI development for financial applications without using real customer data.",
+          "key_features": [
+            "9M personas with 50 fields per record in natural Japanese",
+            "~1.5B tokens total including ~750M persona tokens",
+            "1600+ occupation categories reflecting Japan's workforce",
+            "Household-level financial and real assets for diverse economic backgrounds",
+            "Comprehensive coverage across demographic, regional, asset distribution, and personality trait axes"
+          ],
+          "tags": [
+            "synthetic-data",
+            "financial-ai",
+            "japanese-language",
+            "privacy-preserving",
+            "huggingface"
           ],
           "last_verified": "2026-11-09"
         }
@@ -8503,6 +8559,50 @@
             "artificial-intelligence"
           ],
           "last_verified": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "kuken-industries",
+      "name": "Kuken Industries",
+      "website": "https://openai.com/index/kuken",
+      "description": "Kuken Industries is a Japanese manufacturer of air conditioning and ventilation equipment, known for cooling towers, and holds a significant share of Japan's market.",
+      "logo_symbol": "kuken-industries",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "kuken-drawing-search-system",
+          "name": "Kuken Drawing Search System",
+          "parent_org": "Kuken Industries",
+          "category": "Search & Research",
+          "release_date": "2025-01",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/kuken",
+          "short_description": "A tool in development to automatically check partner-prepared drawings for discrepancies against specifications, flagging issues for faster review.",
+          "key_features": [
+            "AI flags differences between drawings and specifications",
+            "Aims to reduce manual checking time",
+            "Reduces search time by approximately 90%",
+            "Enables newer engineers to handle jobs independently",
+            "Search by part or drawing number",
+            "AI matches parts and suggests similar designs"
+          ],
+          "tags": [
+            "openai",
+            "ai",
+            "ocr",
+            "quality-assurance",
+            "manufacturing",
+            "engineering",
+            "computer-vision",
+            "search"
+          ],
+          "last_verified": "2025-03-22"
         }
       ]
     }
