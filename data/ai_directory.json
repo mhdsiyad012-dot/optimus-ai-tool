@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-10T22:57:21Z",
-  "total_organizations": 106,
-  "total_tools": 298,
+  "last_updated": "2026-11-11T04:58:48Z",
+  "total_organizations": 108,
+  "total_tools": 303,
   "organizations": [
     {
       "id": "google",
@@ -826,28 +826,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2022-11-30",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://chatgpt.com",
-          "short_description": "OpenAI's conversational AI model analyzed alongside Upwork freelance data to reveal how AI usage is shifting demand across 63 work categories and reshaping project scope and budgets.",
+          "short_description": "A large language model that helps caregivers use AI confidently, safely, and practically for everyday life tasks such as resource navigation, scheduling, and support group preparation.",
           "key_features": [
-            "Large language model",
+            "Resource navigation assistance",
             "Community and support resource navigation",
-            "Support group discussion guide preparation",
-            "Application integration",
+            "Large language model",
+            "Plain-language material creation from educational resources",
             "Helping caregivers use AI confidently and safely",
-            "Plain-language material creation from educational resources"
+            "Support group discussion guide preparation"
           ],
           "tags": [
-            "llm",
-            "safety",
-            "conversational-ai",
-            "enterprise",
-            "research",
-            "productivity",
             "nonprofit-partnership",
-            "ai-impact"
+            "caregiving",
+            "ai",
+            "productivity",
+            "ai-education",
+            "safety",
+            "ai-impact",
+            "healthcare"
           ],
-          "last_verified": "2026-06-30"
+          "last_verified": "2024-11-10"
         },
         {
           "id": "openai-gpt-4o",
@@ -1205,26 +1205,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-          "short_description": "GPT-6.1 Sol is a frontier reasoning model from OpenAI designed to analyze code changes across complex codebases, identify security vulnerabilities, and propose fixes via integration with CodeRabbit's security agent.",
+          "short_description": "The latest Sol variant of GPT-6, representing OpenAI's most recent frontier model with enhanced capabilities.",
           "key_features": [
-            "Extends security review beyond individual changes",
-            "Automated pull request drafts with proposed fixes for human review",
+            "Enhanced coding performance",
             "Analyzes pull request changes during review",
+            "Advanced language understanding",
+            "Improved reasoning capabilities",
             "Supports Deep Scan across repositories",
-            "Exploit verification in isolated sandbox without testing production systems",
-            "Pull-request change analysis"
+            "Exploit verification in isolated sandbox without testing production systems"
           ],
           "tags": [
-            "ai-coding",
-            "security",
-            "gpt-6.1-sol",
             "code-review",
+            "gpt-6.1-sol",
+            "ai",
+            "ai-coding",
             "vulnerability-detection",
-            "code-security",
-            "software-development",
-            "llm"
+            "business",
+            "llms",
+            "frontier-models"
           ],
-          "last_verified": "2026-10-26"
+          "last_verified": "2025-09-15"
         },
         {
           "id": "openai-signals-work-activities-data",
@@ -1595,26 +1595,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/index/gpt-6-astra/",
-          "short_description": "A frontier multimodal AI model from OpenAI designed to excel at complex reasoning and multimodal tasks, including everyday wet-lab scientific analysis.",
+          "short_description": "Astra variant of GPT-6 designed for specialized tasks and enterprise applications.",
           "key_features": [
-            "Maintains experimental context and tacit biological knowledge throughout analysis",
-            "Achieves 66.7% mean reward on BioBasicsBench at high reasoning effort",
             "Strong native multimodal capabilities for interpreting images, videos, and raw instrument data",
-            "UI/UX and firmware/software integration generation",
-            "Electrical component selection and PCB design",
-            "Mechanical enclosure and structural design"
+            "Optimized for efficiency",
+            "Achieves 66.7% mean reward on BioBasicsBench at high reasoning effort",
+            "High performance in specific use cases",
+            "Enterprise-ready features",
+            "Electrical component selection and PCB design"
           ],
           "tags": [
-            "hardware-design",
-            "computer-use",
+            "physical-ai",
+            "ai",
             "cad",
-            "multimodal",
+            "hardware-design",
             "biotech",
-            "gpt-6",
-            "engineering",
-            "physical-ai"
+            "multimodal",
+            "computer-use",
+            "engineering"
           ],
-          "last_verified": "2025-02-24"
+          "last_verified": "2025-08-20"
         },
         {
           "id": "openai-api",
@@ -1655,26 +1655,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/chatgpt/enterprise",
-          "short_description": "Enterprise-grade access to ChatGPT Enterprise through AWS Marketplace for organizations to deploy and govern AI models at scale.",
+          "short_description": "Enterprise-grade AI assistant with advanced security, compliance, and team collaboration features.",
           "key_features": [
-            "Enterprise Security",
-            "Admin Controls",
-            "Access to ChatGPT, ChatGPT Work, Codex, and Dots",
-            "API Integration",
+            "Integration with enterprise systems",
             "Custom Models",
-            "AWS Marketplace availability"
+            "Enterprise Security",
+            "API Integration",
+            "Admin Controls",
+            "SOC 2 compliance"
           ],
           "tags": [
-            "openai",
-            "enterprise",
             "ai",
             "aws-marketplace",
-            "llm",
-            "business",
+            "productivity",
             "chatgpt",
-            "enterprise-ai"
+            "business",
+            "enterprise-ai",
+            "enterprise-security",
+            "openai"
           ],
-          "last_verified": "2026-11-09"
+          "last_verified": "2025-09-15"
         },
         {
           "id": "openai-daybreak-red",
@@ -1959,22 +1959,25 @@
           "category": "Productivity & Office",
           "release_date": "2026-11-09",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://chatgpt.com/business/",
-          "short_description": "Business-oriented version of ChatGPT with enterprise features for professional workflows and team collaboration.",
+          "short_description": "Business-oriented version of ChatGPT with enhanced features for professional workflows.",
           "key_features": [
-            "Enterprise features",
+            "Advanced analytics",
             "Team collaboration",
             "Workspace integration",
-            "Governance controls"
+            "Governance controls",
+            "Team collaboration tools",
+            "Enterprise security features"
           ],
           "tags": [
-            "business",
+            "ai",
             "productivity",
-            "enterprise",
-            "work"
+            "business",
+            "work",
+            "enterprise"
           ],
-          "last_verified": "2026-11-09"
+          "last_verified": "2025-09-12"
         },
         {
           "id": "chatgpt-education",
@@ -1985,20 +1988,23 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com/business/education/",
-          "short_description": "Specialized version of ChatGPT designed for educational institutions and learners with safety-focused features.",
+          "short_description": "Specialized version of ChatGPT designed for educational purposes and student support.",
           "key_features": [
-            "Educational focus",
-            "Student-friendly interface",
             "Teacher tools",
-            "Safety features for learning"
+            "Student tutoring and learning assistance",
+            "Safety features for learning",
+            "Teacher and instructor tools",
+            "Content creation for classrooms",
+            "Student-friendly interface"
           ],
           "tags": [
+            "ai",
+            "productivity",
             "education",
-            "learning",
-            "education",
-            "student"
+            "student",
+            "learning"
           ],
-          "last_verified": "2026-11-09"
+          "last_verified": "2025-09-08"
         },
         {
           "id": "codex",
@@ -2007,22 +2013,26 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2026-11-09",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Open Source",
           "official_url": "https://chatgpt.com/codex/",
-          "short_description": "OpenAI's code generation model designed to assist with software development and programming tasks.",
+          "short_description": "OpenAI's code generation and understanding model, designed to assist with software development tasks.",
           "key_features": [
             "Code generation",
+            "Bug detection and fixing",
+            "Code writing and refactoring",
+            "Code explanation and documentation",
             "Programming assistance",
-            "Natural language to code",
-            "Integration with GitHub"
+            "Natural language to code translation"
           ],
           "tags": [
             "coding",
+            "ai",
             "programming",
-            "software-development",
-            "ai"
+            "code",
+            "llms",
+            "software-development"
           ],
-          "last_verified": "2026-11-09"
+          "last_verified": "2025-09-14"
         },
         {
           "id": "dots",
@@ -2033,20 +2043,25 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com/features/dots",
-          "short_description": "Multimodal feature enabling image understanding and text generation in a single model.",
+          "short_description": "A feature within ChatGPT that enables document analysis and processing capabilities.",
           "key_features": [
-            "Image understanding",
+            "Automated content extraction",
             "Text generation from images",
-            "Multimodal capabilities",
-            "Integration with ChatGPT"
+            "PDF and file analysis",
+            "Workflow integration",
+            "Integration with ChatGPT",
+            "Image understanding"
           ],
           "tags": [
-            "vision",
+            "ai",
+            "computer-vision",
             "image",
+            "productivity",
             "multimodal",
-            "computer-vision"
+            "document-processing",
+            "vision"
           ],
-          "last_verified": "2026-11-09"
+          "last_verified": "2025-09-11"
         },
         {
           "id": "daybreak-models",
@@ -2121,6 +2136,50 @@
             "privacy"
           ],
           "last_verified": "2024-10-23"
+        },
+        {
+          "id": "gpt-5-6",
+          "name": "GPT-5.6",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-06",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/gpt-5-6/",
+          "short_description": "A previous generation model in the GPT-5 family, providing strong performance for many tasks.",
+          "key_features": [
+            "Strong language generation",
+            "Good reasoning capabilities",
+            "Wide model versatility"
+          ],
+          "tags": [
+            "ai",
+            "llms",
+            "frontier-models"
+          ],
+          "last_verified": "2025-06-15"
+        },
+        {
+          "id": "gpt-5-5",
+          "name": "GPT-5.5",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-05",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/introducing-gpt-5-5/",
+          "short_description": "A mid-generation model in the GPT-5 family with balanced performance across tasks.",
+          "key_features": [
+            "Efficient inference",
+            "Good general-purpose capabilities",
+            "Strong coding support"
+          ],
+          "tags": [
+            "ai",
+            "llms",
+            "frontier-models"
+          ],
+          "last_verified": "2025-05-20"
         }
       ]
     },
@@ -8954,19 +9013,21 @@
           "status": "Beta",
           "pricing": "Paid",
           "official_url": "https://www.adobe.com/products/experience-cloud.html",
-          "short_description": "An AI assistant that helps teams design graphics, work with PDFs, and launch marketing campaigns without switching apps, available within Gemini Enterprise.",
+          "short_description": "An AI assistant integrated into Gemini Enterprise that helps teams design graphics, work with PDFs, and launch marketing campaigns without switching apps.",
           "key_features": [
             "Design graphics",
-            "Work with PDFs",
+            "Integration with Gemini Enterprise",
+            "Integrated into Gemini Enterprise",
             "Launch marketing campaigns",
-            "Integrated into Gemini Enterprise"
+            "Work with PDFs"
           ],
           "tags": [
+            "productivity",
+            "design",
             "ai-assistant",
-            "enterprise",
-            "gemini",
             "marketing",
-            "design"
+            "enterprise",
+            "gemini"
           ],
           "last_verified": "2026-11-10"
         },
@@ -8991,6 +9052,29 @@
             "enterprise",
             "automation",
             "collaboration"
+          ],
+          "last_verified": "2026-11-10"
+        },
+        {
+          "id": "adobe-photoshop-ai-image-model",
+          "name": "Adobe Photoshop AI Image Model",
+          "parent_org": "Adobe",
+          "category": "Computer Vision",
+          "release_date": "2026-11-10",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+          "short_description": "An image model developed with Google DeepMind to enable near-real-time edits in Photoshop, enhancing creative workflows.",
+          "key_features": [
+            "Near-real-time image editing",
+            "Powered by Google DeepMind",
+            "Integrated into Photoshop"
+          ],
+          "tags": [
+            "image-editing",
+            "ai-model",
+            "photoshop",
+            "deepmind"
           ],
           "last_verified": "2026-11-10"
         }
@@ -9143,6 +9227,86 @@
             "jev"
           ],
           "last_verified": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "barter-pilot",
+      "name": "Barter Pilot",
+      "website": "https://barterpilot.com/",
+      "description": "Barter Pilot is an AI platform building autonomous agents that facilitate peer-to-peer physical bartering by negotiating multi-party trades on behalf of users under strict, server-enforced rules.",
+      "logo_symbol": "barter-pilot",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "barter-pilot",
+          "name": "Barter Pilot",
+          "parent_org": "Barter Pilot",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-05",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://barterpilot.com/",
+          "short_description": "Barter Pilot provides autonomous AI agents that negotiate and execute physical barter trades on your behalf, finding multi-party trade loops that individuals would normally miss while keeping you in control with hard server-enforced limits.",
+          "key_features": [
+            "Autonomous agent-to-agent negotiation for physical goods",
+            "Server-enforced hard limits on categories, distance, and credit spend",
+            "Complex multi-party circular trade execution",
+            "Manual deal approval with optional auto-accept capability",
+            "Escrow-based credit holding to guarantee physical item handoffs"
+          ],
+          "tags": [
+            "ai-agent",
+            "barter",
+            "negotiation",
+            "commerce",
+            "autonomous"
+          ],
+          "last_verified": "2024-11-25"
+        }
+      ]
+    },
+    {
+      "id": "brigade",
+      "name": "Brigade",
+      "website": "https://www.brigade.lol/",
+      "description": "Brigade is a startup building AI teammate platforms that let users delegate tasks to autonomous agents using their existing LLM subscriptions.",
+      "logo_symbol": "brigade",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "brigade-brigade",
+          "name": "Brigade",
+          "parent_org": "Brigade",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.brigade.lol/",
+          "short_description": "Brigade provides a team of AI teammates that run on your own computer or the cloud, letting you delegate code, support, marketing, and sales tasks while keeping full control and using your existing Claude or ChatGPT subscription.",
+          "key_features": [
+            "Run real Claude Code or Codex with your own account",
+            "Stack multiple AI subscription plans to avoid usage limits",
+            "Approval workflow: teammates ask before sending, charging, or shipping",
+            "Run locally on your machine or on Brigade Cloud computers",
+            "Integrate with Gmail, GitHub, Stripe, Notion, Linear, PostHog and any MCP server"
+          ],
+          "tags": [
+            "ai-teammates",
+            "automation",
+            "open-source",
+            "claude",
+            "chatgpt"
+          ],
+          "last_verified": "2025-11-03"
         }
       ]
     }
