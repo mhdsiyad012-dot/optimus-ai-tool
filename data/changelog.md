@@ -812,3 +812,16 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **Codex** (OpenAI) verified on 2025-09-14
     - **Dots** (OpenAI) verified on 2025-09-11
     - **ChatGPT** (OpenAI) verified on 2024-11-10
+
+### [2026-11-11 14:01 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 6
+- **Existing Tools Refreshed:** 1
+  - **Added:**
+    - **[Gilbert + Tobin rethinks the business of law with AI](https://openai.com/index/gilbert-tobin-sam-nickless)** (OpenAI) — *Search & Research* (Open Source): Title: Gilbert + Tobin rethinks the business of law with AI
+    - **[ChatGPT Plus](https://openai.com/index/chatgpt-plus-for-veterans)** (OpenAI) — *LLMs & Frontier Models* (Free): Free access to ChatGPT Plus for veterans and servicemembers as part of OpenAI's veteran outreach program, enabling career transition support and interview preparation.
+    - **[Helping caregivers use AI in everyday life](https://openai.com/index/helping-caregivers-use-ai-in-everyday-life)** (OpenAI) — *Voice & Audio* (Free): Title: Helping caregivers use AI in everyday life
+    - **[Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt)** (OpenAI) — *Search & Research* (Open Source): Title: Introducing Businesses in ChatGPT
+    - **[BotPsy](https://huggingface.co/qvac/BotPsy-0.8B)** (Tether AI Research) — *LLMs & Frontier Models* (Open Source): An on-device personal assistant powered by a 0.8B-parameter agentic language model (BotPsy) that performs tool calls for web search, travel, finance, etc., while keeping data private and running locally.
+    - **[Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context](https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan)** (Hugging Face) — *Image Generation* (Open Source): Title: Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context
+  - **Refreshed:**
+    - **Brigade** (Brigade) verified on 2025-11-03

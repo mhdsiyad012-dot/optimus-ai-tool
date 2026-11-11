@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-11T04:58:48Z",
-  "total_organizations": 108,
-  "total_tools": 303,
+  "last_updated": "2026-11-11T14:01:03Z",
+  "total_organizations": 109,
+  "total_tools": 309,
   "organizations": [
     {
       "id": "google",
@@ -2180,6 +2180,109 @@
             "frontier-models"
           ],
           "last_verified": "2025-05-20"
+        },
+        {
+          "id": "openai-gilbert-tobin-rethinks-the-business-of-law-with-ai",
+          "name": "Gilbert + Tobin rethinks the business of law with AI",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "short_description": "Title: Gilbert + Tobin rethinks the business of law with AI",
+          "key_features": [
+            "[Research](https://openai.com/research/index/)",
+            "[Business](https://openai.com/business/)",
+            "[Developers](https://openai.com/api/)",
+            "[Company](https://openai.com/about/)"
+          ],
+          "tags": [
+            "gilbert",
+            "tobin",
+            "rethinks",
+            "the",
+            "business",
+            "law"
+          ],
+          "last_verified": "2026-11-11"
+        },
+        {
+          "id": "chatgpt-plus",
+          "name": "ChatGPT Plus",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "short_description": "Free access to ChatGPT Plus for veterans and servicemembers as part of OpenAI's veteran outreach program, enabling career transition support and interview preparation.",
+          "key_features": [
+            "Free for veterans and transitioning servicemembers",
+            "Career transition and resume building assistance",
+            "Interview preparation and job search support",
+            "Custom GPT creation for individual needs"
+          ],
+          "tags": [
+            "veterans",
+            "ai",
+            "career-transition",
+            "military",
+            "openai",
+            "resume-building"
+          ],
+          "last_verified": "2024-01-01"
+        },
+        {
+          "id": "openai-helping-caregivers-use-ai-in-everyday-life",
+          "name": "Helping caregivers use AI in everyday life",
+          "parent_org": "OpenAI",
+          "category": "Voice & Audio",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "short_description": "Title: Helping caregivers use AI in everyday life",
+          "key_features": [
+            "Oakland, California",
+            "Tampa, Florida",
+            "Pittsburgh, Pennsylvania",
+            "Atlanta, Georgia"
+          ],
+          "tags": [
+            "helping",
+            "caregivers",
+            "use",
+            "everyday",
+            "life",
+            "openai"
+          ],
+          "last_verified": "2026-11-11"
+        },
+        {
+          "id": "openai-introducing-businesses-in-chatgpt",
+          "name": "Introducing Businesses in ChatGPT",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "short_description": "Title: Introducing Businesses in ChatGPT",
+          "key_features": [
+            "[Research](https://openai.com/research/index/)",
+            "[Business](https://openai.com/business/)",
+            "[Developers](https://openai.com/api/)",
+            "[Company](https://openai.com/about/)"
+          ],
+          "tags": [
+            "introducing",
+            "businesses",
+            "chatgpt",
+            "openai",
+            "search"
+          ],
+          "last_verified": "2026-11-11"
         }
       ]
     },
@@ -3287,6 +3390,32 @@
             "huggingface"
           ],
           "last_verified": "2026-11-10"
+        },
+        {
+          "id": "hugging-face-nemotron-personas-finance-japan-a-synthetic-dataset-capturing-japan-s-demographics-and-financial-context",
+          "name": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+          "parent_org": "Hugging Face",
+          "category": "Image Generation",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "short_description": "Title: Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+          "key_features": [
+            "**9M personas total** (1M records x 9 personas each), written in natural Japanese",
+            "**50 fields per record**: 9 persona fields, 11 persona attributes, and 30 contextual fields based on official demographic and labor statistics",
+            "**~1.5B tokens total**, including ~750M persona tokens",
+            "**~950k unique names**"
+          ],
+          "tags": [
+            "nemotronpersonasfinancejapan",
+            "synthetic",
+            "dataset",
+            "capturing",
+            "japans",
+            "demographics"
+          ],
+          "last_verified": "2026-11-11"
         }
       ]
     },
@@ -9289,24 +9418,68 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2024-01",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Open Source",
           "official_url": "https://www.brigade.lol/",
-          "short_description": "Brigade provides a team of AI teammates that run on your own computer or the cloud, letting you delegate code, support, marketing, and sales tasks while keeping full control and using your existing Claude or ChatGPT subscription.",
+          "short_description": "Brigade provides self‑hostable AI teammates that run Claude Code or Codex agents to automate support, marketing, sales and development tasks using your existing AI subscriptions.",
           "key_features": [
-            "Run real Claude Code or Codex with your own account",
-            "Stack multiple AI subscription plans to avoid usage limits",
             "Approval workflow: teammates ask before sending, charging, or shipping",
-            "Run locally on your machine or on Brigade Cloud computers",
-            "Integrate with Gmail, GitHub, Stripe, Notion, Linear, PostHog and any MCP server"
+            "Each teammate has its own browser, computer, and memory",
+            "Triggers and routines enable autonomous actions with human approval",
+            "Integrate with Gmail, GitHub, Stripe, Notion, Linear, PostHog and any MCP server",
+            "Stack multiple AI subscription plans to avoid usage limits",
+            "Run official Claude Code or Codex agents with your own accounts"
           ],
           "tags": [
+            "self-hosted",
+            "claude-code",
             "ai-teammates",
-            "automation",
             "open-source",
+            "chatgpt",
             "claude",
-            "chatgpt"
+            "automation"
           ],
           "last_verified": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": "tether-ai-research",
+      "name": "Tether AI Research",
+      "website": "https://tether.io",
+      "description": "Tether AI Research (Tether Data, S.A. de C.V.) creates privacy-first, on-device AI assistants to replace cloud LLMs and run capable agents locally.",
+      "logo_symbol": "tether-ai-research",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "botpsy-0-8b",
+          "name": "BotPsy",
+          "parent_org": "Tether AI Research",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/qvac/BotPsy-0.8B",
+          "short_description": "An on-device personal assistant powered by a 0.8B-parameter agentic language model (BotPsy) that performs tool calls for web search, travel, finance, etc., while keeping data private and running locally.",
+          "key_features": [
+            "Sub-billion parameter model designed for on-device inference",
+            "Function calling and agentic workflows across multiple domains",
+            "Tool-use for web search, travel, commerce, finance, device control, files, calendar, email",
+            "State-of-the-art tool-use and agentic performance for its size",
+            "Open-source (Apache 2.0) weights available in bf16, Q8, Q4 and GGUF formats"
+          ],
+          "tags": [
+            "on-device",
+            "personal-assistant",
+            "agent",
+            "tool-use",
+            "privacy",
+            "agentic"
+          ],
+          "last_verified": "2026-11-11"
         }
       ]
     }
