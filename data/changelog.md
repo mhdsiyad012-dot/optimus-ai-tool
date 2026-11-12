@@ -860,3 +860,16 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
   - **Refreshed:**
     - **Gemini Decisions API** (Google DeepMind) verified on 2026-09-21
     - **Gemini Decision 1** (Google DeepMind) verified on 2026-09-21
+
+### [2026-11-12 23:18 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 5
+- **Existing Tools Refreshed:** 2
+  - **Added:**
+    - **[Google Search with Gemini 4 Hydrogen](https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/)** (Google) — *Search & Research* (Free): Google Search upgraded with the Gemini 4 Hydrogen AI model to deliver more intuitive, visual, and precise answers for complex queries by understanding intent, running simultaneous searches, and presenting structured data like tables and images.
+    - **[Amplitude Wave](https://amplitude.com)** (Amplitude) — *Autonomous Agents & Coding* (Freemium): Amplitude Wave is a proactive AI product agent that turns analytics and session data into implementation plans, enabling teams to ship improvements in days rather than months.
+    - **[LLMON (LLM Object Notation)](https://github.com/generative-computing/llmon)** (IBM) — *Developer Platforms & APIs* (Open Source): LLMON is an LLM-native markup language that uses reserved special-token delimiters to explicitly mark structure and semantics in model contexts, enabling instruction/data separation that drastically reduces indirect prompt injection attacks while maintaining general capability on Granite 4.1 models.
+    - **[TRELLIS.2](https://huggingface.co/papers/2412.01506)** (Hugging Face) — *Computer Vision* (Free): A 3D generation model that converts unified latent representations into 3D models in various formats like GLB and PLY, supporting sparse structure generation and O-Voxel format.
+    - **[LoRA (Low-Rank Adaptation)](https://huggingface.co/docs/peft/package_reference/lora)** (Hugging Face) — *LLMs & Frontier Models* (Free): A technique for fine-tuning large models by training small adapter matrices while keeping original weights frozen, reducing memory and trainable parameters.
+  - **Refreshed:**
+    - **Gemini Decisions API** (Google DeepMind) verified on 2026-11-11
+    - **Hugging Face Jobs** (Hugging Face) verified on 2026-11-12

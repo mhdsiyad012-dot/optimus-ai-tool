@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-12T14:47:15Z",
-  "total_organizations": 117,
-  "total_tools": 331,
+  "last_updated": "2026-11-12T23:18:08Z",
+  "total_organizations": 118,
+  "total_tools": 336,
   "organizations": [
     {
       "id": "google",
@@ -803,6 +803,31 @@
             "task-automation"
           ],
           "last_verified": "2026-11-10"
+        },
+        {
+          "id": "google-search-gemini-4-hydrogen",
+          "name": "Google Search with Gemini 4 Hydrogen",
+          "parent_org": "Google",
+          "category": "Search & Research",
+          "release_date": "2026-11-12",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+          "short_description": "Google Search upgraded with the Gemini 4 Hydrogen AI model to deliver more intuitive, visual, and precise answers for complex queries by understanding intent, running simultaneous searches, and presenting structured data like tables and images.",
+          "key_features": [
+            "Intent understanding for nuanced questions",
+            "Simultaneous multi-query processing",
+            "Structured results with tables and images",
+            "Globally available AI-enhanced search experience"
+          ],
+          "tags": [
+            "search",
+            "gemini",
+            "llm",
+            "ai-search",
+            "google"
+          ],
+          "last_verified": "2026-11-12"
         }
       ]
     },
@@ -3619,22 +3644,26 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Free",
           "official_url": "https://huggingface.co/jobs",
-          "short_description": "Hugging Face Jobs runs containerized ML workloads on cloud GPU hardware, used in this guide for both dataset preprocessing and LoRA training with encrypted secret handling.",
+          "short_description": "A platform for running containerized ML workloads on cloud hardware, providing job management and preprocessing pipelines.",
           "key_features": [
             "Containerized workload execution on cloud GPUs",
-            "Hardware flavors such as a100-large (80 GB)",
+            "HF token integration for secure access",
+            "Cloud-based training on GPU instances",
             "Encrypted HF_TOKEN secret injection",
-            "Detached runs with resumable timeouts and log streaming"
+            "Preprocessing and fine-tuning containers",
+            "Hardware flavors such as a100-large (80 GB)"
           ],
           "tags": [
-            "cloud-compute",
-            "mlops",
             "containers",
-            "gpu"
+            "cloud-compute",
+            "containerization",
+            "mlops",
+            "gpu",
+            "cloud-computing"
           ],
-          "last_verified": "2026-09-21"
+          "last_verified": "2026-11-12"
         },
         {
           "id": "huggingface-trackio",
@@ -3685,6 +3714,54 @@
             "pooling-aware-training"
           ],
           "last_verified": "2026-05-09"
+        },
+        {
+          "id": "trellis2",
+          "name": "TRELLIS.2",
+          "parent_org": "Hugging Face",
+          "category": "Computer Vision",
+          "release_date": "2022-01-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/papers/2412.01506",
+          "short_description": "A 3D generation model that converts unified latent representations into 3D models in various formats like GLB and PLY, supporting sparse structure generation and O-Voxel format.",
+          "key_features": [
+            "Unified latent representation for consistent 3D generation",
+            "Sparse structure generation via Sparse Structure Flow DiT",
+            "O-Voxel format for efficient 3D mesh representation",
+            "Multi-format support (GLB, PLY, etc.)"
+          ],
+          "tags": [
+            "3d-generation",
+            "computer-vision",
+            "fine-tuning",
+            "lora"
+          ],
+          "last_verified": "2026-11-12"
+        },
+        {
+          "id": "lora",
+          "name": "LoRA (Low-Rank Adaptation)",
+          "parent_org": "Hugging Face",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2021-12-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://huggingface.co/docs/peft/package_reference/lora",
+          "short_description": "A technique for fine-tuning large models by training small adapter matrices while keeping original weights frozen, reducing memory and trainable parameters.",
+          "key_features": [
+            "Memory efficient fine-tuning",
+            "Reduces trainable parameters to ~1% of original model",
+            "Adapter-based approach for efficient adaptation",
+            "Widely used for 3D model fine-tuning"
+          ],
+          "tags": [
+            "fine-tuning",
+            "efficiency",
+            "adapter",
+            "peft"
+          ],
+          "last_verified": "2026-11-12"
         }
       ]
     },
@@ -4641,6 +4718,36 @@
             "llm"
           ],
           "last_verified": "2026-10-29"
+        },
+        {
+          "id": "ibm-granite-llmon",
+          "name": "LLMON (LLM Object Notation)",
+          "parent_org": "IBM",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-12",
+          "status": "Beta",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/generative-computing/llmon",
+          "short_description": "LLMON is an LLM-native markup language that uses reserved special-token delimiters to explicitly mark structure and semantics in model contexts, enabling instruction/data separation that drastically reduces indirect prompt injection attacks while maintaining general capability on Granite 4.1 models.",
+          "key_features": [
+            "Instruction/data separation to block indirect prompt injections",
+            "Reserved special-token delimiters for unambiguous LLM-native structure",
+            "Unique block IDs for binding instructions to data payloads",
+            "Lossless JSON-to-LLMON conversion tools",
+            "Custom domain vocabulary support via LoRA fine-tuning",
+            "Granite 4.1 3B and 8B LLMON-preview models"
+          ],
+          "tags": [
+            "llm",
+            "markup-language",
+            "prompt-injection",
+            "granite",
+            "ibm",
+            "structured-generation",
+            "security",
+            "open-source"
+          ],
+          "last_verified": "2026-11-12"
         }
       ]
     },
@@ -9522,26 +9629,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A new model (gemini-decision-1) that scores candidate options in a single forward pass instead of decoding token by token, delivering fast, calibrated closed-set decisions. It leads across agent routing, reasoning, ranking, and multimodal benchmarks with the lowest calibration error.",
+          "short_description": "A new endpoint for fast, closed-set multimodal decisions powered by Gemini Decision 1, enabling up to 1,000 yes/no, choice, and rubric-scoring evaluations in a single pass across text, images, audio, video, and PDFs.",
           "key_features": [
-            "Lowest calibration error across agent routing, reasoning, ranking, and multimodal benchmarks",
-            "Scores candidate options in a single forward pass without token-by-token decoding",
+            "Native multimodal support across text, images, audio, video, and PDFs in one forward pass",
+            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
             "Confidence scores (0 to 1) for every decision to route ambiguous cases to fallbacks or human reviewers",
             "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
-            "Three decision types: boolean (yes/no), choice (2-255 options), and score (ordered rubric)",
+            "Lowest calibration error across agent routing, reasoning, ranking, and multimodal benchmarks",
             "Native primitives for tool selection, policy checks, model routing, and context grading"
           ],
           "tags": [
             "decision-model",
+            "decision-making",
+            "low-latency",
             "decisions-api",
-            "multimodal",
-            "google-deepmind",
             "decision-api",
-            "gemini",
             "model-routing",
-            "low-latency"
+            "google-deepmind",
+            "api"
           ],
-          "last_verified": "2026-09-21"
+          "last_verified": "2026-11-11"
         }
       ]
     },
@@ -10146,6 +10253,44 @@
             "docker"
           ],
           "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "website": "https://amplitude.com",
+      "description": "Amplitude is a product analytics and experimentation platform that helps teams understand user behavior and accelerate product improvements.",
+      "logo_symbol": "amplitude",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "amplitude-wave",
+          "name": "Amplitude Wave",
+          "parent_org": "Amplitude",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-06",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://amplitude.com",
+          "short_description": "Amplitude Wave is a proactive AI product agent that turns analytics and session data into implementation plans, enabling teams to ship improvements in days rather than months.",
+          "key_features": [
+            "Analyzes session replays, analytics, and code to identify and prioritize product improvement opportunities",
+            "Generates technical plans and acceptance criteria for coding agents such as Codex",
+            "Integrates OpenAI models (GPT‑6.1 Sol, GPT‑6 Luna, GPT‑Image‑2.5 Flare) for reasoning, scanning, and mockup generation",
+            "Tracks impact and iterates based on A/B test results to continuously improve product suggestions"
+          ],
+          "tags": [
+            "ai-agent",
+            "product-analytics",
+            "automation",
+            "openai-integration"
+          ],
+          "last_verified": "2024-09-01"
         }
       ]
     }
