@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-12T00:11:49Z",
-  "total_organizations": 111,
-  "total_tools": 317,
+  "last_updated": "2026-11-12T14:47:15Z",
+  "total_organizations": 117,
+  "total_tools": 331,
   "organizations": [
     {
       "id": "google",
@@ -2308,6 +2308,31 @@
             "scale"
           ],
           "last_verified": "2026-11-12"
+        },
+        {
+          "id": "charter-of-engagement-for-safer-ai-for-children",
+          "name": "Charter of Engagement for Safer AI for Children",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/children-first-declaration",
+          "short_description": "A collaborative initiative and research framework signed by OpenAI to establish global standards, measurement tools, and scientific research for safer, age-appropriate AI.",
+          "key_features": [
+            "Shared principles for safe, age-appropriate AI development",
+            "Development of measurement tools to assess AI risks and opportunities for children",
+            "$2 million funding commitment from OpenAI to support the scientific research network",
+            "Independent research findings publication, including negative or inconclusive results"
+          ],
+          "tags": [
+            "ai-safety",
+            "children's-rights",
+            "research",
+            "policy",
+            "ethics"
+          ],
+          "last_verified": "2026-11-12"
         }
       ]
     },
@@ -2552,6 +2577,30 @@
             "creative"
           ],
           "last_verified": "2025-09-24"
+        },
+        {
+          "id": "facebook-dinov3",
+          "name": "DINOv3",
+          "parent_org": "Meta",
+          "category": "Computer Vision",
+          "release_date": "2025-08",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/collections/facebook/dinov3",
+          "short_description": "DINOv3 is a self-supervised vision backbone that encodes input images into feature tokens, which TRELLIS.2 uses to guide 3D structure, geometry, and material generation.",
+          "key_features": [
+            "Self-supervised image encoding",
+            "Produces feature tokens for conditioning",
+            "Gated model distributed via Hugging Face",
+            "Serves as the vision backbone in the TRELLIS.2 pipeline"
+          ],
+          "tags": [
+            "vision",
+            "image-encoder",
+            "self-supervised",
+            "embeddings"
+          ],
+          "last_verified": "2026-09-21"
         }
       ]
     },
@@ -2719,6 +2768,54 @@
             "storage"
           ],
           "last_verified": "2026-01-01"
+        },
+        {
+          "id": "microsoft-trellis-2",
+          "name": "TRELLIS.2",
+          "parent_org": "Microsoft",
+          "category": "Image Generation",
+          "release_date": "2025-12",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/microsoft/TRELLIS.2",
+          "short_description": "TRELLIS.2 is a 3D generation model that improves 3D structure representation over the original TRELLIS. Its multi-stage pipeline turns a single image into a textured mesh using a unified latent representation and format-specific decoders.",
+          "key_features": [
+            "Unified latent representation with multiple output decoders",
+            "Sparse-structure flow DiT for coarse shape prediction",
+            "Shape flow DiT generating 512x512x512 O-Voxel geometry",
+            "Texture flow DiT for materials, exported as GLB mesh"
+          ],
+          "tags": [
+            "3d-generation",
+            "diffusion-transformer",
+            "mesh",
+            "latent-representation"
+          ],
+          "last_verified": "2026-09-21"
+        },
+        {
+          "id": "microsoft-trellis",
+          "name": "TRELLIS",
+          "parent_org": "Microsoft",
+          "category": "Image Generation",
+          "release_date": "2024-12",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/microsoft/TRELLIS",
+          "short_description": "TRELLIS introduced a common unified latent representation for 3D generation, with decoders that convert it into 3D models in the required output format so a single model can serve multiple representations.",
+          "key_features": [
+            "Unified latent representation for 3D assets",
+            "Structured sparse latents for faster computation",
+            "Decoders for multiple formats (NeRF, 3DGS, mesh)",
+            "Image-to-3D generation pipeline"
+          ],
+          "tags": [
+            "3d-generation",
+            "nerf",
+            "gaussian-splatting",
+            "mesh"
+          ],
+          "last_verified": "2026-09-21"
         }
       ]
     },
@@ -3490,6 +3587,104 @@
             "search"
           ],
           "last_verified": "2026-11-11"
+        },
+        {
+          "id": "huggingface-peft",
+          "name": "PEFT",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/huggingface/peft",
+          "short_description": "PEFT is Hugging Face's parameter-efficient fine-tuning library that adds and trains small LoRA adapter matrices while keeping the original model weights frozen, cutting trainable parameters and memory usage.",
+          "key_features": [
+            "LoRA low-rank adapter training",
+            "Frozen base weights to preserve learned priors",
+            "Reduced gradient and optimizer memory footprint",
+            "Configurable rank for attention and MLP layers"
+          ],
+          "tags": [
+            "fine-tuning",
+            "lora",
+            "peft",
+            "adapters"
+          ],
+          "last_verified": "2026-09-21"
+        },
+        {
+          "id": "huggingface-jobs",
+          "name": "Hugging Face Jobs",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://huggingface.co/jobs",
+          "short_description": "Hugging Face Jobs runs containerized ML workloads on cloud GPU hardware, used in this guide for both dataset preprocessing and LoRA training with encrypted secret handling.",
+          "key_features": [
+            "Containerized workload execution on cloud GPUs",
+            "Hardware flavors such as a100-large (80 GB)",
+            "Encrypted HF_TOKEN secret injection",
+            "Detached runs with resumable timeouts and log streaming"
+          ],
+          "tags": [
+            "cloud-compute",
+            "mlops",
+            "containers",
+            "gpu"
+          ],
+          "last_verified": "2026-09-21"
+        },
+        {
+          "id": "huggingface-trackio",
+          "name": "Trackio",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2025",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/huggingface/trackio",
+          "short_description": "Trackio is a lightweight experiment-tracking tool that records training metrics and provides a dashboard to monitor fine-tuning runs.",
+          "key_features": [
+            "Training metric logging",
+            "Interactive monitoring dashboard",
+            "Run tracking for fine-tuning jobs",
+            "Integrates with the TRELLIS.2 training container"
+          ],
+          "tags": [
+            "experiment-tracking",
+            "mlops",
+            "monitoring",
+            "metrics"
+          ],
+          "last_verified": "2026-09-21"
+        },
+        {
+          "id": "hugging-face-token-pooling-aware-training",
+          "name": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/token-pooling",
+          "short_description": "A training method for multi-vector embedding models that uses token pooling-aware training to preserve retrieval-relevant information when similar token vectors are merged, improving retrieval quality at reduced vector storage budgets.",
+          "key_features": [
+            "HierarchicalTokenPooling with Ward hierarchical clustering",
+            "MultiVectorTokenPoolingLoss combining baseline and pooled retrieval objectives",
+            "Straight-through estimator for gradient flow through pooling",
+            "Kernel acceleration for MaxSim scoring and Ward clustering",
+            "Reproducible Sentence Transformers training scripts"
+          ],
+          "tags": [
+            "token-pooling",
+            "multi-vector-embeddings",
+            "retrieval",
+            "sentence-transformers",
+            "pooling-aware-training"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     },
@@ -9327,26 +9522,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A fast, calibrated multimodal decision API that evaluates up to 1,000 yes/no, multiple choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs, returning probabilities and confidence scores with 150-250 ms end-to-end latency.",
+          "short_description": "A new model (gemini-decision-1) that scores candidate options in a single forward pass instead of decoding token by token, delivering fast, calibrated closed-set decisions. It leads across agent routing, reasoning, ranking, and multimodal benchmarks with the lowest calibration error.",
           "key_features": [
-            "Single-pass multimodal evaluation across text, images, audio, video, and PDFs (up to 256K tokens)",
-            "Up to 1,000 independent yes/no, choice (2-255 options), and ordered rubric questions per request",
+            "Lowest calibration error across agent routing, reasoning, ranking, and multimodal benchmarks",
+            "Scores candidate options in a single forward pass without token-by-token decoding",
             "Confidence scores (0 to 1) for every decision to route ambiguous cases to fallbacks or human reviewers",
-            "150-250 ms end-to-end latency with nearly flat scaling from 1 to 100 questions per request",
-            "$0.10 per 1M input tokens with zero output tokens billed and no separate transcription or OCR costs",
+            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
+            "Three decision types: boolean (yes/no), choice (2-255 options), and score (ordered rubric)",
             "Native primitives for tool selection, policy checks, model routing, and context grading"
           ],
           "tags": [
-            "gemini",
+            "decision-model",
             "decisions-api",
             "multimodal",
-            "api",
             "google-deepmind",
+            "decision-api",
+            "gemini",
             "model-routing",
-            "classification",
-            "inference"
+            "low-latency"
           ],
-          "last_verified": "2026-11-11"
+          "last_verified": "2026-09-21"
         }
       ]
     },
@@ -9713,6 +9908,244 @@
             "product-hunt"
           ],
           "last_verified": "2026-06-22"
+        }
+      ]
+    },
+    {
+      "id": "optimus-ai",
+      "name": "Optimus AI",
+      "website": "https://yourairedlines.com",
+      "description": "Independent personal project inspired by J. Robert Rotblat, the physicist who resigned from the Manhattan Project on grounds of conscience.",
+      "logo_symbol": "optimus-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "ai-red-lines",
+          "name": "AI Red Lines",
+          "parent_org": "Optimus AI",
+          "category": "Productivity & Office",
+          "release_date": "2026-11-12",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://yourairedlines.com",
+          "short_description": "A personal commitment journal that helps people define the specific AI actions that would make them act, and what they would do, turning AI safety intentions into written red lines.",
+          "key_features": [
+            "Write personal AI red lines with if-then triggers",
+            "Define the action to take if a red line is crossed",
+            "Accountability witness system for shared tracking",
+            "Evidence-based reflection and habit-keeping steps",
+            "Anonymous sharing of red lines with others",
+            "Annual re-reading ritual inspired by the Rotblat Line"
+          ],
+          "tags": [
+            "ai-safety",
+            "commitment",
+            "journal",
+            "personal-ai",
+            "safety"
+          ],
+          "last_verified": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "ai-spar",
+      "name": "AI Spar",
+      "website": "https://aispar.app",
+      "description": "AI Spar is a platform that enables multi‑model debate among leading LLMs to provide more comprehensive answers.",
+      "logo_symbol": "ai-spar",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "aispar-app",
+          "name": "AI Spar",
+          "parent_org": "AI Spar",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://aispar.app",
+          "short_description": "AI Spar lets users ask a question to Claude, GPT, and Gemini, which then debate to produce a combined answer that catches gaps single models miss.",
+          "key_features": [
+            "Save conversation history",
+            "Ask follow‑up questions on the debate",
+            "Share conversations via a link",
+            "Attach images or PDFs",
+            "Grounded research with live web search",
+            "Evidence verification in grounded debates"
+          ],
+          "tags": [
+            "debate",
+            "llm",
+            "productivity",
+            "research"
+          ],
+          "last_verified": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": "ai-code-rating",
+      "name": "AI Code Rating",
+      "website": "https://aicoderating.com/",
+      "description": "AI Code Rating is an open standard and disclosure framework for communicating how AI was used in software repositories.",
+      "logo_symbol": "ai-code-rating",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "ai-code-rating-ai-code-rating",
+          "name": "AI Code Rating",
+          "parent_org": "AI Code Rating",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://aicoderating.com/",
+          "short_description": "A three-character disclosure standard that tells readers who maintains a project, how much of its code is AI-written, and how closely humans check AI's work. Projects publish an ACR.md file in their repository root to provide transparent AI usage ratings without judging whether AI use is good or bad.",
+          "key_features": [
+            "Three-position rating: Maintainer expertise (A–E), AI share (0–4), and Oversight (a–e)",
+            "ACR.md file format with machine-readable front matter for badges, linters, and code hosts",
+            "Online rating form, badge generator, and spec validator",
+            "GitHub Action for continuous ACR.md validation on every push",
+            "Public registry of rated projects and comparison to related disclosure standards"
+          ],
+          "tags": [
+            "ai-disclosure",
+            "code-rating",
+            "acr.md",
+            "open-standard",
+            "github",
+            "transparency"
+          ],
+          "last_verified": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "tyler-thinking",
+      "name": "Tyler Thinking",
+      "website": "https://tylerthinking.com",
+      "description": "Tyler Thinking is an independent platform exploring the economic effects of AI.",
+      "logo_symbol": "tyler-thinking",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "tyler-thinking-ai-purgatory",
+          "name": "AI Purgatory",
+          "parent_org": "Tyler Thinking",
+          "category": "Search & Research",
+          "release_date": "2026-05",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://tylerthinking.com/purgatory",
+          "short_description": "AI Purgatory is an interactive economic model that projects how long AI-exposed workers may remain behind before income and well-being recover, and what policy choices affect the timeline.",
+          "key_features": [
+            "Interactive five-question model",
+            "Income and well-being projections",
+            "AI dividend and safety net simulations",
+            "Sensitivity and scenario ranges"
+          ],
+          "tags": [
+            "ai",
+            "labor",
+            "economic-impact",
+            "automation",
+            "policy",
+            "well-being"
+          ],
+          "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "zhengpeng7",
+      "name": "ZhengPeng7",
+      "website": "https://huggingface.co",
+      "description": "Hugging Face is an AI company building an open platform and community for machine learning models, datasets, and developer tools.",
+      "logo_symbol": "zhengpeng7",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Computer"
+      ],
+      "tools": [
+        {
+          "id": "birefnet",
+          "name": "BiRefNet",
+          "parent_org": "ZhengPeng7",
+          "category": "Computer Vision",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/ZhengPeng7/BiRefNet",
+          "short_description": "BiRefNet is a dichotomous image segmentation model that removes the background from input images, isolating the foreground object before it is encoded for 3D generation.",
+          "key_features": [
+            "High-precision background removal",
+            "Dichotomous image segmentation",
+            "Foreground isolation for clean conditioning images",
+            "First stage of the TRELLIS.2 pipeline"
+          ],
+          "tags": [
+            "segmentation",
+            "background-removal",
+            "computer-vision",
+            "preprocessing"
+          ],
+          "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "suvaditya-mukherjee",
+      "name": "Suvaditya Mukherjee",
+      "website": "https://huggingface.co",
+      "description": "Hugging Face is an AI company building an open platform and community for machine learning models, datasets, and developer tools.",
+      "logo_symbol": "suvaditya-mukherjee",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "suvadityamuk-trellis2-finetuning",
+          "name": "TRELLIS.2 Fine-Tuning Toolkit",
+          "parent_org": "Suvaditya Mukherjee",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/suvadityamuk/trellis2-finetuning",
+          "short_description": "An open toolkit providing preprocessing and LoRA fine-tuning scripts plus Docker containers to adapt TRELLIS.2 to custom 3D assets, runnable locally or on Hugging Face Jobs with minimal arguments.",
+          "key_features": [
+            "Preprocessing container converting meshes into TRELLIS.2 latents",
+            "LoRA fine-tuning container with 'ss' and 'shape' modes",
+            "Runs locally via Docker or on Hugging Face Jobs",
+            "Uploads adapter checkpoints to the Hugging Face Hub"
+          ],
+          "tags": [
+            "fine-tuning",
+            "lora",
+            "3d-generation",
+            "docker"
+          ],
+          "last_verified": "2026-09-21"
         }
       ]
     }
