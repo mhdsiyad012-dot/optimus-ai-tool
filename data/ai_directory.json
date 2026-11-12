@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-11T14:01:03Z",
-  "total_organizations": 109,
-  "total_tools": 309,
+  "last_updated": "2026-11-12T00:11:49Z",
+  "total_organizations": 111,
+  "total_tools": 317,
   "organizations": [
     {
       "id": "google",
@@ -2283,6 +2283,31 @@
             "search"
           ],
           "last_verified": "2026-11-11"
+        },
+        {
+          "id": "openai-jiostar-s-chief-architect-on-ai-discovery-at-500m-user-scale",
+          "name": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "parent_org": "OpenAI",
+          "category": "Video & Animation",
+          "release_date": "2026-11-12",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "short_description": "Title: JioStar’s chief architect on AI discovery at 500M-user scale",
+          "key_features": [
+            "Automated AI capabilities powered by OpenAI",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "jiostars",
+            "chief",
+            "architect",
+            "discovery",
+            "500muser",
+            "scale"
+          ],
+          "last_verified": "2026-11-12"
         }
       ]
     },
@@ -2505,6 +2530,28 @@
             "open-source"
           ],
           "last_verified": "2026-10-22"
+        },
+        {
+          "id": "muse-ember",
+          "name": "Muse Ember",
+          "parent_org": "Meta",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-06-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/meta-ai",
+          "short_description": "Muse Ember is Meta's latest AI assistant that helps creators generate and refine content instantly.",
+          "key_features": [
+            "Real-time text generation",
+            "Voice interaction",
+            "Custom style prompts"
+          ],
+          "tags": [
+            "ai",
+            "assistant",
+            "creative"
+          ],
+          "last_verified": "2025-09-24"
         }
       ]
     },
@@ -3414,6 +3461,33 @@
             "capturing",
             "japans",
             "demographics"
+          ],
+          "last_verified": "2026-11-11"
+        },
+        {
+          "id": "huggingface-sentence-transformers-token-pooling",
+          "name": "Sentence Transformers with Token Pooling Support",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://sbert.net/",
+          "short_description": "Token pooling-aware training for multi-vector embedding models, enabling significant reduction in document vectors with minimal retrieval quality loss.",
+          "key_features": [
+            "HierarchicalTokenPooling module for compressing token embeddings",
+            "MultiVectorTokenPoolingLoss for training with pooled representations",
+            "Support for adaptive pooling calibration",
+            "Kernel acceleration for MaxSim and Ward clustering",
+            "Compatible with Sentence Transformers library"
+          ],
+          "tags": [
+            "sentence-transformers",
+            "token-pooling",
+            "multi-vector",
+            "embeddings",
+            "retrieval",
+            "search"
           ],
           "last_verified": "2026-11-11"
         }
@@ -9243,6 +9317,36 @@
             "editing"
           ],
           "last_verified": "2026-11-10"
+        },
+        {
+          "id": "google-deepmind-gemini-decisions-api",
+          "name": "Gemini Decisions API",
+          "parent_org": "Google DeepMind",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://aistudio.google.com/docs/decisions-api",
+          "short_description": "A fast, calibrated multimodal decision API that evaluates up to 1,000 yes/no, multiple choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs, returning probabilities and confidence scores with 150-250 ms end-to-end latency.",
+          "key_features": [
+            "Single-pass multimodal evaluation across text, images, audio, video, and PDFs (up to 256K tokens)",
+            "Up to 1,000 independent yes/no, choice (2-255 options), and ordered rubric questions per request",
+            "Confidence scores (0 to 1) for every decision to route ambiguous cases to fallbacks or human reviewers",
+            "150-250 ms end-to-end latency with nearly flat scaling from 1 to 100 questions per request",
+            "$0.10 per 1M input tokens with zero output tokens billed and no separate transcription or OCR costs",
+            "Native primitives for tool selection, policy checks, model routing, and context grading"
+          ],
+          "tags": [
+            "gemini",
+            "decisions-api",
+            "multimodal",
+            "api",
+            "google-deepmind",
+            "model-routing",
+            "classification",
+            "inference"
+          ],
+          "last_verified": "2026-11-11"
         }
       ]
     },
@@ -9480,6 +9584,135 @@
             "agentic"
           ],
           "last_verified": "2026-11-11"
+        },
+        {
+          "id": "tether-botpsy",
+          "name": "BotPsy",
+          "parent_org": "Tether AI Research",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-11",
+          "status": "Beta",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/qvac/botpsy",
+          "short_description": "BotPsy is a 0.8B-parameter on-device personal assistant and agentic language model built on Qwen3.5-0.8B, designed for privacy-focused tool use and local deployment.",
+          "key_features": [
+            "0.8B-parameter model for function calling and agentic workflows",
+            "Built on Qwen3.5-0.8B and optimized for on-device deployment",
+            "Achieves state-of-the-art tool-use and agentic performance for its size",
+            "Released with open Apache 2.0 weights in bf16, Q8, and Q4 precisions",
+            "Designed for privacy-focused local personal assistant workflows"
+          ],
+          "tags": [
+            "botpsy",
+            "on-device-ai",
+            "agentic-llm",
+            "function-calling",
+            "personal-assistant",
+            "open-source"
+          ],
+          "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "tomaarsen",
+      "name": "tomaarsen",
+      "website": "https://huggingface.co",
+      "description": "Hugging Face is a leading AI platform providing tools for model sharing, training, and deployment, including the Sentence Transformers library.",
+      "logo_symbol": "tomaarsen",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "tomaarsen-mve-modernbert-base-token-pooling",
+          "name": "mve-ModernBERT-base-token-pooling",
+          "parent_org": "tomaarsen",
+          "category": "Search & Research",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/tomaarsen/mve-ModernBERT-base-token-pooling",
+          "short_description": "A multi-vector embedding model trained with token pooling-aware objective, achieving 97.8% retrieval retention with 4x vector reduction.",
+          "key_features": [
+            "Trained with MultiVectorTokenPoolingLoss",
+            "4x reduction in document vectors",
+            "97.8% NanoBEIR nDCG@10 retention",
+            "Based on ModernBERT-base",
+            "Supports adaptive pooling at inference"
+          ],
+          "tags": [
+            "multi-vector-embeddings",
+            "token-pooling",
+            "retrieval",
+            "modernbert",
+            "search"
+          ],
+          "last_verified": "2026-11-11"
+        },
+        {
+          "id": "tomaarsen-mve-modernbert-base-token-pooling-baseline",
+          "name": "mve-ModernBERT-base-token-pooling-baseline",
+          "parent_org": "tomaarsen",
+          "category": "Search & Research",
+          "release_date": "2026-11-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/tomaarsen/mve-ModernBERT-base-token-pooling-baseline",
+          "short_description": "Baseline multi-vector embedding model without token pooling-aware training, achieving 94.6% retention with 4x vector reduction.",
+          "key_features": [
+            "Baseline multi-vector model",
+            "4x reduction in document vectors",
+            "94.6% NanoBEIR nDCG@10 retention",
+            "Based on ModernBERT-base"
+          ],
+          "tags": [
+            "multi-vector-embeddings",
+            "baseline",
+            "retrieval",
+            "modernbert",
+            "search"
+          ],
+          "last_verified": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "scroogefrog-ai",
+      "name": "ScroogeFrog AI",
+      "website": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
+      "description": "ScroogeFrog AI is the product name shown in the source metadata; no additional organization details were available.",
+      "logo_symbol": "scroogefrog-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "scroogefrog-ai-antifraud",
+          "name": "ScroogeFrog AI",
+          "parent_org": "ScroogeFrog AI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-06",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
+          "short_description": "ScroogeFrog AI is an AI-powered anti-fraud product listed on Product Hunt. The source page was protected by a CAPTCHA, so detailed product information was not available.",
+          "key_features": [
+            "AI-powered anti-fraud",
+            "Fraud detection",
+            "Product Hunt listing"
+          ],
+          "tags": [
+            "anti-fraud",
+            "ai",
+            "security",
+            "product-hunt"
+          ],
+          "last_verified": "2026-06-22"
         }
       ]
     }

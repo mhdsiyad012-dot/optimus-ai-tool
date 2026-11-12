@@ -825,3 +825,16 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **[Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context](https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan)** (Hugging Face) — *Image Generation* (Open Source): Title: Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context
   - **Refreshed:**
     - **Brigade** (Brigade) verified on 2025-11-03
+
+### [2026-11-12 00:11 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 8
+- **Existing Tools Refreshed:** 0
+  - **Added:**
+    - **[Gemini Decisions API](https://aistudio.google.com/docs/decisions-api)** (Google DeepMind) — *Developer Platforms & APIs* (Freemium): A fast, calibrated multimodal decision API that evaluates up to 1,000 yes/no, multiple choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs, returning probabilities and confidence scores with 150-250 ms end-to-end latency.
+    - **[JioStar’s chief architect on AI discovery at 500M-user scale](https://openai.com/index/jiostar-vijay-seshadri)** (OpenAI) — *Video & Animation* (Free): Title: JioStar’s chief architect on AI discovery at 500M-user scale
+    - **[BotPsy](https://huggingface.co/blog/qvac/botpsy)** (Tether AI Research) — *Autonomous Agents & Coding* (Open Source): BotPsy is a 0.8B-parameter on-device personal assistant and agentic language model built on Qwen3.5-0.8B, designed for privacy-focused tool use and local deployment.
+    - **[Sentence Transformers with Token Pooling Support](https://sbert.net/)** (Hugging Face) — *Developer Platforms & APIs* (Open Source): Token pooling-aware training for multi-vector embedding models, enabling significant reduction in document vectors with minimal retrieval quality loss.
+    - **[mve-ModernBERT-base-token-pooling](https://huggingface.co/tomaarsen/mve-ModernBERT-base-token-pooling)** (tomaarsen) — *Search & Research* (Open Source): A multi-vector embedding model trained with token pooling-aware objective, achieving 97.8% retrieval retention with 4x vector reduction.
+    - **[mve-ModernBERT-base-token-pooling-baseline](https://huggingface.co/tomaarsen/mve-ModernBERT-base-token-pooling-baseline)** (tomaarsen) — *Search & Research* (Open Source): Baseline multi-vector embedding model without token pooling-aware training, achieving 94.6% retention with 4x vector reduction.
+    - **[ScroogeFrog AI](https://www.producthunt.com/products/scroogefrog-ai-antifraud)** (ScroogeFrog AI) — *Developer Platforms & APIs* (Freemium): ScroogeFrog AI is an AI-powered anti-fraud product listed on Product Hunt. The source page was protected by a CAPTCHA, so detailed product information was not available.
+    - **[Muse Ember](https://www.producthunt.com/products/meta-ai)** (Meta) — *LLMs & Frontier Models* (Freemium): Muse Ember is Meta's latest AI assistant that helps creators generate and refine content instantly.
