@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-13T14:05:18Z",
-  "total_organizations": 121,
-  "total_tools": 341,
+  "last_updated": "2026-11-13T23:20:29Z",
+  "total_organizations": 123,
+  "total_tools": 345,
   "organizations": [
     {
       "id": "google",
@@ -1034,26 +1034,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's software engineering agent, powered by the GPT-5 family of models, which can explore repositories, prototype interfaces, write and test code, and open pull requests from the cloud, the command line, the editor, or GitHub. It lets product and business teams ship working first versions themselves, while engineers focus on architecture, security, and production readiness.",
+          "short_description": "OpenAI's AI software engineering agent that autonomously writes, reviews, and ships code. It helps teams build and iterate faster, as shown by Gondola doubling revenue while shipping more with Codex.",
           "key_features": [
             "Rapid prototyping of UI and workflows",
-            "Agentic coding",
-            "Agentic AI software engineering coursework",
-            "Enables non-engineers to merge their first code contributions, with engineers retaining ownership of architecture, security, data handling, and production readiness",
             "Codex Cloud explores the codebase, prototypes interfaces and workflows, tests assumptions, and delivers functional first versions",
-            "Data cleaning and standardization"
+            "Integrates with ChatGPT and existing developer workflows",
+            "Runs tasks in cloud-based sandboxed environments",
+            "Code review and pull request assistance",
+            "Enables non-engineers to merge their first code contributions, with engineers retaining ownership of architecture, security, data handling, and production readiness"
           ],
           "tags": [
             "software-engineering",
+            "ai-development",
+            "software-development",
+            "code-generation",
+            "coding",
             "prototyping",
             "openai",
-            "ai-development",
-            "coding",
-            "coding-agent",
-            "llm",
-            "software-development"
+            "coding-agent"
           ],
-          "last_verified": "2026-08-26"
+          "last_verified": "2026-09-21"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -2384,6 +2384,33 @@
             "ethics"
           ],
           "last_verified": "2026-11-12"
+        },
+        {
+          "id": "chatgpt-wallet",
+          "name": "ChatGPT Wallet",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2025-12-03",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "short_description": "ChatGPT Wallet lets AI agents make purchases on a user's behalf through secure, per-transaction approval and tokenized card payments, initially rolling out to ChatGPT Pro subscribers in the US.",
+          "key_features": [
+            "Allows agents to pay without access to users' actual card details",
+            "Requires user approval and security check for each purchase",
+            "Uses payment tokens instead of actual card details",
+            "Built in partnership with American Express, Mastercard, and Visa",
+            "Initially available through dots for ChatGPT Pro subscribers in the US",
+            "Includes Commerce Partner Playbook for businesses"
+          ],
+          "tags": [
+            "chatgpt",
+            "ai-agents",
+            "agentic-commerce",
+            "payments",
+            "security"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     },
@@ -9690,26 +9717,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "Gemini Decisions API provides fast, calibrated multimodal decision-making across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions in a single forward pass with confidence scores and low latency.",
+          "short_description": "A purpose-built endpoint for fast, closed-set decisions powered by the Gemini Decision 1 model. It evaluates up to 1,000 yes/no, choice, and rubric-scoring questions in a single forward pass across multimodal inputs, returning calibrated probabilities and confidence scores in under 250ms.",
           "key_features": [
-            "Low latency and cost efficiency",
-            "Single-pass scoring with confidence scores",
-            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
-            "Multimodal inputs across text, images, audio, video, and PDFs",
+            "Single-pass evaluation of up to 1,000 independent yes/no, multiple-choice, and ordered rubric questions against a shared multimodal input",
             "Low latency (150-250ms end-to-end) with $0.10 per 1M input tokens pricing",
-            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens"
+            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
+            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
+            "Native multimodal processing of text, images, audio, video, and PDFs up to 256K tokens in a unified forward pass",
+            "Low latency and cost efficiency"
           ],
           "tags": [
-            "model-routing",
-            "api",
-            "gemini",
-            "ai",
             "decisions-api",
-            "confidence-scoring",
-            "multimodal",
-            "decisions"
+            "decision-making",
+            "low-latency",
+            "ai",
+            "gemini",
+            "decisions",
+            "model-routing",
+            "multimodal"
           ],
-          "last_verified": "2026-11-13"
+          "last_verified": "2026-11-11"
         }
       ]
     },
@@ -10335,29 +10362,29 @@
           "parent_org": "Amplitude",
           "category": "Autonomous Agents & Coding",
           "release_date": "2024-06",
-          "status": "Active",
-          "pricing": "Freemium",
+          "status": "Beta",
+          "pricing": "Paid",
           "official_url": "https://amplitude.com",
-          "short_description": "Wave is Amplitude's AI-powered proactive product agent that transforms product insights into implementation plans and ships improvements in days by leveraging OpenAI models for analysis, code generation, and mockup creation.",
+          "short_description": "Amplitude Wave is a proactive product agent that turns analytics, session replays, and customer feedback into shipped product improvements in 1–2 days. It autonomously identifies opportunities, generates technical plans, and coordinates implementation with coding agents like Codex.",
           "key_features": [
-            "Tracks outcomes and continuously learns to inform future improvements",
+            "Technical plan and acceptance criteria generation for engineering handoff",
             "Analyzes session replays, analytics, and code to identify and prioritize product improvement opportunities",
-            "Enables direct sending of opportunities to coding agents such as Codex",
             "Tracks impact and iterates based on A/B test results to continuously improve product suggestions",
-            "Tracks outcomes and uses learnings for continuous product improvements",
+            "Integration with coding agents including Codex and Wave Code Agent",
+            "Enables direct sending of opportunities to coding agents such as Codex",
             "Coordinates implementation with people and coding agents like Codex"
           ],
           "tags": [
-            "automation",
-            "ai-agent",
             "product-analytics",
-            "coding-agent-integration",
-            "autonomous-agent",
-            "openai",
             "productivity",
-            "ai"
+            "autonomous-agent",
+            "ai",
+            "ai-agent",
+            "coding-agent-integration",
+            "openai",
+            "coding-agents"
           ],
-          "last_verified": "2024-01-01"
+          "last_verified": "2025-06-12"
         }
       ]
     },
@@ -10477,6 +10504,99 @@
             "open-source"
           ],
           "last_verified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "ggml-org",
+      "name": "ggml-org",
+      "website": "https://huggingface.co/ggml-org",
+      "description": "ggml-org is an open-source software team within Hugging Face focused on building high-performance, portable machine learning libraries for local AI inference.",
+      "logo_symbol": "ggml-org",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "ggml-org-llama-cpp",
+          "name": "llama.cpp",
+          "parent_org": "ggml-org",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-13",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/ggml-org/llama.cpp",
+          "short_description": "A lightweight, portable C/C++ library for running large language models on consumer-grade hardware, supporting multi-modal LLMs and quantization.",
+          "key_features": [
+            "Multi-modal LLM inference on consumer hardware",
+            "Quantization support for efficient memory usage",
+            "Portable C/C++ implementation for cross-platform deployment",
+            "Support for 150+ model architectures and speculative decoding"
+          ],
+          "tags": [
+            "llm",
+            "inference",
+            "c++",
+            "quantization",
+            "open-source",
+            "local-ai"
+          ],
+          "last_verified": "2026-11-13"
+        },
+        {
+          "id": "ggml-org-ggml",
+          "name": "ggml",
+          "parent_org": "ggml-org",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-13",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/ggml-org/ggml",
+          "short_description": "A high-performance tensor library for machine learning, designed to run on virtually any hardware with dynamic backend loading.",
+          "key_features": [
+            "Dynamic backend loading for various hardware targets",
+            "Lightweight tensor operations for machine learning",
+            "Cross-platform compatibility (Linux, macOS, Windows, iOS, Android)",
+            "Extensible API for integrating custom backends"
+          ],
+          "tags": [
+            "tensor",
+            "machine-learning",
+            "c++",
+            "backend",
+            "open-source"
+          ],
+          "last_verified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "trainn",
+      "name": "Trainn",
+      "website": "https://www.producthunt.com/products/trainn",
+      "description": "Trainn AI research, products, and applications ecosystem.",
+      "logo_symbol": "trainn",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "trainn-mcp",
+          "name": "Trainn MCP",
+          "parent_org": "Trainn",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-13",
+          "status": "Active",
+          "pricing": "Unknown",
+          "official_url": "https://www.producthunt.com/products/trainn",
+          "short_description": "Trainn MCP is a product listed on Product Hunt. Detailed information is unavailable due to a CAPTCHA on the page.",
+          "key_features": [],
+          "tags": [],
+          "last_verified": "2024-01-01"
         }
       ]
     }
