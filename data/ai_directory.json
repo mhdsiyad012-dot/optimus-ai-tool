@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-12T23:18:08Z",
-  "total_organizations": 118,
-  "total_tools": 336,
+  "last_updated": "2026-11-13T05:27:07Z",
+  "total_organizations": 119,
+  "total_tools": 339,
   "organizations": [
     {
       "id": "google",
@@ -828,6 +828,32 @@
             "google"
           ],
           "last_verified": "2026-11-12"
+        },
+        {
+          "id": "google-trellis-2",
+          "name": "TRELLIS.2",
+          "parent_org": "Google",
+          "category": "Computer Vision",
+          "release_date": "2025-03",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/google-research/trellis",
+          "short_description": "TRELLIS.2 is a 3D generative model that uses a unified latent representation to turn images into textured 3D meshes, and this guide explains how to fine-tune it with LoRA for specific object categories.",
+          "key_features": [
+            "Unified latent representation",
+            "LoRA fine-tuning",
+            "Sparse-structure and shape flow DiTs",
+            "Texture flow freezing",
+            "GLB mesh export"
+          ],
+          "tags": [
+            "3d-generation",
+            "lora",
+            "fine-tuning",
+            "generative-ai",
+            "computer-vision"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     },
@@ -851,28 +877,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2022-11-30",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "A large language model that helps caregivers use AI confidently, safely, and practically for everyday life tasks such as resource navigation, scheduling, and support group preparation.",
+          "short_description": "A conversational AI assistant that helps users generate text, automate tasks, and obtain information across various applications.",
           "key_features": [
-            "Resource navigation assistance",
-            "Community and support resource navigation",
-            "Large language model",
             "Plain-language material creation from educational resources",
-            "Helping caregivers use AI confidently and safely",
-            "Support group discussion guide preparation"
+            "Community and support resource navigation",
+            "Supports both free and paid tiers",
+            "Support group discussion guide preparation",
+            "Large language model",
+            "Natural language conversation for diverse tasks"
           ],
           "tags": [
-            "nonprofit-partnership",
-            "caregiving",
-            "ai",
-            "productivity",
-            "ai-education",
-            "safety",
+            "communication",
             "ai-impact",
-            "healthcare"
+            "ai",
+            "healthcare",
+            "productivity",
+            "safety",
+            "ai-education",
+            "nonprofit-partnership"
           ],
-          "last_verified": "2024-11-10"
+          "last_verified": "2023-12-31"
         },
         {
           "id": "openai-gpt-4o",
@@ -1006,28 +1032,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Free",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's AI coding agent integrated into university computer science programs and industry projects, enabling students to accelerate software development from months to weeks through agentic AI software engineering.",
+          "short_description": "An AI-powered development assistant that lets engineers and product teams generate code, prototype interfaces, and automate software creation through natural language prompts.",
           "key_features": [
+            "Rapid prototyping of UI and workflows",
             "Agentic AI software engineering coursework",
-            "Natural language code generation",
             "Agentic coding",
-            "AI-assisted software engineering",
             "Data cleaning and standardization",
-            "Simulation setup and execution"
+            "Simulation setup and execution",
+            "Integration with GitHub and command-line tools"
           ],
           "tags": [
-            "llm",
-            "ai-coding",
-            "developer-tools",
             "openai",
-            "mcp",
-            "software-engineering",
             "ai-development",
-            "ai-agent"
+            "mcp",
+            "ai",
+            "coding",
+            "llm",
+            "productivity",
+            "software-engineering"
           ],
-          "last_verified": "2026-08"
+          "last_verified": "2023-12-31"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -4728,24 +4754,53 @@
           "status": "Beta",
           "pricing": "Open Source",
           "official_url": "https://github.com/generative-computing/llmon",
-          "short_description": "LLMON is an LLM-native markup language that uses reserved special-token delimiters to explicitly mark structure and semantics in model contexts, enabling instruction/data separation that drastically reduces indirect prompt injection attacks while maintaining general capability on Granite 4.1 models.",
+          "short_description": "An LLM-native markup language that uses reserved special-token delimiters to explicitly communicate structure and semantics to language models, enabling instruction/data separation that resists indirect prompt injection while maintaining general capability.",
           "key_features": [
-            "Instruction/data separation to block indirect prompt injections",
-            "Reserved special-token delimiters for unambiguous LLM-native structure",
             "Unique block IDs for binding instructions to data payloads",
+            "Reserved special-token delimiters for unambiguous LLM-native structure",
+            "Granite 4.1 3B and 8B LLMON-preview models",
+            "Reserved special-token delimiters for explicit structure",
             "Lossless JSON-to-LLMON conversion tools",
-            "Custom domain vocabulary support via LoRA fine-tuning",
-            "Granite 4.1 3B and 8B LLMON-preview models"
+            "Custom domain vocabulary support via LoRA fine-tuning"
           ],
           "tags": [
-            "llm",
-            "markup-language",
             "prompt-injection",
             "granite",
-            "ibm",
-            "structured-generation",
+            "llm",
             "security",
-            "open-source"
+            "open-source",
+            "structured-generation",
+            "markup-language",
+            "ibm"
+          ],
+          "last_verified": "2026-11-12"
+        },
+        {
+          "id": "ibm-granite-granite-4-1-3b-llmon-preview",
+          "name": "granite-4.1-3b-LLMON-preview",
+          "parent_org": "IBM",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-12",
+          "status": "Beta",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "short_description": "An 8B parameter experimental preview model derived from Granite 4.1 base, trained to consume and generate LLMON-marked text with strong resistance to indirect prompt injection.",
+          "key_features": [
+            "General capability on par with Granite 4.1 Instruct",
+            "LLMON-native post-training with GRPO and DPO",
+            "8B parameter Granite 4.1 base model",
+            "3B parameter Granite 4.1 base model",
+            "Explicit instruction/data binding via execution blocks",
+            "Indirect prompt injection mitigation"
+          ],
+          "tags": [
+            "prompt-injection",
+            "granite",
+            "llm",
+            "3b",
+            "8b",
+            "preview",
+            "ibm"
           ],
           "last_verified": "2026-11-12"
         }
@@ -9629,26 +9684,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A new endpoint for fast, closed-set multimodal decisions powered by Gemini Decision 1, enabling up to 1,000 yes/no, choice, and rubric-scoring evaluations in a single pass across text, images, audio, video, and PDFs.",
+          "short_description": "A new Google DeepMind API for fast, calibrated multimodal decisions that evaluates yes/no, multiple-choice, and rubric questions in a single pass.",
           "key_features": [
-            "Native multimodal support across text, images, audio, video, and PDFs in one forward pass",
-            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
-            "Confidence scores (0 to 1) for every decision to route ambiguous cases to fallbacks or human reviewers",
             "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
-            "Lowest calibration error across agent routing, reasoning, ranking, and multimodal benchmarks",
-            "Native primitives for tool selection, policy checks, model routing, and context grading"
+            "Single-pass scoring with confidence scores",
+            "Low latency and cost efficiency",
+            "Multimodal inputs across text, images, audio, video, and PDFs",
+            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
+            "Up to 1,000 independent questions per request"
           ],
           "tags": [
-            "decision-model",
-            "decision-making",
-            "low-latency",
-            "decisions-api",
-            "decision-api",
             "model-routing",
-            "google-deepmind",
-            "api"
+            "llm",
+            "decision-api",
+            "decision-model",
+            "multimodal-ai",
+            "decisions-api",
+            "low-latency",
+            "decision-making"
           ],
-          "last_verified": "2026-11-11"
+          "last_verified": "2026-05-09"
         }
       ]
     },
@@ -10277,20 +10332,68 @@
           "status": "Beta",
           "pricing": "Freemium",
           "official_url": "https://amplitude.com",
-          "short_description": "Amplitude Wave is a proactive AI product agent that turns analytics and session data into implementation plans, enabling teams to ship improvements in days rather than months.",
+          "short_description": "Amplitude's proactive product agent Wave helps teams turn product insights into shipped improvements, reducing shipping time from a month to 1–2 days.",
           "key_features": [
-            "Analyzes session replays, analytics, and code to identify and prioritize product improvement opportunities",
-            "Generates technical plans and acceptance criteria for coding agents such as Codex",
             "Integrates OpenAI models (GPT‑6.1 Sol, GPT‑6 Luna, GPT‑Image‑2.5 Flare) for reasoning, scanning, and mockup generation",
-            "Tracks impact and iterates based on A/B test results to continuously improve product suggestions"
+            "Analyzes session replays, analytics, and code to identify and prioritize product improvement opportunities",
+            "Tracks outcomes and uses learnings for continuous product improvements",
+            "Tracks impact and iterates based on A/B test results to continuously improve product suggestions",
+            "Turns product insights into implementation plans for coding agents",
+            "Coordinates implementation with people and coding agents like Codex"
           ],
           "tags": [
-            "ai-agent",
-            "product-analytics",
+            "workflow-automation",
+            "openai-integration",
+            "autonomous-agent",
             "automation",
-            "openai-integration"
+            "coding-agent-integration",
+            "ai-agent",
+            "product-analytics"
           ],
-          "last_verified": "2024-09-01"
+          "last_verified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "space-bear",
+      "name": "space bear",
+      "website": "https://nonloop.github.io/webstore/ai-math-kit/privacy.html",
+      "description": "space bear is an independent developer creating AI-assisted math exploration tools with a focus on honesty, privacy, and accessibility.",
+      "logo_symbol": "space-bear",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Reasoning"
+      ],
+      "tools": [
+        {
+          "id": "space-bear-ai-math-kit",
+          "name": "AI Math Kit",
+          "parent_org": "space bear",
+          "category": "Reasoning & Math",
+          "release_date": "2026-11-10",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://chromewebstore.google.com/detail/ai-math-kit/acdddhokifmffbmnelpfcnhbpdedadkj",
+          "short_description": "A Chrome extension that puts 217 open math problems, 242 AI/formalization breakthrough guides, and honest exploration prompts into a single toolbar popup — letting you browse number theory and calculus mysteries, learn about recent AI-assisted progress, and query AI responsibly without leaving your browser.",
+          "key_features": [
+            "217 plain-language open problems across six chapters (primes, divisibility, additive number theory, Diophantine equations, integer sequences, miscellaneous)",
+            "242 AI/formalization breakthrough guides with scope notes and paper hints",
+            "Multilingual UI (English, Chinese, Japanese) with breakthrough copy in three languages",
+            "Explore tab with prompt templates and an honesty charter to prevent treating AI drafts as proofs",
+            "Local payment caching (15 days paid / 7 days unpaid) and privacy-first design — no data collection"
+          ],
+          "tags": [
+            "math-education",
+            "open-problems",
+            "number-theory",
+            "calculus",
+            "ai-assisted-research",
+            "formalization",
+            "chrome-extension",
+            "honest-ai"
+          ],
+          "last_verified": "2026-11-10"
         }
       ]
     }

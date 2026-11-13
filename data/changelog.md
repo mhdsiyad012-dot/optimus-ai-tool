@@ -873,3 +873,18 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
   - **Refreshed:**
     - **Gemini Decisions API** (Google DeepMind) verified on 2026-11-11
     - **Hugging Face Jobs** (Hugging Face) verified on 2026-11-12
+
+### [2026-11-13 05:27 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 3
+- **Existing Tools Refreshed:** 6
+  - **Added:**
+    - **[AI Math Kit](https://chromewebstore.google.com/detail/ai-math-kit/acdddhokifmffbmnelpfcnhbpdedadkj)** (space bear) — *Reasoning & Math* (Freemium): A Chrome extension that puts 217 open math problems, 242 AI/formalization breakthrough guides, and honest exploration prompts into a single toolbar popup — letting you browse number theory and calculus mysteries, learn about recent AI-assisted progress, and query AI responsibly without leaving your browser.
+    - **[granite-4.1-3b-LLMON-preview](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite)** (IBM) — *LLMs & Frontier Models* (Open Source): A 3B parameter experimental preview model derived from Granite 4.1 base, trained to consume and generate LLMON-marked text with strong resistance to indirect prompt injection.
+    - **[TRELLIS.2](https://github.com/google-research/trellis)** (Google) — *Computer Vision* (Open Source): TRELLIS.2 is a 3D generative model that uses a unified latent representation to turn images into textured 3D meshes, and this guide explains how to fine-tune it with LoRA for specific object categories.
+  - **Refreshed:**
+    - **Gemini Decisions API** (Google DeepMind) verified on 2026-05-09
+    - **Wave** (Amplitude) verified on 2026-11-13
+    - **Codex** (OpenAI) verified on 2023-12-31
+    - **ChatGPT** (OpenAI) verified on 2023-12-31
+    - **LLMON (LLM Object Notation)** (IBM) verified on 2026-11-12
+    - **granite-4.1-8b-LLMON-preview** (IBM) verified on 2026-11-12
