@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-13T05:27:07Z",
-  "total_organizations": 119,
-  "total_tools": 339,
+  "last_updated": "2026-11-13T14:05:18Z",
+  "total_organizations": 121,
+  "total_tools": 341,
   "organizations": [
     {
       "id": "google",
@@ -879,26 +879,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "A conversational AI assistant that helps users generate text, automate tasks, and obtain information across various applications.",
+          "short_description": "OpenAI's conversational AI assistant for drafting, research, and everyday knowledge work, which can be set up as repeatable templates connected to company systems. Gondola uses it to generate a comprehensive daily report that replaces hours of manual preparation.",
           "key_features": [
-            "Plain-language material creation from educational resources",
-            "Community and support resource navigation",
-            "Supports both free and paid tiers",
-            "Support group discussion guide preparation",
+            "Natural language conversation for diverse tasks",
+            "Connects to Google Workspace (Gmail, Calendar, Sheets, Drive), Asana, Slack, QuickBooks, weather information, and other sources",
             "Large language model",
-            "Natural language conversation for diverse tasks"
+            "Community and support resource navigation",
+            "Custom report templates that employees can run first thing in the morning to plan their day",
+            "Supports both free and paid tiers"
           ],
           "tags": [
-            "communication",
-            "ai-impact",
-            "ai",
-            "healthcare",
-            "productivity",
+            "nonprofit-partnership",
             "safety",
             "ai-education",
-            "nonprofit-partnership"
+            "ai-impact",
+            "ai-assistant",
+            "healthcare",
+            "business-productivity",
+            "openai"
           ],
-          "last_verified": "2023-12-31"
+          "last_verified": "2026-08-26"
         },
         {
           "id": "openai-gpt-4o",
@@ -1032,28 +1032,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Freemium",
           "official_url": "https://openai.com/codex/",
-          "short_description": "An AI-powered development assistant that lets engineers and product teams generate code, prototype interfaces, and automate software creation through natural language prompts.",
+          "short_description": "OpenAI's software engineering agent, powered by the GPT-5 family of models, which can explore repositories, prototype interfaces, write and test code, and open pull requests from the cloud, the command line, the editor, or GitHub. It lets product and business teams ship working first versions themselves, while engineers focus on architecture, security, and production readiness.",
           "key_features": [
             "Rapid prototyping of UI and workflows",
-            "Agentic AI software engineering coursework",
             "Agentic coding",
-            "Data cleaning and standardization",
-            "Simulation setup and execution",
-            "Integration with GitHub and command-line tools"
+            "Agentic AI software engineering coursework",
+            "Enables non-engineers to merge their first code contributions, with engineers retaining ownership of architecture, security, data handling, and production readiness",
+            "Codex Cloud explores the codebase, prototypes interfaces and workflows, tests assumptions, and delivers functional first versions",
+            "Data cleaning and standardization"
           ],
           "tags": [
+            "software-engineering",
+            "prototyping",
             "openai",
             "ai-development",
-            "mcp",
-            "ai",
             "coding",
+            "coding-agent",
             "llm",
-            "productivity",
-            "software-engineering"
+            "software-development"
           ],
-          "last_verified": "2023-12-31"
+          "last_verified": "2026-08-26"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -2829,20 +2829,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/microsoft/TRELLIS.2",
-          "short_description": "TRELLIS.2 is a 3D generation model that improves 3D structure representation over the original TRELLIS. Its multi-stage pipeline turns a single image into a textured mesh using a unified latent representation and format-specific decoders.",
+          "short_description": "TRELLIS.2 is a 3D generative model that uses a unified latent representation to create detailed 3D assets from images, and this guide explains how to fine-tune it with LoRA for specialized outputs.",
           "key_features": [
+            "Unified latent representation for 3D generation",
+            "Open source codebase",
+            "Texture flow DiT for materials, exported as GLB mesh",
+            "Hugging Face Jobs and Docker integration",
             "Unified latent representation with multiple output decoders",
-            "Sparse-structure flow DiT for coarse shape prediction",
-            "Shape flow DiT generating 512x512x512 O-Voxel geometry",
-            "Texture flow DiT for materials, exported as GLB mesh"
+            "Sparse-structure flow DiT for coarse shape prediction"
           ],
           "tags": [
-            "3d-generation",
+            "lora",
+            "diffusion",
+            "fine-tuning",
             "diffusion-transformer",
-            "mesh",
-            "latent-representation"
+            "generative-ai",
+            "latent-representation",
+            "computer-vision",
+            "3d-generation"
           ],
-          "last_verified": "2026-09-21"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "microsoft-trellis",
@@ -9684,26 +9690,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A new Google DeepMind API for fast, calibrated multimodal decisions that evaluates yes/no, multiple-choice, and rubric questions in a single pass.",
+          "short_description": "Gemini Decisions API provides fast, calibrated multimodal decision-making across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions in a single forward pass with confidence scores and low latency.",
           "key_features": [
-            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
-            "Single-pass scoring with confidence scores",
             "Low latency and cost efficiency",
-            "Multimodal inputs across text, images, audio, video, and PDFs",
+            "Single-pass scoring with confidence scores",
             "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
-            "Up to 1,000 independent questions per request"
+            "Multimodal inputs across text, images, audio, video, and PDFs",
+            "Low latency (150-250ms end-to-end) with $0.10 per 1M input tokens pricing",
+            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens"
           ],
           "tags": [
             "model-routing",
-            "llm",
-            "decision-api",
-            "decision-model",
-            "multimodal-ai",
+            "api",
+            "gemini",
+            "ai",
             "decisions-api",
-            "low-latency",
-            "decision-making"
+            "confidence-scoring",
+            "multimodal",
+            "decisions"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2026-11-13"
         }
       ]
     },
@@ -10329,28 +10335,29 @@
           "parent_org": "Amplitude",
           "category": "Autonomous Agents & Coding",
           "release_date": "2024-06",
-          "status": "Beta",
+          "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://amplitude.com",
-          "short_description": "Amplitude's proactive product agent Wave helps teams turn product insights into shipped improvements, reducing shipping time from a month to 1–2 days.",
+          "short_description": "Wave is Amplitude's AI-powered proactive product agent that transforms product insights into implementation plans and ships improvements in days by leveraging OpenAI models for analysis, code generation, and mockup creation.",
           "key_features": [
-            "Integrates OpenAI models (GPT‑6.1 Sol, GPT‑6 Luna, GPT‑Image‑2.5 Flare) for reasoning, scanning, and mockup generation",
+            "Tracks outcomes and continuously learns to inform future improvements",
             "Analyzes session replays, analytics, and code to identify and prioritize product improvement opportunities",
-            "Tracks outcomes and uses learnings for continuous product improvements",
+            "Enables direct sending of opportunities to coding agents such as Codex",
             "Tracks impact and iterates based on A/B test results to continuously improve product suggestions",
-            "Turns product insights into implementation plans for coding agents",
+            "Tracks outcomes and uses learnings for continuous product improvements",
             "Coordinates implementation with people and coding agents like Codex"
           ],
           "tags": [
-            "workflow-automation",
-            "openai-integration",
-            "autonomous-agent",
             "automation",
-            "coding-agent-integration",
             "ai-agent",
-            "product-analytics"
+            "product-analytics",
+            "coding-agent-integration",
+            "autonomous-agent",
+            "openai",
+            "productivity",
+            "ai"
           ],
-          "last_verified": "2026-11-13"
+          "last_verified": "2024-01-01"
         }
       ]
     },
@@ -10394,6 +10401,82 @@
             "honest-ai"
           ],
           "last_verified": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ai-news-agg",
+      "name": "AI News Agg",
+      "website": "https://ainewsagg.com",
+      "description": "AI News Agg is a news aggregation platform that curates AI-related articles from multiple sources.",
+      "logo_symbol": "ai-news-agg",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "ainewsagg-ai-news-agg",
+          "name": "AI News Agg",
+          "parent_org": "AI News Agg",
+          "category": "Search & Research",
+          "release_date": "2023-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://ainewsagg.com/",
+          "short_description": "AI News Agg aggregates AI news from 48 selected sources into a single trending feed, helping users stay updated on the latest AI developments.",
+          "key_features": [
+            "Email alerts for trending stories",
+            "Feed filter",
+            "Feed bookmarks",
+            "Custom daily brief"
+          ],
+          "tags": [
+            "ai",
+            "news",
+            "aggregation",
+            "trending"
+          ],
+          "last_verified": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": "catalinux",
+      "name": "catalinux",
+      "website": "https://rocketgit.com/user/catalinux",
+      "description": "catalinux is the individual developer behind the AI-drop project on RocketGit.",
+      "logo_symbol": "catalinux",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "catalinux-ai-drop",
+          "name": "AI-drop",
+          "parent_org": "catalinux",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-09-29",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://rocketgit.com/user/catalinux/ai-drop",
+          "short_description": "AI-drop is an eBPF-powered system utility that rapidly blocks misbehaving crawler IPs, with resume functionality and a modular tree architecture for upstream/downstream traffic management.",
+          "key_features": [
+            "eBPF-based fast IP dropping for misbehaving crawlers",
+            "Resume misbehaving IPs list after interruption",
+            "Tree-like architecture supporting upstream and downstream nodes",
+            "AGPL-licensed daemon with CLI statistics and control"
+          ],
+          "tags": [
+            "ebpf",
+            "traffic-filtering",
+            "crawler-blocking",
+            "open-source"
+          ],
+          "last_verified": "2026-11-13"
         }
       ]
     }
