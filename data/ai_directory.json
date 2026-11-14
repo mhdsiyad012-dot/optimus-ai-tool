@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-13T23:20:29Z",
+  "last_updated": "2026-11-14T05:13:33Z",
   "total_organizations": 123,
   "total_tools": 345,
   "organizations": [
@@ -1089,26 +1089,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI's defensive security capability adopted by Adelaide University for authorized cyber defense operations, including vulnerability discovery, secure code review, malware analysis, and incident response.",
+          "short_description": "The OpenAI Platform provides enterprise-grade access to state-of-the-art large language models, enabling organizations like Shield to automate complex technical workflows and modernize legacy portal systems.",
           "key_features": [
-            "Integration into educational programs and courses",
-            "Institutional access for students and staff",
-            "Integration with ChatGPT Edu and Codex",
             "Uses common sense to fill gaps",
+            "Secure API integration for enterprise workflows",
+            "Scalable solutions for technical support and operations",
             "AI Business Studio consulting projects",
-            "Support for small and medium enterprise AI adoption"
+            "Support for small and medium enterprise AI adoption",
+            "Advanced GPT models for custom automation"
           ],
           "tags": [
-            "higher-education",
-            "copyright",
-            "llm",
-            "ai-literacy",
             "workplace",
-            "consulting",
+            "enterprise-api",
             "research",
-            "education"
+            "automation",
+            "ai-literacy",
+            "education",
+            "llm",
+            "generative-ai"
           ],
-          "last_verified": "2026-08"
+          "last_verified": "2025-01-20"
         },
         {
           "id": "openai-presence",
@@ -2064,26 +2064,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2026-11-09",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Paid",
           "official_url": "https://chatgpt.com/codex/",
-          "short_description": "OpenAI's code generation and understanding model, designed to assist with software development tasks.",
+          "short_description": "OpenAI's code-focused AI assistant that generates, reviews, and extends software across multiple programming languages.",
           "key_features": [
-            "Code generation",
-            "Bug detection and fixing",
-            "Code writing and refactoring",
+            "Multi-language support",
             "Code explanation and documentation",
-            "Programming assistance",
-            "Natural language to code translation"
+            "Seamless ChatGPT integration",
+            "Code writing and refactoring",
+            "Natural language to code translation",
+            "Code generation"
           ],
           "tags": [
-            "coding",
-            "ai",
-            "programming",
             "code",
+            "software-development",
+            "coding",
+            "productivity",
+            "ai",
+            "llm",
             "llms",
-            "software-development"
+            "programming"
           ],
-          "last_verified": "2025-09-14"
+          "last_verified": "2025-08-31"
         },
         {
           "id": "dots",
@@ -9717,24 +9719,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A purpose-built endpoint for fast, closed-set decisions powered by the Gemini Decision 1 model. It evaluates up to 1,000 yes/no, choice, and rubric-scoring questions in a single forward pass across multimodal inputs, returning calibrated probabilities and confidence scores in under 250ms.",
+          "short_description": "A purpose-built API endpoint powered by the new Gemini Decision 1 model that scores up to 1,000 yes/no, multiple-choice, and rubric questions against a single multimodal input in one forward pass, returning calibrated probabilities and confidence scores at 150-250 ms latency with zero output-token billing.",
           "key_features": [
+            "Low latency and cost efficiency",
+            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
+            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
             "Single-pass evaluation of up to 1,000 independent yes/no, multiple-choice, and ordered rubric questions against a shared multimodal input",
             "Low latency (150-250ms end-to-end) with $0.10 per 1M input tokens pricing",
-            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
-            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
-            "Native multimodal processing of text, images, audio, video, and PDFs up to 256K tokens in a unified forward pass",
-            "Low latency and cost efficiency"
+            "Native multimodal processing of text, images, audio, video, and PDFs up to 256K tokens in a unified forward pass"
           ],
           "tags": [
-            "decisions-api",
             "decision-making",
-            "low-latency",
-            "ai",
-            "gemini",
-            "decisions",
+            "decisions-api",
+            "calibration",
+            "google-deepmind",
             "model-routing",
-            "multimodal"
+            "multimodal",
+            "decisions",
+            "classification"
           ],
           "last_verified": "2026-11-11"
         }
@@ -10363,28 +10365,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2024-06",
           "status": "Beta",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://amplitude.com",
-          "short_description": "Amplitude Wave is a proactive product agent that turns analytics, session replays, and customer feedback into shipped product improvements in 1–2 days. It autonomously identifies opportunities, generates technical plans, and coordinates implementation with coding agents like Codex.",
+          "short_description": "Amplitude's proactive product agent that turns product insights, session replays, and customer feedback into shipped improvements in 1–2 days, powered by OpenAI models and integrated with coding agents like Codex.",
           "key_features": [
-            "Technical plan and acceptance criteria generation for engineering handoff",
-            "Analyzes session replays, analytics, and code to identify and prioritize product improvement opportunities",
-            "Tracks impact and iterates based on A/B test results to continuously improve product suggestions",
-            "Integration with coding agents including Codex and Wave Code Agent",
             "Enables direct sending of opportunities to coding agents such as Codex",
-            "Coordinates implementation with people and coding agents like Codex"
+            "Proactive opportunity discovery from analytics, session replays, and customer feedback",
+            "Analyzes session replays, analytics, and code to identify and prioritize product improvement opportunities",
+            "Coordinates implementation with people and coding agents like Codex",
+            "Integration with coding agents including Codex and Wave Code Agent",
+            "Technical plan and acceptance criteria generation for engineering handoff"
           ],
           "tags": [
-            "product-analytics",
-            "productivity",
-            "autonomous-agent",
-            "ai",
-            "ai-agent",
-            "coding-agent-integration",
+            "wave",
+            "product-agent",
+            "beta",
+            "codex",
             "openai",
-            "coding-agents"
+            "autonomous-agent",
+            "productivity",
+            "ai"
           ],
-          "last_verified": "2025-06-12"
+          "last_verified": "2025-06-01"
         }
       ]
     },
@@ -10528,22 +10530,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "A lightweight, portable C/C++ library for running large language models on consumer-grade hardware, supporting multi-modal LLMs and quantization.",
+          "short_description": "llama.cpp is a lightweight C/C++ inference platform for running multi-modal LLMs locally across consumer and enterprise hardware. Its v1.0.0 release establishes a stable API foundation for private, cross-platform AI applications.",
           "key_features": [
-            "Multi-modal LLM inference on consumer hardware",
+            "Supports over 150 model architecture variants and speculative decoding",
+            "Portable C/C++ implementation with stable public API",
             "Quantization support for efficient memory usage",
+            "Runs multi-modal LLMs on diverse hardware",
             "Portable C/C++ implementation for cross-platform deployment",
-            "Support for 150+ model architectures and speculative decoding"
+            "Quantization and optimized backends for efficient inference"
           ],
           "tags": [
-            "llm",
-            "inference",
             "c++",
-            "quantization",
+            "llm-inference",
+            "inference",
+            "local-ai",
+            "llm",
+            "cpp",
             "open-source",
-            "local-ai"
+            "quantization"
           ],
-          "last_verified": "2026-11-13"
+          "last_verified": "2026-06-15"
         },
         {
           "id": "ggml-org-ggml",
@@ -10554,21 +10560,25 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "A high-performance tensor library for machine learning, designed to run on virtually any hardware with dynamic backend loading.",
+          "short_description": "ggml is a portable tensor library for machine learning that powers llama.cpp and enables efficient AI inference across many hardware backends. Its v1.0.0 release provides a stable foundation for local AI development.",
           "key_features": [
+            "Semantic versioning for stable downstream integration",
+            "Extensible API for integrating custom backends",
+            "Tensor library for machine learning",
             "Dynamic backend loading for various hardware targets",
-            "Lightweight tensor operations for machine learning",
-            "Cross-platform compatibility (Linux, macOS, Windows, iOS, Android)",
-            "Extensible API for integrating custom backends"
+            "Modular backends for broad hardware support",
+            "Dynamic backend loading for flexible deployment"
           ],
           "tags": [
             "tensor",
-            "machine-learning",
             "c++",
+            "tensor-library",
+            "inference",
             "backend",
+            "machine-learning",
             "open-source"
           ],
-          "last_verified": "2026-11-13"
+          "last_verified": "2026-06-15"
         }
       ]
     },
