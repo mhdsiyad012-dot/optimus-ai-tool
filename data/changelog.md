@@ -925,3 +925,20 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **Codex** (OpenAI) verified on 2025-08-31
     - **llama.cpp** (ggml-org) verified on 2026-06-15
     - **ggml** (ggml-org) verified on 2026-06-15
+
+### [2026-11-14 13:05 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 1
+- **Existing Tools Refreshed:** 10
+  - **Added:**
+    - **[Forge](https://shieldtp.com/forge)** (Shield) — *Autonomous Agents & Coding* (Paid): Forge is an AI operating system for IT services providers that unifies business data and customer context to autonomously complete IT support tasks, including navigating legacy portals without API access.
+  - **Refreshed:**
+    - **Gemini Decisions API** (Google DeepMind) verified on 2026-11-11
+    - **GPT-6 Astra** (OpenAI) verified on 2025-03-24
+    - **Wave** (Amplitude) verified on 2025-04-09
+    - **GPT-6.1 Sol** (OpenAI) verified on 2025-04-09
+    - **GPT-6 Luna** (OpenAI) verified on 2025-04-09
+    - **GPT-Image-2.5 Flare** (OpenAI) verified on 2025-04-09
+    - **Codex** (OpenAI) verified on 2025-04-09
+    - **Codex** (OpenAI) verified on 2023-10-01
+    - **llama.cpp** (ggml-org) verified on 2026-11-13
+    - **ggml** (ggml-org) verified on 2026-11-13
