@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-14T13:05:56Z",
+  "last_updated": "2026-11-14T22:03:15Z",
   "total_organizations": 124,
   "total_tools": 346,
   "organizations": [
@@ -1032,28 +1032,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Open Source",
           "official_url": "https://openai.com/codex/",
-          "short_description": "Codex is OpenAI's code generation model that translates natural language into code, helping developers accelerate software development and automate coding tasks.",
+          "short_description": "OpenAI's AI coding assistant and autonomous coding agent designed to help developers write, debug, and automate software engineering tasks by interacting with the command line and codebase.",
           "key_features": [
-            "Implements code changes autonomously",
-            "Integrates with ChatGPT and existing developer workflows",
-            "Can be sent technical plans and acceptance criteria",
-            "Codex Cloud explores the codebase, prototypes interfaces and workflows, tests assumptions, and delivers functional first versions",
+            "Automated code execution and testing in sandboxed environments",
             "Runs tasks in cloud-based sandboxed environments",
+            "Support for autonomous software engineering tasks",
+            "Integrates with ChatGPT and existing developer workflows",
+            "Codex Cloud explores the codebase, prototypes interfaces and workflows, tests assumptions, and delivers functional first versions",
             "Enables non-engineers to merge their first code contributions, with engineers retaining ownership of architecture, security, data handling, and production readiness"
           ],
           "tags": [
-            "developer-tools",
-            "openai",
-            "autonomous-development",
+            "coding",
+            "coding-agent",
             "software-development",
             "prototyping",
-            "ai-coding",
-            "coding",
+            "openai",
+            "software-engineering",
+            "autonomous-development",
             "api"
           ],
-          "last_verified": "2023-10-01"
+          "last_verified": "2024-11-20"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -1089,26 +1089,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI's image generation model that creates product mockups and wireframes from screenshots.",
+          "short_description": "OpenAI's image generation model specialized for creating high-fidelity product wireframes, mockups, and UI designs from visual references and screenshots.",
           "key_features": [
-            "Uses common sense to fill gaps",
+            "Optimized for high-volume, repetitive tasks",
+            "Efficient code scanning and evaluation checks",
+            "High scores in communication quality, product fidelity, and instruction adherence",
             "Low latency and cost",
-            "Scalable solutions for technical support and operations",
-            "Advanced GPT models for custom automation",
             "Handles high-volume repetitive tasks",
-            "Generates wireframes and mockups using session replay screenshots as visual references"
+            "Advanced computer-use and UI navigation"
           ],
           "tags": [
-            "workplace",
-            "ui-design",
-            "code-analysis",
-            "code-scanning",
             "mockups",
-            "openai",
+            "efficient-model",
+            "ai",
+            "llm",
             "data-science",
-            "computer-use"
+            "workplace",
+            "code-analysis",
+            "code-scanning"
           ],
-          "last_verified": "2025-04-09"
+          "last_verified": "2024-11-20"
         },
         {
           "id": "openai-presence",
@@ -2064,28 +2064,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2026-11-09",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://chatgpt.com/codex/",
-          "short_description": "OpenAI's code-focused AI assistant that generates, reviews, and extends software across multiple programming languages.",
+          "short_description": "Codex is OpenAI's advanced code-generation model integrated into ChatGPT, letting teams build more projects and boost revenue.",
           "key_features": [
-            "Multi-language support",
-            "Code explanation and documentation",
             "Seamless ChatGPT integration",
-            "Code writing and refactoring",
-            "Natural language to code translation",
-            "Code generation"
+            "Code generation",
+            "IDE-style completions",
+            "Code explanation and documentation",
+            "Multi-language support",
+            "Multilingual support"
           ],
           "tags": [
-            "code",
-            "software-development",
             "coding",
-            "productivity",
             "ai",
             "llm",
+            "productivity",
+            "software-development",
+            "codex",
             "llms",
-            "programming"
+            "code-generation"
           ],
-          "last_verified": "2025-08-31"
+          "last_verified": "2025-08-25"
         },
         {
           "id": "dots",
@@ -9717,26 +9717,26 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-11",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "The Gemini Decisions API delivers fast, single‑pass multimodal classification for up to 1,000 yes/no, multiple‑choice, or rubric questions across text, images, audio, video, and PDFs, providing low latency and calibrated confidence scores.",
+          "short_description": "Gemini Decision 1 is a multimodal decision model that scores candidate options in a single pass for fast, calibrated closed-set decisions. It is designed for routing, ranking, policy checks, and other bounded-choice tasks.",
           "key_features": [
             "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
             "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
-            "Low latency and cost efficiency",
-            "Provides confidence scores and probabilities for each decision type",
-            "Low latency (150-250ms end-to-end) with $0.10 per 1M input tokens pricing",
-            "Low latency (150‑250 ms) with $0.10 per 1 M input tokens and no output‑token charges"
+            "Bills input tokens only, with no output-token charges",
+            "Low latency (150‑250 ms) with $0.10 per 1 M input tokens and no output‑token charges",
+            "Evaluates up to 1,000 yes/no, choice, and rubric-scoring questions in one request",
+            "Scores options without token-by-token decoding"
           ],
           "tags": [
-            "decision-making",
-            "decisions",
-            "multimodal",
+            "decision-api",
+            "gemini",
             "ai",
+            "calibrated-ai",
+            "classification",
+            "multimodal",
             "calibration",
-            "decision",
-            "api",
-            "classification"
+            "decisions"
           ],
           "last_verified": "2026-11-11"
         }
@@ -10365,28 +10365,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2024-06",
           "status": "Beta",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://amplitude.com",
-          "short_description": "Amplitude's proactive product agent that turns product insights into shipped improvements by coordinating with coding agents.",
+          "short_description": "Amplitude's proactive product agent that analyzes user behavior data, session replays, and code to automatically identify product improvement opportunities, generate technical plans, and coordinate with coding agents to ship changes in days instead of weeks.",
           "key_features": [
-            "Tracks outcomes and uses learnings to inform next improvements",
-            "Integration with coding agents including Codex and Wave Code Agent",
-            "Coordinates implementation with people and coding agents like Codex",
-            "Enables direct sending of opportunities to coding agents such as Codex",
             "Identifies and prioritizes opportunities from product data, session replays, customer feedback, and code",
-            "Technical plan and acceptance criteria generation for engineering handoff"
+            "Technical plan and acceptance criteria generation for engineering handoff",
+            "Analyzes session replays, analytics, and code to find product improvement opportunities",
+            "Integration with coding agents including Codex and Wave Code Agent",
+            "Tracks outcomes and uses learnings to inform next improvements",
+            "Coordinates with coding agents like Codex to implement changes automatically"
           ],
           "tags": [
-            "openai",
-            "ai",
             "wave",
-            "product-agent",
-            "autonomous-agent",
-            "code-generation",
+            "ai",
             "codex",
-            "product-analytics"
+            "software-development",
+            "ai-agent",
+            "autonomous-agent",
+            "product-agent",
+            "openai"
           ],
-          "last_verified": "2025-04-09"
+          "last_verified": "2024-11-20"
         }
       ]
     },
@@ -10530,24 +10530,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "A portable C/C++ inference library for running multi-modal LLMs locally on consumer and enterprise hardware through quantization and optimized backends, now stabilized at v1.0.0.",
+          "short_description": "llama.cpp is a lightweight C/C++ inference platform for running multi-modal LLMs locally across a wide range of hardware. Its v1.0.0 release establishes a stable API foundation for private, cross-platform AI applications.",
           "key_features": [
-            "Speculative decoding methods",
+            "Provides a portable C/C++ implementation with stable public APIs",
+            "Multi-modal LLM inference",
             "Portable C/C++ implementation for cross-platform deployment",
-            "Portable C/C++ implementation",
-            "Quantization and optimized backends for efficient inference",
+            "Supports more than 150 model architecture variants and speculative decoding methods",
             "Quantization support for efficient memory usage",
-            "Multi-modal LLM inference"
+            "Quantization and optimized backends for efficient inference"
           ],
           "tags": [
-            "ggml",
-            "local-ai",
             "llm-inference",
-            "c++",
-            "inference",
             "private-ai",
+            "local-ai",
+            "cross-platform",
+            "ggml",
             "cpp",
-            "open-source"
+            "c++",
+            "quantization"
           ],
           "last_verified": "2026-11-13"
         },
@@ -10560,24 +10560,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "A tensor library for machine learning that powers llama.cpp, enabling inference on virtually any hardware through dedicated, dynamically loadable backends.",
+          "short_description": "ggml is a portable tensor library for machine learning that powers llama.cpp and enables AI inference across diverse hardware backends. Its v1.0.0 release formalizes API and ABI stability for downstream developers.",
           "key_features": [
-            "Modular backends for broad hardware support",
             "Dedicated hardware backends",
-            "Cross-platform CPU and GPU support",
+            "Backends can be compiled as dynamic libraries and loaded at runtime",
+            "Dedicated backends for running on virtually any hardware",
             "Underlying engine for llama.cpp",
-            "Tensor library for machine learning",
-            "Dynamic backend loading for flexible deployment"
+            "Provides the low-level engine behind llama.cpp inference",
+            "Cross-platform CPU and GPU support"
           ],
           "tags": [
-            "ggml",
-            "backend",
-            "ml-backend",
+            "hardware-acceleration",
+            "tensor-library",
             "machine-learning",
-            "c++",
-            "inference",
+            "ggml",
             "cpp",
-            "hardware-acceleration"
+            "backend",
+            "c++",
+            "inference"
           ],
           "last_verified": "2026-11-13"
         }
@@ -10632,21 +10632,25 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://shieldtp.com/forge",
-          "short_description": "Forge is an AI operating system for IT services providers that unifies business data and customer context to autonomously complete IT support tasks, including navigating legacy portals without API access.",
+          "short_description": "Forge is an AI operating system for IT service providers that combines business data and customer context to complete IT support tasks end to end, including work inside legacy portals without APIs.",
           "key_features": [
-            "Unified business data and customer context integration",
-            "AI Engineer for task assignment and workflow management",
+            "AI agents for end-to-end IT support workflows",
             "Legacy system navigation via computer use",
+            "Unified business data and customer context integration",
+            "Unified business data and customer context",
+            "Human technician review and approval controls",
             "Human-in-the-loop approval controls"
           ],
           "tags": [
+            "autonomous-agents",
+            "managed-services",
             "ai-operating-system",
             "it-services",
-            "autonomous-agents",
-            "computer-use",
-            "legacy-systems"
+            "it-support",
+            "legacy-systems",
+            "computer-use"
           ],
-          "last_verified": "2025-03-24"
+          "last_verified": "2026-05-07"
         }
       ]
     }
