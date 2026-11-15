@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-15T05:05:06Z",
+  "last_updated": "2026-11-15T13:33:59Z",
   "total_organizations": 124,
-  "total_tools": 348,
+  "total_tools": 349,
   "organizations": [
     {
       "id": "google",
@@ -879,26 +879,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "An interactive chatbot built on GPT-4 that helps businesses draft proposals, manage schedules, and gather information across company systems, automating routine tasks.",
+          "short_description": "OpenAI's conversational AI assistant used for drafting, research, and business operations automation. Teams use it to generate proposals, build daily planning reports, and search across connected company systems.",
           "key_features": [
             "Supports both free and paid tiers",
-            "Daily report template generation integrating Google Workspace (Gmail, Calendar, Sheets, Drive)",
-            "Large language model",
             "Community and support resource navigation",
-            "Connects to Google Workspace (Gmail, Calendar, Sheets, Drive), Asana, Slack, QuickBooks, weather information, and other sources",
-            "Multi-source data ingestion (email, calendar, spreadsheets, Drive, weather)"
+            "Reusable templates and automated recurring reports",
+            "Daily report template generation integrating Google Workspace (Gmail, Calendar, Sheets, Drive)",
+            "Multi-source data ingestion (email, calendar, spreadsheets, Drive, weather)",
+            "Drafting of proposals, schedules, and business documents"
           ],
           "tags": [
-            "productivity",
-            "nonprofit-partnership",
-            "chatgpt",
-            "ai",
-            "ai-assistant",
-            "safety",
+            "automation",
+            "integrations",
             "business",
-            "ai-impact"
+            "ai-impact",
+            "ai-assistant",
+            "productivity",
+            "ai",
+            "chatgpt"
           ],
-          "last_verified": "2025-09-23"
+          "last_verified": "2026-06-01"
         },
         {
           "id": "openai-gpt-4o",
@@ -1032,28 +1032,28 @@
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-03",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Freemium",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's AI coding assistant and autonomous coding agent designed to help developers write, debug, and automate software engineering tasks by interacting with the command line and codebase.",
+          "short_description": "OpenAI's agentic software engineering platform that explores codebases, writes and reviews code, and ships working prototypes from natural-language prompts. It lets non-engineers contribute production code while freeing engineers for architecture and security work.",
           "key_features": [
             "Automated code execution and testing in sandboxed environments",
-            "Runs tasks in cloud-based sandboxed environments",
-            "Support for autonomous software engineering tasks",
+            "Rapid prototyping of interfaces and workflows by product and business teams",
             "Integrates with ChatGPT and existing developer workflows",
-            "Codex Cloud explores the codebase, prototypes interfaces and workflows, tests assumptions, and delivers functional first versions",
-            "Enables non-engineers to merge their first code contributions, with engineers retaining ownership of architecture, security, data handling, and production readiness"
+            "Support for autonomous software engineering tasks",
+            "Automated GitHub pull request review",
+            "Connectors to repositories, development environments, and Slack for product context"
           ],
           "tags": [
+            "prototyping",
+            "software-development",
+            "developer-productivity",
+            "code-review",
+            "software-engineering",
             "coding",
             "coding-agent",
-            "software-development",
-            "prototyping",
-            "openai",
-            "software-engineering",
-            "autonomous-development",
-            "api"
+            "openai"
           ],
-          "last_verified": "2024-11-20"
+          "last_verified": "2026-06-01"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -2437,6 +2437,33 @@
             "openai"
           ],
           "last_verified": "2026-02-01"
+        },
+        {
+          "id": "openai-gpt",
+          "name": "OpenAI GPT Models",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-05",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/business/customer-stories/amplitude",
+          "short_description": "OpenAI's GPT models power Amplitude's Wave, an AI product agent that turns product data into shipped improvements via coding agents, cutting release cycles from weeks to days.",
+          "key_features": [
+            "GPT-6.1 Sol for deep reasoning and investigation",
+            "GPT-6 Luna for fast lower-cost tasks",
+            "GPT-Image-2.5 Flare for product mockups",
+            "Integration with coding agents including Codex",
+            "Wave proactive product agent workflow"
+          ],
+          "tags": [
+            "openai",
+            "gpt",
+            "llm",
+            "ai-agent",
+            "product-analytics",
+            "coding"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     },
@@ -9743,24 +9770,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A fast, calibrated multimodal decision API powered by Gemini Decision 1 that evaluates up to 1,000 yes/no, multiple-choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs with 150-250ms latency.",
+          "short_description": "Fast, calibrated multimodal decision API evaluating up to 1,000 yes/no, choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs with 150-250ms latency.",
           "key_features": [
+            "Calibrated confidence scores (0-1) for each decision",
+            "$0.10 per 1M input tokens with zero output tokens billed",
+            "Cost-effective: $0.10 per 1M input tokens, zero output token charges",
             "Three decision types: yes/no, multiple choice (2-255 options), and ordered rubric scoring",
-            "150-250 ms end-to-end latency with flat scaling from 1 to 100 questions",
-            "Evaluates up to 1,000 yes/no, choice, and rubric-scoring questions in one request",
             "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
-            "Bills input tokens only, with no output-token charges",
-            "$0.10 per 1M input tokens with zero output tokens billed"
+            "Up to 1,000 questions per request in single forward pass"
           ],
           "tags": [
-            "api",
-            "decisions",
-            "calibrated-ai",
+            "decision-api",
+            "google",
+            "gemini",
+            "low-latency",
             "decisions-api",
-            "google-deepmind",
             "multimodal",
-            "ai",
-            "gemini"
+            "google-deepmind",
+            "ai"
           ],
           "last_verified": "2026-11-11"
         },
@@ -10577,28 +10604,28 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-13",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "A lightweight, portable C/C++ library that enables efficient inference of large language models and multimodal models on consumer hardware.",
+          "short_description": "llama.cpp is an open-source C/C++ inference engine that enables developers to run multi-modal LLMs locally across consumer and enterprise hardware using quantization and optimized backends.",
           "key_features": [
-            "Optimized quantization and backends",
-            "Quantization and optimized backends for efficient inference",
-            "Quantization support for efficient memory usage",
-            "Portable C/C++ implementation",
             "Provides a portable C/C++ implementation with stable public APIs",
-            "Supports more than 150 model architecture variants and speculative decoding methods"
+            "Support for 150+ model architectures",
+            "Portable C/C++ implementation",
+            "Supports more than 150 model architecture variants and speculative decoding methods",
+            "Quantization",
+            "Quantization and optimized backends for efficient inference"
           ],
           "tags": [
-            "cpp",
-            "quantization",
-            "ggml",
             "private-ai",
-            "local-ai",
             "llm-inference",
+            "quantization",
             "cross-platform",
-            "c++"
+            "cpp",
+            "c++",
+            "inference",
+            "llm"
           ],
-          "last_verified": "2026-11-13"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "ggml-org-ggml",
@@ -10681,26 +10708,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://shieldtp.com/forge",
-          "short_description": "Forge is an AI operating system for IT services providers that leverages GPT-6 Astra to automate tasks in legacy portals, enabling computer-use agents to navigate interfaces and complete IT support workflows end-to-end.",
+          "short_description": "Forge is Shield's AI operating system that lets IT service providers automate legacy portal tasks using OpenAI's GPT‑6 Astra, enabling agents to complete support workflows without manual login.",
           "key_features": [
+            "AI agents that navigate legacy web portals",
             "Legacy portal task automation",
-            "AI agents for end-to-end IT support workflows",
-            "Human-in-the-loop approval controls",
             "GPT-6 Astra integration",
+            "Integration with OpenAI's GPT‑6 Astra",
             "Unified business data and customer context integration",
             "AI-driven computer-use agent navigation"
           ],
           "tags": [
-            "it-services",
-            "managed-services",
-            "computer-use",
+            "automation",
             "ai-agents",
-            "legacy-systems",
-            "autonomous-agents",
+            "computer-use",
             "legacy-automation",
-            "ai-operating-system"
+            "ai-operating-system",
+            "autonomous-agents",
+            "managed-services",
+            "legacy-systems"
           ],
-          "last_verified": "2024-12-01"
+          "last_verified": "2025-12-18"
         }
       ]
     }
