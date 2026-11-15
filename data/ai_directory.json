@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-14T22:03:15Z",
+  "last_updated": "2026-11-15T05:05:06Z",
   "total_organizations": 124,
-  "total_tools": 346,
+  "total_tools": 348,
   "organizations": [
     {
       "id": "google",
@@ -879,26 +879,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "OpenAI's conversational AI assistant for drafting, research, and everyday knowledge work, which can be set up as repeatable templates connected to company systems. Gondola uses it to generate a comprehensive daily report that replaces hours of manual preparation.",
+          "short_description": "An interactive chatbot built on GPT-4 that helps businesses draft proposals, manage schedules, and gather information across company systems, automating routine tasks.",
           "key_features": [
-            "Natural language conversation for diverse tasks",
-            "Connects to Google Workspace (Gmail, Calendar, Sheets, Drive), Asana, Slack, QuickBooks, weather information, and other sources",
+            "Supports both free and paid tiers",
+            "Daily report template generation integrating Google Workspace (Gmail, Calendar, Sheets, Drive)",
             "Large language model",
             "Community and support resource navigation",
-            "Custom report templates that employees can run first thing in the morning to plan their day",
-            "Supports both free and paid tiers"
+            "Connects to Google Workspace (Gmail, Calendar, Sheets, Drive), Asana, Slack, QuickBooks, weather information, and other sources",
+            "Multi-source data ingestion (email, calendar, spreadsheets, Drive, weather)"
           ],
           "tags": [
+            "productivity",
             "nonprofit-partnership",
-            "safety",
-            "ai-education",
-            "ai-impact",
+            "chatgpt",
+            "ai",
             "ai-assistant",
-            "healthcare",
-            "business-productivity",
-            "openai"
+            "safety",
+            "business",
+            "ai-impact"
           ],
-          "last_verified": "2026-08-26"
+          "last_verified": "2025-09-23"
         },
         {
           "id": "openai-gpt-4o",
@@ -2413,6 +2413,30 @@
             "security"
           ],
           "last_verified": "2026-05-09"
+        },
+        {
+          "id": "openai-codex-cloud",
+          "name": "Codex Cloud",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-01-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/codex-cloud",
+          "short_description": "A coding assistant that lets developers explore codebases, prototype interfaces, and test ideas quickly, enabling rapid creation of working features before engineering involvement.",
+          "key_features": [
+            "Code exploration and analysis",
+            "Prototype interfaces and workflows",
+            "Rapid assumption testing",
+            "Integration with GitHub, Slack, and development environments"
+          ],
+          "tags": [
+            "coding",
+            "ai",
+            "productivity",
+            "openai"
+          ],
+          "last_verified": "2026-02-01"
         }
       ]
     },
@@ -9719,26 +9743,51 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "Gemini Decision 1 is a multimodal decision model that scores candidate options in a single pass for fast, calibrated closed-set decisions. It is designed for routing, ranking, policy checks, and other bounded-choice tasks.",
+          "short_description": "A fast, calibrated multimodal decision API powered by Gemini Decision 1 that evaluates up to 1,000 yes/no, multiple-choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs with 150-250ms latency.",
           "key_features": [
-            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
-            "Nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API at $0.10 per 1M input tokens",
-            "Bills input tokens only, with no output-token charges",
-            "Low latency (150‑250 ms) with $0.10 per 1 M input tokens and no output‑token charges",
+            "Three decision types: yes/no, multiple choice (2-255 options), and ordered rubric scoring",
+            "150-250 ms end-to-end latency with flat scaling from 1 to 100 questions",
             "Evaluates up to 1,000 yes/no, choice, and rubric-scoring questions in one request",
-            "Scores options without token-by-token decoding"
+            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
+            "Bills input tokens only, with no output-token charges",
+            "$0.10 per 1M input tokens with zero output tokens billed"
           ],
           "tags": [
-            "decision-api",
-            "gemini",
-            "ai",
+            "api",
+            "decisions",
             "calibrated-ai",
-            "classification",
+            "decisions-api",
+            "google-deepmind",
             "multimodal",
-            "calibration",
-            "decisions"
+            "ai",
+            "gemini"
           ],
           "last_verified": "2026-11-11"
+        },
+        {
+          "id": "google-deepmind-gemini-robotics-2-5",
+          "name": "Gemini Robotics 2.5",
+          "parent_org": "Google DeepMind",
+          "category": "Computer Vision",
+          "release_date": "2025-12",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://deepmind.google/models/gemini-robotics/",
+          "short_description": "Gemini Robotics 2.5 is Google DeepMind's vision-language-action model family that lets robots perceive, reason about, and act in the physical world. It brings Gemini's multimodal understanding to embodied agents, enabling general-purpose manipulation across diverse robot form factors.",
+          "key_features": [
+            "Vision-language-action (VLA) reasoning for real-world robot control",
+            "Multimodal perception combining vision, language, and proprioceptive input",
+            "Generalization to novel objects, tasks, and unseen environments",
+            "Adaptable across multiple robot embodiments and hardware platforms"
+          ],
+          "tags": [
+            "robotics",
+            "embodied-ai",
+            "vision-language-action",
+            "google-deepmind",
+            "multimodal"
+          ],
+          "last_verified": "2025-12-15"
         }
       ]
     },
@@ -10367,26 +10416,26 @@
           "status": "Beta",
           "pricing": "Freemium",
           "official_url": "https://amplitude.com",
-          "short_description": "Amplitude's proactive product agent that analyzes user behavior data, session replays, and code to automatically identify product improvement opportunities, generate technical plans, and coordinate with coding agents to ship changes in days instead of weeks.",
+          "short_description": "Wave is Amplitude's proactive product agent that turns product insights into shipped improvements by analyzing data, generating technical plans, and coordinating with coding agents like Codex.",
           "key_features": [
-            "Identifies and prioritizes opportunities from product data, session replays, customer feedback, and code",
             "Technical plan and acceptance criteria generation for engineering handoff",
             "Analyzes session replays, analytics, and code to find product improvement opportunities",
             "Integration with coding agents including Codex and Wave Code Agent",
-            "Tracks outcomes and uses learnings to inform next improvements",
+            "Analyzes session replays, analytics, and customer feedback to identify opportunities",
+            "Identifies and prioritizes opportunities from product data, session replays, customer feedback, and code",
             "Coordinates with coding agents like Codex to implement changes automatically"
           ],
           "tags": [
             "wave",
-            "ai",
-            "codex",
-            "software-development",
-            "ai-agent",
             "autonomous-agent",
-            "product-agent",
-            "openai"
+            "product-analytics",
+            "software-development",
+            "ai",
+            "openai",
+            "autonomous-coding",
+            "codex"
           ],
-          "last_verified": "2024-11-20"
+          "last_verified": "2024-11-18"
         }
       ]
     },
@@ -10528,26 +10577,26 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-13",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "llama.cpp is a lightweight C/C++ inference platform for running multi-modal LLMs locally across a wide range of hardware. Its v1.0.0 release establishes a stable API foundation for private, cross-platform AI applications.",
+          "short_description": "A lightweight, portable C/C++ library that enables efficient inference of large language models and multimodal models on consumer hardware.",
           "key_features": [
-            "Provides a portable C/C++ implementation with stable public APIs",
-            "Multi-modal LLM inference",
-            "Portable C/C++ implementation for cross-platform deployment",
-            "Supports more than 150 model architecture variants and speculative decoding methods",
+            "Optimized quantization and backends",
+            "Quantization and optimized backends for efficient inference",
             "Quantization support for efficient memory usage",
-            "Quantization and optimized backends for efficient inference"
+            "Portable C/C++ implementation",
+            "Provides a portable C/C++ implementation with stable public APIs",
+            "Supports more than 150 model architecture variants and speculative decoding methods"
           ],
           "tags": [
-            "llm-inference",
+            "cpp",
+            "quantization",
+            "ggml",
             "private-ai",
             "local-ai",
+            "llm-inference",
             "cross-platform",
-            "ggml",
-            "cpp",
-            "c++",
-            "quantization"
+            "c++"
           ],
           "last_verified": "2026-11-13"
         },
@@ -10558,26 +10607,26 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-13",
           "status": "Active",
-          "pricing": "Open Source",
+          "pricing": "Free",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "ggml is a portable tensor library for machine learning that powers llama.cpp and enables AI inference across diverse hardware backends. Its v1.0.0 release formalizes API and ABI stability for downstream developers.",
+          "short_description": "A high-performance tensor library providing low-level machine learning primitives for building custom models and backends.",
           "key_features": [
-            "Dedicated hardware backends",
-            "Backends can be compiled as dynamic libraries and loaded at runtime",
-            "Dedicated backends for running on virtually any hardware",
+            "Dynamic library backend support",
             "Underlying engine for llama.cpp",
-            "Provides the low-level engine behind llama.cpp inference",
+            "Backends can be compiled as dynamic libraries and loaded at runtime",
+            "High-performance tensor operations",
+            "Hardware-agnostic execution",
             "Cross-platform CPU and GPU support"
           ],
           "tags": [
-            "hardware-acceleration",
-            "tensor-library",
-            "machine-learning",
-            "ggml",
             "cpp",
             "backend",
+            "inference",
+            "machine-learning",
+            "ggml",
+            "hardware-acceleration",
             "c++",
-            "inference"
+            "tensor"
           ],
           "last_verified": "2026-11-13"
         }
@@ -10632,25 +10681,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://shieldtp.com/forge",
-          "short_description": "Forge is an AI operating system for IT service providers that combines business data and customer context to complete IT support tasks end to end, including work inside legacy portals without APIs.",
+          "short_description": "Forge is an AI operating system for IT services providers that leverages GPT-6 Astra to automate tasks in legacy portals, enabling computer-use agents to navigate interfaces and complete IT support workflows end-to-end.",
           "key_features": [
+            "Legacy portal task automation",
             "AI agents for end-to-end IT support workflows",
-            "Legacy system navigation via computer use",
+            "Human-in-the-loop approval controls",
+            "GPT-6 Astra integration",
             "Unified business data and customer context integration",
-            "Unified business data and customer context",
-            "Human technician review and approval controls",
-            "Human-in-the-loop approval controls"
+            "AI-driven computer-use agent navigation"
           ],
           "tags": [
-            "autonomous-agents",
-            "managed-services",
-            "ai-operating-system",
             "it-services",
-            "it-support",
+            "managed-services",
+            "computer-use",
+            "ai-agents",
             "legacy-systems",
-            "computer-use"
+            "autonomous-agents",
+            "legacy-automation",
+            "ai-operating-system"
           ],
-          "last_verified": "2026-05-07"
+          "last_verified": "2024-12-01"
         }
       ]
     }
