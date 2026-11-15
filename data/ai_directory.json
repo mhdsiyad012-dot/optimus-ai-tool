@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-15T13:33:59Z",
+  "last_updated": "2026-11-15T22:33:52Z",
   "total_organizations": 124,
   "total_tools": 349,
   "organizations": [
@@ -1089,26 +1089,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI's image generation model specialized for creating high-fidelity product wireframes, mockups, and UI designs from visual references and screenshots.",
+          "short_description": "OpenAI's GPT-6 Astra is a frontier model with advanced computer use capabilities, enabling AI agents to navigate legacy interfaces and perform tasks that previously required human intervention.",
           "key_features": [
-            "Optimized for high-volume, repetitive tasks",
             "Efficient code scanning and evaluation checks",
+            "Natural interaction with interfaces",
+            "35-40% faster than legacy models",
+            "UI navigation",
             "High scores in communication quality, product fidelity, and instruction adherence",
-            "Low latency and cost",
-            "Handles high-volume repetitive tasks",
-            "Advanced computer-use and UI navigation"
+            "Handles high-volume repetitive tasks"
           ],
           "tags": [
+            "code-scanning",
             "mockups",
-            "efficient-model",
-            "ai",
-            "llm",
-            "data-science",
-            "workplace",
+            "ui-navigation",
+            "automation",
             "code-analysis",
-            "code-scanning"
+            "ai-agent",
+            "data-science",
+            "llm"
           ],
-          "last_verified": "2024-11-20"
+          "last_verified": "2025-04-09"
         },
         {
           "id": "openai-presence",
@@ -1643,29 +1643,29 @@
           "parent_org": "OpenAI",
           "category": "LLMs & Frontier Models",
           "release_date": "2025-01",
-          "status": "Active",
-          "pricing": "Paid",
+          "status": "Beta",
+          "pricing": "Freemium",
           "official_url": "https://openai.com/index/gpt-6-astra/",
-          "short_description": "Astra variant of GPT-6 designed for specialized tasks and enterprise applications.",
+          "short_description": "GPT-6 Astra is an advanced OpenAI AI model that assisted in developing a candidate nonperturbative lattice definition of the Standard Model, helping construct detailed proofs for chiral fermion phase corrections in quantum field theory.",
           "key_features": [
-            "Strong native multimodal capabilities for interpreting images, videos, and raw instrument data",
-            "Optimized for efficiency",
-            "Achieves 66.7% mean reward on BioBasicsBench at high reasoning effort",
             "High performance in specific use cases",
-            "Enterprise-ready features",
-            "Electrical component selection and PCB design"
+            "Achieves 66.7% mean reward on BioBasicsBench at high reasoning effort",
+            "Assisted with phase correction prescriptions for chiral fermions",
+            "Suggested methods to carry force fields onto finer lattices",
+            "Strong native multimodal capabilities for interpreting images, videos, and raw instrument data",
+            "Demonstrated convergence of comparisons across successive grid refinements"
           ],
           "tags": [
-            "physical-ai",
-            "ai",
-            "cad",
             "hardware-design",
+            "gpt-6",
+            "lattice-field-theory",
+            "proof-assistant",
             "biotech",
+            "engineering",
             "multimodal",
-            "computer-use",
-            "engineering"
+            "particle-physics"
           ],
-          "last_verified": "2025-08-20"
+          "last_verified": "2026-10-15"
         },
         {
           "id": "openai-api",
@@ -9770,24 +9770,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "Fast, calibrated multimodal decision API evaluating up to 1,000 yes/no, choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs with 150-250ms latency.",
+          "short_description": "Gemini Decisions API enables fast, single-pass multimodal decisions across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions with calibrated confidence scores.",
           "key_features": [
-            "Calibrated confidence scores (0-1) for each decision",
             "$0.10 per 1M input tokens with zero output tokens billed",
+            "Calibrated confidence scores (0-1) for each decision",
             "Cost-effective: $0.10 per 1M input tokens, zero output token charges",
-            "Three decision types: yes/no, multiple choice (2-255 options), and ordered rubric scoring",
-            "Single-pass evaluation of up to 1,000 questions with 150-250 ms end-to-end latency",
-            "Up to 1,000 questions per request in single forward pass"
+            "Support for up to 1,000 independent questions per request (yes/no, multiple choice, rubric scoring)",
+            "Pay-only-for-input pricing at $0.10 per 1M input tokens with zero output token charges",
+            "Sub-250ms end-to-end latency with calibrated confidence scores (0 to 1)"
           ],
           "tags": [
-            "decision-api",
-            "google",
             "gemini",
             "low-latency",
-            "decisions-api",
+            "decisions",
+            "google",
             "multimodal",
-            "google-deepmind",
-            "ai"
+            "routing",
+            "grading",
+            "decisions-api"
           ],
           "last_verified": "2026-11-11"
         },
@@ -10606,26 +10606,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "llama.cpp is an open-source C/C++ inference engine that enables developers to run multi-modal LLMs locally across consumer and enterprise hardware using quantization and optimized backends.",
+          "short_description": "llama.cpp enables local inference of multimodal LLMs on consumer and enterprise hardware via quantization and portable C/C++ implementation, providing a lightweight, versatile platform for private AI products.",
           "key_features": [
-            "Provides a portable C/C++ implementation with stable public APIs",
-            "Support for 150+ model architectures",
-            "Portable C/C++ implementation",
+            "Portable C/C++ library with cross‑platform support",
             "Supports more than 150 model architecture variants and speculative decoding methods",
-            "Quantization",
-            "Quantization and optimized backends for efficient inference"
+            "Quantized inference for low‑resource hardware",
+            "Optimized backends for CPU, GPU, and mobile",
+            "Provides a portable C/C++ implementation with stable public APIs",
+            "Support for 150+ model architectures"
           ],
           "tags": [
             "private-ai",
-            "llm-inference",
-            "quantization",
-            "cross-platform",
-            "cpp",
             "c++",
+            "quantization",
             "inference",
-            "llm"
+            "llm-inference",
+            "cpp",
+            "llm",
+            "local-ai"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2026-11-13"
         },
         {
           "id": "ggml-org-ggml",
@@ -10634,25 +10634,25 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-13",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "A high-performance tensor library providing low-level machine learning primitives for building custom models and backends.",
+          "short_description": "ggml is a lightweight tensor library for machine learning that powers efficient inference across diverse hardware, enabling high‑performance AI models on CPUs, GPUs, and mobile devices.",
           "key_features": [
-            "Dynamic library backend support",
             "Underlying engine for llama.cpp",
+            "Cross-platform CPU and GPU support",
+            "Optimized for memory‑constrained environments",
             "Backends can be compiled as dynamic libraries and loaded at runtime",
             "High-performance tensor operations",
-            "Hardware-agnostic execution",
-            "Cross-platform CPU and GPU support"
+            "Runtime‑loadable dynamic libraries"
           ],
           "tags": [
-            "cpp",
-            "backend",
-            "inference",
-            "machine-learning",
-            "ggml",
-            "hardware-acceleration",
             "c++",
+            "gpu",
+            "hardware-acceleration",
+            "cpu",
+            "inference",
+            "ggml",
+            "cpp",
             "tensor"
           ],
           "last_verified": "2026-11-13"
@@ -10708,26 +10708,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://shieldtp.com/forge",
-          "short_description": "Forge is Shield's AI operating system that lets IT service providers automate legacy portal tasks using OpenAI's GPT‑6 Astra, enabling agents to complete support workflows without manual login.",
+          "short_description": "Forge is an AI operating system for IT services providers that integrates business data and customer context to automate IT support tasks, leveraging advanced AI agents.",
           "key_features": [
-            "AI agents that navigate legacy web portals",
-            "Legacy portal task automation",
-            "GPT-6 Astra integration",
-            "Integration with OpenAI's GPT‑6 Astra",
             "Unified business data and customer context integration",
-            "AI-driven computer-use agent navigation"
+            "Integration with OpenAI's GPT‑6 Astra",
+            "AI-driven computer-use agent navigation",
+            "AI agents that navigate legacy web portals",
+            "GPT-6 Astra integration",
+            "Workflow automation"
           ],
           "tags": [
+            "ai-operating-system",
             "automation",
-            "ai-agents",
+            "managed-services",
+            "legacy-systems",
             "computer-use",
             "legacy-automation",
-            "ai-operating-system",
             "autonomous-agents",
-            "managed-services",
-            "legacy-systems"
+            "it-services"
           ],
-          "last_verified": "2025-12-18"
+          "last_verified": "2025-04-09"
         }
       ]
     }
