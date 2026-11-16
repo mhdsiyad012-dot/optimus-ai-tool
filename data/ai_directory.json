@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-15T22:33:52Z",
+  "last_updated": "2026-11-16T05:03:04Z",
   "total_organizations": 124,
-  "total_tools": 349,
+  "total_tools": 350,
   "organizations": [
     {
       "id": "google",
@@ -1643,29 +1643,29 @@
           "parent_org": "OpenAI",
           "category": "LLMs & Frontier Models",
           "release_date": "2025-01",
-          "status": "Beta",
+          "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com/index/gpt-6-astra/",
-          "short_description": "GPT-6 Astra is an advanced OpenAI AI model that assisted in developing a candidate nonperturbative lattice definition of the Standard Model, helping construct detailed proofs for chiral fermion phase corrections in quantum field theory.",
+          "short_description": "GPT-6 Astra is OpenAI's advanced language model that helped construct a nonperturbative lattice definition of the Standard Model, showcasing sophisticated reasoning and proof‑writing capabilities in cutting‑edge physics research.",
           "key_features": [
-            "High performance in specific use cases",
-            "Achieves 66.7% mean reward on BioBasicsBench at high reasoning effort",
+            "Integration with research workflows and literature analysis",
             "Assisted with phase correction prescriptions for chiral fermions",
+            "High performance in specific use cases",
             "Suggested methods to carry force fields onto finer lattices",
-            "Strong native multimodal capabilities for interpreting images, videos, and raw instrument data",
+            "Support for multi‑step problem solving and code generation",
             "Demonstrated convergence of comparisons across successive grid refinements"
           ],
           "tags": [
-            "hardware-design",
-            "gpt-6",
-            "lattice-field-theory",
+            "physics",
             "proof-assistant",
-            "biotech",
             "engineering",
+            "ai-research",
+            "hardware-design",
             "multimodal",
-            "particle-physics"
+            "lattice-field-theory",
+            "biotech"
           ],
-          "last_verified": "2026-10-15"
+          "last_verified": "2025-12-17"
         },
         {
           "id": "openai-api",
@@ -5795,6 +5795,29 @@
             "producthunt"
           ],
           "last_verified": "2024-01-01"
+        },
+        {
+          "id": "pixel-office",
+          "name": "Pixel Office",
+          "parent_org": "Unknown",
+          "category": "Image Generation",
+          "release_date": "2026-04",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/pixel-office-3",
+          "short_description": "Pixel Office is an AI tool that generates pixel art office environments, enabling rapid visual prototyping. Its Product Hunt listing could not be fully verified due to access restrictions.",
+          "key_features": [
+            "AI-powered generation",
+            "Pixel art creation",
+            "Product Hunt listing"
+          ],
+          "tags": [
+            "ai",
+            "pixel-art",
+            "image-generation",
+            "product-hunt"
+          ],
+          "last_verified": "2026-04-26"
         }
       ]
     },
@@ -9768,25 +9791,25 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-11",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Paid",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "Gemini Decisions API enables fast, single-pass multimodal decisions across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions with calibrated confidence scores.",
+          "short_description": "A fast, calibrated multimodal API that evaluates up to 1,000 yes/no, choice, or rubric questions in a single forward pass across text, images, audio, video, and PDFs with sub‑250 ms latency and pay‑per‑input‑token pricing.",
           "key_features": [
-            "$0.10 per 1M input tokens with zero output tokens billed",
-            "Calibrated confidence scores (0-1) for each decision",
             "Cost-effective: $0.10 per 1M input tokens, zero output token charges",
-            "Support for up to 1,000 independent questions per request (yes/no, multiple choice, rubric scoring)",
-            "Pay-only-for-input pricing at $0.10 per 1M input tokens with zero output token charges",
-            "Sub-250ms end-to-end latency with calibrated confidence scores (0 to 1)"
+            "Evaluates up to 1,000 independent questions in a single request",
+            "Confidence scores and three decision types (yes/no, multiple choice, rubric) with per‑level probabilities",
+            "Pay‑per‑input‑token pricing at $0.10 per 1M tokens, zero output‑token charges",
+            "Sub-250ms end-to-end latency with calibrated confidence scores (0 to 1)",
+            "Support for up to 1,000 independent questions per request (yes/no, multiple choice, rubric scoring)"
           ],
           "tags": [
             "gemini",
             "low-latency",
-            "decisions",
-            "google",
-            "multimodal",
-            "routing",
+            "api",
             "grading",
+            "google",
+            "ai-decisions",
+            "multimodal",
             "decisions-api"
           ],
           "last_verified": "2026-11-11"
@@ -10606,24 +10629,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "llama.cpp enables local inference of multimodal LLMs on consumer and enterprise hardware via quantization and portable C/C++ implementation, providing a lightweight, versatile platform for private AI products.",
+          "short_description": "A lightweight, portable C/C++ library enabling efficient inference of multi-modal large language models on consumer and enterprise hardware.",
           "key_features": [
-            "Portable C/C++ library with cross‑platform support",
             "Supports more than 150 model architecture variants and speculative decoding methods",
-            "Quantized inference for low‑resource hardware",
-            "Optimized backends for CPU, GPU, and mobile",
+            "Optimized quantization and backends",
             "Provides a portable C/C++ implementation with stable public APIs",
-            "Support for 150+ model architectures"
+            "Cross-platform and private AI deployment",
+            "Portable C/C++ implementation",
+            "Portable C/C++ library with cross‑platform support"
           ],
           "tags": [
-            "private-ai",
             "c++",
-            "quantization",
             "inference",
-            "llm-inference",
             "cpp",
             "llm",
-            "local-ai"
+            "cross-platform",
+            "llm-inference",
+            "local-ai",
+            "open-source"
           ],
           "last_verified": "2026-11-13"
         },
@@ -10636,24 +10659,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "ggml is a lightweight tensor library for machine learning that powers efficient inference across diverse hardware, enabling high‑performance AI models on CPUs, GPUs, and mobile devices.",
+          "short_description": "A tensor library designed for machine learning that provides a flexible backend for running models on diverse hardware.",
           "key_features": [
+            "Runtime‑loadable dynamic libraries",
+            "Supports extensive model architectures",
             "Underlying engine for llama.cpp",
-            "Cross-platform CPU and GPU support",
-            "Optimized for memory‑constrained environments",
-            "Backends can be compiled as dynamic libraries and loaded at runtime",
-            "High-performance tensor operations",
-            "Runtime‑loadable dynamic libraries"
+            "Hardware-agnostic implementation",
+            "Tensor operations for ML",
+            "Dynamic library backend loading"
           ],
           "tags": [
             "c++",
-            "gpu",
-            "hardware-acceleration",
-            "cpu",
+            "machine-learning",
             "inference",
-            "ggml",
-            "cpp",
-            "tensor"
+            "open-source",
+            "hardware-acceleration",
+            "gpu",
+            "c/c++",
+            "ggml"
           ],
           "last_verified": "2026-11-13"
         }
