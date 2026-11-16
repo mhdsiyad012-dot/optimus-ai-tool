@@ -1007,3 +1007,25 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **GPT-6 Astra** (OpenAI) verified on 2025-12-17
     - **llama.cpp** (ggml-org) verified on 2026-11-13
     - **ggml** (ggml-org) verified on 2026-11-13
+
+### [2026-11-16 15:00 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 9
+- **Existing Tools Refreshed:** 7
+  - **Added:**
+    - **[OpenAI Computer Use](https://platform.openai.com/docs/guides/tools-computer-use)** (OpenAI) — *Autonomous Agents & Coding* (Paid): A computer-use agent capability that lets AI click, type, and navigate across existing healthcare software to automate multi-step clinical and administrative workflows.
+    - **[ChatGPT for Healthcare](https://openai.com/healthcare/)** (OpenAI) — *Productivity & Office* (Paid): OpenAI's healthcare-focused ChatGPT offering for organizations, enabling HIPAA-compliant computer-use agents across clinical and administrative workflows.
+    - **[ChatGPT for Clinicians](https://chatgpt.com/plans/clinicians/)** (OpenAI) — *Productivity & Office* (Free): A free ChatGPT plan for U.S. clinicians that provides access to computer-use capabilities in ChatGPT Work and Codex for clinical workflows.
+    - **[GPT-6 Luna](https://platform.openai.com/docs/models)** (OpenAI) — *LLMs & Frontier Models* (Paid): A lower-cost OpenAI frontier model for high-volume administrative computer-use workflows, achieving strong benchmark performance at 8.5 cents per task.
+    - **[CVS Health Agent Kit](https://github.com/cvs-health/cua-agent-kit)** (CVS Health) — *Autonomous Agents & Coding* (Open Source): An open-source agent kit from CVS Health, built with OpenAI's Agents SDK, for repeatable computer-use automation with validation and human oversight.
+    - **[Abridge Assistant](https://www.abridge.com/)** (Abridge) — *Productivity & Office* (Paid): Abridge's clinical assistant uses computer-use agents to coordinate care plans and resolve discharge barriers across healthcare systems.
+    - **[ChatGPT for Healthcare](https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/)** (OpenAI) — *Search & Research* (Paid): OpenAI's healthcare-specific platform integrating computer-use agents, trusted clinical search, and a 20+ plugin ecosystem to streamline clinical workflows and reduce administrative burden.
+    - **[Computer-use agents for healthcare](https://openai.com/index/advancing-computer-use-for-healthcare-teams/)** (OpenAI) — *Autonomous Agents & Coding* (Paid): AI agents that navigate existing healthcare applications to automate multi-step administrative and clinical tasks, enabling seamless data movement between disconnected systems.
+    - **[OpenAI Academy](https://openai.com/global-affairs/scaling-the-openai-academy/)** (OpenAI) — *Productivity & Office* (Free): OpenAI Academy provides free learning resources to help students, job-seekers, and other learners build practical AI skills for an AI-enabled economy.
+  - **Refreshed:**
+    - **Gemini Decisions API** (Google DeepMind) verified on 2026-11-11
+    - **ChatGPT Enterprise** (OpenAI) verified on 2026-11-16
+    - **GPT-6 Astra** (OpenAI) verified on 2026-05-09
+    - **ChatGPT for Clinicians** (OpenAI) verified on 2026-11-16
+    - **llama.cpp** (ggml-org) verified on 2026-11-13
+    - **ggml** (ggml-org) verified on 2026-11-13
+    - **ChatGPT Wallet** (Unknown Creator) verified on 2024-11-20

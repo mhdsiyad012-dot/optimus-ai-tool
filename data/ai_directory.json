@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-16T05:03:04Z",
-  "total_organizations": 124,
-  "total_tools": 350,
+  "last_updated": "2026-11-16T15:00:46Z",
+  "total_organizations": 126,
+  "total_tools": 359,
   "organizations": [
     {
       "id": "google",
@@ -1589,26 +1589,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/enterprise",
-          "short_description": "Enterprise AI assistant deployed across Heimstaden's workforce, enabling employees to generate property listings, assess neglected apartments, and draft refurbishment plans, achieving 50% adoption within two to three months.",
+          "short_description": "Enterprise-grade AI assistant deployed across LVMH Media Division newsrooms to empower journalists with document research, comparison, translation, and personalized content delivery through ChatGPT.",
           "key_features": [
-            "Used for virtual staging of property images (cost reduction >99%)",
-            "Refurbishment plan drafting",
-            "Employee adoption tracking",
+            "AI-generated property listings",
             "Enterprise data security",
+            "Preliminary translation",
+            "ChatGPT Enterprise deployment for newsroom teams",
             "Enables domain experts to build custom tools via ChatGPT Sites",
-            "AI-generated property listings"
+            "Article summaries and excerpts with source attribution"
           ],
           "tags": [
-            "virtual-staging",
-            "workflow-automation",
-            "chatbot",
+            "newsroom-productivity",
+            "productivity",
             "automation",
-            "real-estate",
-            "llm",
+            "lvmh",
+            "chatgpt-enterprise",
+            "journalism",
             "property-management",
-            "productivity"
+            "openai"
           ],
-          "last_verified": "2025-06-01"
+          "last_verified": "2026-11-16"
         },
         {
           "id": "openai-security-bug-bounty-program",
@@ -1644,28 +1644,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2025-01",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Paid",
           "official_url": "https://openai.com/index/gpt-6-astra/",
-          "short_description": "GPT-6 Astra is OpenAI's advanced language model that helped construct a nonperturbative lattice definition of the Standard Model, showcasing sophisticated reasoning and proof‑writing capabilities in cutting‑edge physics research.",
+          "short_description": "OpenAI's frontier model evaluated for clinical computer-use tasks, showing high safety and helpfulness in EHR inbox workflows.",
           "key_features": [
-            "Integration with research workflows and literature analysis",
-            "Assisted with phase correction prescriptions for chiral fermions",
             "High performance in specific use cases",
+            "99% of 325 reviewed tasks rated safe",
+            "Navigation of complex EHR interfaces",
+            "Clinical reasoning over longitudinal patient context",
             "Suggested methods to carry force fields onto finer lattices",
-            "Support for multi‑step problem solving and code generation",
-            "Demonstrated convergence of comparisons across successive grid refinements"
+            "Support for multi‑step problem solving and code generation"
           ],
           "tags": [
-            "physics",
-            "proof-assistant",
+            "multimodal",
+            "healthcare",
+            "computer-use",
+            "frontier-model",
+            "clinical-reasoning",
             "engineering",
             "ai-research",
-            "hardware-design",
-            "multimodal",
-            "lattice-field-theory",
-            "biotech"
+            "lattice-field-theory"
           ],
-          "last_verified": "2025-12-17"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-api",
@@ -2393,26 +2393,29 @@
           "parent_org": "OpenAI",
           "category": "Autonomous Agents & Coding",
           "release_date": "2025-12-03",
-          "status": "Beta",
-          "pricing": "Paid",
+          "status": "Active",
+          "pricing": "Freemium",
           "official_url": "https://openai.com/index/introducing-chatgpt-wallet/",
-          "short_description": "ChatGPT Wallet lets AI agents make purchases on a user's behalf through secure, per-transaction approval and tokenized card payments, initially rolling out to ChatGPT Pro subscribers in the US.",
+          "short_description": "ChatGPT Wallet is a utility listed on Product Hunt designed to help users manage ChatGPT API access, credits, or conversational data, though specific details are currently obscured by a security verification CAPTCHA.",
           "key_features": [
-            "Allows agents to pay without access to users' actual card details",
-            "Requires user approval and security check for each purchase",
-            "Uses payment tokens instead of actual card details",
+            "ChatGPT integration",
             "Built in partnership with American Express, Mastercard, and Visa",
-            "Initially available through dots for ChatGPT Pro subscribers in the US",
-            "Includes Commerce Partner Playbook for businesses"
+            "Includes Commerce Partner Playbook for businesses",
+            "Allows agents to pay without access to users' actual card details",
+            "Wallet tracking",
+            "Uses payment tokens instead of actual card details"
           ],
           "tags": [
-            "chatgpt",
-            "ai-agents",
-            "agentic-commerce",
             "payments",
-            "security"
+            "agentic-commerce",
+            "security",
+            "ai-tools",
+            "ai-agents",
+            "producthunt",
+            "wallet",
+            "chatgpt"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2024-11-20"
         },
         {
           "id": "openai-codex-cloud",
@@ -2464,6 +2467,179 @@
             "coding"
           ],
           "last_verified": "2026-05-09"
+        },
+        {
+          "id": "openai-computer-use",
+          "name": "OpenAI Computer Use",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-05",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://platform.openai.com/docs/guides/tools-computer-use",
+          "short_description": "A computer-use agent capability that lets AI click, type, and navigate across existing healthcare software to automate multi-step clinical and administrative workflows.",
+          "key_features": [
+            "Multi-step workflow automation across applications",
+            "Clicks, types, and navigates existing software",
+            "Available through OpenAI API and ChatGPT products",
+            "Supports approvals, access controls, and audit logs"
+          ],
+          "tags": [
+            "computer-use",
+            "healthcare",
+            "agents",
+            "automation"
+          ],
+          "last_verified": "2026-05-09"
+        },
+        {
+          "id": "openai-chatgpt-for-healthcare",
+          "name": "ChatGPT for Healthcare",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2026-05",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/healthcare/",
+          "short_description": "OpenAI's healthcare-focused ChatGPT offering for organizations, enabling HIPAA-compliant computer-use agents across clinical and administrative workflows.",
+          "key_features": [
+            "HIPAA-compliant workflows with BAA-eligible services",
+            "Role-based access controls and audit logs",
+            "Configurable approvals and agent access",
+            "Computer use across EHR and payer portals"
+          ],
+          "tags": [
+            "healthcare",
+            "chatgpt",
+            "computer-use",
+            "enterprise"
+          ],
+          "last_verified": "2026-05-09"
+        },
+        {
+          "id": "openai-chatgpt-for-clinicians",
+          "name": "ChatGPT for Clinicians",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2026-05",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://chatgpt.com/plans/clinicians/",
+          "short_description": "A free ChatGPT plan for U.S. clinicians that provides access to computer-use capabilities in ChatGPT Work and Codex for clinical workflows.",
+          "key_features": [
+            "Free for U.S. clinicians",
+            "Computer use in ChatGPT Work and Codex",
+            "Support for clinical and administrative tasks",
+            "Access to OpenAI's healthcare-focused AI capabilities"
+          ],
+          "tags": [
+            "healthcare",
+            "clinicians",
+            "chatgpt",
+            "computer-use"
+          ],
+          "last_verified": "2026-05-09"
+        },
+        {
+          "id": "openai-gpt-6-luna",
+          "name": "GPT-6 Luna",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-05",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://platform.openai.com/docs/models",
+          "short_description": "A lower-cost OpenAI frontier model for high-volume administrative computer-use workflows, achieving strong benchmark performance at 8.5 cents per task.",
+          "key_features": [
+            "91.8% of rubric points on HealthAdminBench",
+            "8.5 cents per task",
+            "98% lower cost than GPT-6 Astra",
+            "Evaluated at maximum reasoning effort"
+          ],
+          "tags": [
+            "frontier-model",
+            "healthcare",
+            "administrative-workflows",
+            "cost-efficient"
+          ],
+          "last_verified": "2026-05-09"
+        },
+        {
+          "id": "chatgpt-for-healthcare",
+          "name": "ChatGPT for Healthcare",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2026-11-16",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+          "short_description": "Enhanced clinical search and answers experience for clinicians, delivering evidence-based responses with inspectable citations across multiple specialties and multi-turn conversations.",
+          "key_features": [
+            "Trusted clinical search with medical evidence evaluation and citation",
+            "20+ new healthcare plugins for EHR, insurance, and care coordination",
+            "Trusted clinical search that finds, evaluates, and cites medical evidence",
+            "Citations that clinicians can inspect and verify",
+            "Physician-rated improvements across eight dimensions including factual correctness and safety",
+            "Computer-use agents for multi-step workflow automation across existing healthcare software"
+          ],
+          "tags": [
+            "ai",
+            "healthcare",
+            "clinical-search",
+            "healthcare-ai",
+            "medical",
+            "workflow-automation",
+            "evidence-based"
+          ],
+          "last_verified": "2026-11-16"
+        },
+        {
+          "id": "computer-use-agents-for-healthcare",
+          "name": "Computer-use agents for healthcare",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-16",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+          "short_description": "AI agents that navigate existing healthcare applications to automate multi-step administrative and clinical tasks, enabling seamless data movement between disconnected systems.",
+          "key_features": [
+            "Navigate software by reading screens, clicking, and typing",
+            "Multi-step workflow automation for referrals, document moves, and care coordination",
+            "Access controls and audit logs for secure, HIPAA-compliant deployments",
+            "Supports BAA-covered eligible services for protected health information"
+          ],
+          "tags": [
+            "autonomous-agents",
+            "healthcare",
+            "workflow-automation",
+            "hipaa-compliant"
+          ],
+          "last_verified": "2026-11-16"
+        },
+        {
+          "id": "openai-openai-academy",
+          "name": "OpenAI Academy",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2026-06",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/global-affairs/scaling-the-openai-academy/",
+          "short_description": "OpenAI Academy provides free learning resources to help students, job-seekers, and other learners build practical AI skills for an AI-enabled economy.",
+          "key_features": [
+            "Free learning resources for students and job-seekers",
+            "Practical AI skills development",
+            "Supports upskilling for work and education",
+            "Part of OpenAI’s broader AI education efforts"
+          ],
+          "tags": [
+            "ai-education",
+            "free-learning",
+            "openai",
+            "upskilling"
+          ],
+          "last_verified": "2026-06-15"
         }
       ]
     },
@@ -9791,26 +9967,26 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-11",
           "status": "Active",
-          "pricing": "Paid",
+          "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A fast, calibrated multimodal API that evaluates up to 1,000 yes/no, choice, or rubric questions in a single forward pass across text, images, audio, video, and PDFs with sub‑250 ms latency and pay‑per‑input‑token pricing.",
+          "short_description": "The Gemini Decisions API enables fast, calibrated multimodal closed-set decisions by evaluating up to 1,000 yes/no, choice, and rubric-scoring questions in a single forward pass across text, images, audio, video, and PDFs, powering low-latency tool selection, policy checks, and model routing.",
           "key_features": [
-            "Cost-effective: $0.10 per 1M input tokens, zero output token charges",
-            "Evaluates up to 1,000 independent questions in a single request",
+            "Single-forward-pass multimodal evaluation across text, images, audio, video, and PDFs",
             "Confidence scores and three decision types (yes/no, multiple choice, rubric) with per‑level probabilities",
             "Pay‑per‑input‑token pricing at $0.10 per 1M tokens, zero output‑token charges",
+            "Evaluates up to 1,000 independent questions in a single request",
             "Sub-250ms end-to-end latency with calibrated confidence scores (0 to 1)",
-            "Support for up to 1,000 independent questions per request (yes/no, multiple choice, rubric scoring)"
+            "Three native decision types (Yes/No, Multiple Choice, Ordered Rubric) with per-answer confidence scores"
           ],
           "tags": [
-            "gemini",
-            "low-latency",
-            "api",
-            "grading",
-            "google",
-            "ai-decisions",
             "multimodal",
-            "decisions-api"
+            "grading",
+            "ai-decisions",
+            "decisions-api",
+            "gemini",
+            "api",
+            "google",
+            "low-latency"
           ],
           "last_verified": "2026-11-11"
         },
@@ -10629,24 +10805,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "A lightweight, portable C/C++ library enabling efficient inference of multi-modal large language models on consumer and enterprise hardware.",
+          "short_description": "Run multi-modal LLMs locally across consumer-grade hardware via quantization, optimized backends, and a portable C/C++ implementation.",
           "key_features": [
-            "Supports more than 150 model architecture variants and speculative decoding methods",
-            "Optimized quantization and backends",
-            "Provides a portable C/C++ implementation with stable public APIs",
-            "Cross-platform and private AI deployment",
             "Portable C/C++ implementation",
-            "Portable C/C++ library with cross‑platform support"
+            "Provides a portable C/C++ implementation with stable public APIs",
+            "Portable C/C++ library with cross‑platform support",
+            "Support for 150+ model architecture variants and speculative decoding methods",
+            "Supports more than 150 model architecture variants and speculative decoding methods",
+            "Optimized quantization and backends"
           ],
           "tags": [
-            "c++",
             "inference",
             "cpp",
+            "quantization",
             "llm",
-            "cross-platform",
-            "llm-inference",
             "local-ai",
-            "open-source"
+            "llm-inference",
+            "c++",
+            "cross-platform"
           ],
           "last_verified": "2026-11-13"
         },
@@ -10659,24 +10835,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "A tensor library designed for machine learning that provides a flexible backend for running models on diverse hardware.",
+          "short_description": "Tensor library for machine learning that serves as the underlying engine for llama.cpp, enabling efficient model execution across diverse hardware backends.",
           "key_features": [
-            "Runtime‑loadable dynamic libraries",
-            "Supports extensive model architectures",
-            "Underlying engine for llama.cpp",
             "Hardware-agnostic implementation",
             "Tensor operations for ML",
-            "Dynamic library backend loading"
+            "Hardware-agnostic support across NVIDIA, AMD, Qualcomm, Arm, IBM, Intel",
+            "Dynamic backend compilation with runtime loading",
+            "Dynamic library backend loading",
+            "Underlying engine for llama.cpp"
           ],
           "tags": [
-            "c++",
-            "machine-learning",
             "inference",
-            "open-source",
+            "machine-learning",
             "hardware-acceleration",
-            "gpu",
-            "c/c++",
-            "ggml"
+            "c++",
+            "tensor",
+            "ml-engine",
+            "ggml",
+            "c/c++"
           ],
           "last_verified": "2026-11-13"
         }
@@ -10751,6 +10927,82 @@
             "it-services"
           ],
           "last_verified": "2025-04-09"
+        }
+      ]
+    },
+    {
+      "id": "cvs-health",
+      "name": "CVS Health",
+      "website": "https://openai.com",
+      "description": "OpenAI is an AI research and deployment company developing frontier models, ChatGPT, and computer-use agents for healthcare and other industries.",
+      "logo_symbol": "cvs-health",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Autonomous"
+      ],
+      "tools": [
+        {
+          "id": "cvs-health-agent-kit",
+          "name": "CVS Health Agent Kit",
+          "parent_org": "CVS Health",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-05",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/cvs-health/cua-agent-kit",
+          "short_description": "An open-source agent kit from CVS Health, built with OpenAI's Agents SDK, for repeatable computer-use automation with validation and human oversight.",
+          "key_features": [
+            "Open-source computer-use agent kit",
+            "Built with OpenAI Agents SDK",
+            "Validation checks and human oversight",
+            "Screenshot and action records for auditability"
+          ],
+          "tags": [
+            "open-source",
+            "healthcare",
+            "computer-use",
+            "agents-sdk"
+          ],
+          "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "abridge",
+      "name": "Abridge",
+      "website": "https://openai.com",
+      "description": "OpenAI is an AI research and deployment company developing frontier models, ChatGPT, and computer-use agents for healthcare and other industries.",
+      "logo_symbol": "abridge",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "abridge-assistant",
+          "name": "Abridge Assistant",
+          "parent_org": "Abridge",
+          "category": "Productivity & Office",
+          "release_date": "2026-05",
+          "status": "Beta",
+          "pricing": "Paid",
+          "official_url": "https://www.abridge.com/",
+          "short_description": "Abridge's clinical assistant uses computer-use agents to coordinate care plans and resolve discharge barriers across healthcare systems.",
+          "key_features": [
+            "Computer-use agents for care plan coordination",
+            "Inpatient discharge barrier resolution",
+            "Concurrent medication access and home-health coordination",
+            "Clinician approval for decisions requiring clinical judgment"
+          ],
+          "tags": [
+            "healthcare",
+            "clinical-assistant",
+            "computer-use",
+            "care-coordination"
+          ],
+          "last_verified": "2026-05-09"
         }
       ]
     }
