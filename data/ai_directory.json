@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-17T01:42:26Z",
+  "last_updated": "2026-11-17T15:37:43Z",
   "total_organizations": 127,
-  "total_tools": 361,
+  "total_tools": 363,
   "organizations": [
     {
       "id": "google",
@@ -1089,26 +1089,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI's GPT-6 Astra is a frontier model with advanced computer use capabilities, enabling AI agents to navigate legacy interfaces and perform tasks that previously required human intervention.",
+          "short_description": "Daybreak is OpenAI's specialized AI platform that equips trusted cyber defenders with advanced models to review software, investigate suspicious activity, validate vulnerabilities, and develop fixes, strengthening national and allied cyber resilience.",
           "key_features": [
+            "Integrated with government and agency security workflows",
             "Efficient code scanning and evaluation checks",
+            "High scores in communication quality, product fidelity, and instruction adherence",
             "Natural interaction with interfaces",
             "35-40% faster than legacy models",
-            "UI navigation",
-            "High scores in communication quality, product fidelity, and instruction adherence",
-            "Handles high-volume repetitive tasks"
+            "AI-powered vulnerability discovery and analysis"
           ],
           "tags": [
+            "government",
             "code-scanning",
-            "mockups",
-            "ui-navigation",
-            "automation",
-            "code-analysis",
             "ai-agent",
-            "data-science",
+            "vulnerability-management",
+            "defense",
+            "ui-navigation",
+            "ai-agents",
             "llm"
           ],
-          "last_verified": "2025-04-09"
+          "last_verified": "2026-11-01"
         },
         {
           "id": "openai-presence",
@@ -2664,6 +2664,31 @@
             "search"
           ],
           "last_verified": "2026-11-17"
+        },
+        {
+          "id": "openai-for-chile",
+          "name": "OpenAI for Chile",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-05-17",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/introducing-openai-for-chile",
+          "short_description": "A strategic partnership between OpenAI and the Government of Chile to drive responsible AI adoption in public administration, upskill civil servants, and empower local startups to build advanced AI applications.",
+          "key_features": [
+            "AI literacy and technical upskilling programs for public administration civil servants, utilizing a train-the-trainer methodology.",
+            "Integration of OpenAI models and technologies into core ministry administrative workflows to boost productivity.",
+            "Ecosystem support for Chilean startups, offering access to OpenAI technology, technical guidance, mentorship, and funding connections.",
+            "Joint task force composed of ministry and OpenAI representatives to establish milestones, workplans, and success metrics."
+          ],
+          "tags": [
+            "ai-policy",
+            "public-sector",
+            "government-partnership",
+            "developer-outreach",
+            "chile"
+          ],
+          "last_verified": "2024-05-17"
         }
       ]
     },
@@ -4074,6 +4099,32 @@
             "peft"
           ],
           "last_verified": "2026-11-12"
+        },
+        {
+          "id": "hugging-face-inference-providers",
+          "name": "Hugging Face Inference Providers",
+          "parent_org": "Hugging Face",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-16",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://huggingface.co/docs/inference-providers",
+          "short_description": "Hugging Face's unified API for running open-weight models across 80+ providers, now powered by OpenRouter's intelligent routing for optimal price, speed, and reliability with automatic failover.",
+          "key_features": [
+            "Unified API for 600+ models across 80+ providers",
+            "Intelligent routing via OpenRouter (price, speed, reliability)",
+            "Automatic failover and retries across providers",
+            "Support for OpenAI/Anthropic API formats",
+            "Per-provider pricing transparency and usage breakdown"
+          ],
+          "tags": [
+            "inference",
+            "api",
+            "open-weight-models",
+            "routing",
+            "multi-provider"
+          ],
+          "last_verified": "2026-11-16"
         }
       ]
     },
@@ -9993,26 +10044,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "A fast, calibrated multimodal decision API powered by Gemini Decision 1 model that evaluates up to 1,000 yes/no, multiple-choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs with 150-250ms latency and zero output token costs.",
+          "short_description": "Gemini Decisions API enables fast, single-pass multimodal decisions across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions with low latency and confidence scores, designed for tool selection, policy checks, and model routing.",
           "key_features": [
-            "Pay‑per‑input‑token pricing at $0.10 per 1M tokens, zero output‑token charges",
-            "Confidence scores (0-1) for each decision enabling fallback routing",
-            "Three native decision types (Yes/No, Multiple Choice, Ordered Rubric) with per-answer confidence scores",
             "Sub-250ms end-to-end latency with flat scaling from 1 to 100 questions per request",
             "Confidence scores and three decision types (yes/no, multiple choice, rubric) with per‑level probabilities",
-            "Single-forward-pass multimodal evaluation across text, images, audio, video, and PDFs"
+            "Single-pass multimodal evaluation across text, images, audio, video, and PDFs up to 256K tokens",
+            "Scales to 1,000 independent questions per request without output token charges",
+            "Three native decision types (Yes/No, Multiple Choice, Ordered Rubric) with per-answer confidence scores",
+            "150-250ms end-to-end latency with $0.10 per 1M input tokens and $0 output token billing"
           ],
           "tags": [
             "gemini",
-            "model-routing",
             "gemini-decision-1",
-            "decisions-api",
-            "api",
             "grading",
+            "ai-decisions",
+            "multimodal",
+            "decisions-api",
             "decision-api",
-            "ai-decisions"
+            "api"
           ],
-          "last_verified": "2026-11-11"
+          "last_verified": "2026-11-17"
         },
         {
           "id": "google-deepmind-gemini-robotics-2-5",
@@ -10829,24 +10880,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "A lightweight, portable, and high-performance C/C++ library designed to run multi-modal LLMs locally on a wide range of hardware, enabling private and cross-platform AI applications.",
+          "short_description": "llama.cpp is a lightweight C/C++ inference engine for running multi-modal LLMs locally across diverse hardware. Version 1.0.0 introduces a stable public API and semantic versioning for downstream developers.",
           "key_features": [
-            "Support for over 150 model architecture variants",
-            "Optimized quantization and backends",
-            "Portable C/C++ implementation running on consumer to enterprise hardware",
             "Portable C/C++ library with cross‑platform support",
-            "Supports more than 150 model architecture variants and speculative decoding methods",
-            "Stable public C API (libllama) with strict semantic versioning"
+            "Optimized quantization and backends",
+            "Stable public C API (libllama) with strict semantic versioning",
+            "Support for over 150 model architecture variants",
+            "Quantization and optimized hardware backends",
+            "Support for 150+ model architectures and speculative decoding"
           ],
           "tags": [
-            "quantization",
-            "local-ai",
-            "c++",
             "inference",
-            "llm",
+            "c-cpp",
+            "quantization",
+            "c++",
             "privacy",
+            "local-ai",
             "open-source",
-            "llm-inference"
+            "cross-platform"
           ],
           "last_verified": "2026-11-13"
         },
@@ -10859,24 +10910,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "A hardware-agnostic tensor library for machine learning that provides the foundation for efficient, cross-platform inference in llama.cpp across diverse hardware backends.",
+          "short_description": "ggml is a tensor library for machine learning that powers llama.cpp and runs on virtually any hardware through dedicated backends. Version 1.0.0 formalizes its public API and semantic versioning commitments.",
           "key_features": [
-            "Dynamic backend compilation with runtime loading",
-            "Hardware-agnostic implementation",
+            "Tensor library for machine learning",
+            "Public C API governed by semantic versioning",
             "Dynamic backend system supporting CPU, GPU, and specialized hardware",
-            "Tensor operations for ML",
             "Stable public C API (libggml) adhering to semantic versioning",
-            "Dynamic library backend loading"
+            "Dynamic library backend loading",
+            "Dynamic backend compilation with runtime loading"
           ],
           "tags": [
-            "tensor",
-            "ggml",
-            "c++",
-            "machine-learning",
             "inference",
-            "open-source",
+            "backend",
+            "c-cpp",
             "ml-engine",
-            "tensor-library"
+            "c++",
+            "tensor-library",
+            "tensor",
+            "ggml"
           ],
           "last_verified": "2026-11-13"
         }
@@ -11051,19 +11102,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openrouter.ai/",
-          "short_description": "A routing platform that serves open-weight models from the Hugging Face Hub at scale, automatically selecting the best provider per request based on live price, speed, and reliability.",
+          "short_description": "A model routing platform that directs requests across 80+ providers based on live price, speed, and reliability metrics, serving 800T+ tokens monthly to 10M+ users with automatic failover.",
           "key_features": [
+            "Automatic failover and retry logic",
             "Routes across 80+ providers with live measurements of price, speed, and reliability",
-            "Automatic retry on another provider if the first one fails",
+            "Cache-aware routing that keeps conversations on the provider holding the prompt cache",
             "Supports OpenAI Chat Completions and Responses APIs and Anthropic Messages API",
-            "Cache-aware routing that keeps conversations on the provider holding the prompt cache"
+            "Provider selection via model suffixes (:fastest, :cheapest, :provider)",
+            "Automatic retry on another provider if the first one fails"
           ],
           "tags": [
-            "routing",
             "open-weight",
-            "llm",
+            "integration",
+            "llm-gateway",
+            "inference-optimization",
+            "routing",
             "provider",
-            "integration"
+            "openrouter",
+            "multi-provider"
           ],
           "last_verified": "2026-11-16"
         }
