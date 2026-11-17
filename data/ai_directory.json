@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-16T15:00:46Z",
-  "total_organizations": 126,
-  "total_tools": 359,
+  "last_updated": "2026-11-17T01:42:26Z",
+  "total_organizations": 127,
+  "total_tools": 361,
   "organizations": [
     {
       "id": "google",
@@ -877,28 +877,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2022-11-30",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://chatgpt.com",
-          "short_description": "OpenAI's conversational AI assistant used for drafting, research, and business operations automation. Teams use it to generate proposals, build daily planning reports, and search across connected company systems.",
+          "short_description": "ChatGPT is OpenAI's conversational AI model that scientists are using across the research pipeline—from ideation to data analysis—with pilot participants reporting it nearly doubles research speed and 98% expecting it to accelerate discovery.",
           "key_features": [
+            "Literature review",
+            "Drafting of proposals, schedules, and business documents",
+            "Data analysis",
             "Supports both free and paid tiers",
-            "Community and support resource navigation",
             "Reusable templates and automated recurring reports",
-            "Daily report template generation integrating Google Workspace (Gmail, Calendar, Sheets, Drive)",
-            "Multi-source data ingestion (email, calendar, spreadsheets, Drive, weather)",
-            "Drafting of proposals, schedules, and business documents"
+            "Community and support resource navigation"
           ],
           "tags": [
-            "automation",
             "integrations",
-            "business",
-            "ai-impact",
+            "academic-research",
             "ai-assistant",
-            "productivity",
             "ai",
-            "chatgpt"
+            "productivity",
+            "scientific-discovery",
+            "business",
+            "openai"
           ],
-          "last_verified": "2026-06-01"
+          "last_verified": "2026-10-07"
         },
         {
           "id": "openai-gpt-4o",
@@ -1589,24 +1589,24 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/enterprise",
-          "short_description": "Enterprise-grade AI assistant deployed across LVMH Media Division newsrooms to empower journalists with document research, comparison, translation, and personalized content delivery through ChatGPT.",
+          "short_description": "OpenAI's enterprise AI assistant deployed across LVMH's Media Division to augment journalism with document research, comparison, translation, and personalized content delivery while integrating LVMH publications directly into ChatGPT with source attribution and article links.",
           "key_features": [
-            "AI-generated property listings",
-            "Enterprise data security",
             "Preliminary translation",
+            "AI-generated property listings",
             "ChatGPT Enterprise deployment for newsroom teams",
             "Enables domain experts to build custom tools via ChatGPT Sites",
-            "Article summaries and excerpts with source attribution"
+            "AI applications for document research, document comparison, and preliminary translation",
+            "Enterprise data security"
           ],
           "tags": [
+            "newsroom",
             "newsroom-productivity",
-            "productivity",
-            "automation",
-            "lvmh",
-            "chatgpt-enterprise",
             "journalism",
-            "property-management",
-            "openai"
+            "openai",
+            "productivity",
+            "media-division",
+            "enterprise-ai",
+            "property-management"
           ],
           "last_verified": "2026-11-16"
         },
@@ -2640,6 +2640,30 @@
             "upskilling"
           ],
           "last_verified": "2026-06-15"
+        },
+        {
+          "id": "openai-broadening-access-to-ai-for-scientists",
+          "name": "Broadening access to AI for scientists",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2026-11-17",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "short_description": "Title: Broadening access to AI for scientists",
+          "key_features": [
+            "Through [ChatGPT Edu⁠(opens in a new window)](https://help.openai.com/en/articles/9377311-chatgpt-edu-at-openai), universities can give their campus communities access to ChatGPT for research, teaching, and learning, with tools for analyzing data and administrative controls for managing access.",
+            "For researchers working in biology, [GPT‑Rosalind⁠](https://openai.com/rosalind/) brings together specialized biological reasoning and access to scientific tools and databases. The [Rosalind Academic Plan⁠](https://openai.com/index/introducing-the-rosalind-academic-plan/) helps bring these capabilities to eligible labs at U.S. universities, offering up to 30 seats at no cost for up to 12 months. Access to GPT‑Rosalind requires approval through our trusted-access process."
+          ],
+          "tags": [
+            "broadening",
+            "access",
+            "for",
+            "scientists",
+            "openai",
+            "search"
+          ],
+          "last_verified": "2026-11-17"
         }
       ]
     },
@@ -9969,24 +9993,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "The Gemini Decisions API enables fast, calibrated multimodal closed-set decisions by evaluating up to 1,000 yes/no, choice, and rubric-scoring questions in a single forward pass across text, images, audio, video, and PDFs, powering low-latency tool selection, policy checks, and model routing.",
+          "short_description": "A fast, calibrated multimodal decision API powered by Gemini Decision 1 model that evaluates up to 1,000 yes/no, multiple-choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs with 150-250ms latency and zero output token costs.",
           "key_features": [
-            "Single-forward-pass multimodal evaluation across text, images, audio, video, and PDFs",
-            "Confidence scores and three decision types (yes/no, multiple choice, rubric) with per‑level probabilities",
             "Pay‑per‑input‑token pricing at $0.10 per 1M tokens, zero output‑token charges",
-            "Evaluates up to 1,000 independent questions in a single request",
-            "Sub-250ms end-to-end latency with calibrated confidence scores (0 to 1)",
-            "Three native decision types (Yes/No, Multiple Choice, Ordered Rubric) with per-answer confidence scores"
+            "Confidence scores (0-1) for each decision enabling fallback routing",
+            "Three native decision types (Yes/No, Multiple Choice, Ordered Rubric) with per-answer confidence scores",
+            "Sub-250ms end-to-end latency with flat scaling from 1 to 100 questions per request",
+            "Confidence scores and three decision types (yes/no, multiple choice, rubric) with per‑level probabilities",
+            "Single-forward-pass multimodal evaluation across text, images, audio, video, and PDFs"
           ],
           "tags": [
-            "multimodal",
-            "grading",
-            "ai-decisions",
-            "decisions-api",
             "gemini",
+            "model-routing",
+            "gemini-decision-1",
+            "decisions-api",
             "api",
-            "google",
-            "low-latency"
+            "grading",
+            "decision-api",
+            "ai-decisions"
           ],
           "last_verified": "2026-11-11"
         },
@@ -10805,24 +10829,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "Run multi-modal LLMs locally across consumer-grade hardware via quantization, optimized backends, and a portable C/C++ implementation.",
+          "short_description": "A lightweight, portable, and high-performance C/C++ library designed to run multi-modal LLMs locally on a wide range of hardware, enabling private and cross-platform AI applications.",
           "key_features": [
-            "Portable C/C++ implementation",
-            "Provides a portable C/C++ implementation with stable public APIs",
+            "Support for over 150 model architecture variants",
+            "Optimized quantization and backends",
+            "Portable C/C++ implementation running on consumer to enterprise hardware",
             "Portable C/C++ library with cross‑platform support",
-            "Support for 150+ model architecture variants and speculative decoding methods",
             "Supports more than 150 model architecture variants and speculative decoding methods",
-            "Optimized quantization and backends"
+            "Stable public C API (libllama) with strict semantic versioning"
           ],
           "tags": [
-            "inference",
-            "cpp",
             "quantization",
-            "llm",
             "local-ai",
-            "llm-inference",
             "c++",
-            "cross-platform"
+            "inference",
+            "llm",
+            "privacy",
+            "open-source",
+            "llm-inference"
           ],
           "last_verified": "2026-11-13"
         },
@@ -10835,24 +10859,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "Tensor library for machine learning that serves as the underlying engine for llama.cpp, enabling efficient model execution across diverse hardware backends.",
+          "short_description": "A hardware-agnostic tensor library for machine learning that provides the foundation for efficient, cross-platform inference in llama.cpp across diverse hardware backends.",
           "key_features": [
-            "Hardware-agnostic implementation",
-            "Tensor operations for ML",
-            "Hardware-agnostic support across NVIDIA, AMD, Qualcomm, Arm, IBM, Intel",
             "Dynamic backend compilation with runtime loading",
-            "Dynamic library backend loading",
-            "Underlying engine for llama.cpp"
+            "Hardware-agnostic implementation",
+            "Dynamic backend system supporting CPU, GPU, and specialized hardware",
+            "Tensor operations for ML",
+            "Stable public C API (libggml) adhering to semantic versioning",
+            "Dynamic library backend loading"
           ],
           "tags": [
-            "inference",
-            "machine-learning",
-            "hardware-acceleration",
-            "c++",
             "tensor",
-            "ml-engine",
             "ggml",
-            "c/c++"
+            "c++",
+            "machine-learning",
+            "inference",
+            "open-source",
+            "ml-engine",
+            "tensor-library"
           ],
           "last_verified": "2026-11-13"
         }
@@ -11003,6 +11027,45 @@
             "care-coordination"
           ],
           "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "website": "https://huggingface.co/",
+      "description": "Hugging Face partners with OpenRouter to integrate its routing platform into Inference Providers, enabling seamless access to open-weight models.",
+      "logo_symbol": "openrouter",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "openrouter-hf-integration",
+          "name": "OpenRouter",
+          "parent_org": "OpenRouter",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-16",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openrouter.ai/",
+          "short_description": "A routing platform that serves open-weight models from the Hugging Face Hub at scale, automatically selecting the best provider per request based on live price, speed, and reliability.",
+          "key_features": [
+            "Routes across 80+ providers with live measurements of price, speed, and reliability",
+            "Automatic retry on another provider if the first one fails",
+            "Supports OpenAI Chat Completions and Responses APIs and Anthropic Messages API",
+            "Cache-aware routing that keeps conversations on the provider holding the prompt cache"
+          ],
+          "tags": [
+            "routing",
+            "open-weight",
+            "llm",
+            "provider",
+            "integration"
+          ],
+          "last_verified": "2026-11-16"
         }
       ]
     }
