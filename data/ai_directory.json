@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-17T15:37:43Z",
+  "last_updated": "2026-11-18T00:39:55Z",
   "total_organizations": 127,
-  "total_tools": 363,
+  "total_tools": 368,
   "organizations": [
     {
       "id": "google",
@@ -96,22 +96,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2023-12-06",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Free",
           "official_url": "https://gemini.google.com",
-          "short_description": "Google's flagship multimodal foundation model family featuring 2M+ token context windows and native reasoning.",
+          "short_description": "Gemini now acts as a personal assistant, handling tasks like phone calls, appointment booking, bill analysis, and purchases directly through Google services.",
           "key_features": [
-            "Native multimodal ingestion across text, code, audio, and video",
-            "Massive 2 Million token context window",
             "Integrated Google Workspace, Search, and Maps extensions",
-            "Advanced code execution and mathematical reasoning"
+            "Forward emails to gemini@google.com for automatic scheduling",
+            "Integrate with Google Calendar, Maps, Password Manager, and RCS texting",
+            "Analyze utility bills and identify cost‑saving opportunities",
+            "Make phone calls and book appointments (e.g., car dealerships)",
+            "Shop and checkout using Google Pay and the Agent Payments Protocol"
           ],
           "tags": [
-            "frontier-model",
-            "multimodal",
-            "chat-assistant",
-            "reasoning"
+            "reasoning",
+            "personal-assistant",
+            "maps",
+            "task-automation",
+            "rcs",
+            "calendar",
+            "agent-payments",
+            "google-pay"
           ],
-          "last_verified": "2026-10-22"
+          "last_verified": "2026-11-17"
         },
         {
           "id": "google-veo",
@@ -1034,26 +1040,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://openai.com/codex/",
-          "short_description": "OpenAI's agentic software engineering platform that explores codebases, writes and reviews code, and ships working prototypes from natural-language prompts. It lets non-engineers contribute production code while freeing engineers for architecture and security work.",
+          "short_description": "The Codex Security Plug-in integrates AI code analysis into development workflows, automatically identifying security vulnerabilities in code and suggesting fixes.",
           "key_features": [
-            "Automated code execution and testing in sandboxed environments",
-            "Rapid prototyping of interfaces and workflows by product and business teams",
             "Integrates with ChatGPT and existing developer workflows",
-            "Support for autonomous software engineering tasks",
-            "Automated GitHub pull request review",
-            "Connectors to repositories, development environments, and Slack for product context"
+            "Compliance reporting",
+            "Fix suggestions",
+            "IDE integration",
+            "Static code analysis",
+            "Real-time vulnerability detection"
           ],
           "tags": [
-            "prototyping",
-            "software-development",
+            "code-security",
+            "ai-integration",
+            "security",
+            "openai",
             "developer-productivity",
-            "code-review",
             "software-engineering",
-            "coding",
             "coding-agent",
-            "openai"
+            "static-analysis"
           ],
-          "last_verified": "2026-06-01"
+          "last_verified": "2025-12-01"
         },
         {
           "id": "openai-uber-brings-chatgpt-work-to-all-employees-with-openai",
@@ -2689,6 +2695,141 @@
             "chile"
           ],
           "last_verified": "2024-05-17"
+        },
+        {
+          "id": "openai-gpt-6-2-astra",
+          "name": "GPT-6.2 Astra",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "short_description": "An efficient, versatile model for everyday work, offering smarter reasoning, lower cost, and strong performance on daily tasks and multistep workflows.",
+          "key_features": [
+            "Cost‑effective with GPT‑6.1 Sol pricing ($2/$0.10/$10 per million tokens)",
+            "Strong cybersecurity and safety capabilities with tighter safeguards",
+            "Enhanced code generation and computer use for CAD, simulation, and 3D design",
+            "Clear, natural writing and intuitive collaboration for technical and non‑technical work",
+            "Superior professional output (slides, docs, spreadsheets) following industry templates",
+            "Higher efficiency enabling more tasks per paid plan"
+          ],
+          "tags": [
+            "cost‑effective",
+            "code-generation",
+            "computer-use",
+            "cybersecurity",
+            "everyday-ai",
+            "productivity",
+            "agentic-workflows",
+            "frontier-model"
+          ],
+          "last_verified": "2025-01-01"
+        },
+        {
+          "id": "openai-daybreak",
+          "name": "Daybreak",
+          "parent_org": "OpenAI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01-23",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/daybreak",
+          "short_description": "Daybreak provides trusted defenders with advanced AI for authorized security work, enabling rapid vulnerability discovery, threat detection, and fix development for critical infrastructure.",
+          "key_features": [
+            "AI-powered vulnerability scanning",
+            "Automated threat detection",
+            "Secure code review",
+            "Rapid fix generation and testing",
+            "Human oversight controls"
+          ],
+          "tags": [
+            "cybersecurity",
+            "ai-security",
+            "vulnerability-management",
+            "enterprise",
+            "ai-tools"
+          ],
+          "last_verified": "2025-12-01"
+        },
+        {
+          "id": "openai-chatgpt-for-sales",
+          "name": "ChatGPT for Sales",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2026-09",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/business/solutions/sales/",
+          "short_description": "ChatGPT for Sales is an AI-powered workspace that unifies CRM data, customer context, and sales workflows so teams can research accounts, prepare for calls, and follow up faster. It pairs a dedicated Sales plugin with 30+ partner integrations covering the entire sales process.",
+          "key_features": [
+            "Dedicated Sales plugin with ready-to-use workflows for account prioritization, call prep, and follow-ups",
+            "30+ partner plugins connecting CRM, prospecting, and conversation tools (Salesforce, HubSpot, Gong, Apollo, Clay, and more)",
+            "Pipeline building and account prioritization from CRM data and prospect research",
+            "Call briefings, tailored pitches via Gamma/Canva, and automated follow-up drafting with CRM write-back"
+          ],
+          "tags": [
+            "sales",
+            "crm",
+            "productivity",
+            "openai",
+            "plugins"
+          ],
+          "last_verified": "2026-09-21"
+        },
+        {
+          "id": "openai-dot",
+          "name": "dot",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-09",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/introducing-dots/",
+          "short_description": "dot is an always-on AI agent in ChatGPT that proactively prepares meeting briefs, tracks deal updates, and surfaces relevant changes with proposed next steps for review. It reuses the same plugins and customer context to keep work moving between conversations.",
+          "key_features": [
+            "Always-on autonomous agent operating within ChatGPT",
+            "Proactively prepares meeting briefs and tracks deal updates",
+            "Surfaces relevant changes and proposes next steps for user review",
+            "Leverages the same connected plugins and customer context as the workspace"
+          ],
+          "tags": [
+            "agent",
+            "autonomous",
+            "openai",
+            "sales",
+            "automation"
+          ],
+          "last_verified": "2026-09-21"
+        },
+        {
+          "id": "openai-astra-for-law",
+          "name": "Astra for Law",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2025-11",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/astra-law-6-2/",
+          "short_description": "Astra for Law is a specialized model configuration of GPT-6.2 Astra built for legal intelligence, pairing frontier AI with an expanded legal search index to research legal questions, weigh authorities, and draft answers with industry-leading accuracy and minimal hallucinations.",
+          "key_features": [
+            "Legal search index spanning over 310 million URLs and 99.9% of U.S. precedential case law",
+            "First-place performance on Harvey LAB-AA with 20.8% of assignments earning full credit",
+            "Top performance on Vals AI Legal Research Bench with 53.8% full-credit rate",
+            "Ultra-low hallucination rate of 0.03 material hallucinations per assignment",
+            "Access via ChatGPT Enterprise Trusted Access Program and API",
+            "Optimized for legal reasoning, research, and workflow automation"
+          ],
+          "tags": [
+            "legal",
+            "law",
+            "legal-research",
+            "enterprise",
+            "gpt-6.2",
+            "hallucination-reduction",
+            "ai-for-lawyers"
+          ],
+          "last_verified": "2025-11-20"
         }
       ]
     },
@@ -4109,20 +4250,23 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://huggingface.co/docs/inference-providers",
-          "short_description": "Hugging Face's unified API for running open-weight models across 80+ providers, now powered by OpenRouter's intelligent routing for optimal price, speed, and reliability with automatic failover.",
+          "short_description": "Unified API to run open-weight models across 80+ providers with dynamic routing based on price, speed, and reliability.",
           "key_features": [
+            "Dynamic routing across 80+ providers",
+            "Provider selection via model suffixes (e.g., :fastest, :cheapest)",
+            "Usage analytics and provider toggles",
+            "Live price, speed, and reliability optimization",
             "Unified API for 600+ models across 80+ providers",
-            "Intelligent routing via OpenRouter (price, speed, reliability)",
-            "Automatic failover and retries across providers",
-            "Support for OpenAI/Anthropic API formats",
-            "Per-provider pricing transparency and usage breakdown"
+            "Intelligent routing via OpenRouter (price, speed, reliability)"
           ],
           "tags": [
-            "inference",
             "api",
+            "open-weight",
+            "inference",
+            "developer-platform",
+            "multi-provider",
             "open-weight-models",
-            "routing",
-            "multi-provider"
+            "routing"
           ],
           "last_verified": "2026-11-16"
         }
@@ -10044,26 +10188,26 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "Gemini Decisions API enables fast, single-pass multimodal decisions across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions with low latency and confidence scores, designed for tool selection, policy checks, and model routing.",
+          "short_description": "Gemini Decisions API enables fast, single-pass multimodal decisions across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions with low latency and calibrated confidence scores, designed for tool selection, policy checks, and dynamic model routing.",
           "key_features": [
-            "Sub-250ms end-to-end latency with flat scaling from 1 to 100 questions per request",
-            "Confidence scores and three decision types (yes/no, multiple choice, rubric) with per‑level probabilities",
-            "Single-pass multimodal evaluation across text, images, audio, video, and PDFs up to 256K tokens",
-            "Scales to 1,000 independent questions per request without output token charges",
+            "Sub-250ms end-to-end latency with $0.10 per 1M input tokens pricing",
+            "Zero output-token billing with calibrated probability scores",
             "Three native decision types (Yes/No, Multiple Choice, Ordered Rubric) with per-answer confidence scores",
-            "150-250ms end-to-end latency with $0.10 per 1M input tokens and $0 output token billing"
+            "Single-pass multimodal evaluation across text, images, audio, video, and PDFs up to 256K tokens",
+            "Support for yes/no, multiple choice, and rubric scoring with confidence scores",
+            "Scales to 1,000 independent questions per request without output token charges"
           ],
           "tags": [
-            "gemini",
-            "gemini-decision-1",
+            "api",
+            "google",
+            "decision-api",
             "grading",
             "ai-decisions",
-            "multimodal",
             "decisions-api",
-            "decision-api",
-            "api"
+            "decisions",
+            "gemini"
           ],
-          "last_verified": "2026-11-17"
+          "last_verified": "2026-11-11"
         },
         {
           "id": "google-deepmind-gemini-robotics-2-5",
@@ -10880,24 +11024,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/llama.cpp",
-          "short_description": "llama.cpp is a lightweight C/C++ inference engine for running multi-modal LLMs locally across diverse hardware. Version 1.0.0 introduces a stable public API and semantic versioning for downstream developers.",
+          "short_description": "A lightweight, highly portable C/C++ library for running multi-modal large language models (LLMs) locally and privately across a wide range of hardware, from consumer machines to enterprise servers. The v1.0.0 release establishes a stable API and ABI foundation for developers building cross-platform AI products.",
           "key_features": [
-            "Portable C/C++ library with cross‑platform support",
-            "Optimized quantization and backends",
-            "Stable public C API (libllama) with strict semantic versioning",
-            "Support for over 150 model architecture variants",
             "Quantization and optimized hardware backends",
-            "Support for 150+ model architectures and speculative decoding"
+            "Portable C/C++ library with cross‑platform support",
+            "Quantization support for efficient memory and speed optimization",
+            "Multi-modal LLM inference on consumer-grade to enterprise hardware",
+            "Stable C API/ABI with strict semantic versioning starting at v1.0.0",
+            "Support for over 150 model architecture variants and speculative decoding methods"
           ],
           "tags": [
-            "inference",
-            "c-cpp",
-            "quantization",
-            "c++",
             "privacy",
             "local-ai",
+            "cross-platform",
+            "inference",
+            "ggml",
+            "c-cpp",
             "open-source",
-            "cross-platform"
+            "llm"
           ],
           "last_verified": "2026-11-13"
         },
@@ -10910,24 +11054,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/ggml-org/ggml",
-          "short_description": "ggml is a tensor library for machine learning that powers llama.cpp and runs on virtually any hardware through dedicated backends. Version 1.0.0 formalizes its public API and semantic versioning commitments.",
+          "short_description": "ggml is a lightweight, portable, and high-performance tensor library for machine learning that serves as the core computational engine for llama.cpp. It features a flexible backend system allowing it to run on virtually any hardware, including CPUs, GPUs, and specialized accelerators.",
           "key_features": [
-            "Tensor library for machine learning",
-            "Public C API governed by semantic versioning",
-            "Dynamic backend system supporting CPU, GPU, and specialized hardware",
             "Stable public C API (libggml) adhering to semantic versioning",
-            "Dynamic library backend loading",
-            "Dynamic backend compilation with runtime loading"
+            "Dynamic backend loading and runtime selection for diverse hardware",
+            "Tensor library for machine learning",
+            "Dynamic backend system supporting CPU, GPU, and specialized hardware",
+            "Stable, well-defined C API and ABI starting at v1.0.0",
+            "Lightweight design with minimal dependencies, ideal for embedding in larger applications"
           ],
           "tags": [
-            "inference",
             "backend",
-            "c-cpp",
-            "ml-engine",
-            "c++",
-            "tensor-library",
+            "inference",
+            "ggml",
             "tensor",
-            "ggml"
+            "ml-engine",
+            "c-cpp",
+            "open-source",
+            "tensor-library"
           ],
           "last_verified": "2026-11-13"
         }
@@ -11100,26 +11244,26 @@
           "category": "Developer Platforms & APIs",
           "release_date": "2026-11-16",
           "status": "Active",
-          "pricing": "Freemium",
+          "pricing": "Paid",
           "official_url": "https://openrouter.ai/",
-          "short_description": "A model routing platform that directs requests across 80+ providers based on live price, speed, and reliability metrics, serving 800T+ tokens monthly to 10M+ users with automatic failover.",
+          "short_description": "Scalable inference routing service that aggregates 600+ models from 80+ providers, selecting the best provider per request based on live performance metrics.",
           "key_features": [
+            "Automatic fallback and retry on provider failure",
+            "Automatic retry on another provider if the first one fails",
             "Automatic failover and retry logic",
-            "Routes across 80+ providers with live measurements of price, speed, and reliability",
-            "Cache-aware routing that keeps conversations on the provider holding the prompt cache",
-            "Supports OpenAI Chat Completions and Responses APIs and Anthropic Messages API",
             "Provider selection via model suffixes (:fastest, :cheapest, :provider)",
-            "Automatic retry on another provider if the first one fails"
+            "Provides usage analytics and provider selection controls",
+            "Cache-aware routing to keep conversations on the same provider"
           ],
           "tags": [
+            "api",
             "open-weight",
-            "integration",
-            "llm-gateway",
-            "inference-optimization",
-            "routing",
+            "inference",
+            "cost-optimization",
             "provider",
             "openrouter",
-            "multi-provider"
+            "multi-provider",
+            "llm-gateway"
           ],
           "last_verified": "2026-11-16"
         }
