@@ -1074,3 +1074,23 @@ All autonomous updates, discoveries, and backfills orchestrated by the **Optimus
     - **OpenRouter** (OpenRouter AI) verified on 2026-11-16
     - **llama.cpp** (ggml-org) verified on 2026-11-13
     - **ggml** (ggml-org) verified on 2026-11-13
+
+### [2026-11-18 15:27 UTC] Autonomous Discovery Sync (24/7 Autonomous Feed Monitor)
+- **New Tools Added:** 12
+- **Existing Tools Refreshed:** 2
+  - **Added:**
+    - **[AI Data Brokerage](https://mainstreetwealth.ai/ai-data-brokerage)** (Main Street Wealth LLC) — *Developer Platforms & APIs* (Paid): Main Street Wealth advises business owners to license de‑identified historical operating data to AI companies on a success‑fee basis, without taking a license or acting as a marketplace.
+    - **[AI Data Licensing Datasets](https://mainstreetwealth.ai/datasets)** (Main Street Wealth) — *Search & Research* (Free): AI Data Licensing Datasets offers downloadable, source‑referenced datasets on AI data deals, vendor terms, industry counts, and synthetic schemas under a CC BY 4.0 license for research and development.
+    - **[xgrammar](https://github.com/mlc-ai/xgrammar)** (MLC AI) — *Developer Platforms & APIs* (Open Source): A high-performance, GPU-accelerated grammar-guided decoding engine that constrains LLM output to valid JSON schemas, regex, and context-free grammars at inference time. It delivers near-perfect structural validity with minimal overhead compared to prompt-based enforcement.
+    - **[outlines](https://github.com/dottxt-ai/outlines)** (DotTxt) — *Developer Platforms & APIs* (Open Source): A structured text generation library that guarantees valid LLM outputs using finite-state machine indexing over the model vocabulary. It makes schema- and regex-constrained generation fast and reliable for production pipelines.
+    - **[guidance](https://github.com/guidance-ai/guidance)** (Guidance AI) — *Developer Platforms & APIs* (Open Source): A programming paradigm and library for steering LLMs with interleaved generation, control flow, and token-level constraints. It lets developers build reliable, structured LLM programs with regex and grammar enforcement.
+    - **[vLLM](https://github.com/vllm-project/vllm)** (vLLM Project) — *Developer Platforms & APIs* (Open Source): A high-throughput, memory-efficient LLM inference and serving engine built around PagedAttention. It powers many production AI agent stacks with fast continuous batching and built-in guided decoding.
+    - **[SGLang](https://github.com/sgl-project/sglang)** (SGLang Project) — *Developer Platforms & APIs* (Open Source): A fast serving framework for LLMs and vision-language models that combines a domain-specific language for LLM programs with the RadixAttention cache-reuse runtime. It excels at complex, constrained, multi-step generation workloads.
+    - **[SWE-bench](https://github.com/princeton-nlp/SWE-bench)** (Princeton NLP) — *Developer Platforms & APIs* (Open Source): A benchmark for evaluating LLMs and coding agents on resolving real-world software engineering issues drawn from GitHub repositories. Its execution-based harness and human-validated Verified subset have become a standard measure of autonomous coding capability.
+    - **[Tree-sitter](https://github.com/tree-sitter/tree-sitter)** (Tree-sitter) — *Developer Platforms & APIs* (Open Source): An incremental parsing library and grammar generator that builds concrete syntax trees for AST-aware code analysis. It underpins reliable, syntax-aware code editing and diffing in modern AI coding agents.
+    - **[Human-written Launch HN posts get more upvotes than AI-generated ones](https://www.lettercamp.com/blog/ai-writing-in-launch-hn-posts)** (Independent) — *Voice & Audio* (Free): Human-written Launch HN posts get more upvotes than AI-generated ones
+    - **[Put Gemini to work for you](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features)** (Independent) — *Voice & Audio* (Paid): Put Gemini to work for you
+    - **[OpenAI NATO Cyber Defense](https://openai.com/index/strengthening-nato-allied-cyber-defences-ai)** (OpenAI) — *LLMs & Frontier Models* (Paid): OpenAI's partnership with NATO to deploy frontier AI models for strengthening cyber defenses across allied nations.
+  - **Refreshed:**
+    - **Gemini Decisions API** (Google DeepMind) verified on 2026-11-11
+    - **ChatGPT** (OpenAI) verified on 2026-05-09

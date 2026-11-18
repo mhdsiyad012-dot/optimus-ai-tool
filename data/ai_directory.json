@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-18T00:39:55Z",
-  "total_organizations": 127,
-  "total_tools": 368,
+  "last_updated": "2026-11-18T15:27:04Z",
+  "total_organizations": 136,
+  "total_tools": 380,
   "organizations": [
     {
       "id": "google",
@@ -883,28 +883,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2022-11-30",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Freemium",
           "official_url": "https://chatgpt.com",
-          "short_description": "ChatGPT is OpenAI's conversational AI model that scientists are using across the research pipeline—from ideation to data analysis—with pilot participants reporting it nearly doubles research speed and 98% expecting it to accelerate discovery.",
+          "short_description": "OpenAI's conversational AI assistant integrated with Le Figaro journalism to provide users with access to news content and information synthesis.",
           "key_features": [
             "Literature review",
+            "Information synthesis",
+            "Le Figaro journalism integration",
+            "News content access",
             "Drafting of proposals, schedules, and business documents",
-            "Data analysis",
-            "Supports both free and paid tiers",
-            "Reusable templates and automated recurring reports",
-            "Community and support resource navigation"
+            "Conversational AI interface"
           ],
           "tags": [
+            "journalism",
+            "news",
             "integrations",
-            "academic-research",
-            "ai-assistant",
+            "business",
             "ai",
             "productivity",
             "scientific-discovery",
-            "business",
-            "openai"
+            "le-figaro"
           ],
-          "last_verified": "2026-10-07"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-gpt-4o",
@@ -2830,6 +2830,30 @@
             "ai-for-lawyers"
           ],
           "last_verified": "2025-11-20"
+        },
+        {
+          "id": "openai-nato-cyber-defense",
+          "name": "OpenAI NATO Cyber Defense",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-12",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "short_description": "OpenAI's partnership with NATO to deploy frontier AI models for strengthening cyber defenses across allied nations.",
+          "key_features": [
+            "AI-powered cyber threat analysis",
+            "Frontier model deployment for defense",
+            "Allied intelligence support",
+            "Secure government-grade AI integration"
+          ],
+          "tags": [
+            "cybersecurity",
+            "nato",
+            "defense",
+            "frontier-models"
+          ],
+          "last_verified": "2024-12-10"
         }
       ]
     },
@@ -4979,6 +5003,56 @@
             "image"
           ],
           "last_verified": "2026-10-29"
+        },
+        {
+          "id": "independent-human-written-launch-hn-posts-get-more-upvotes-than-ai-generated-ones",
+          "name": "Human-written Launch HN posts get more upvotes than AI-generated ones",
+          "parent_org": "Independent",
+          "category": "Voice & Audio",
+          "release_date": "2026-11-18",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.lettercamp.com/blog/ai-writing-in-launch-hn-posts",
+          "short_description": "Human-written Launch HN posts get more upvotes than AI-generated ones",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "humanwritten",
+            "launch",
+            "posts",
+            "get",
+            "more",
+            "upvotes"
+          ],
+          "last_verified": "2026-11-18"
+        },
+        {
+          "id": "independent-put-gemini-to-work-for-you",
+          "name": "Put Gemini to work for you",
+          "parent_org": "Independent",
+          "category": "Voice & Audio",
+          "release_date": "2026-11-18",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+          "short_description": "Put Gemini to work for you",
+          "key_features": [
+            "Automated AI capabilities powered by Independent",
+            "Streamlined developer workflow and production integration",
+            "High performance architecture and domain-specific modeling"
+          ],
+          "tags": [
+            "put",
+            "gemini",
+            "work",
+            "for",
+            "you",
+            "independent"
+          ],
+          "last_verified": "2026-11-18"
         }
       ]
     },
@@ -10188,24 +10262,24 @@
           "status": "Active",
           "pricing": "Freemium",
           "official_url": "https://aistudio.google.com/docs/decisions-api",
-          "short_description": "Gemini Decisions API enables fast, single-pass multimodal decisions across text, images, audio, video, and PDFs, evaluating up to 1,000 yes/no, choice, and rubric-scoring questions with low latency and calibrated confidence scores, designed for tool selection, policy checks, and dynamic model routing.",
+          "short_description": "A multimodal decision API powered by Gemini Decision 1 that evaluates up to 1,000 yes/no, multiple-choice, and rubric-scoring questions in a single fast pass across text, images, audio, video, and PDFs, returning calibrated confidence scores with 150-250ms latency and zero output token costs.",
           "key_features": [
-            "Sub-250ms end-to-end latency with $0.10 per 1M input tokens pricing",
-            "Zero output-token billing with calibrated probability scores",
             "Three native decision types (Yes/No, Multiple Choice, Ordered Rubric) with per-answer confidence scores",
-            "Single-pass multimodal evaluation across text, images, audio, video, and PDFs up to 256K tokens",
-            "Support for yes/no, multiple choice, and rubric scoring with confidence scores",
-            "Scales to 1,000 independent questions per request without output token charges"
+            "Scales to 1,000 independent questions per request without output token charges",
+            "Single forward pass scoring with calibrated probabilities and confidence scores for each question",
+            "Native multimodal evaluation across text, images, audio, video, and PDFs up to 256K tokens",
+            "Three decision primitives: yes/no (noul), multiple choice (2-255 options), and ordered rubric scoring",
+            "Support for yes/no, multiple choice, and rubric scoring with confidence scores"
           ],
           "tags": [
-            "api",
+            "low-latency",
             "google",
-            "decision-api",
-            "grading",
-            "ai-decisions",
-            "decisions-api",
+            "calibrated-probabilities",
+            "developer-tools",
             "decisions",
-            "gemini"
+            "decisions-api",
+            "ai-decisions",
+            "grading"
           ],
           "last_verified": "2026-11-11"
         },
@@ -11266,6 +11340,356 @@
             "llm-gateway"
           ],
           "last_verified": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "main-street-wealth-llc",
+      "name": "Main Street Wealth LLC",
+      "website": "https://mainstreetwealth.ai",
+      "description": "Main Street Wealth LLC is an M&A advisory firm that represents business owners in licensing their operational data to AI companies.",
+      "logo_symbol": "main-street-wealth-llc",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "ai-data-brokerage",
+          "name": "AI Data Brokerage",
+          "parent_org": "Main Street Wealth LLC",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-10",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://mainstreetwealth.ai/ai-data-brokerage",
+          "short_description": "Main Street Wealth advises business owners to license de‑identified historical operating data to AI companies on a success‑fee basis, without taking a license or acting as a marketplace.",
+          "key_features": [
+            "Seller‑side only representation",
+            "No data passes through Main Street Wealth",
+            "Owner approves every category and license term",
+            "Success‑fee pricing (no retainer)",
+            "Export directly from owner’s admin console after written approval",
+            "Four‑phase process (evaluation, advisory, quotes, export) taking 4‑11 weeks"
+          ],
+          "tags": [
+            "ai-data-licensing",
+            "home-services",
+            "data-brokerage",
+            "seller-side-advisor"
+          ],
+          "last_verified": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "main-street-wealth",
+      "name": "Main Street Wealth",
+      "website": "https://mainstreetwealth.ai",
+      "description": "Main Street Wealth is a financial research and data‑licensing firm that publishes market intelligence on AI data transactions and deals.",
+      "logo_symbol": "main-street-wealth",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "main-street-wealth-ai-data-licensing-datasets",
+          "name": "AI Data Licensing Datasets",
+          "parent_org": "Main Street Wealth",
+          "category": "Search & Research",
+          "release_date": "2026-11-16",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://mainstreetwealth.ai/datasets",
+          "short_description": "AI Data Licensing Datasets offers downloadable, source‑referenced datasets on AI data deals, vendor terms, industry counts, and synthetic schemas under a CC BY 4.0 license for research and development.",
+          "key_features": [
+            "AI data licensing deals tracker with 18 deals and budgets",
+            "SaaS AI data ownership index covering 13 vendors",
+            "U.S. business data scarcity index across 34 NAICS industries",
+            "Call‑recording consent data by state for 51 jurisdictions",
+            "Synthetic schema catalog with 4 schemas × 100 rows",
+            "Full market feed JSON with all datasets and source URLs"
+          ],
+          "tags": [
+            "datasets",
+            "ai-data",
+            "licensing",
+            "open-data",
+            "research",
+            "deals-tracker",
+            "ownership-index",
+            "industry-data"
+          ],
+          "last_verified": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "mlc-ai",
+      "name": "MLC AI",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab maintains this curated collection of AI agent infrastructure specifications, focused on memory compaction, schema-constrained decoding, and production-grade agent runtimes.",
+      "logo_symbol": "mlc-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "mlc-ai-xgrammar",
+          "name": "xgrammar",
+          "parent_org": "MLC AI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/mlc-ai/xgrammar",
+          "short_description": "A high-performance, GPU-accelerated grammar-guided decoding engine that constrains LLM output to valid JSON schemas, regex, and context-free grammars at inference time. It delivers near-perfect structural validity with minimal overhead compared to prompt-based enforcement.",
+          "key_features": [
+            "GPU-accelerated grammar-guided decoding with near-zero overhead",
+            "Native integration with vLLM and SGLang serving stacks",
+            "Supports JSON Schema, regex, and EBNF context-free grammars",
+            "Applies grammar logits masks prior to softmax for guaranteed validity"
+          ],
+          "tags": [
+            "structured-output",
+            "constrained-decoding",
+            "llm-inference",
+            "json-schema"
+          ],
+          "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "dottxt",
+      "name": "DotTxt",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab maintains this curated collection of AI agent infrastructure specifications, focused on memory compaction, schema-constrained decoding, and production-grade agent runtimes.",
+      "logo_symbol": "dottxt",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "dottxt-outlines",
+          "name": "outlines",
+          "parent_org": "DotTxt",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-06",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/dottxt-ai/outlines",
+          "short_description": "A structured text generation library that guarantees valid LLM outputs using finite-state machine indexing over the model vocabulary. It makes schema- and regex-constrained generation fast and reliable for production pipelines.",
+          "key_features": [
+            "Structured generation via finite-state machine (FSM) vocabulary indexing",
+            "JSON schema and regex-guided sampling",
+            "Fast, deterministic structured decoding",
+            "Integrations with major open-source LLM runtimes"
+          ],
+          "tags": [
+            "structured-generation",
+            "finite-state-machine",
+            "llm",
+            "json-mode"
+          ],
+          "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "guidance-ai",
+      "name": "Guidance AI",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab maintains this curated collection of AI agent infrastructure specifications, focused on memory compaction, schema-constrained decoding, and production-grade agent runtimes.",
+      "logo_symbol": "guidance-ai",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "guidance-ai-guidance",
+          "name": "guidance",
+          "parent_org": "Guidance AI",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-03",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/guidance-ai/guidance",
+          "short_description": "A programming paradigm and library for steering LLMs with interleaved generation, control flow, and token-level constraints. It lets developers build reliable, structured LLM programs with regex and grammar enforcement.",
+          "key_features": [
+            "Interleaved generation and control logic within a single program",
+            "Token-level regex and grammar constraints",
+            "Structured output and parsing primitives",
+            "Multi-provider LLM backend support"
+          ],
+          "tags": [
+            "llm-programming",
+            "structured-output",
+            "constraints",
+            "steering"
+          ],
+          "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "vllm-project",
+      "name": "vLLM Project",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab maintains this curated collection of AI agent infrastructure specifications, focused on memory compaction, schema-constrained decoding, and production-grade agent runtimes.",
+      "logo_symbol": "vllm-project",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "vllm-project-vllm",
+          "name": "vLLM",
+          "parent_org": "vLLM Project",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-06",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/vllm-project/vllm",
+          "short_description": "A high-throughput, memory-efficient LLM inference and serving engine built around PagedAttention. It powers many production AI agent stacks with fast continuous batching and built-in guided decoding.",
+          "key_features": [
+            "PagedAttention for efficient KV-cache memory management",
+            "High-throughput continuous batching",
+            "OpenAI-compatible API server",
+            "Guided/structured decoding via xgrammar and outlines integrations"
+          ],
+          "tags": [
+            "llm-serving",
+            "inference-engine",
+            "pagedattention",
+            "open-source"
+          ],
+          "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "sglang-project",
+      "name": "SGLang Project",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab maintains this curated collection of AI agent infrastructure specifications, focused on memory compaction, schema-constrained decoding, and production-grade agent runtimes.",
+      "logo_symbol": "sglang-project",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "sgl-project-sglang",
+          "name": "SGLang",
+          "parent_org": "SGLang Project",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/sgl-project/sglang",
+          "short_description": "A fast serving framework for LLMs and vision-language models that combines a domain-specific language for LLM programs with the RadixAttention cache-reuse runtime. It excels at complex, constrained, multi-step generation workloads.",
+          "key_features": [
+            "RadixAttention for automatic KV-cache reuse across calls",
+            "Frontend DSL for composing complex LLM programs",
+            "High-performance constrained and structured decoding",
+            "Support for multimodal (text + vision) models"
+          ],
+          "tags": [
+            "llm-serving",
+            "radixattention",
+            "structured-generation",
+            "inference"
+          ],
+          "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "princeton-nlp",
+      "name": "Princeton NLP",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab maintains this curated collection of AI agent infrastructure specifications, focused on memory compaction, schema-constrained decoding, and production-grade agent runtimes.",
+      "logo_symbol": "princeton-nlp",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "princeton-nlp-swe-bench",
+          "name": "SWE-bench",
+          "parent_org": "Princeton NLP",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2023-10",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/princeton-nlp/SWE-bench",
+          "short_description": "A benchmark for evaluating LLMs and coding agents on resolving real-world software engineering issues drawn from GitHub repositories. Its execution-based harness and human-validated Verified subset have become a standard measure of autonomous coding capability.",
+          "key_features": [
+            "Real-world GitHub issue resolution tasks",
+            "Execution-based evaluation using repository unit tests",
+            "SWE-bench Verified human-validated subset",
+            "Standardized harness for benchmarking coding agents"
+          ],
+          "tags": [
+            "benchmark",
+            "swe-bench",
+            "code-generation",
+            "llm-eval"
+          ],
+          "last_verified": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "tree-sitter",
+      "name": "Tree-sitter",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab maintains this curated collection of AI agent infrastructure specifications, focused on memory compaction, schema-constrained decoding, and production-grade agent runtimes.",
+      "logo_symbol": "tree-sitter",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "tree-sitter-tree-sitter",
+          "name": "Tree-sitter",
+          "parent_org": "Tree-sitter",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2014-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/tree-sitter/tree-sitter",
+          "short_description": "An incremental parsing library and grammar generator that builds concrete syntax trees for AST-aware code analysis. It underpins reliable, syntax-aware code editing and diffing in modern AI coding agents.",
+          "key_features": [
+            "Incremental, error-tolerant concrete syntax tree parsing",
+            "Broad multi-language grammar support",
+            "Fast parsing suitable for editor and agent workloads",
+            "Enables AST-aware diffing and syntactic patch validation"
+          ],
+          "tags": [
+            "parser",
+            "ast",
+            "syntax-tree",
+            "code-analysis"
+          ],
+          "last_verified": "2026-09-21"
         }
       ]
     }
