@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-19T06:32:28Z",
+  "last_updated": "2026-11-19T20:02:19Z",
   "total_organizations": 137,
-  "total_tools": 392,
+  "total_tools": 395,
   "organizations": [
     {
       "id": "google",
@@ -932,6 +932,36 @@
             "mobile"
           ],
           "last_verified": "2026-11-18"
+        },
+        {
+          "id": "google-gemini-api-tool-retrieval",
+          "name": "Tool Retrieval in the Gemini API",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11-19",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+          "short_description": "Introducing a new tool for developers to retrieve information via the Gemini API.",
+          "key_features": [
+            "defer_loading option in the Gemini Interactions API to skip upfront schema injection",
+            "Tool retrieval",
+            "Data retrieval",
+            "Maintains accurate tool selection as agent toolsets scale to hundreds of tools",
+            "Reduced input token counts and lower latency for large tool libraries",
+            "API integration"
+          ],
+          "tags": [
+            "token-optimization",
+            "gemini",
+            "tool-retrieval",
+            "preview",
+            "agents",
+            "gemini-api",
+            "api",
+            "developer"
+          ],
+          "last_verified": "2026-11-19"
         }
       ]
     },
@@ -1667,26 +1697,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/enterprise",
-          "short_description": "OpenAI's enterprise-grade ChatGPT tier with expanded context, admin controls, and business data excluded from model training by default. Adopted by large organizations like Sumitomo Life to support research, analysis, coding, and proposal drafting at scale.",
+          "short_description": "ChatGPT Enterprise is OpenAI's premium AI assistant offering advanced language model capabilities, robust security, and administrative controls for large organizations. It enables teams to automate writing, analysis, research, and coding tasks while ensuring enterprise‑grade data protection.",
           "key_features": [
-            "Projects that group chats, files, and custom instructions together",
-            "Usage analytics and ROI tracking for enterprise deployments",
+            "Deep research and analysis across sources",
             "Code assistance for data analysis",
-            "Business data excluded from model training by default",
-            "Integration with Microsoft Word, PowerPoint, and Excel",
-            "Deep research across multiple sources for planning and analysis"
+            "Projects that group chats, files, and custom instructions together",
+            "Admin controls and user management",
+            "Deep research across multiple sources for planning and analysis",
+            "Usage analytics and ROI tracking for enterprise deployments"
           ],
           "tags": [
-            "enterprise",
-            "productivity",
             "newsroom",
-            "openai",
-            "property-management",
             "journalism",
+            "productivity",
             "research",
-            "security"
+            "property-management",
+            "openai",
+            "ai-assistant",
+            "llms"
           ],
-          "last_verified": "2026-06-01"
+          "last_verified": "2026-06"
         },
         {
           "id": "openai-security-bug-bounty-program",
@@ -2951,6 +2981,31 @@
             "openai"
           ],
           "last_verified": "2026-06-01"
+        },
+        {
+          "id": "openai-performance-factory",
+          "name": "Performance Factory",
+          "parent_org": "OpenAI",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-06",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
+          "short_description": "Performance Factory is OpenAI's autonomous system that uses Codex and AI models to automatically detect, investigate, and fix performance regressions in ChatGPT, accelerating debugging and optimization.",
+          "key_features": [
+            "Autonomous regression investigation and root‑cause analysis",
+            "Automated fix proposal with adversarial review",
+            "Task‑tracking workflow with configurable states and transitions",
+            "Cloud‑based Codex execution and event‑driven subscriptions for deployments"
+          ],
+          "tags": [
+            "performance",
+            "automation",
+            "agentic-workflows",
+            "regression",
+            "codex"
+          ],
+          "last_verified": "2024-06-01"
         }
       ]
     },
@@ -5578,6 +5633,36 @@
             "forecasting",
             "anomaly-detection",
             "foundation-model"
+          ],
+          "last_verified": "2026-11-18"
+        },
+        {
+          "id": "ibm-time-series-foundation-models",
+          "name": "IBM Time-Series Foundation Models",
+          "parent_org": "IBM",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-18",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html",
+          "short_description": "IBM's time-series foundation models (including TTM, PatchTST-FM, and TSPulse) now run natively on Confluent via Apache Flink SQL, enabling real-time forecasting, anomaly detection, and semantic search on streaming data using CPUs in cloud and on-premises environments.",
+          "key_features": [
+            "Real-time forecasting on streaming data via AI_FORECAST",
+            "Anomaly detection with expected ranges via AI_DETECT_ANOMALIES",
+            "Time-series embeddings for semantic similarity search (TSPulse)",
+            "Native Apache Flink SQL integration on Confluent Cloud and Platform",
+            "CPU-efficient models requiring no GPU infrastructure",
+            "Pretrained foundation models with 50M+ downloads"
+          ],
+          "tags": [
+            "time-series",
+            "foundation-models",
+            "forecasting",
+            "anomaly-detection",
+            "streaming-data",
+            "apache-flink",
+            "confluent",
+            "ibm"
           ],
           "last_verified": "2026-11-18"
         }
