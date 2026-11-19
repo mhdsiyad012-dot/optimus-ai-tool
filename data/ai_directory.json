@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-18T15:27:04Z",
-  "total_organizations": 136,
-  "total_tools": 380,
+  "last_updated": "2026-11-19T00:08:54Z",
+  "total_organizations": 137,
+  "total_tools": 390,
   "organizations": [
     {
       "id": "google",
@@ -860,6 +860,78 @@
             "computer-vision"
           ],
           "last_verified": "2026-05-09"
+        },
+        {
+          "id": "gvisor-sandbox",
+          "name": "gVisor",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://gvisor.dev/",
+          "short_description": "Application kernel for container security that intercepts Linux syscalls in user space, enhancing isolation for AI tool execution.",
+          "key_features": [
+            "Syscall interception in user space",
+            "Container security isolation",
+            "Docker compatibility",
+            "Reduced syscall attack surface"
+          ],
+          "tags": [
+            "sandboxing",
+            "container-security",
+            "isolation",
+            "syscall"
+          ],
+          "last_verified": "2024-12-05"
+        },
+        {
+          "id": "google-nsjail",
+          "name": "nsjail",
+          "parent_org": "Google",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/google/nsjail",
+          "short_description": "Lightweight Linux process isolation tool using namespaces and seccomp-bpf for securing AI agent tool execution with low overhead.",
+          "key_features": [
+            "Linux namespace isolation",
+            "seccomp-bpf syscall filtering",
+            "Lightweight process sandboxing",
+            "Low overhead performance"
+          ],
+          "tags": [
+            "isolation",
+            "namespaces",
+            "seccomp",
+            "process-sandbox"
+          ],
+          "last_verified": "2024-12-05"
+        },
+        {
+          "id": "google-gemini-app",
+          "name": "Gemini App",
+          "parent_org": "Google",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-18",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+          "short_description": "The Gemini app is now available on lower‑memory Android devices, letting users run Google’s personal AI assistant on everyday phones with limited RAM.",
+          "key_features": [
+            "Compatible with low‑memory Android (Go edition) devices",
+            "Supports over 45 languages via voice interactions",
+            "Camera input for learning and translation",
+            "Custom image creation using Nano Banana"
+          ],
+          "tags": [
+            "android",
+            "gemini",
+            "ai",
+            "mobile"
+          ],
+          "last_verified": "2026-11-18"
         }
       ]
     },
@@ -1595,26 +1667,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/enterprise",
-          "short_description": "OpenAI's enterprise AI assistant deployed across LVMH's Media Division to augment journalism with document research, comparison, translation, and personalized content delivery while integrating LVMH publications directly into ChatGPT with source attribution and article links.",
+          "short_description": "ChatGPT Enterprise is OpenAI’s secure business AI assistant that helps teams conduct research, draft content, analyze data, and make decisions while maintaining enterprise-grade controls.",
           "key_features": [
-            "Preliminary translation",
-            "AI-generated property listings",
-            "ChatGPT Enterprise deployment for newsroom teams",
-            "Enables domain experts to build custom tools via ChatGPT Sites",
+            "Usage tracking and ROI measurement",
+            "Enterprise data security",
+            "Integration with Microsoft Word, PowerPoint, and Excel",
             "AI applications for document research, document comparison, and preliminary translation",
-            "Enterprise data security"
+            "Code assistance for data analysis",
+            "Enterprise-grade security and admin controls"
           ],
           "tags": [
-            "newsroom",
-            "newsroom-productivity",
-            "journalism",
-            "openai",
+            "property-management",
             "productivity",
+            "generative-ai",
             "media-division",
+            "openai",
             "enterprise-ai",
-            "property-management"
+            "journalism",
+            "newsroom"
           ],
-          "last_verified": "2026-11-16"
+          "last_verified": "2026-05-09"
         },
         {
           "id": "openai-security-bug-bounty-program",
@@ -4293,6 +4365,32 @@
             "routing"
           ],
           "last_verified": "2026-11-16"
+        },
+        {
+          "id": "hugging-face-180b-parameters-32gb-of-ram-pushing-moe-inference-to-the-limit-with-transformers",
+          "name": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+          "parent_org": "Hugging Face",
+          "category": "Image Generation",
+          "release_date": "2026-11-19",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/moe-expert-streaming",
+          "short_description": "Title: 180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+          "key_features": [
+            "experts quantized to 3 bits: 49 GB on disk, 12 GiB cached on the device",
+            "dense layers in 8 bits (~5.4 GB, +0.2% perplexity vs BF16)",
+            "the n-gram table stays on disk, rows read when needed",
+            "**Committing GPU work early.**[PyTorch](https://github.com/pytorch/pytorch) on MPS holds small kernels until the next sync, so the GPU idled while Python worked. Forcing a commit after each block gave +10%. This should really be fixed in PyTorch."
+          ],
+          "tags": [
+            "180b",
+            "parameters",
+            "32gb",
+            "ram",
+            "pushing",
+            "moe"
+          ],
+          "last_verified": "2026-11-19"
         }
       ]
     },
@@ -5358,6 +5456,81 @@
             "ibm"
           ],
           "last_verified": "2026-11-12"
+        },
+        {
+          "id": "ibm-granite-timeseries-ttm",
+          "name": "IBM Granite Time Series TTM (Tiny Time Mixers)",
+          "parent_org": "IBM",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-18",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
+          "short_description": "Pretrained time-series foundation model that reads SCADA telemetry and QA measurements to forecast outcomes such as in-spec production rates hours ahead, running on CPUs inside Confluent's streaming platform.",
+          "key_features": [
+            "Pretrained time-series forecasting across many series",
+            "CPU-only inference alongside streaming pipelines",
+            "Fine-tuning and control-variable scoring support",
+            "Native Confluent Flink SQL integration via AI_FORECAST"
+          ],
+          "tags": [
+            "time-series",
+            "forecasting",
+            "foundation-model",
+            "streaming",
+            "cpu"
+          ],
+          "last_verified": "2026-11-18"
+        },
+        {
+          "id": "ibm-granite-timeseries-patchtst-fm",
+          "name": "IBM Granite Time Series PatchTST-FM",
+          "parent_org": "IBM",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11-18",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-patchtst-fm",
+          "short_description": "Time-series foundation model that forecasts trading volume for the next 30 minutes with P10-P90 prediction intervals, helping execution algorithms pace large orders against live market activity.",
+          "key_features": [
+            "Probabilistic forecasting with P10-P90 ranges",
+            "CPU-only inference without GPUs",
+            "Per-minute streaming volume prediction",
+            "Native Confluent Flink SQL integration"
+          ],
+          "tags": [
+            "time-series",
+            "forecasting",
+            "finance",
+            "probabilistic",
+            "streaming"
+          ],
+          "last_verified": "2026-11-18"
+        },
+        {
+          "id": "ibm-granite-timeseries-tspulse",
+          "name": "IBM Granite Time Series TSPulse",
+          "parent_org": "IBM",
+          "category": "Search & Research",
+          "release_date": "2026-11-18",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-tspulse",
+          "short_description": "Time-series model that produces embeddings of signal windows to power semantic similarity search, letting engineers retrieve historical patterns such as spike-and-recovery across equipment.",
+          "key_features": [
+            "Time-series window embeddings",
+            "Semantic similarity search across signals",
+            "CPU-only inference",
+            "Indexable representations for retrieval pipelines"
+          ],
+          "tags": [
+            "time-series",
+            "embeddings",
+            "semantic-search",
+            "similarity",
+            "cpu"
+          ],
+          "last_verified": "2026-11-18"
         }
       ]
     },
@@ -6287,6 +6460,23 @@
             "product-hunt"
           ],
           "last_verified": "2026-04-26"
+        },
+        {
+          "id": "unknown-s-space",
+          "name": "S.Space",
+          "parent_org": "Unknown",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/s-space",
+          "short_description": "S.Space is an AI tool featured on Product Hunt; specific capabilities could not be verified from the source due to access restrictions.",
+          "key_features": [],
+          "tags": [
+            "producthunt",
+            "ai-tool"
+          ],
+          "last_verified": "2024-06-01"
         }
       ]
     },
@@ -11448,20 +11638,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/mlc-ai/xgrammar",
-          "short_description": "A high-performance, GPU-accelerated grammar-guided decoding engine that constrains LLM output to valid JSON schemas, regex, and context-free grammars at inference time. It delivers near-perfect structural validity with minimal overhead compared to prompt-based enforcement.",
+          "short_description": "Fast GPU-accelerated grammar-guided decoding for vLLM and SGLang, enabling schema-constrained text generation with near-perfect validity.",
           "key_features": [
-            "GPU-accelerated grammar-guided decoding with near-zero overhead",
             "Native integration with vLLM and SGLang serving stacks",
+            "99.97% validity in structured output",
+            "Integration with vLLM and SGLang",
             "Supports JSON Schema, regex, and EBNF context-free grammars",
-            "Applies grammar logits masks prior to softmax for guaranteed validity"
+            "GPU-accelerated grammar-guided decoding",
+            "CFG logits masks for JSON schema enforcement"
           ],
           "tags": [
+            "sglang",
+            "json-schema",
+            "vllm",
+            "decoding",
             "structured-output",
-            "constrained-decoding",
+            "grammar",
             "llm-inference",
-            "json-schema"
+            "constrained-decoding"
           ],
-          "last_verified": "2026-09-21"
+          "last_verified": "2024-12-05"
         }
       ]
     },
@@ -11486,20 +11682,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/dottxt-ai/outlines",
-          "short_description": "A structured text generation library that guarantees valid LLM outputs using finite-state machine indexing over the model vocabulary. It makes schema- and regex-constrained generation fast and reliable for production pipelines.",
+          "short_description": "Structured text generation via finite-state machine index over model vocabulary, providing deterministic constraints for AI output.",
           "key_features": [
-            "Structured generation via finite-state machine (FSM) vocabulary indexing",
+            "Finite-state machine over vocabulary",
+            "Deterministic output constraints",
+            "Broad LLM compatibility",
             "JSON schema and regex-guided sampling",
-            "Fast, deterministic structured decoding",
-            "Integrations with major open-source LLM runtimes"
+            "Integrations with major open-source LLM runtimes",
+            "Fast, deterministic structured decoding"
           ],
           "tags": [
             "structured-generation",
-            "finite-state-machine",
             "llm",
+            "structured-output",
+            "fsm",
+            "constraints",
+            "generation",
+            "finite-state-machine",
             "json-mode"
           ],
-          "last_verified": "2026-09-21"
+          "last_verified": "2024-12-05"
         }
       ]
     },
@@ -11524,20 +11726,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/guidance-ai/guidance",
-          "short_description": "A programming paradigm and library for steering LLMs with interleaved generation, control flow, and token-level constraints. It lets developers build reliable, structured LLM programs with regex and grammar enforcement.",
+          "short_description": "Interleaved generation and control logic with token-level regex constraints for dynamic AI agent workflows and tool use.",
           "key_features": [
             "Interleaved generation and control logic within a single program",
-            "Token-level regex and grammar constraints",
+            "Model-agnostic sampling integration",
+            "Multi-provider LLM backend support",
             "Structured output and parsing primitives",
-            "Multi-provider LLM backend support"
+            "Token-level regex and grammar constraints",
+            "Token-level regex constraints"
           ],
           "tags": [
+            "steering",
+            "regex",
+            "dynamic-prompts",
             "llm-programming",
             "structured-output",
-            "constraints",
-            "steering"
+            "control-logic",
+            "generation",
+            "constraints"
           ],
-          "last_verified": "2026-09-21"
+          "last_verified": "2024-12-05"
         }
       ]
     },
@@ -11690,6 +11898,68 @@
             "code-analysis"
           ],
           "last_verified": "2026-09-21"
+        },
+        {
+          "id": "tree-sitter-ast-parser",
+          "name": "Tree-sitter",
+          "parent_org": "tree-sitter",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://tree-sitter.github.io/tree-sitter/",
+          "short_description": "Incremental concrete syntax tree parsing for AST-aware diffing and syntactic rollback guards in code-editing AI agents.",
+          "key_features": [
+            "Incremental CST parsing",
+            "AST-aware diffing",
+            "Syntactic rollback guards",
+            "Efficient incremental re-parsing"
+          ],
+          "tags": [
+            "parsing",
+            "ast",
+            "code-editing",
+            "diffing"
+          ],
+          "last_verified": "2024-12-05"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "website": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+      "description": "Snowden SAY Deep Systems Engineering Lab curates AI agent infrastructure specifications, memory compaction architectures, and schema-constrained decoding frameworks for production autonomous agents.",
+      "logo_symbol": "amazon",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "firecracker-microvm",
+          "name": "Firecracker",
+          "parent_org": "Amazon",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2024-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://firecracker-microvm.github.io/",
+          "short_description": "Ephemeral microVMs booting in under 5ms for secure, isolated execution of untrusted Python code in AI agent pipelines.",
+          "key_features": [
+            "MicroVM boot in under 5ms",
+            "Ephemeral isolation for untrusted code",
+            "Lightweight virtualization",
+            "Cloud-native integration"
+          ],
+          "tags": [
+            "microvm",
+            "isolation",
+            "ephemeral",
+            "secure-execution"
+          ],
+          "last_verified": "2024-12-05"
         }
       ]
     }
