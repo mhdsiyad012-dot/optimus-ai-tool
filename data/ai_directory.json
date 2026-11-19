@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-19T00:08:54Z",
+  "last_updated": "2026-11-19T06:32:28Z",
   "total_organizations": 137,
-  "total_tools": 390,
+  "total_tools": 392,
   "organizations": [
     {
       "id": "google",
@@ -1667,26 +1667,26 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://openai.com/enterprise",
-          "short_description": "ChatGPT Enterprise is OpenAI’s secure business AI assistant that helps teams conduct research, draft content, analyze data, and make decisions while maintaining enterprise-grade controls.",
+          "short_description": "OpenAI's enterprise-grade ChatGPT tier with expanded context, admin controls, and business data excluded from model training by default. Adopted by large organizations like Sumitomo Life to support research, analysis, coding, and proposal drafting at scale.",
           "key_features": [
-            "Usage tracking and ROI measurement",
-            "Enterprise data security",
-            "Integration with Microsoft Word, PowerPoint, and Excel",
-            "AI applications for document research, document comparison, and preliminary translation",
+            "Projects that group chats, files, and custom instructions together",
+            "Usage analytics and ROI tracking for enterprise deployments",
             "Code assistance for data analysis",
-            "Enterprise-grade security and admin controls"
+            "Business data excluded from model training by default",
+            "Integration with Microsoft Word, PowerPoint, and Excel",
+            "Deep research across multiple sources for planning and analysis"
           ],
           "tags": [
-            "property-management",
+            "enterprise",
             "productivity",
-            "generative-ai",
-            "media-division",
+            "newsroom",
             "openai",
-            "enterprise-ai",
+            "property-management",
             "journalism",
-            "newsroom"
+            "research",
+            "security"
           ],
-          "last_verified": "2026-05-09"
+          "last_verified": "2026-06-01"
         },
         {
           "id": "openai-security-bug-bounty-program",
@@ -2926,6 +2926,31 @@
             "frontier-models"
           ],
           "last_verified": "2024-12-10"
+        },
+        {
+          "id": "openai-chatgpt-business",
+          "name": "ChatGPT Business",
+          "parent_org": "OpenAI",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://openai.com/chatgpt/business/",
+          "short_description": "A self-serve ChatGPT plan for teams and growing companies, offering shared workspaces and admin controls. Commonly used as a pilot tier before organizations upgrade to ChatGPT Enterprise.",
+          "key_features": [
+            "Shared workspace for teams with admin console",
+            "Access to advanced models and tools for daily work",
+            "Data excluded from model training",
+            "Upgrade path to ChatGPT Enterprise for larger rollouts"
+          ],
+          "tags": [
+            "teams",
+            "chatbot",
+            "productivity",
+            "pilot",
+            "openai"
+          ],
+          "last_verified": "2026-06-01"
         }
       ]
     },
@@ -5529,6 +5554,30 @@
             "semantic-search",
             "similarity",
             "cpu"
+          ],
+          "last_verified": "2026-11-18"
+        },
+        {
+          "id": "ibm-granite-tsfm",
+          "name": "IBM Granite Time Series Foundation Models",
+          "parent_org": "IBM",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://github.com/ibm-granite/granite-tsfm",
+          "short_description": "Pretrained time‑series foundation models that enable forecasting, anomaly detection, and optimization on streaming data without requiring per‑series training, and run on CPUs.",
+          "key_features": [
+            "Pretrained on diverse historical data",
+            "Supports forecasting, anomaly detection, and optimization",
+            "Runs on CPUs without GPUs",
+            "Commercial‑friendly license with Confluent Flink integration"
+          ],
+          "tags": [
+            "time-series",
+            "forecasting",
+            "anomaly-detection",
+            "foundation-model"
           ],
           "last_verified": "2026-11-18"
         }
