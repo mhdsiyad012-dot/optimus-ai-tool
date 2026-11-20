@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-20T05:59:48Z",
-  "total_organizations": 141,
-  "total_tools": 399,
+  "last_updated": "2026-11-20T15:01:29Z",
+  "total_organizations": 142,
+  "total_tools": 402,
   "organizations": [
     {
       "id": "google",
@@ -4471,6 +4471,32 @@
             "moe"
           ],
           "last_verified": "2026-11-19"
+        },
+        {
+          "id": "hugging-face-harness-adapters",
+          "name": "Harness Adapters",
+          "parent_org": "Hugging Face",
+          "category": "Autonomous Agents & Coding",
+          "release_date": "2026-11-20",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+          "short_description": "Harness adapters are customizable LoRA adapters trained with reinforcement learning inside the target agent harness to improve model performance and token efficiency for specific tasks.",
+          "key_features": [
+            "Trains LoRA adapters via RL inside the target agent harness",
+            "Uses AsyncGRPOTrainer and OpenEnv for efficient GRPO training",
+            "Validates and filters RL tasks before training",
+            "Merges multiple harness adapters into a single super adapter",
+            "Includes safeagents tool-use safety plugin"
+          ],
+          "tags": [
+            "llm",
+            "reinforcement-learning",
+            "agent",
+            "lora",
+            "hugging-face"
+          ],
+          "last_verified": "2026-06-13"
         }
       ]
     },
@@ -5546,21 +5572,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
-          "short_description": "Pretrained time-series foundation model that reads SCADA telemetry and QA measurements to forecast outcomes such as in-spec production rates hours ahead, running on CPUs inside Confluent's streaming platform.",
+          "short_description": "A pretrained time-series foundation model that delivers zero-shot forecasting and anomaly detection across diverse numerical series. Part of IBM's family of four time-series models with over 50 million downloads, it runs efficiently on standard CPUs without GPUs.",
           "key_features": [
-            "Pretrained time-series forecasting across many series",
             "CPU-only inference alongside streaming pipelines",
+            "Pretrained time-series forecasting across many series",
+            "Native Confluent Flink SQL integration via AI_FORECAST",
             "Fine-tuning and control-variable scoring support",
-            "Native Confluent Flink SQL integration via AI_FORECAST"
+            "Forecasts across many series without training a separate model for each one",
+            "Runs on standard CPUs without requiring GPU infrastructure"
           ],
           "tags": [
-            "time-series",
-            "forecasting",
-            "foundation-model",
             "streaming",
-            "cpu"
+            "forecasting",
+            "cpu",
+            "foundation-model",
+            "time-series",
+            "ibm-granite"
           ],
-          "last_verified": "2026-11-18"
+          "last_verified": "2026-11-19"
         },
         {
           "id": "ibm-granite-timeseries-patchtst-fm",
@@ -5596,21 +5625,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-tspulse",
-          "short_description": "Time-series model that produces embeddings of signal windows to power semantic similarity search, letting engineers retrieve historical patterns such as spike-and-recovery across equipment.",
+          "short_description": "A time-series model that generates embeddings of time-series windows to enable semantic similarity search. It lets engineers retrieve historical patterns—such as spikes, gradual rises, or step changes—across equipment and sensor data.",
           "key_features": [
             "Time-series window embeddings",
-            "Semantic similarity search across signals",
-            "CPU-only inference",
-            "Indexable representations for retrieval pipelines"
+            "Generates time-series embeddings for similarity search",
+            "Enables semantic search across sensor and equipment patterns",
+            "Indexable representations for retrieval pipelines",
+            "Retrieves historical shapes like spikes, recoveries, and step changes",
+            "Narrows investigations by surfacing similar past behavior (not root cause)"
           ],
           "tags": [
-            "time-series",
-            "embeddings",
-            "semantic-search",
+            "cpu",
             "similarity",
-            "cpu"
+            "embeddings",
+            "time-series",
+            "semantic-search",
+            "ibm-granite"
           ],
-          "last_verified": "2026-11-18"
+          "last_verified": "2026-11-19"
         },
         {
           "id": "ibm-granite-tsfm",
@@ -9487,6 +9519,30 @@
             "pptxgenjs"
           ],
           "last_verified": "2026-11-03"
+        },
+        {
+          "id": "ibm-granite-time-series-patchtst",
+          "name": "PatchTST-FM",
+          "parent_org": "IBM Research",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://huggingface.co/ibm-granite/granite-timeseries-patchtst",
+          "short_description": "A patch-based transformer foundation model that produces probabilistic time-series forecasts with prediction intervals. In streaming deployments it powers use cases such as forecasting trading volume to pace large orders.",
+          "key_features": [
+            "Patch-based transformer architecture for time-series forecasting",
+            "Produces probabilistic forecasts with P10–P90 prediction ranges",
+            "Applied to demand and trading-volume forecasting on one-minute bars",
+            "Runs on CPUs within real-time streaming pipelines"
+          ],
+          "tags": [
+            "time-series",
+            "forecasting",
+            "transformer",
+            "ibm-granite"
+          ],
+          "last_verified": "2026-11-19"
         }
       ]
     },
@@ -12258,6 +12314,44 @@
             "product-hunt"
           ],
           "last_verified": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": "confluent",
+      "name": "Confluent",
+      "website": "https://research.ibm.com",
+      "description": "IBM Research is the global research and development division of IBM, driving advances in AI, hybrid cloud, and quantum computing.",
+      "logo_symbol": "confluent",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "confluent-ai-functions",
+          "name": "Confluent AI Functions (AI_FORECAST, AI_DETECT_ANOMALIES)",
+          "parent_org": "Confluent",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.confluent.io",
+          "short_description": "Built-in SQL functions that bring IBM time-series foundation models natively into Confluent's Streamhouse via Apache Flink. They apply forecasting and anomaly detection directly to streaming data in Confluent Cloud (fully managed) or on premises, running on CPUs.",
+          "key_features": [
+            "Built-in SQL functions AI_FORECAST and AI_DETECT_ANOMALIES",
+            "Native to Confluent Cloud (fully managed) and on-premises via Confluent Platform for Apache Flink",
+            "Runs on CPUs without GPUs alongside the streaming pipeline",
+            "Embeds forecasting and anomaly detection into real-time Streamhouse workflows"
+          ],
+          "tags": [
+            "streaming",
+            "apache-flink",
+            "time-series",
+            "data-platform"
+          ],
+          "last_verified": "2026-11-19"
         }
       ]
     }
