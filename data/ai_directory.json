@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-20T15:01:29Z",
-  "total_organizations": 142,
-  "total_tools": 402,
+  "last_updated": "2026-11-20T23:45:27Z",
+  "total_organizations": 143,
+  "total_tools": 405,
   "organizations": [
     {
       "id": "google",
@@ -1194,29 +1194,29 @@
           "parent_org": "OpenAI",
           "category": "LLMs & Frontier Models",
           "release_date": "2024-01",
-          "status": "Active",
+          "status": "Beta",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "Daybreak is OpenAI's specialized AI platform that equips trusted cyber defenders with advanced models to review software, investigate suspicious activity, validate vulnerabilities, and develop fixes, strengthening national and allied cyber resilience.",
+          "short_description": "OpenAI's GPT-6 Astra is a frontier model that improves source citation accuracy and presentation quality for financial research workflows, outperforming alternatives on source coverage and brief adherence.",
           "key_features": [
-            "Integrated with government and agency security workflows",
+            "Native slide generation following user structure",
+            "Document and Matrix cell selection for answers",
+            "Natural interaction with interfaces",
             "Efficient code scanning and evaluation checks",
             "High scores in communication quality, product fidelity, and instruction adherence",
-            "Natural interaction with interfaces",
-            "35-40% faster than legacy models",
             "AI-powered vulnerability discovery and analysis"
           ],
           "tags": [
-            "government",
-            "code-scanning",
-            "ai-agent",
             "vulnerability-management",
             "defense",
-            "ui-navigation",
-            "ai-agents",
+            "financial-research",
+            "frontier-model",
+            "openai",
+            "code-scanning",
+            "gpt-6-astra",
             "llm"
           ],
-          "last_verified": "2026-11-01"
+          "last_verified": "2026-09-01"
         },
         {
           "id": "openai-presence",
@@ -3006,6 +3006,57 @@
             "codex"
           ],
           "last_verified": "2024-06-01"
+        },
+        {
+          "id": "gpt-6-2-astra",
+          "name": "GPT-6.2 Astra",
+          "parent_org": "OpenAI",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2024-10",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://openai.com/index/combatting-adversarial-distillation",
+          "short_description": "A frontier model from OpenAI featuring robust anti-distillation safeguards, ensuring that internal reasoning traces cannot be easily extracted by adversarial actors.",
+          "key_features": [
+            "Reduced adaptive extraction attack success rate to 0.2% for historical reasoning",
+            "API-level protections tying protected reasoning to specific conversation histories",
+            "Classifier-based leak prevention in streaming and non-streaming outputs",
+            "Conversation-history binding for encrypted reasoning",
+            "Defense against cross-model and cross-user reasoning extraction",
+            "Adversarial training to refuse disclosure of protected reasoning"
+          ],
+          "tags": [
+            "safety",
+            "cybersecurity",
+            "anti-distillation",
+            "llm",
+            "frontier-model"
+          ],
+          "last_verified": "2024-10-25"
+        },
+        {
+          "id": "medchembench",
+          "name": "MedChemBench",
+          "parent_org": "OpenAI",
+          "category": "Search & Research",
+          "release_date": "2025-11-03",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://openai.com/index/introducing-medchembench/",
+          "short_description": "MedChemBench is a benchmark that evaluates AI models on medicinal chemistry reasoning tasks, testing their ability to connect molecular structure with experimental evidence and predict compound properties.",
+          "key_features": [
+            "99 curated problems drawn from published medicinal chemistry research",
+            "761 distinct molecular structures with stereochemistry and atom connections",
+            "Evaluation of structure reconstruction, scientific reasoning, compound ranking, and property prediction",
+            "Tests spatial reasoning and accurate molecule representation for medicinal chemistry"
+          ],
+          "tags": [
+            "benchmark",
+            "medicinal-chemistry",
+            "ai-evaluation",
+            "molecular-reasoning"
+          ],
+          "last_verified": "2025-11-03"
         }
       ]
     },
@@ -12257,21 +12308,22 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://onlook.com",
-          "short_description": "An open-source AI-first design tool that lets designers visually build, style, and edit real code on a live canvas, connecting their own AI agents to modify actual Git repositories.",
+          "short_description": "Onlook is an open-source AI-first design tool enabling designers to visually build, style, and edit real codebases on a live canvas, integrating with preferred AI agents like Claude Code or ChatGPT/Codex.",
           "key_features": [
+            "Works on actual Git repos without mockups or cloud dependencies",
             "Live app preview on an infinite canvas with mobile, tablet, and desktop frames",
-            "Bring your own AI agent (Claude Code or ChatGPT/Codex) to edit real repository files",
-            "Local-first desktop app that runs your actual dev server on any Git repo",
+            "MCP connectors and one-press pull requests for shipping changes",
+            "Local-first desktop app with no .env keys or cloud required",
             "Export artifacts as self-contained HTML, PNG, JPEG, or PDF",
-            "MCP connectors and one-press pull requests for shipping changes"
+            "Bring your own AI agent (Claude Code, ChatGPT/Codex)"
           ],
           "tags": [
-            "open-source",
             "ai-design",
             "developer-tool",
+            "claude-code",
+            "open-source",
             "figma-alternative",
             "local-first",
-            "claude-code",
             "codex",
             "ui-generation"
           ],
@@ -12352,6 +12404,46 @@
             "data-platform"
           ],
           "last_verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "hebbia",
+      "name": "Hebbia",
+      "website": "https://hebbia.com",
+      "description": "Hebbia is an AI company that builds Matrix, a platform for financial research and document analysis for investment banking and M&A professionals.",
+      "logo_symbol": "hebbia",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Search"
+      ],
+      "tools": [
+        {
+          "id": "hebbia-matrix",
+          "name": "Matrix",
+          "parent_org": "Hebbia",
+          "category": "Search & Research",
+          "release_date": "2026-08",
+          "status": "Active",
+          "pricing": "Paid",
+          "official_url": "https://hebbia.com",
+          "short_description": "Hebbia's Matrix consolidates financial research from thousands of documents, linking answers to source citations and generating client-ready PowerPoint presentations that follow firm branding and guidelines.",
+          "key_features": [
+            "Document source linking and traceable citations",
+            "Financial data room analysis for M&A due diligence",
+            "Native PowerPoint presentation generation",
+            "Presentation brief and branding adherence",
+            "Peer filings and industry news integration"
+          ],
+          "tags": [
+            "financial-research",
+            "m&a",
+            "citations",
+            "powerpoint",
+            "enterprise-ai"
+          ],
+          "last_verified": "2026-09-01"
         }
       ]
     }
