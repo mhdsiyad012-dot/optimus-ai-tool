@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-19T20:02:19Z",
-  "total_organizations": 137,
-  "total_tools": 395,
+  "last_updated": "2026-11-20T05:59:48Z",
+  "total_organizations": 141,
+  "total_tools": 399,
   "organizations": [
     {
       "id": "google",
@@ -96,28 +96,28 @@
           "category": "LLMs & Frontier Models",
           "release_date": "2023-12-06",
           "status": "Active",
-          "pricing": "Free",
+          "pricing": "Freemium",
           "official_url": "https://gemini.google.com",
-          "short_description": "Gemini now acts as a personal assistant, handling tasks like phone calls, appointment booking, bill analysis, and purchases directly through Google services.",
+          "short_description": "Google's multimodal AI model and assistant that enables conversational, creative, and agentic AI experiences.",
           "key_features": [
+            "Shop and checkout using Google Pay and the Agent Payments Protocol",
             "Integrated Google Workspace, Search, and Maps extensions",
-            "Forward emails to gemini@google.com for automatic scheduling",
-            "Integrate with Google Calendar, Maps, Password Manager, and RCS texting",
-            "Analyze utility bills and identify cost‑saving opportunities",
             "Make phone calls and book appointments (e.g., car dealerships)",
-            "Shop and checkout using Google Pay and the Agent Payments Protocol"
+            "Forward emails to gemini@google.com for automatic scheduling",
+            "Multimodal understanding",
+            "Integrate with Google Calendar, Maps, Password Manager, and RCS texting"
           ],
           "tags": [
-            "reasoning",
+            "gemini",
+            "google",
+            "google-pay",
             "personal-assistant",
-            "maps",
-            "task-automation",
+            "llm",
+            "reasoning",
             "rcs",
-            "calendar",
-            "agent-payments",
-            "google-pay"
+            "task-automation"
           ],
-          "last_verified": "2026-11-17"
+          "last_verified": "2026-11-19"
         },
         {
           "id": "google-veo",
@@ -5645,24 +5645,24 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html",
-          "short_description": "IBM's time-series foundation models (including TTM, PatchTST-FM, and TSPulse) now run natively on Confluent via Apache Flink SQL, enabling real-time forecasting, anomaly detection, and semantic search on streaming data using CPUs in cloud and on-premises environments.",
+          "short_description": "IBM's family of time-series foundation models (including TTM, PatchTST-FM, and TSPulse) now run natively inside Confluent via Apache Flink, enabling real-time forecasting, anomaly detection, and semantic search on streaming data using SQL, with CPU-only deployment on cloud and on-premises.",
           "key_features": [
-            "Real-time forecasting on streaming data via AI_FORECAST",
-            "Anomaly detection with expected ranges via AI_DETECT_ANOMALIES",
-            "Time-series embeddings for semantic similarity search (TSPulse)",
             "Native Apache Flink SQL integration on Confluent Cloud and Platform",
-            "CPU-efficient models requiring no GPU infrastructure",
-            "Pretrained foundation models with 50M+ downloads"
+            "CPU-only execution without requiring GPUs",
+            "Cloud and on-premises deployment (Confluent Cloud and Confluent Platform)",
+            "Native integration with Confluent and Apache Flink via SQL built-in functions",
+            "Pretrained foundation models fine-tunable across multiple time series",
+            "Time-series embeddings for semantic similarity search (TSPulse)"
           ],
           "tags": [
-            "time-series",
-            "foundation-models",
-            "forecasting",
             "anomaly-detection",
-            "streaming-data",
+            "time-series",
+            "ibm",
+            "forecasting",
+            "streaming",
+            "foundation-models",
             "apache-flink",
-            "confluent",
-            "ibm"
+            "confluent"
           ],
           "last_verified": "2026-11-18"
         }
@@ -12094,6 +12094,170 @@
             "secure-execution"
           ],
           "last_verified": "2024-12-05"
+        }
+      ]
+    },
+    {
+      "id": "ai-usage-ball",
+      "name": "AI Usage Ball",
+      "website": "https://aiusageball.com/",
+      "description": "Independent creator-led project focused on transparent AI coding-tool usage tracking.",
+      "logo_symbol": "ai-usage-ball",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Developer"
+      ],
+      "tools": [
+        {
+          "id": "ai-usage-ball",
+          "name": "AI Usage Ball",
+          "parent_org": "AI Usage Ball",
+          "category": "Developer Platforms & APIs",
+          "release_date": "2025-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://github.com/aiusageball/ai-usage-ball",
+          "short_description": "AI Usage Ball is a source-available macOS app that visualizes remaining AI coding-tool quotas for Claude, Codex, and Antigravity as animated liquid orbs, including session limits, weekly limits, and reset countdowns.",
+          "key_features": [
+            "Animated liquid-orb usage gauges for Claude, Codex/ChatGPT, and Antigravity",
+            "Shows session limits, weekly limits, and reset countdowns",
+            "Reads local usage data via FastAPI backend and streams over SSE",
+            "Provides signed, notarized macOS build and Homebrew installation",
+            "Source-available for auditability and local self-builds"
+          ],
+          "tags": [
+            "ai-usage",
+            "claude",
+            "codex",
+            "antigravity",
+            "macos",
+            "developer-tools"
+          ],
+          "last_verified": "2026-05-09"
+        }
+      ]
+    },
+    {
+      "id": "ai-kitchen-design",
+      "name": "AI Kitchen Design",
+      "website": "https://www.aikitchendesign.co",
+      "description": "AI Kitchen Design provides AI-powered kitchen visualization and free planning tools for homeowners and professionals.",
+      "logo_symbol": "ai-kitchen-design",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Image"
+      ],
+      "tools": [
+        {
+          "id": "ai-kitchen-design",
+          "name": "AI Kitchen Design",
+          "parent_org": "AI Kitchen Design",
+          "category": "Image Generation",
+          "release_date": "2026-11-19",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.aikitchendesign.co/",
+          "short_description": "AI-powered kitchen redesign tool that transforms uploaded kitchen photos into 18 style variations across three renovation levels (Refresh, Remodel, Redesign) in ~30 seconds, with 4K resolution downloads and free planning calculators.",
+          "key_features": [
+            "Upload a kitchen photo and get AI-generated redesigns in ~30 seconds",
+            "18 curated kitchen styles from Modern to Art Deco plus custom descriptions",
+            "Three renovation levels: Refresh (paint/counters), Remodel (cabinets/appliances), Redesign (full transformation)",
+            "4K resolution downloads with interactive before/after slider and iterative tweaks",
+            "Free integrated planning tools: cost calculator, 2D/3D planner, tile & countertop calculators, island sizing, color palette generator",
+            "Works for any room using the same credit system"
+          ],
+          "tags": [
+            "kitchen-design",
+            "interior-design",
+            "ai-image-generation",
+            "home-renovation",
+            "visualization",
+            "freemium"
+          ],
+          "last_verified": "2025-08-20"
+        }
+      ]
+    },
+    {
+      "id": "onlook-dev",
+      "name": "onlook-dev",
+      "website": "https://onlook.com",
+      "description": "Onlook is an open-source AI-first design tool company building a desktop application for designers to visually edit real codebases.",
+      "logo_symbol": "onlook-dev",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Design"
+      ],
+      "tools": [
+        {
+          "id": "onlook-dev-onlook",
+          "name": "Onlook",
+          "parent_org": "onlook-dev",
+          "category": "Design & UI Generation",
+          "release_date": "2025-01",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://onlook.com",
+          "short_description": "An open-source AI-first design tool that lets designers visually build, style, and edit real code on a live canvas, connecting their own AI agents to modify actual Git repositories.",
+          "key_features": [
+            "Live app preview on an infinite canvas with mobile, tablet, and desktop frames",
+            "Bring your own AI agent (Claude Code or ChatGPT/Codex) to edit real repository files",
+            "Local-first desktop app that runs your actual dev server on any Git repo",
+            "Export artifacts as self-contained HTML, PNG, JPEG, or PDF",
+            "MCP connectors and one-press pull requests for shipping changes"
+          ],
+          "tags": [
+            "open-source",
+            "ai-design",
+            "developer-tool",
+            "figma-alternative",
+            "local-first",
+            "claude-code",
+            "codex",
+            "ui-generation"
+          ],
+          "last_verified": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "id": "tecla",
+      "name": "Tecla",
+      "website": "https://www.producthunt.com/products/tecla-3",
+      "description": "Tecla is the team behind the Tecla AI productivity tool.",
+      "logo_symbol": "tecla",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "tecla",
+          "name": "Tecla",
+          "parent_org": "Tecla",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/tecla-3",
+          "short_description": "Tecla is an AI-powered productivity tool listed on Product Hunt, designed to help users streamline tasks and workflows. Detailed capabilities could not be verified because the product page required security verification.",
+          "key_features": [
+            "AI-powered assistance",
+            "Task and workflow productivity",
+            "Natural-language interaction",
+            "Product Hunt listing"
+          ],
+          "tags": [
+            "ai",
+            "productivity",
+            "automation",
+            "product-hunt"
+          ],
+          "last_verified": "2026-06-15"
         }
       ]
     }
