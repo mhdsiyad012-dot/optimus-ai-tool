@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-21T05:52:57Z",
-  "total_organizations": 145,
-  "total_tools": 408,
+  "last_updated": "2026-11-21T14:22:30Z",
+  "total_organizations": 147,
+  "total_tools": 411,
   "organizations": [
     {
       "id": "google",
@@ -6708,6 +6708,23 @@
           "key_features": [],
           "tags": [],
           "last_verified": "2024-01-01"
+        },
+        {
+          "id": "stitch-loop-stitch-loop",
+          "name": "Stitch Loop",
+          "parent_org": "Unknown",
+          "category": "Productivity & Office",
+          "release_date": "2024-01-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/stitch-loop",
+          "short_description": "Stitch Loop is listed on Product Hunt; detailed capabilities could not be verified because the source page displayed a security verification screen.",
+          "key_features": [],
+          "tags": [
+            "product-hunt",
+            "ai-tool"
+          ],
+          "last_verified": "2024-01-01"
         }
       ]
     },
@@ -12484,22 +12501,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://github.com/samir-sarwar/samir-vllm",
-          "short_description": "Beginner-friendly guide and video course covering AI inference fundamentals, built around the vLLM framework, with 85 pages of notes and 6 hours of video content.",
+          "short_description": "Comprehensive open-source educational toolkit for learning AI inference from fundamentals, featuring 85 pages of handwritten notes, 6 hours of video content, and accompanying code implementations covering vLLM internals and inference optimization.",
           "key_features": [
-            "Comprehensive 85-page PDF notes",
+            "Beginner-oriented LLM serving fundamentals",
+            "Covers vLLM architecture, kernel optimization, and deployment",
             "6 hours of video instruction",
+            "Comprehensive 85-page PDF notes",
             "Hands-on AI inference code examples",
-            "Beginner-oriented LLM serving fundamentals"
+            "Hands-on code implementations in Python and C++"
           ],
           "tags": [
-            "ai",
-            "inference",
-            "llms",
-            "beginner",
             "vllm",
-            "education"
+            "ai",
+            "llms",
+            "education",
+            "open-source-learning",
+            "beginner",
+            "educational-resource",
+            "ai-inference"
           ],
-          "last_verified": "2026-11-21"
+          "last_verified": "2025-01-15"
         }
       ]
     },
@@ -12538,6 +12559,88 @@
             "analytics"
           ],
           "last_verified": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": "onlook",
+      "name": "Onlook",
+      "website": "https://onlook.com",
+      "description": "Onlook is a Y Combinator W25 startup building an open-source, AI-first design tool that lets designers and visual engineers design with real code using their own AI agents.",
+      "logo_symbol": "onlook",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Design"
+      ],
+      "tools": [
+        {
+          "id": "onlook-onlook",
+          "name": "Onlook",
+          "parent_org": "Onlook",
+          "category": "Design & UI Generation",
+          "release_date": "2025",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/onlook-dev/onlook",
+          "short_description": "Onlook is an open-source, AI-first design tool for designers and visual engineers that lets you visually build, style, and edit real code on a live canvas using your own AI agent (Claude Code or ChatGPT/Codex). It runs on your actual Git repo locally, making it an open-source alternative to Figma, v0, Replit Agent, and Webflow.",
+          "key_features": [
+            "Live app canvas: runs your real dev server and displays your actual app on an infinite canvas with mobile, tablet, and desktop frames side by side",
+            "Bring your own agent: connects your existing Claude Code or ChatGPT/Codex account to write code inside your project, with MCP connector support",
+            "Works on your real repo: opens any local Git repository with a safe worktree copy so your source folder is never touched",
+            "Local-first desktop app: Electron-based, runs on your machine with no Onlook account, cloud keys, or .env required for source builds",
+            "Export artifacts as self-contained HTML, PNG, JPEG, or PDF for sharing and handoff",
+            "Parallel workflows: multiple projects as tabs, multiple design tasks across repos and pages simultaneously"
+          ],
+          "tags": [
+            "open-source",
+            "ai-design-tool",
+            "visual-editor",
+            "design-to-code",
+            "bring-your-own-agent",
+            "git-integration",
+            "electron-desktop",
+            "figma-alternative"
+          ],
+          "last_verified": "2025-06-18"
+        }
+      ]
+    },
+    {
+      "id": "altercontacts",
+      "name": "AlterContacts",
+      "website": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+      "description": "AlterContacts is an AI-focused client relationship platform listed on Product Hunt.",
+      "logo_symbol": "altercontacts",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Productivity"
+      ],
+      "tools": [
+        {
+          "id": "altercontacts-alter-contacts",
+          "name": "AlterContacts",
+          "parent_org": "AlterContacts",
+          "category": "Productivity & Office",
+          "release_date": "2024-01",
+          "status": "Beta",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+          "short_description": "AI-powered platform for managing and enhancing client relationships.",
+          "key_features": [
+            "AI client relationship management",
+            "Contact organization",
+            "Relationship tracking",
+            "Client insights"
+          ],
+          "tags": [
+            "ai",
+            "client-relationships",
+            "crm",
+            "productivity"
+          ],
+          "last_verified": "2024-12-01"
         }
       ]
     }
