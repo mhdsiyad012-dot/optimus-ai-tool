@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-11-20T23:45:27Z",
-  "total_organizations": 143,
-  "total_tools": 405,
+  "last_updated": "2026-11-21T05:52:57Z",
+  "total_organizations": 145,
+  "total_tools": 408,
   "organizations": [
     {
       "id": "google",
@@ -1197,26 +1197,26 @@
           "status": "Beta",
           "pricing": "Paid",
           "official_url": "https://openai.com",
-          "short_description": "OpenAI's GPT-6 Astra is a frontier model that improves source citation accuracy and presentation quality for financial research workflows, outperforming alternatives on source coverage and brief adherence.",
+          "short_description": "GPT-6 Astra is OpenAI’s frontier model highlighted for high-accuracy source selection, relevant citations, and instruction-following presentation generation in professional workflows.",
           "key_features": [
+            "AI-powered vulnerability discovery and analysis",
+            "Document selection for complex research",
+            "Improved accuracy over prior models",
             "Native slide generation following user structure",
             "Document and Matrix cell selection for answers",
-            "Natural interaction with interfaces",
-            "Efficient code scanning and evaluation checks",
-            "High scores in communication quality, product fidelity, and instruction adherence",
-            "AI-powered vulnerability discovery and analysis"
+            "High scores in communication quality, product fidelity, and instruction adherence"
           ],
           "tags": [
-            "vulnerability-management",
-            "defense",
-            "financial-research",
-            "frontier-model",
-            "openai",
             "code-scanning",
+            "research",
+            "llm",
+            "financial-research",
             "gpt-6-astra",
-            "llm"
+            "defense",
+            "presentation-generation",
+            "frontier-model"
           ],
-          "last_verified": "2026-09-01"
+          "last_verified": "2026-06-15"
         },
         {
           "id": "openai-presence",
@@ -6694,6 +6694,20 @@
             "ai-tool"
           ],
           "last_verified": "2024-06-01"
+        },
+        {
+          "id": "tamekoshi-tamekoshi",
+          "name": "Tamekoshi",
+          "parent_org": "Unknown",
+          "category": "Productivity & Office",
+          "release_date": "2024-01-01",
+          "status": "Active",
+          "pricing": "Free",
+          "official_url": "https://www.producthunt.com/products/tamekoshi",
+          "short_description": "Tamekoshi is listed on Product Hunt; specific details are unavailable because the source page is behind a security verification screen.",
+          "key_features": [],
+          "tags": [],
+          "last_verified": "2024-01-01"
         }
       ]
     },
@@ -12308,26 +12322,26 @@
           "status": "Active",
           "pricing": "Open Source",
           "official_url": "https://onlook.com",
-          "short_description": "Onlook is an open-source AI-first design tool enabling designers to visually build, style, and edit real codebases on a live canvas, integrating with preferred AI agents like Claude Code or ChatGPT/Codex.",
+          "short_description": "Onlook is an open-source AI-first developer tool for designers that enables visual building, styling, and editing of real codebases on a live canvas, integrated with Claude Code and ChatGPT/Codex agents.",
           "key_features": [
             "Works on actual Git repos without mockups or cloud dependencies",
-            "Live app preview on an infinite canvas with mobile, tablet, and desktop frames",
+            "Works directly on local Git repos without cloud dependency",
+            "Export designs as self-contained HTML, PNG, JPEG, or PDF",
+            "Live canvas with real app preview running locally",
             "MCP connectors and one-press pull requests for shipping changes",
-            "Local-first desktop app with no .env keys or cloud required",
-            "Export artifacts as self-contained HTML, PNG, JPEG, or PDF",
-            "Bring your own AI agent (Claude Code, ChatGPT/Codex)"
+            "Live app preview on an infinite canvas with mobile, tablet, and desktop frames"
           ],
           "tags": [
             "ai-design",
-            "developer-tool",
-            "claude-code",
-            "open-source",
-            "figma-alternative",
-            "local-first",
             "codex",
-            "ui-generation"
+            "visual-coding",
+            "developer-tool",
+            "ui-generation",
+            "open-source",
+            "llm-integration",
+            "figma-alternative"
           ],
-          "last_verified": "2025-01-15"
+          "last_verified": "2025-04-03"
         }
       ]
     },
@@ -12428,22 +12442,102 @@
           "status": "Active",
           "pricing": "Paid",
           "official_url": "https://hebbia.com",
-          "short_description": "Hebbia's Matrix consolidates financial research from thousands of documents, linking answers to source citations and generating client-ready PowerPoint presentations that follow firm branding and guidelines.",
+          "short_description": "Hebbia Matrix is an AI-powered financial research workspace that connects answers to source documents and helps analysts build cited diligence materials and presentations.",
           "key_features": [
-            "Document source linking and traceable citations",
-            "Financial data room analysis for M&A due diligence",
-            "Native PowerPoint presentation generation",
+            "Presentation generation with firm branding and footnotes",
+            "Peer filings and industry news integration",
+            "Financial document and data-room analysis",
             "Presentation brief and branding adherence",
-            "Peer filings and industry news integration"
+            "Cited answers linked to source documents",
+            "Document source linking and traceable citations"
           ],
           "tags": [
+            "enterprise-ai",
             "financial-research",
+            "due-diligence",
             "m&a",
             "citations",
-            "powerpoint",
-            "enterprise-ai"
+            "powerpoint"
           ],
-          "last_verified": "2026-09-01"
+          "last_verified": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": "samir-sarwar",
+      "name": "samir-sarwar",
+      "website": "https://github.com/samir-sarwar/samir-vllm",
+      "description": "Individual creator samir-sarwar sharing AI inference educational materials and tutorials.",
+      "logo_symbol": "samir-sarwar",
+      "tags": [
+        "AI",
+        "Innovation",
+        "LLMs"
+      ],
+      "tools": [
+        {
+          "id": "samir-sarwar-ai-inference-for-beginners",
+          "name": "AI Inference for Beginners",
+          "parent_org": "samir-sarwar",
+          "category": "LLMs & Frontier Models",
+          "release_date": "2026-11",
+          "status": "Active",
+          "pricing": "Open Source",
+          "official_url": "https://github.com/samir-sarwar/samir-vllm",
+          "short_description": "Beginner-friendly guide and video course covering AI inference fundamentals, built around the vLLM framework, with 85 pages of notes and 6 hours of video content.",
+          "key_features": [
+            "Comprehensive 85-page PDF notes",
+            "6 hours of video instruction",
+            "Hands-on AI inference code examples",
+            "Beginner-oriented LLM serving fundamentals"
+          ],
+          "tags": [
+            "ai",
+            "inference",
+            "llms",
+            "beginner",
+            "vllm",
+            "education"
+          ],
+          "last_verified": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "deep-waste-inc",
+      "name": "Deep Waste Inc.",
+      "website": "https://www.producthunt.com",
+      "description": "Deep Waste is a startup focused on AI-powered waste management solutions.",
+      "logo_symbol": "deep-waste-inc",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Computer"
+      ],
+      "tools": [
+        {
+          "id": "deep-waste",
+          "name": "Deep Waste",
+          "parent_org": "Deep Waste Inc.",
+          "category": "Computer Vision",
+          "release_date": "2025-01-01",
+          "status": "Active",
+          "pricing": "Freemium",
+          "official_url": "https://www.producthunt.com/products/deep-waste",
+          "short_description": "Deep Waste uses AI to optimize waste management by providing real-time analytics and automated reporting for businesses.",
+          "key_features": [
+            "AI-driven waste tracking",
+            "Real-time analytics dashboard",
+            "Automated reporting",
+            "IoT sensor integration"
+          ],
+          "tags": [
+            "ai",
+            "sustainability",
+            "waste-management",
+            "analytics"
+          ],
+          "last_verified": "2025-11-03"
         }
       ]
     }
